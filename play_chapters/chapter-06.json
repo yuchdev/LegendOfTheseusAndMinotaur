@@ -259,24 +259,28 @@
   },
   {
     "character": "Monstradamus",
+    "complex": true,
     "to": "",
     "mood": "solemn",
     "text": "PRE PARSIPHAE HUM HUM MINOSAUR"
   },
   {
     "character": "IsoldA",
+    "complex": true,
     "to": "",
     "mood": "solemn",
     "text": "PRE PARSIPHAE HUM HUM MINOSAUR"
   },
   {
     "character": "Nutscracker",
+    "complex": true,
     "to": "",
     "mood": "solemn",
     "text": "PRE PARSIPHAE HUM HUM MINOSAUR"
   },
   {
     "character": "Organizm(-:",
+    "complex": true,
     "to": "",
     "mood": "solemn",
     "text": "PRE PARSIPHAE HUM HUM MINOSAUR",
@@ -284,6 +288,7 @@
   },
   {
     "character": "Sartrik",
+    "complex": true,
     "to": "",
     "mood": "solemn",
     "text": "PRE PARSIPHAE HUM HUM MINOSAUR"
@@ -332,24 +337,28 @@
   },
   {
     "character": "Monstradamus",
+    "complex": true,
     "to": "",
     "mood": "desperate",
     "text": "Wha-a-a! Wha-a-a! Wha-a-a!"
   },
   {
     "character": "IsoldA",
+    "complex": true,
     "to": "",
     "mood": "desperate",
     "text": "Wha-a-a! Wha-a-a! Wha-a-a!"
   },
   {
     "character": "Nutscracker",
+    "complex": true,
     "to": "",
     "mood": "desperate",
     "text": "Wha-a-a! Wha-a-a! Wha-a-a!"
   },
   {
     "character": "Organizm(-:",
+    "complex": true,
     "to": "",
     "mood": "desperate",
     "text": "Wha-a-a! Wha-a-a! Wha-a-a!",
@@ -357,24 +366,28 @@
   },
   {
     "character": "Sartrik",
+    "complex": true,
     "to": "",
     "mood": "desperate",
     "text": "Wha-a-a! Wha-a-a! Wha-a-a!"
   },
   {
     "character": "Ariadne",
+    "complex": true,
     "to": "",
     "mood": "desperate",
     "text": "Wha-a-a! Wha-a-a! Wha-a-a!"
   },
   {
     "character": "UGLI 666",
+    "complex": true,
     "to": "",
     "mood": "desperate",
     "text": "Wha-a-a! Wha-a-a! Wha-a-a!"
   },
   {
     "character": "Romeo-y-Cohiba",
+    "complex": true,
     "to": "",
     "mood": "desperate",
     "text": "Wha-a-a! Wha-a-a! Wha-a-a!"
@@ -447,24 +460,28 @@
   },
   {
     "character": "Monstradamus",
+    "complex": true,
     "to": "",
     "mood": "nauseous",
     "text": "I feel sick, xxx."
   },
   {
     "character": "IsoldA",
+    "complex": true,
     "to": "",
     "mood": "nauseous",
     "text": "I feel sick, xxx."
   },
   {
     "character": "Nutscracker",
+    "complex": true,
     "to": "",
     "mood": "nauseous",
     "text": "I feel sick, xxx."
   },
   {
     "character": "Organizm(-:",
+    "complex": true,
     "to": "",
     "mood": "nauseous",
     "text": "I feel sick, xxx.",
@@ -472,24 +489,28 @@
   },
   {
     "character": "Sartrik",
+    "complex": true,
     "to": "",
     "mood": "nauseous",
     "text": "I feel sick, xxx."
   },
   {
     "character": "Ariadne",
+    "complex": true,
     "to": "",
     "mood": "nauseous",
     "text": "I feel sick, xxx. It's time to get out of here ..."
   },
   {
     "character": "UGLI 666",
+    "complex": true,
     "to": "",
     "mood": "nauseous",
     "text": "I feel sick, xxx."
   },
   {
     "character": "Romeo-y-Cohiba",
+    "complex": true,
     "to": "",
     "mood": "nauseous",
     "text": "I feel sick, xxx."

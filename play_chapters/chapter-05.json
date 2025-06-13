@@ -795,24 +795,28 @@
   },
   {
     "character": "Monstradamus",
+    "complex": true,
     "to": "Theseus",
     "mood": "surprised",
     "text": "Ah?"
   },
   {
     "character": "IsoldA",
+    "complex": true,
     "to": "Theseus",
     "mood": "surprised",
     "text": "Ah?"
   },
   {
     "character": "Nutscracker",
+    "complex": true,
     "to": "Theseus",
     "mood": "surprised",
     "text": "Ah?"
   },
   {
     "character": "Organizm(-:",
+    "complex": true,
     "to": "Theseus",
     "mood": "surprised",
     "text": "Ah?",
@@ -820,24 +824,28 @@
   },
   {
     "character": "Theseus",
+    "complex": true,
     "to": "Theseus",
     "mood": "surprised",
     "text": "Ah?"
   },
   {
     "character": "Ariadne",
+    "complex": true,
     "to": "Theseus",
     "mood": "surprised",
     "text": "Ah?"
   },
   {
     "character": "UGLI 666",
+    "complex": true,
     "to": "Theseus",
     "mood": "surprised",
     "text": "Ah?"
   },
   {
     "character": "Romeo-y-Cohiba",
+    "complex": true,
     "to": "Theseus",
     "mood": "surprised",
     "text": "Ah?"
@@ -851,24 +859,28 @@
   },
   {
     "character": "Monstradamus",
+    "complex": true,
     "to": "Theseus",
     "mood": "fearful",
     "text": "MOOOOOO!"
   },
   {
     "character": "IsoldA",
+    "complex": true,
     "to": "Theseus",
     "mood": "fearful",
     "text": "MOOOOOO!"
   },
   {
     "character": "Nutscracker",
+    "complex": true,
     "to": "Theseus",
     "mood": "fearful",
     "text": "MOOOOOO!"
   },
   {
     "character": "Organizm(-:",
+    "complex": true,
     "to": "Theseus",
     "mood": "fearful",
     "text": "MOOOOOO!",
@@ -876,24 +888,28 @@
   },
   {
     "character": "Theseus",
+    "complex": true,
     "to": "Theseus",
     "mood": "fearful",
     "text": "MOOOOOO!"
   },
   {
     "character": "Ariadne",
+    "complex": true,
     "to": "Theseus",
     "mood": "fearful",
     "text": "MOOOOOO!"
   },
   {
     "character": "UGLI 666",
+    "complex": true,
     "to": "Theseus",
     "mood": "fearful",
     "text": "MOOOOOO!"
   },
   {
     "character": "Romeo-y-Cohiba",
+    "complex": true,
     "to": "Theseus",
     "mood": "fearful",
     "text": "MOOOOOO!"
@@ -984,33 +1000,38 @@
   },
   {
     "character": "Monstradamus",
+    "complex": true,
     "to": "",
-    "mood": "loving",
+    "mood": "desperate",
     "text": "My son!"
   },
   {
     "character": "IsoldA",
+    "complex": true,
     "to": "",
-    "mood": "loving",
+    "mood": "desperate",
     "text": "My son!"
   },
   {
     "character": "Nutscracker",
+    "complex": true,
     "to": "",
-    "mood": "loving",
+    "mood": "desperate",
     "text": "My son!"
   },
   {
     "character": "Organizm(-:",
+    "complex": true,
     "to": "",
-    "mood": "loving",
+    "mood": "desperate",
     "text": "My son!",
     "alias": "Organizm(-"
   },
   {
     "character": "Sartrik",
+    "complex": true,
     "to": "",
-    "mood": "loving",
+    "mood": "desperate",
     "text": "My son(-:"
   }
 ]
