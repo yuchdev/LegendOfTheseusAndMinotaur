@@ -3,10 +3,17 @@ import re
 import sys
 
 # Canonical characters
-CHARACTERS = {
-    "Monstradamus", "IsoldA", "Nutscracker", "Organizm(-:",
-    "Theseus", "Ariadne", "UGLI 666", "Romeo-y-Cohiba", "Sartrik"
-}
+CHARACTERS = [
+    "Monstradamus", 
+    "IsoldA", 
+    "Nutscracker", 
+    "Organizm(-:",
+    "Theseus", 
+    "Ariadne", 
+    "UGLI 666", 
+    "Romeo-y-Cohiba", 
+    "Sartrik"
+]
 
 # Aliases
 ALIASES = {
@@ -20,39 +27,39 @@ ALIASES = {
     "TheZeus": "Theseus"
 }
 
-MOODS = {
+EMOTIONS = {
     "positive": [
-        "calm",             # relaxed, steady, unstressed
-        "compassionate",    # outward caring / friendly / loving support
-        "excited",          # high-energy enthusiasm about what’s being said
-        "hopeful",          # optimistic about the future
-        "playful",          # light-hearted, joking, teasing
-        "proud",            # confident self-approval / achievement
-        "solemn"            # respectful, dignified
+        "calm",
+        "compassionate",
+        "excited",
+        "flirty",
+        "hopeful",
+        "playful", # TBRen: humorous, flirty
+        "proud",
+        "solemn"
     ],
     "neutral": [
-        "confused",         # uncertain, unsure, not understanding
-        "contemplative",    # thoughtful, reflective
-        "curious",          # inquisitive, wanting to know more
-        "surprised",        # brief "spike" reaction (valence decided by context)
-        "resigned"          # passive agreement, acceptance of situation
+        "confused",
+        "contemplative",
+        "curious",
+        "surprised",
+        "resigned"
     ],
     "negative": [
-        "angry",            # openly hostile
-        "anxious",          # nervous, fearful, desperate, nausea-tinged
-        "ashamed",          # guilt, self-blame, embarrassed
-        "fearful",          # scared, frightened, panicked
-        "irritated",        # annoyed, frustrated, impatient
-        "sad",              # low-energy sorrow, disappointment
-        "selfish"           # cold, dismissive, jealous, manipulative
+        "angry",
+        "anxious",
+        "ashamed", # TBRen
+        "fearful",
+        "irritated",
+        "sad" # TBRen
     ],
     "complex": [
-        "defensive",        # defensive, protective, guarded
-        "desperate",        # desperate, hopeless, helpless
-        "dismissive",       # dismissive, condescending, belittling
-        "jealous",          # jealous, envious, covetous
-        "sarcastic",        # sarcastic, ironic, mocking
-        "skeptical"         # cynical, doubtful, questioning
+        "defensive",
+        "desperate",
+        "dismissive",
+        "jealous",
+        "sarcastic",
+        "skeptical" # TBRem
     ]
 }
 
