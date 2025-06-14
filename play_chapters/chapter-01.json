@@ -574,7 +574,7 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "Ariadne",
-    "mood": "impatient",
+    "mood": "dismissive",
     "text": "What's the point of us listening to all this?"
   },
   {
@@ -649,7 +649,7 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "IsoldA",
-    "mood": "joyful",
+    "mood": "excited",
     "text": "Welcome to our little world, Isolde. We're very pleased to meet you."
   },
   {
@@ -679,7 +679,7 @@
   {
     "character": "IsoldA",
     "to": "Nutscracker",
-    "mood": "indifferent",
+    "mood": "calm",
     "text": "No."
   },
   {
@@ -913,7 +913,7 @@
   {
     "character": "UGLI 666",
     "to": "Organizm(-:",
-    "mood": "indifferent",
+    "mood": "defensive",
     "text": "That's of no relevance."
   },
   {
@@ -1222,7 +1222,7 @@
   {
     "character": "IsoldA",
     "to": "Monstradamus",
-    "mood": "indifferent",
+    "mood": "dismissive",
     "text": "It's a very common name. I had a lotion for dry skin called 'Ariadne's Milk'."
   },
   {
@@ -1729,7 +1729,7 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "Nutscracker",
-    "mood": "joyful",
+    "mood": "excited",
     "text": "It works."
   },
   {
@@ -1753,13 +1753,13 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "",
-    "mood": "joyful",
+    "mood": "excited",
     "text": "Fresh air at last."
   },
   {
     "character": "Sartrik",
     "to": "",
-    "mood": "joyful",
+    "mood": "excited",
     "text": "Two fridges full of booze. So there is a God after all!"
   },
   {
@@ -1795,7 +1795,7 @@
   {
     "character": "Organizm(-:",
     "to": "",
-    "mood": "joyful",
+    "mood": "excited",
     "text": "They sent down some pancakes with jam. Not bad for Ancient Greece. I feel like a nice quiet meal, so I'm taking a break now."
   },
   {
@@ -1825,7 +1825,7 @@
   {
     "character": "Organizm(-:",
     "to": "",
-    "mood": "indifferent",
+    "mood": "dismissive",
     "text": "I'm busy."
   },
   {
@@ -1861,7 +1861,7 @@
   {
     "character": "Ariadne",
     "to": "Monstradamus",
-    "mood": "joyful",
+    "mood": "excited",
     "text": "I found it, thank you."
   },
   {
@@ -1969,7 +1969,7 @@
   {
     "character": "IsoldA",
     "to": "Romeo-y-Cohiba",
-    "mood": "joyful",
+    "mood": "excited",
     "text": "It's beige here too. We're near each other!"
   },
   {
@@ -2059,7 +2059,7 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "IsoldA",
-    "mood": "caring",
+    "mood": "compassionate",
     "text": "Take no notice. You're a wonderful storyteller, Isolde. It was like seeing it all with my own eyes."
   },
   {
@@ -2320,7 +2320,7 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "IsoldA",
-    "mood": "caring",
+    "mood": "compassionate",
     "text": "It sounds just fine. I just don't quite get it."
   },
   {

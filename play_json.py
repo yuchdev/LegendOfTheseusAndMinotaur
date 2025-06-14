@@ -22,46 +22,37 @@ ALIASES = {
 
 MOODS = {
     "positive": [
-        "calm",
-        "caring",
-        "friendly",
-        "compassionate",
-        "excited",
-        "joyful",
-        "interested",
-        "hopeful",
-        "loving",
-        "proud",
-        "solemn"
+        "calm",             # relaxed, steady, unstressed
+        "compassionate",    # outward caring / friendly / loving support
+        "excited",          # high-energy enthusiasm about what’s being said
+        "hopeful",          # optimistic about the future
+        "playful",          # light-hearted, joking, teasing
+        "proud",            # confident self-approval / achievement
+        "solemn"            # respectful, dignified
     ],
     "neutral": [
-        "confused",
-        "curious",
-        "indifferent",
-        "contemplative",
-        "resigned"
+        "confused",         # uncertain, unsure, not understanding
+        "contemplative",    # thoughtful, reflective
+        "curious",          # inquisitive, wanting to know more
+        "surprised",        # brief "spike" reaction (valence decided by context)
+        "resigned"          # passive agreement, acceptance of situation
     ],
     "negative": [
-        "angry",
-        "anxious",
-        "ashamed",
-        "cold",
-        "irritated",
-        "fearful",
-        "sad"
+        "angry",            # openly hostile
+        "anxious",          # nervous, fearful, desperate, nausea-tinged
+        "ashamed",          # guilt, self-blame, embarrassed
+        "fearful",          # scared, frightened, panicked
+        "irritated",        # annoyed, frustrated, impatient
+        "sad",              # low-energy sorrow, disappointment
+        "selfish"           # cold, dismissive, jealous, manipulative
     ],
     "complex": [
-        "defensive",
-        "desperate",
-        "dismissive",
-        "impatient",
-        "jealous",
-        "manipulative",
-        "nauseous",
-        "playful",
-        "sarcastic",
-        "skeptical",
-        "surprised"
+        "defensive",        # defensive, protective, guarded
+        "desperate",        # desperate, hopeless, helpless
+        "dismissive",       # dismissive, condescending, belittling
+        "jealous",          # jealous, envious, covetous
+        "sarcastic",        # sarcastic, ironic, mocking
+        "skeptical"         # cynical, doubtful, questioning
     ]
 }
 

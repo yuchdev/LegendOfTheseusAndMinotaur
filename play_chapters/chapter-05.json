@@ -215,7 +215,7 @@
   {
     "character": "Organizm(-:",
     "to": "Ariadne",
-    "mood": "impatient",
+    "mood": "hopeful",
     "text": "Well then?"
   },
   {
@@ -256,13 +256,13 @@
       "Nutscracker",
       "Organizm(-:"
     ],
-    "mood": "impatient",
+    "mood": "irritated",
     "text": "Are you lot finished yet? When do you think the rest of us could have a chat?"
   },
   {
     "character": "Nutscracker",
     "to": "Romeo-y-Cohiba",
-    "mood": "indifferent",
+    "mood": "calm",
     "text": "Nobody's stopping you, Romeo."
   },
   {
@@ -439,7 +439,7 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "Monstradamus",
-    "mood": "indifferent",
+    "mood": "anxious",
     "text": "Dark-brown."
   },
   {
@@ -541,7 +541,7 @@
   {
     "character": "Nutscracker",
     "to": "Romeo-y-Cohiba",
-    "mood": "indifferent",
+    "mood": "sarcastic",
     "text": "I couldn't give a xxx. I'm wearing a helmet of horror."
   },
   {
@@ -550,7 +550,7 @@
       "Romeo-y-Cohiba",
       "Nutscracker"
     ],
-    "mood": "caring",
+    "mood": "compassionate",
     "text": "There's no need to be like that."
   },
   {
@@ -935,7 +935,7 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "Theseus",
-    "mood": "joyful",
+    "mood": "excited",
     "text": "Theseus! How we've longed for you to come!"
   },
   {
@@ -953,7 +953,7 @@
   {
     "character": "Organizm(-:",
     "to": "Theseus",
-    "mood": "impatient",
+    "mood": "hopeful",
     "text": "Theseus, answer!"
   },
   {
@@ -995,7 +995,7 @@
   {
     "character": "Ariadne",
     "to": "Monstradamus",
-    "mood": "caring",
+    "mood": "compassionate",
     "text": "Hang on, papa."
   },
   {

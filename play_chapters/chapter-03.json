@@ -26,7 +26,7 @@
   {
     "character": "Monstradamus",
     "to": "UGLI 666",
-    "mood": "caring",
+    "mood": "compassionate",
     "text": "I'll give it a try."
   },
   {
@@ -74,7 +74,7 @@
   {
     "character": "Monstradamus",
     "to": "UGLI 666",
-    "mood": "interested",
+    "mood": "curious",
     "text": "Then a couple of words at least."
   },
   {
@@ -725,7 +725,7 @@
   {
     "character": "UGLI 666",
     "to": "Monstradamus",
-    "mood": "joyful",
+    "mood": "excited",
     "text": "Wait a moment. Let me see if it works with the letters. It really does. How profound! Now I understand what the canon was trying to say, Monstradamus. This world will remain a meaningless conglomeration of absurdities and riddles, where we continue to wander aimlessly about in the dark, until we accept the teachings of the Holy Church. But as soon as that happens, the holy cross will shine out at the centre of life's labyrinth, and the fullness of the purpose concealed in all things will instantly be revealed! The world will be miraculously transformed, the harmonious scheme of things will emerge from the chaos and insanity, and whichever way we direct our gaze, we shall see Hosannah to the Lord on every side! Is that right, Monstradamus?"
   },
   {
@@ -755,7 +755,7 @@
   {
     "character": "UGLI 666",
     "to": "Nutscracker",
-    "mood": "joyful",
+    "mood": "excited",
     "text": "Cry and sing."
   },
   {
@@ -1026,7 +1026,7 @@
     {
     "character": "IsoldA",
     "to": "Romeo-y-Cohiba",
-    "mood": "caring",
+    "mood": "compassionate",
     "text": "Yes, everything's fine. Go on."
   },
   {
@@ -1284,7 +1284,7 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "IsoldA",
-    "mood": "loving",
+    "mood": "compassionate",
     "text": "Let's say it's ours then. Then we can't be wrong."
   },
   {
@@ -1296,13 +1296,13 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "IsoldA",
-    "mood": "loving",
+    "mood": "compassionate",
     "text": "Isolde... I want to tell you something. It will probably sound stupid, but I want you to hear it anyway. Whatever I'm thinking about, I always come back to you. As if all the thoughts that aren't connected with you are heavy weights and as soon as my mind tries to deal with them, the effort becomes too much. But everything to do with you is light and happy, like the bubbles in champagne. I just want to go on and on thinking about it."
   },
   {
     "character": "IsoldA",
     "to": "Romeo-y-Cohiba",
-    "mood": "loving",
+    "mood": "compassionate",
     "text": "Yes, Romeo, that really did sound stupid. But I could say the same thing to you."
   },
   {
@@ -1350,7 +1350,7 @@
   {
     "character": "IsoldA",
     "to": "Romeo-y-Cohiba",
-    "mood": "loving",
+    "mood": "compassionate",
     "text": "You're right. The only way to be alone is to behave as though we are already alone."
   },
   {
@@ -1368,13 +1368,13 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "IsoldA",
-    "mood": "loving",
+    "mood": "compassionate",
     "text": "Our car. My green-eyed Lolita. My lovely Mona Lita."
   },
   {
     "character": "IsoldA",
     "to": "Romeo-y-Cohiba",
-    "mood": "loving",
+    "mood": "compassionate",
     "text": "And now to sleep, Cohiba. Be seeing you."
   },
   {

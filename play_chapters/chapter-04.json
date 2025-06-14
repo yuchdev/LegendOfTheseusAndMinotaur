@@ -299,7 +299,7 @@
   {
     "character": "Organizm(-:",
     "to": "Monstradamus",
-    "mood": "indifferent",
+    "mood": "calm",
     "text": "I haven't got anything interesting. Just a screen-saver."
   },
   {
@@ -621,7 +621,7 @@
   {
     "character": "Nutscracker",
     "to": "Monstradamus",
-    "mood": "indifferent",
+    "mood": "calm",
     "text": "All sorts."
   },
   {
@@ -1225,7 +1225,7 @@
   {
     "character": "Monstradamus",
     "to": "Sartrik",
-    "mood": "indifferent",
+    "mood": "dismissive",
     "text": "Why bother putting them away? Who cares about those buffoons."
   },
   {
