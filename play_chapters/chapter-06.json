@@ -105,13 +105,13 @@
     "character": "Sartrik",
     "to": "Monstradamus",
     "mood": "confused",
-    "text": "What ... What route is that?"
+    "text": "What... What route is that?"
   },
   {
     "character": "Monstradamus",
     "to": "Sartrik",
     "mood": "playful",
-    "text": "Back with us again, hero? Ladies and gents, a joke. Imagine Sartrik wakes up with a massive hangover. He can't remember anything about the previous day. There's a pool of blood beside him. He's surrounded by a labyrinth. But there's no Minotaur anywhere. Sartrik raises his eyes to the ceiling and whispers in horror: 'I killed him ... Killed him and ate him ...'"
+    "text": "Back with us again, hero? Ladies and gents, a joke. Imagine Sartrik wakes up with a massive hangover. He can't remember anything about the previous day. There's a pool of blood beside him. He's surrounded by a labyrinth. But there's no Minotaur anywhere. Sartrik raises his eyes to the ceiling and whispers in horror: 'I killed him... Killed him and ate him...'"
   },
   {
     "character": "IsoldA",
@@ -321,7 +321,7 @@
     "character": "Organizm(-:",
     "to": "",
     "mood": "calm",
-    "text": "Stay calm ..."
+    "text": "Stay calm..."
   },
   {
     "character": "Monstradamus",
@@ -499,7 +499,7 @@
     "complex": true,
     "to": "",
     "mood": "nauseous",
-    "text": "I feel sick, xxx. It's time to get out of here ..."
+    "text": "I feel sick, xxx. It's time to get out of here..."
   },
   {
     "character": "UGLI 666",
