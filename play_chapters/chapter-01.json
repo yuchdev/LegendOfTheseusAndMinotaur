@@ -152,13 +152,13 @@
   {
     "character": "Organizm(-:",
     "to": "Romeo-y-Cohiba",
-    "mood": "indifferent",
+    "mood": "calm",
     "text": "No."
   },
   {
     "character": "Nutscracker",
     "to": "Romeo-y-Cohiba",
-    "mood": "indifferent",
+    "mood": "calm",
     "text": "Me neither."
   },
   {
@@ -200,7 +200,7 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "",
-    "mood": "playful",
+    "mood": "calm",
     "text": "It's a good job it's warm in here then."
   },
   {
@@ -413,7 +413,7 @@
   {
     "character": "Organizm(-:",
     "to": "Nutscracker",
-    "mood": "playful",
+    "mood": "contemplative",
     "text": "It looks like a bat. Or the Batman symbol."
   },
   {
@@ -509,7 +509,7 @@
   {
     "character": "Ariadne",
     "to": "Monstradamus",
-    "mood": "contemplative",
+    "mood": "confused",
     "text": "I was trying to remember where it came from, but I couldn't. I had the feeling it was very important."
   },
   {
@@ -527,7 +527,7 @@
   {
     "character": "Organizm(-:",
     "to": "Ariadne",
-    "mood": "sarcastic",
+    "mood": "playful",
     "text": "In that case, we know all about you already. Your real name's xxx, you're xxx years old and you come from xxx."
   },
   {
@@ -538,7 +538,7 @@
       "Nutscracker",
       "Monstradamus"
     ],
-    "mood": "proud",
+    "mood": "calm",
     "text": "I know what's going on here."
   },
   {
@@ -574,7 +574,7 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "Ariadne",
-    "mood": "sarcastic",
+    "mood": "impatient",
     "text": "What's the point of us listening to all this?"
   },
   {
@@ -667,7 +667,7 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "Organizm(-:",
-    "mood": "angry",
+    "mood": "jealous",
     "text": "Get a grip, Organism."
   },
   {
@@ -746,7 +746,7 @@
     "character": "Ariadne",
     "to": "",
     "mood": "contemplative",
-    "text": "But the dwarf said there was no need to be upset, because the people Asterisk sacrifices to himself have already been born, and dying in the arena is the common fate that nobody escapes. I tried to ask in that case what was the point of the sacrificial tribute, but the dwarf began getting nervous and said, 'Look, he's coming, now you can see him for yourself.' I looked up. Two figures had appeared in front of the burnt-out building. Striding along solemnly in front was a dwarf holding a flag with the Merrill Lynch symbol on it - you remember it, they have that jolly little bull - and the inscription 'Be Bullish!' But I didn't feel like laughing at all, the figure following it looked so terrifying. I don't even know what to call him. He wasn't like a man. He was absolutely massive, and I thought for a moment he was a monstrously overgrown mushroom with a big cap of blackish-green metal. Then I took a closer look at him. He was wearing a long loose robe that reached right down to the ground, dark-coloured and not particularly clean either, but not the same kind of tattered rags as the dwarves. And on his head he had a bronze helmet, like a gladiator's mask - a headpiece with a wide brim and a plate with holes in it where the face would be. There were two horns on the helmet..."
+    "text": "But the dwarf said there was no need to be upset, because the people Asterisk sacrifices to himself all have already been born, and dying in the arena is the common fate that nobody escapes. I tried to ask in that case what was the point of the sacrificial tribute, but the dwarf began getting nervous and said, 'Look, he's coming, now you can see him for yourself.' I looked up. Two figures had appeared in front of the burnt-out building. Striding along solemnly in front was a dwarf holding a flag with the Merrill Lynch symbol on it - you remember it, they have that jolly little bull - and the inscription 'Be Bullish!' But I didn't feel like laughing at all, the figure following it looked so terrifying. I don't even know what to call him. He wasn't like a man. He was absolutely massive, and I thought for a moment he was a monstrously overgrown mushroom with a big cap of blackish-green metal. Then I took a closer look at him. He was wearing a long loose robe that reached right down to the ground, dark-coloured and not particularly clean either, but not the same kind of tattered rags as the dwarves. And on his head he had a bronze helmet, like a gladiator's mask - a headpiece with a wide brim and a plate with holes in it where the face would be. There were two horns on the helmet..."
   },
   {
     "character": "Monstradamus",
@@ -883,8 +883,8 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "UGLI 666",
-    "mood": "angry",
-    "text": "That's just great. We've been locked up in here, and we have to repent? Repent for what?"
+    "mood": "irritated",
+    "text": "That's just great! We've been locked up in here, and we have to repent? Repent for what?"
   },
   {
     "character": "UGLI 666",
@@ -907,7 +907,7 @@
   {
     "character": "Organizm(-:",
     "to": "UGLI 666",
-    "mood": "sarcastic",
+    "mood": "curious",
     "text": "Ugly, what sex are you?"
   },
   {
@@ -949,7 +949,7 @@
   {
     "character": "Organizm(-:",
     "to": "UGLI 666",
-    "mood": "proud",
+    "mood": "sarcastic",
     "text": "But do you know what 'UGLI' really means? It's not from the word 'ugly' as you probably thought. It's 'Universal Gate for Logic Implementation'. A universal logic element, I remember that from school. So if you chose your views to match your name you were looking in the wrong place altogether."
   },
   {
@@ -991,7 +991,7 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "IsoldA",
-    "mood": "anxious",
+    "mood": "defensive",
     "text": "Who says I recognised myself? It was just a couple of details that matched."
   },
   {
@@ -1006,13 +1006,13 @@
       "IsoldA",
       "Ariadne"
     ],
-    "mood": "resigned",
+    "mood": "defensive",
     "text": "Let's introduce a bit of clarity here. I actually do have a tattoo on my arm, just above the wrist. It's a fountain of oil, gushing up through a dollar sign. From upside down it looks a bit like an anchor. That's all. I don't know what tattoo she saw. And my yacht club symbol is nothing like that."
   },
   {
     "character": "Sartrik",
     "to": "",
-    "mood": "confused",
+    "mood": "sarcastic",
     "text": "xxx me, a xxx sailor."
   },
   {
@@ -1024,7 +1024,7 @@
   {
     "character": "Sartrik",
     "to": "Nutscracker",
-    "mood": "sad",
+    "mood": "resigned",
     "text": "I'm absolutely xxx. My entire body aches."
   },
   {
@@ -1036,7 +1036,7 @@
   {
     "character": "Sartrik",
     "to": "Monstradamus",
-    "mood": "desperate",
+    "mood": "nauseous",
     "text": "I feel sick. Is there any beer to be had around here?"
   },
   {
@@ -1048,7 +1048,7 @@
   {
     "character": "Sartrik",
     "to": "Monstradamus",
-    "mood": "ashamed",
+    "mood": "sad",
     "text": "Something of the sort."
   },
   {
@@ -1081,13 +1081,13 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "Monstradamus",
-    "mood": "playful",
+    "mood": "contemplative",
     "text": "Well, for instance, this Asterisk is tall, with a big helmet. That symbolises the male sexual organ in a state of erection."
   },
   {
     "character": "Organizm(-:",
     "to": "Romeo-y-Cohiba",
-    "mood": "playful",
+    "mood": "sarcastic",
     "text": "And the two dwarves symbolise the balls, do they?"
   },
   {
@@ -1102,7 +1102,7 @@
       "Romeo-y-Cohiba",
       "Organizm(-:"
     ],
-    "mood": "resigned",
+    "mood": "irritated",
     "text": "Could you talk about that separately somehow?"
   },
   {
@@ -1117,7 +1117,7 @@
       "IsoldA",
       "UGLI 666"
     ],
-    "mood": "resigned",
+    "mood": "sarcastic",
     "text": "Unfortunately we can't just go out into the corridor."
   },
   {
@@ -1144,20 +1144,20 @@
   {
     "character": "Monstradamus",
     "to": "",
-    "mood": "curious",
+    "mood": "contemplative",
     "text": "In the first place, the names. Has anyone any guesses on that score?"
   },
   {
     "character": "UGLI 666",
     "to": "Monstradamus",
-    "mood": "sarcastic",
+    "mood": "calm",
     "text": "Names of demons from hell."
   },
   {
     "character": "Monstradamus",
     "to": "",
     "mood": "contemplative",
-    "text": "The soap, the toilet paper and other items in the bathroom are all marked with something that looks like the symbol for indicating a footnote - a little star. It's called an asterisk, which is also the name of the character Ariadne dreamed about. It sounds a lot like 'Asterius'."
+    "text": "The soap, the toilet paper and other items in the bathroom are all marked with something that looks like the symbol for indicating a footnote - a little star. It's called an asterisk, which is also the name of the character Ariadne dreamed about. It sounds a lot like 'Asterius.'"
   },
   {
     "character": "UGLI 666",
@@ -1186,7 +1186,7 @@
   {
     "character": "Sartrik",
     "to": "",
-    "mood": "sad",
+    "mood": "nauseous",
     "text": "God, I feel really sick."
   },
   {
@@ -1252,7 +1252,7 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "Monstradamus",
-    "mood": "indifferent",
+    "mood": "sarcastic",
     "text": "I haven't laughed even once yet."
   },
   {
@@ -1271,12 +1271,12 @@
     "character": "Monstradamus",
     "to": "",
     "mood": "contemplative",
-    "text": "The name makes sense though. Our Guardian really is unlimited."
+    "text": "The name makes sense though. Our guardian really is unlimited."
   },
   {
     "character": "Nutscracker",
     "to": "",
-    "mood": "sarcastic",
+    "mood": "contemplative",
     "text": "And another joke is the Merrill Lynch symbol on the flag."
   },
   {
@@ -1288,7 +1288,7 @@
   {
     "character": "Monstradamus",
     "to": "",
-    "mood": "curious",
+    "mood": "contemplative",
     "text": "I wouldn't like to alarm anyone, but shouldn't we consider the possibility that Ariadne herself is also a joke by our moderators, as Organism called them."
   },
   {
@@ -1300,13 +1300,13 @@
   {
     "character": "Monstradamus",
     "to": "Organizm(-:",
-    "mood": "calm",
+    "mood": "contemplative",
     "text": "Because, phenomenologically speaking, she only exists in the form of messages of unknown origin signed 'Ariadne'."
   },
   {
     "character": "Ariadne",
     "to": "Monstradamus",
-    "mood": "resigned",
+    "mood": "sarcastic",
     "text": "Thanks. Ariadne."
   },
   {
@@ -1330,7 +1330,7 @@
   {
     "character": "Ariadne",
     "to": "Monstradamus",
-    "mood": "proud",
+    "mood": "calm",
     "text": "Everything I told you was the truth."
   },
   {
@@ -1345,13 +1345,13 @@
   {
     "character": "Monstradamus",
     "to": "Nutscracker",
-    "mood": "indifferent",
+    "mood": "irritated",
     "text": "I'm not Nebuchadnezzar."
   },
   {
     "character": "Nutscracker",
     "to": "Monstradamus",
-    "mood": "ashamed",
+    "mood": "calm",
     "text": "Sorry, Monstradamus."
   },
   {
@@ -1393,31 +1393,31 @@
   {
     "character": "Monstradamus",
     "to": "Organizm(-:",
-    "mood": "playful",
+    "mood": "calm",
     "text": "That's richt."
   },
   {
     "character": "Nutscracker",
     "to": "",
-    "mood": "playful",
+    "mood": "resigned",
     "text": "They cantroll our entire canvasation."
   },
   {
     "character": "IsoldA",
     "to": "Monstradamus",
-    "mood": "playful",
+    "mood": "confused",
     "text": "Are yew ploying the foul?"
   },
   {
     "character": "Romeo-y-Cohiba",
     "to": "IsoldA",
-    "mood": "playful",
+    "mood": "defensive",
     "text": "No, I woodn't deram of it."
   },
   {
     "character": "Monstradamus",
     "to": "IsoldA",
-    "mood": "playful",
+    "mood": "calm",
     "text": "Me kneether. It's the mooderattors."
   },
   {
@@ -1447,7 +1447,7 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "",
-    "mood": "angry",
+    "mood": "irritated",
     "text": "Stick your xxx up your xxx and give it a double right twist."
   },
   {
@@ -1483,7 +1483,7 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "Monstradamus",
-    "mood": "curious",
+    "mood": "skeptical",
     "text": "You talk about him as if you'd seen him with your own eyes. But we don't actually have any reason to believe he exists."
   },
   {
@@ -1507,7 +1507,7 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "Monstradamus",
-    "mood": "angry",
+    "mood": "defensive",
     "text": "That just about does it. Leave it out, will you?"
   },
   {
@@ -1525,13 +1525,13 @@
   {
     "character": "Organizm(-:",
     "to": "Monstradamus",
-    "mood": "sarcastic",
+    "mood": "playful",
     "text": "I bet a hundred xxx the Minotaur's Monstradamus."
   },
   {
     "character": "Monstradamus",
     "to": "Organizm(-:",
-    "mood": "angry",
+    "mood": "irritated",
     "text": "Stop clowning about."
   },
   {
@@ -1543,7 +1543,7 @@
   {
     "character": "IsoldA",
     "to": "Theseus",
-    "mood": "desperate",
+    "mood": "hopeful",
     "text": "At least tell us if you're here or not! Theseus!"
   },
   {
@@ -1561,7 +1561,7 @@
   {
     "character": "Organizm(-:",
     "to": "",
-    "mood": "hopeful",
+    "mood": "contemplative",
     "text": "We can find out."
   },
   {
@@ -1609,7 +1609,7 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "Organizm(-:",
-    "mood": "proud",
+    "mood": "fearful",
     "text": "I warned you!"
   },
   {
@@ -1687,7 +1687,7 @@
   {
     "character": "Monstradamus",
     "to": "Organizm(-:",
-    "mood": "angry",
+    "mood": "irritated",
     "text": "Organizm, don't go trying any more experiments like that."
   },
   {
@@ -1711,7 +1711,7 @@
   {
     "character": "Organizm(-:",
     "to": "",
-    "mood": "calm",
+    "mood": "contemplative",
     "text": "Okay, I think I've got it. When the door opens, a lever shaped like a leg with a hoof moves out and down."
   },
   {
@@ -1747,7 +1747,7 @@
   {
     "character": "UGLI 666",
     "to": "Monstradamus",
-    "mood": "calm",
+    "mood": "anxious",
     "text": "Semi-darkness. Benches, a lot of benches."
   },
   {
@@ -1765,7 +1765,7 @@
   {
     "character": "Organizm(-:",
     "to": "",
-    "mood": "sarcastic",
+    "mood": "anxious",
     "text": "Plywood walls painted to look like bricks. It all looks pretty naff."
   },
   {
@@ -1837,7 +1837,7 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "UGLI 666",
-    "mood": "sarcastic",
+    "mood": "irritated",
     "text": "No, you won't get under his skin that easily."
   },
   {
@@ -1874,7 +1874,7 @@
     "character": "Ariadne",
     "to": "Romeo-y-Cohiba",
     "mood": "calm",
-    "text": "He was just joking, Romeo. Having a laugh."
+    "text": "He was just joking, Romeo. Having a laugh at us."
   },
   {
     "character": "Nutscracker",
@@ -2011,13 +2011,13 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "IsoldA",
-    "mood": "curious",
+    "mood": "playful",
     "text": "I was joking. Did you meet anyone?"
   },
   {
     "character": "IsoldA",
     "to": "Romeo-y-Cohiba",
-    "mood": "anxious",
+    "mood": "calm",
     "text": "No. But several times I had the feeling there was someone just round the corner."
   },
   {
@@ -2047,19 +2047,19 @@
   {
     "character": "Sartrik",
     "to": "IsoldA",
-    "mood": "playful",
+    "mood": "nauseous",
     "text": "Now that's something I can understand."
   },
   {
     "character": "IsoldA",
     "to": "Sartrik",
-    "mood": "curious",
+    "mood": "irritated",
     "text": "What do you understand?"
   },
   {
     "character": "Romeo-y-Cohiba",
     "to": "IsoldA",
-    "mood": "hopeful",
+    "mood": "caring",
     "text": "Take no notice. You're a wonderful storyteller, Isolde. It was like seeing it all with my own eyes."
   },
   {
@@ -2092,8 +2092,8 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "Monstradamus",
-    "mood": "angry",
-    "text": "Do you mind not butting into other people's conversations?"
+    "mood": "irritated",
+    "text": "Do you mind not butting into other people's private conversations?"
   },
   {
     "character": "Monstradamus",
@@ -2146,7 +2146,7 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "IsoldA",
-    "mood": "confused",
+    "mood": "defensive",
     "text": "I don't understand why everyone's decided I was the man she dreamed about. The only things we have in common are the tattoo and the moustache. We've already dealt with the tattoo. That just leaves the moustache. And that's like identifying a man by the colour of his tie."
   },
   {
@@ -2158,7 +2158,7 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "IsoldA",
-    "mood": "proud",
+    "mood": "defensive",
     "text": "Not bald, my head's shaved. That's a big difference. People go bald because they have no choice, but they shave their heads out of self-respect. Even if it does look the same from a distance. And my mole is really small, you can hardly see it. And anyway, who doesn't have some kind of a mole on his face?"
   },
   {
@@ -2176,13 +2176,13 @@
   {
     "character": "IsoldA",
     "to": "Romeo-y-Cohiba",
-    "mood": "calm",
+    "mood": "playful",
     "text": "Well, it means a man is nice to look at."
   },
   {
     "character": "Romeo-y-Cohiba",
     "to": "IsoldA",
-    "mood": "resigned",
+    "mood": "proud",
     "text": "Nice for who? I got used to the way I look ages ago. And as far as anyone else is concerned, it depends on the circumstances. But one thing I can say for certain is you needn't be afraid of being with me."
   },
   {
@@ -2194,13 +2194,13 @@
   {
     "character": "Nutscracker",
     "to": "IsoldA",
-    "mood": "playful",
+    "mood": "sarcastic",
     "text": "He's trying to say that if you're with him even he won't frighten you."
   },
   {
     "character": "Romeo-y-Cohiba",
     "to": "IsoldA",
-    "mood": "curious",
+    "mood": "irritated",
     "text": "Just give people a chance to talk, will you?! Isolde, can I ask you something about yourself?"
   },
   {
@@ -2290,7 +2290,7 @@
   {
     "character": "IsoldA",
     "to": "Romeo-y-Cohiba",
-    "mood": "indifferent",
+    "mood": "calm",
     "text": "I was compared once to a cover of 'The New Yorker' that had a drawing of Monica Lewinsky as the Mona Lisa. Only I look five times younger."
   },
   {
@@ -2320,7 +2320,7 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "IsoldA",
-    "mood": "calm",
+    "mood": "caring",
     "text": "It sounds just fine. I just don't quite get it."
   },
   {
@@ -2341,13 +2341,13 @@
   {
     "character": "Monstradamus",
     "to": "Romeo-y-Cohiba",
-    "mood": "resigned",
+    "mood": "irritated",
     "text": "I'm not Nebuchadnezzar."
   },
   {
     "character": "Romeo-y-Cohiba",
     "to": "Monstradamus",
-    "mood": "angry",
+    "mood": "irritated",
     "text": "Don't butt in anyway. I thought you wanted to eat. So why don't you?"
   },
   {
@@ -2359,7 +2359,7 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "IsoldA",
-    "mood": "resigned",
+    "mood": "irritated",
     "text": "Then have something to drink. Isolde, they won't give us any peace."
   },
   {
@@ -2383,8 +2383,9 @@
   {
     "character": "Ariadne",
     "to": [
-      "Romeo-y-Cohiba",
-      "IsoldA"
+      "Monstradamus",
+      "Nutscracker",
+      "Organizm(-:"
     ],
     "mood": "playful",
     "text": "I think they're in love."
@@ -2398,7 +2399,7 @@
   {
     "character": "Organizm(-:",
     "to": "Romeo-y-Cohiba",
-    "mood": "sarcastic",
+    "mood": "playful",
     "text": "Take a pack of condoms and go looking for your Juliet."
   },
   {
@@ -2413,13 +2414,13 @@
       "Organizm(-:",
       "Nutscracker"
     ],
-    "mood": "angry",
+    "mood": "irritated",
     "text": "Just leave it out, can't you?"
   },
   {
     "character": "Nutscracker",
     "to": "Romeo-y-Cohiba",
-    "mood": "curious",
+    "mood": "sarcastic",
     "text": "Romeo, are you still there? We thought you'd gone to bed."
   },
   {

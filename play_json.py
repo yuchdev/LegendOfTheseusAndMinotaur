@@ -24,7 +24,11 @@ MOODS = {
     "positive": [
         "calm",
         "caring",
+        "friendly",
+        "compassionate",
+        "excited",
         "joyful",
+        "interested",
         "hopeful",
         "loving",
         "proud",
@@ -41,15 +45,18 @@ MOODS = {
         "angry",
         "anxious",
         "ashamed",
+        "cold",
+        "irritated",
         "fearful",
-        "sad",
-        "manipulative"
+        "sad"
     ],
     "complex": [
         "defensive",
         "desperate",
+        "dismissive",
         "impatient",
         "jealous",
+        "manipulative",
         "nauseous",
         "playful",
         "sarcastic",

@@ -93,7 +93,7 @@
     "character": "Ariadne",
     "to": "Monstradamus",
     "mood": "contemplative",
-    "text": "I remember that the helmet of horror consisted of several major parts and a lot of secondary ones. The parts had strange names: the frontal net, the now grid, the separator labyrinth, the horns of plenty, Tarkovsky's mirror and so forth. The largest element consisted of the now grid and the frontal net. It had two parts that were sometimes fused into a single unit. Its external part, the net, looked like a visor with holes in it, and its internal part, the grid, divided the helmet into an upper section and a lower one, so there was no way you could squeeze even the smallest head into it. The dwarf said the now grid separates the past from the present, because it is the only place where what we call 'now' exists. Hence the name. The past is located in the upper section of the helmet, and the future in the lower section."
+    "text": "I remember that the helmet of horror consisted of several major parts and a lot of secondary ones. The parts had strange names: the Frontal Net, the Now Grid, the Separator Labyrinth, the Horns of Plenty, Tarkovsky's Mirror and so forth. The largest element consisted of the now grid and the frontal net. It had two parts that were sometimes fused into a single unit. Its external part, the net, looked like a visor with holes in it, and its internal part, the grid, divided the helmet into an upper section and a lower one, so there was no way you could squeeze even the smallest head into it. The dwarf said the now grid separates the past from the present, because it is the only place where what we call 'now' exists. Hence the name. The past is located in the upper section of the helmet, and the future in the lower section."
   },
   {
     "character": "Monstradamus",
@@ -266,7 +266,7 @@
   {
     "character": "Monstradamus",
     "to": "Ariadne",
-    "mood": "curious",
+    "mood": "impatient",
     "text": "And then what?"
   },
   {
@@ -290,7 +290,7 @@
   {
     "character": "Monstradamus",
     "to": "Ariadne",
-    "mood": "curious",
+    "mood": "impatient",
     "text": "Then where does he come from?"
   },
   {
@@ -314,7 +314,7 @@
   {
     "character": "Monstradamus",
     "to": "Ariadne",
-    "mood": "curious",
+    "mood": "resigned",
     "text": "All right. Let's try it a step at a time. Where does perception arise?"
   },
   {
@@ -338,13 +338,13 @@
   {
     "character": "Monstradamus",
     "to": "Ariadne",
-    "mood": "calm",
+    "mood": "resigned",
     "text": "It was."
   },
   {
     "character": "Ariadne",
     "to": "Monstradamus",
-    "mood": "confused",
+    "mood": "contemplative",
     "text": "Then why should it suddenly disappear from the present and the future?"
   },
   {
@@ -356,7 +356,7 @@
   {
     "character": "Nutscracker",
     "to": "Monstradamus",
-    "mood": "sarcastic",
+    "mood": "playful",
     "text": "I'm following your discussion with intense interest."
   },
   {
@@ -386,7 +386,7 @@
   {
     "character": "Ariadne",
     "to": "Nutscracker",
-    "mood": "angry",
+    "mood": "calm",
     "text": "From nothing. You haven't been listening properly."
   },
   {
@@ -446,7 +446,7 @@
   {
     "character": "Ariadne",
     "to": "Nutscracker",
-    "mood": "calm",
+    "mood": "contemplative",
     "text": "Yes, I think so."
   },
   {
@@ -533,7 +533,7 @@
   {
     "character": "Nutscracker",
     "to": "Organizm(-:",
-    "mood": "calm",
+    "mood": "proud",
     "text": "Maybe I don't understand too well which way the current flows and what it's transformed into and all, but I do know perfectly well what someone in one of those helmets sees and thinks, because I've dealt with it as a professional, by studying the problem of choice in an interactive environment. We worked with those helmets all the time."
   },
   {
@@ -581,13 +581,13 @@
   {
     "character": "Monstradamus",
     "to": "Nutscracker",
-    "mood": "hopeful",
+    "mood": "curious",
     "text": "That's right. Tell us about it, Nutcracker. Let's give our brains a break."
   },
   {
     "character": "Nutscracker",
     "to": "",
-    "mood": "curious",
+    "mood": "contemplative",
     "text": "I suppose there's no need to explain what the Helmholtz sees?"
   },
   {
@@ -611,7 +611,7 @@
   {
     "character": "Nutscracker",
     "to": "Organizm(-:",
-    "mood": "calm",
+    "mood": "impatient",
     "text": "Instead of vases they could be doors, turns at a road junction, any kind of choice at all in fact. It's not important. Everything you see in the helmet is computed by a special program and the program can be set up so that, every time, the Helmholtz makes the same choice we made for him earlier."
   },
   {
@@ -623,7 +623,7 @@
   {
     "character": "Nutscracker",
     "to": "Organizm(-:",
-    "mood": "calm",
+    "mood": "proud",
     "text": "That's the whole point. When the helmet and the Helmholtz fuse into a single whole, you can edit the reader as well as the book, if you get my meaning. That's why we say editing technology can be external or internal. Although there's no clear boundary between them, of course."
   },
   {
@@ -659,13 +659,13 @@
   {
     "character": "Nutscracker",
     "to": "Monstradamus",
-    "mood": "calm",
+    "mood": "proud",
     "text": "How perspective operates inside the helmet is decided by us and our client."
   },
   {
     "character": "Organizm(-:",
     "to": "Nutscracker",
-    "mood": "joyful",
+    "mood": "playful",
     "text": "A mathematical weight. That's beautiful."
   },
   {
@@ -684,7 +684,7 @@
     "character": "UGLI 666",
     "to": "Organizm(-:",
     "mood": "calm",
-    "text": "No he didn't, he just studied conditioned reflexes in dogs."
+    "text": "No he didn't. He just studied conditioned reflexes in dogs."
   },
   {
     "character": "Nutscracker",
@@ -704,7 +704,7 @@
   {
     "character": "Nutscracker",
     "to": "UGLI 666",
-    "mood": "calm",
+    "mood": "proud",
     "text": "We want you to notice it straightaway, draw the right conclusion and look in the right direction in future. It's a cheap technology for third-world countries. But if the budget's big enough, then for instance we can use infrasonics. The Helmholtz won't notice anything, but he'll experience a dark, mysterious horror when he turns towards any vase except the one we want. The obverse method is stimulation of the pleasure centre when the correct choice is made. They used to insert an electrode, but now it's done by pharmacological means or by entraining the brain to delta rhythms."
   },
   {
@@ -740,8 +740,8 @@
   {
     "character": "Nutscracker",
     "to": "UGLI 666",
-    "mood": "calm",
-    "text": "That's a difficult question. You could say it's inside the helmet. But all that's just words. It's easier for me to explain how it's done. Say a ray of sunlight falls on our vase, or you hear a soulful melody in the air when it enters your field of view. The reverse technique is 'Doom and Gloom'. For instance, when you look at a vase we don't like, the sun is covered by dark clouds, a grey fog comes down and you hear unpleasant noises."
+    "mood": "contemplative",
+    "text": "That's a difficult question. You could say, it's inside the helmet. But all that's just words. It's easier for me to explain how it's done. Say a ray of sunlight falls on our vase, or you hear a soulful melody in the air when it enters your field of view. The reverse technique is 'Doom and Gloom'. For instance, when you look at a vase we don't like, the sun is covered by dark clouds, a grey fog comes down and you hear unpleasant noises."
   },
   {
     "character": "Organizm(-:",
@@ -752,7 +752,7 @@
   {
     "character": "Nutscracker",
     "to": "Organizm(-:",
-    "mood": "calm",
+    "mood": "contemplative",
     "text": "There's another technology called 'The Seventh Seal'. The vase that has to be chosen is marked out using secret signs that attract interest or stimulate the imagination. It can be absolutely anything - a hand print on its surface, arrows pointing to it on the ground, a dove sitting on its edge, mysterious graffiti, and so on and so forth. The obverse method is 'The Le Pen Club'. That's when the vases we wish to exclude are covered in the crudest obscenities you can imagine, preferably not even in paint, but xxx. Virtual, of course."
   },
   {
@@ -764,7 +764,7 @@
   {
     "character": "Nutscracker",
     "to": "Organizm(-:",
-    "mood": "calm",
+    "mood": "proud",
     "text": "Used on its own, any one of the techniques used is easy enough to spot. But if the methods are combined together in a subtle fashion and always applied in rotation at a level of intensity just on the border line of perception, you get practically a hundred per cent precise manipulation combined with total imperceptibility."
   },
   {
@@ -776,39 +776,31 @@
   {
     "character": "Nutscracker",
     "to": "Organizm(-:",
-    "mood": "calm",
+    "mood": "contemplative",
     "text": "Exactly. Only in our case absolutely everybody in the station is in on it, including the stone Atlantes by the main entrance."
   },
   {
     "character": "Ariadne",
-    "to": [
-      "Nutscracker",
-      "Romeo-y-Cohiba",
-      "IsoldA"
-    ],
-    "mood": "joyful",
+    "to": "Nutscracker",
+    "mood": "playful",
     "text": "How clever you are, Nutcracker. After I listened to you I wrote a poem. It's dedicated to you, Romeo and Isolde. Shall I read it?"
   },
   {
     "character": "Nutscracker",
     "to": "Ariadne",
-    "mood": "calm",
+    "mood": "playful",
     "text": "Go on."
   },
   {
     "character": "Ariadne",
-    "to": [
-      "Nutscracker",
-      "Romeo-y-Cohiba",
-      "IsoldA"
-    ],
+    "to": "",
     "mood": "playful",
     "text": "Beyond the window-pane on Doom and Gloom\nOld Pavlov's Bitch's Sticky Glance is glued.\nMy Minotaur! Creep silently into my room\nBeckon me with a glance, brazenly nude."
   },
   {
     "character": "Nutscracker",
     "to": "Ariadne",
-    "mood": "sarcastic",
+    "mood": "playful",
     "text": "Powerful as ever. And he's already partly fulfilled your wish by removing his helmet, even though he has no head underneath it. I'd say it's impossible to expose yourself any more brazenly than that."
   },
   {
@@ -820,7 +812,7 @@
   {
     "character": "Nutscracker",
     "to": "UGLI 666",
-    "mood": "calm",
+    "mood": "contemplative",
     "text": "I couldn't understand that at first either. But for the Helmholtz the word 'change' has no meaning. In real life what you see depends on where you look. But when you're wearing a helmet, it's the other way round - where you're looking depends on what you see. Is that clear?"
   },
   {
@@ -850,7 +842,7 @@
   {
     "character": "Organizm(-:",
     "to": "Nutscracker",
-    "mood": "curious",
+    "mood": "playful",
     "text": "Well, Nutcracker, so now I understand what you do for a living. Tell me, as a professional, do you reckon they could be influencing us in some similar kind of way in here?"
   },
   {
@@ -874,7 +866,7 @@
   {
     "character": "UGLI 666",
     "to": "Organizm(-:",
-    "mood": "curious",
+    "mood": "sarcastic",
     "text": "What kind of manipulation is it?"
   },
   {
@@ -923,18 +915,24 @@
     "character": "Nutscracker",
     "to": "Organizm(-:",
     "mood": "curious",
-    "text": "Touch your face with your hands. Can you feel any helmet?\nOrganism(-:\nNo, but..."
+    "text": "Touch your face with your hands. Can you feel any helmet?"
+  },
+    {
+    "character": "Organizm(-:",
+    "to": "Nutscracker",
+    "mood": "contemplative",
+    "text": "No, but..."
   },
   {
     "character": "Monstradamus",
     "to": "Nutscracker",
-    "mood": "playful",
+    "mood": "calm",
     "text": "I know what he's going to ask now. He's going to ask whether you can use a helmet to simulate what you feel with your hands."
   },
   {
     "character": "Organizm(-:",
     "to": "Monstradamus",
-    "mood": "calm",
+    "mood": "contemplative",
     "text": "Well that's right. It seems a natural enough question to me."
   },
   {
@@ -988,7 +986,7 @@
   {
     "character": "Organizm(-:",
     "to": "Nutscracker",
-    "mood": "calm",
+    "mood": "contemplative",
     "text": "Hypnosis."
   },
   {
@@ -1011,7 +1009,7 @@
   },
   {
     "character": "Monstradamus",
-    "to": "",
+    "to": ["Nutscracker", "Organizm(-:"],
     "mood": "contemplative",
     "text": "You could take it even further. Not just seeing, but actually being there. Asterisk wears a helmet in which he sees a labyrinth. And we're all inside this labyrinth. And he manipulates us."
   },
@@ -1043,7 +1041,7 @@
     "character": "Organizm(-:",
     "to": "Nutscracker",
     "mood": "resigned",
-    "text": "End of the line. Remember, Nutcracker, at the very beginning you asked me 'Where is here exactly?' I didn't understand your question at first. In the helmet of horror, that's where."
+    "text": "End of the line. Remember, Nutcracker, at the very beginning you asked me 'Where is here exactly?' I didn't understand your question at first. In the helmet of horror, that's where!"
   },
   {
     "character": "Nutscracker",
@@ -1065,10 +1063,7 @@
   },
   {
     "character": "Organizm(-:",
-    "to": [
-      "Monstradamus",
-      "Nutscracker"
-    ],
+    "to": ["Monstradamus", "Nutscracker"],
     "mood": "confused",
     "text": "But I'm the one who sees the ray of sunlight or the dove, not Asterisk. I don't understand anything any more. Who's wearing the helmet of horror? Me or the Minotaur?"
   },
@@ -1080,8 +1075,8 @@
   },
   {
     "character": "Monstradamus",
-    "to": "",
-    "mood": "resigned",
+    "to": ["Nutscracker", "Organizm(-:"],
+    "mood": "anxious",
     "text": "We've been talking about that helmet too long already. It feels like we keep trying it on over and over again. It will attach itself permanently to our heads soon. Let's change the subject."
   },
   {
@@ -1111,19 +1106,19 @@
   {
     "character": "Organizm(-:",
     "to": "Monstradamus",
-    "mood": "calm",
+    "mood": "playful",
     "text": "Yes, but it's just a fantasy, after all."
   },
   {
     "character": "Nutscracker",
     "to": "Organizm(-:",
-    "mood": "sarcastic",
+    "mood": "playful",
     "text": "Yes, Organism. Very profound. And the Iron Mask was another Minotaur. When they handed him over to the Marquis de Sade to be corrupted, the revolution began, because the pain in his xxx made him stop thinking up royalist France."
   },
   {
     "character": "Romeo-y-Cohiba",
     "to": "IsoldA",
-    "mood": "curious",
+    "mood": "hopeful",
     "text": "Isolde, are you here?"
   },
   {
@@ -1171,7 +1166,7 @@
   {
     "character": "IsoldA",
     "to": "Romeo-y-Cohiba",
-    "mood": "contemplative",
+    "mood": "hopeful",
     "text": "That labyrinth must lead out into my park. You just didn't go far enough. We have the same ground under our feet. Beige soil."
   },
   {
@@ -1207,7 +1202,7 @@
   {
     "character": "IsoldA",
     "to": "Romeo-y-Cohiba",
-    "mood": "curious",
+    "mood": "joyful",
     "text": "Yes, that's it. A porcupine sitting on a bronze tree-stump with water flowing out from it in all directions, as though the beast had suffered bad fright. And the snake is coiled up creeping towards the stump and shooting out a tall jet of water that divides into three branches and falls like rain on the porcupine and everything all around. It's an incredibly beautiful fountain. The first time I saw it there was a little rainbow suspended in the spray of water beside it, and from that moment on I loved it best of all. There are actually three jets of water, but with different pressures. Their nozzles are set close beside each other in the snake's mouth, so it looks as though there's one jet rising into the air and three falling downwards. And I remembered the tattoo on your wrist, the oil and the yachtclub. Does the jet you can see above the bushes divide into three?"
   },
   {
@@ -1219,7 +1214,7 @@
   {
     "character": "IsoldA",
     "to": "Romeo-y-Cohiba",
-    "mood": "curious",
+    "mood": "hopeful",
     "text": "Aren't you absolutely sure?"
   },
   {
@@ -1273,7 +1268,7 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "IsoldA",
-    "mood": "fearful",
+    "mood": "anxious",
     "text": "To be honest I didn't try it. I stood beside it for a while and suddenly I felt terrified, I even got a pounding in my temples. I'm not the timid type at all, but suddenly there it was. For no reason at all. I thought - who knows what's inside there? What if it's the... Minotaur?"
   }
 ]

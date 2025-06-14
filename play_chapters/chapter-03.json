@@ -8,7 +8,7 @@
   {
     "character": "Nutscracker",
     "to": "UGLI 666",
-    "mood": "confused",
+    "mood": "playful",
     "text": "The Senate and People of Rome. P-Q-R-S. No, I'm confusing it with the alphabet. What the Romans had was S-P-Q-R."
   },
   {
@@ -26,13 +26,13 @@
   {
     "character": "Monstradamus",
     "to": "UGLI 666",
-    "mood": "hopeful",
+    "mood": "caring",
     "text": "I'll give it a try."
   },
   {
     "character": "UGLI 666",
     "to": "Monstradamus",
-    "mood": "curious",
+    "mood": "hopeful",
     "text": "What's 'aiselceclesia'?"
   },
   {
@@ -44,7 +44,7 @@
   {
     "character": "UGLI 666",
     "to": "Monstradamus",
-    "mood": "curious",
+    "mood": "hopeful",
     "text": "And 'ieselceaeclesi'?"
   },
   {
@@ -74,7 +74,7 @@
   {
     "character": "Monstradamus",
     "to": "UGLI 666",
-    "mood": "calm",
+    "mood": "interested",
     "text": "Then a couple of words at least."
   },
   {
@@ -98,7 +98,7 @@
   {
     "character": "Monstradamus",
     "to": "UGLI 666",
-    "mood": "calm",
+    "mood": "contemplative",
     "text": "Not so fast. Let me have a think."
   },
   {
@@ -155,7 +155,7 @@
       "Nutscracker",
       "Monstradamus"
     ],
-    "mood": "angry",
+    "mood": "irritated",
     "text": "I wish you'd go back to your bitches, Nutcracker, I really do. Can you make anything of it, Monstradamus?"
   },
   {
@@ -215,7 +215,7 @@
   {
     "character": "Monstradamus",
     "to": "UGLI 666",
-    "mood": "hopeful",
+    "mood": "curious",
     "text": "What if I reproduce the entire inscription, then will you tell me?"
   },
   {
@@ -263,7 +263,7 @@
   {
     "character": "Monstradamus",
     "to": "UGLI 666",
-    "mood": "curious",
+    "mood": "playful",
     "text": "Well, what do you think?"
   },
   {
@@ -371,7 +371,7 @@
   {
     "character": "UGLI 666",
     "to": "Monstradamus",
-    "mood": "contemplative",
+    "mood": "solemn",
     "text": "However crooked and tortuous a life may be overall, a communicant of the Sacred Gifts may regard each infinitesimally small sector of his path as straight. And if any sector of his path is straight, then it is straight at any moment, and if it is straight at any moment, then it is always straight, and the Lord will not reject his soul. It is as though we grow mathematical wings that lift us up out of the depths of our degradation."
   },
   {
@@ -401,13 +401,13 @@
   {
     "character": "Nutscracker",
     "to": "UGLI 666",
-    "mood": "angry",
+    "mood": "irritated",
     "text": "Not about the instructions, tell us about the canons themselves. Don't you understand, or what? No one else here has met anybody."
   },
   {
     "character": "Monstradamus",
     "to": "Nutscracker",
-    "mood": "curious",
+    "mood": "playful",
     "text": "What about Ariadne?"
   },
   {
@@ -431,7 +431,7 @@
   {
     "character": "Monstradamus",
     "to": "Nutscracker",
-    "mood": "confused",
+    "mood": "sarcastic",
     "text": "I don't understand what the difference is between the two stories."
   },
   {
@@ -443,7 +443,7 @@
   {
     "character": "Monstradamus",
     "to": "Nutscracker",
-    "mood": "contemplative",
+    "mood": "sarcastic",
     "text": "But all I can see are letters on a screen."
   },
   {
@@ -452,7 +452,7 @@
       "Monstradamus",
       "UGLI 666"
     ],
-    "mood": "angry",
+    "mood": "resigned",
     "text": "Not again. You've worn me out. Ugly, are you there?"
   },
   {
@@ -482,7 +482,7 @@
   {
     "character": "Nutscracker",
     "to": "Monstradamus",
-    "mood": "calm",
+    "mood": "contemplative",
     "text": "That's what I thought too. But those were dwarves, and these two are medium height."
   },
   {
@@ -494,7 +494,7 @@
   {
     "character": "UGLI 666",
     "to": "Monstradamus",
-    "mood": "indifferent",
+    "mood": "dismissive",
     "text": "That has nothing to do with anything."
   },
   {
@@ -566,7 +566,7 @@
   {
     "character": "UGLI 666",
     "to": "Monstradamus",
-    "mood": "contemplative",
+    "mood": "solemn",
     "text": "The second canon explained that the meaning of these circles is that it's no more possible for the soul to approach the Lord through its own desire than for the moon suddenly to decide to fly closer to the earth. The soul will remain eternally on the plane to which the Lord has sent it, and it will only be able to approach Him through His mercy, and not of its own will. And His mercy is expressed in the existence of the Church. It's the Church that lends us those mathematical wings we were talking about. Without them we can only circle around Him like the planets. Sin is the centrifugal force that pulls us away from Him. But God's love is like the force of gravity, because it draws us to Him. The soul dwells in this world below because these forces balance each other."
   },
   {
@@ -590,14 +590,14 @@
   {
     "character": "UGLI 666",
     "to": "Nutscracker",
-    "mood": "contemplative",
+    "mood": "defensive",
     "text": "But it happens in families too, that the best-loved children are the naughtiest."
   },
   {
     "character": "Nutscracker",
     "to": "UGLI 666",
     "mood": "sarcastic",
-    "text": "Then that means, if you want the Lord to love you, pull as many dirty tricks as you can?"
+    "text": "Then that means, if you want the Lord to love you more, pull as many dirty tricks as you can?"
   },
   {
     "character": "UGLI 666",
@@ -614,7 +614,7 @@
   {
     "character": "UGLI 666",
     "to": "Nutscracker",
-    "mood": "contemplative",
+    "mood": "solemn",
     "text": "Next? The second canon folded his arms and fell silent and withdrew humbly into the shadow. I began walking around the cathedral arm-in-arm with the first one, examining the plans of the various spiritual labyrinths, while the canon quietly explained their function and symbolic meaning to me. I thought the labyrinth from Poitiers Cathedral was particularly beautiful. It's shaped like a tree with a spreading crown and arranged so that the same threshold serves as its entrance and its exit. It works out like that because the path only divides in two once, at the very centre, and its two halves twist and turn to form the right and left parts of the tree's crown. The canon said it was the Tree of Life, and the meaning of the labyrinth was that we enter life and leave it through the same door, naked and taking nothing with us."
   },
   {
@@ -644,7 +644,7 @@
   {
     "character": "Nutscracker",
     "to": "UGLI 666",
-    "mood": "resigned",
+    "mood": "dismissive",
     "text": "Later. Go on with your story."
   },
   {
@@ -653,7 +653,7 @@
       "Nutscracker",
       "Monstradamus"
     ],
-    "mood": "manipulative",
+    "mood": "irritated",
     "text": "I'm not going to tell you any more until he translates for me."
   },
   {
@@ -695,7 +695,7 @@
   {
     "character": "UGLI 666",
     "to": "",
-    "mood": "joyful",
+    "mood": "solemn",
     "text": "My Lord! Thy will be done!"
   },
   {
@@ -725,13 +725,13 @@
   {
     "character": "UGLI 666",
     "to": "Monstradamus",
-    "mood": "hopeful",
+    "mood": "joyful",
     "text": "Wait a moment. Let me see if it works with the letters. It really does. How profound! Now I understand what the canon was trying to say, Monstradamus. This world will remain a meaningless conglomeration of absurdities and riddles, where we continue to wander aimlessly about in the dark, until we accept the teachings of the Holy Church. But as soon as that happens, the holy cross will shine out at the centre of life's labyrinth, and the fullness of the purpose concealed in all things will instantly be revealed! The world will be miraculously transformed, the harmonious scheme of things will emerge from the chaos and insanity, and whichever way we direct our gaze, we shall see Hosannah to the Lord on every side! Is that right, Monstradamus?"
   },
   {
     "character": "Monstradamus",
     "to": "UGLI 666",
-    "mood": "joyful",
+    "mood": "compassionate",
     "text": "But of course. And we shall hear the radiance of his glory."
   },
   {
@@ -743,7 +743,7 @@
   {
     "character": "UGLI 666",
     "to": "Nutscracker",
-    "mood": "contemplative",
+    "mood": "solemn",
     "text": "The canon led me over to the labyrinth laid out on the floor and said 'My daughter, the One whom I serve wishes you to walk The League and repent.' I went down on my knees and set off. The canon said that while walking through a labyrinth like that the correct thing to do is to meditate intensely on everything that you have done in your life. I didn't have to try very hard. I only had to glance at the grid by the altar for pictures of my childhood to start floating past my inner eye like coloured balloons, magically transforming what I saw around me. With every new second I was immersed deeper and deeper into the past. The majestic columns soaring upwards to meet the distant vaults took on the appearance of the lime trees in the park in xxx where I spent the first few years of my life. It's not surprising - in those distant days the trees were every bit as huge in relation to me as those columns are now. The images of the saints watching me from niches in the walls had the faces of grown-ups from my childhood. I sensed that some of them were strict and others were indulgent, but they all loved me equally, even though they knew absolutely everything about me. Then the path turned a corner and I began walking, or rather crawling, in a different direction; now I remembered the time of my youth. The stone boatman decorating the preacher's pulpit came to life and sailed across the waters of my memory, transformed into the only friend of my life's brief springtime. He looked exactly as he did on the lake in xxx, where we swore to love each other forever. A new turn, and sin had swept him into oblivion - I no longer knew him and did not wish to know him. Yet another turn and the time of maturity had arrived. My stockings were worn into holes, my knees were scratched, but I didn't feel any pain - tears of repentance and hope were flowing down my cheeks. And the Lord sent me word, yes He did! A little miracle occurred - I don't know how it happened that in my blindness I only realised it afterwards, when I came back to my cell. I mean my room. As I circled through the labyrinth, no matter which way I turned within it, I could always see the crucifixion with a ray of sunlight falling on it through a stained-glass window, suffusing it with ruby, emerald and sapphire light! And that unearthly radiance made my heart feel so happy, so bright and calm that I wanted to cry and sing, cry and sing..."
   },
   {
@@ -785,7 +785,7 @@
   {
     "character": "Nutscracker",
     "to": "UGLI 666",
-    "mood": "confused",
+    "mood": "curious",
     "text": "When did they find time to lock it?"
   },
   {
@@ -809,7 +809,7 @@
   {
     "character": "Monstradamus",
     "to": "UGLI 666",
-    "mood": "loving",
+    "mood": "compassionate",
     "text": "Yes, Ugly, take a rest. After all you've been through it will do you good."
   },
   {
@@ -822,7 +822,7 @@
     "character": "Monstradamus",
     "to": "Nutscracker",
     "mood": "sarcastic",
-    "text": "That ought to be clear enough to you of all people, Nutcracker."
+    "text": "That ought to be clear enough to you of all people, Nutscracker."
   },
   {
     "character": "Nutscracker",
@@ -835,7 +835,7 @@
     "character": "Monstradamus",
     "to": "Nutscracker",
     "mood": "playful",
-    "text": "You have the same letter at your centre too. And just at the moment it's looking really lovely."
+    "text": "You have the same letter at your centre too. And just at the moment it's looking like a dollar sign."
   },
   {
     "character": "Nutscracker",
@@ -858,18 +858,18 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "Monstradamus",
-    "mood": "confused",
+    "mood": "irritated",
     "text": "Are you IsoldA then?"
   },
   {
     "character": "Nutscracker",
-    "to": "",
-    "mood": "indifferent",
+    "to": "Monstradamus",
+    "mood": "sarcastic",
     "text": "Cohiba's in a bad mood today."
   },
   {
     "character": "Monstradamus",
-    "to": "",
+    "to": "Nutscracker",
     "mood": "contemplative",
     "text": "I liked the phrase 'With every new second I was immersed deeper and deeper into the past.'"
   },
@@ -900,7 +900,7 @@
   {
     "character": "Nutscracker",
     "to": "Monstradamus",
-    "mood": "resigned",
+    "mood": "contemplative",
     "text": "I don't know. The way things are these days, they could both go down together at any moment. And the size of the pieces would depend less on their age than the force of the blast."
   },
   {
@@ -924,7 +924,7 @@
   {
     "character": "Nutscracker",
     "to": "",
-    "mood": "playful",
+    "mood": "contemplative",
     "text": "And, to complete the picture, you could say the bubbles of the past were bursting in a helmet that was running 'Sticky Eye' and 'Sunny Kiss' simultaneously."
   },
   {
@@ -936,19 +936,19 @@
   {
     "character": "Monstradamus",
     "to": "UGLI 666",
-    "mood": "calm",
+    "mood": "compassionate",
     "text": "Are you still here, Ugly? Take no notice, he's joking."
   },
   {
     "character": "UGLI 666",
     "to": "Nutscracker",
-    "mood": "sad",
+    "mood": "angry",
     "text": "I should never have told you."
   },
   {
     "character": "Monstradamus",
     "to": "UGLI 666",
-    "mood": "calm",
+    "mood": "compassionate",
     "text": "Don't be offended, Ugly."
   },
   {
@@ -984,7 +984,7 @@
   {
     "character": "UGLI 666",
     "to": "Nutscracker",
-    "mood": "loving",
+    "mood": "cold",
     "text": "God will forgive you."
   },
   {
@@ -1021,12 +1021,18 @@
     "character": "Romeo-y-Cohiba",
     "to": "IsoldA",
     "mood": "anxious",
-    "text": "What happened? Are you all right?\nIsolde\nYes, everything's fine. Go on."
+    "text": "What happened? Are you all right?"
+  },
+    {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "caring",
+    "text": "Yes, everything's fine. Go on."
   },
   {
     "character": "Romeo-y-Cohiba",
     "to": "IsoldA",
-    "mood": "fearful",
+    "mood": "excited",
     "text": "When I got past the bench where I can see the roof and the fountain, I suddenly sensed a movement behind me. And when I turned round I saw something absolutely incredible. Just imagine it, a long narrow corridor between the bushes. And coming towards me along it on roller skates was... I don't even know if it was a man or not. He was immensely tall, wearing a sombrero hat and an ice-hockey goalkeeper's mask made of white plastic. And there were two smaller figures on roller skates behind him. I could hardly see them, because he took up the entire passage. He was wearing a goalkeeper's uniform too - an immense blue sweatshirt with the number '35' and the words 'chicago bulls'. Or at least, that's what I thought at first. But when he got closer, I could see the number was actually totally weird: ' - 3.5%', and the word 'bulls' was really 'BEARS'. It was just that the minus sign and the percentage sign were the same colour as the sweatshirt and I hadn't spotted them from the distance. And he was holding a double hockey-stick."
   },
   {
@@ -1038,7 +1044,7 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "IsoldA",
-    "mood": "calm",
+    "mood": "contemplative",
     "text": "You've seen a goalkeeper's stick, haven't you? Now imagine it has two blades curving in opposite directions. Of course, you couldn't possibly play with one like that."
   },
   {
@@ -1050,7 +1056,7 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "IsoldA",
-    "mood": "calm",
+    "mood": "anxious",
     "text": "He didn't get that far. When he was only ten feet away, he turned a corner and disappeared into a side passage. And the others darted in there after him as well."
   },
   {
@@ -1062,7 +1068,7 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "IsoldA",
-    "mood": "calm",
+    "mood": "contemplative",
     "text": "It was two dwarves. They were on roller skates too, and wearing sombreros. I couldn't see their faces, they had their heads lowered so the wind wouldn't blow their hats off. And they were holding up the hem at the back of his sweatshirt, like ladies in waiting."
   },
   {
@@ -1098,7 +1104,7 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "IsoldA",
-    "mood": "calm",
+    "mood": "excited",
     "text": "No, the fresco. Some kind of garden full of wonderful plants and birds. And the girl was at the very centre, life-size. Absolutely naked, but it suited her really well. She had green hair that looked like grass, fluttering in the painted breeze. And green eyelashes too. She was lying in a mother-of-pearl shell, barely concealing the lower part of her belly with a bouquet of flowers. There was one strange thing, though - the edge of the shell above her head was covered with projections that looked like horns. And there were black rubber handles attached to them. That is, the projections were painted, but the handles were real, like in a bus. I touched them and I could tell it really was possible to hold on to them. But I couldn't understand what for."
   },
   {
@@ -1122,7 +1128,7 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "IsoldA",
-    "mood": "contemplative",
+    "mood": "excited",
     "text": "I suppose she was about eighteen, but she didn't look any older than fourteen. I'd describe her pose as brazen, but entirely natural. What I mean is, the pose would have been absolutely brazen, if she'd been lying there like that, knowing that she was being watched. But if she lay around like that at home, especially if it was hot, then of course, there wouldn't be anything brazen about it. But on the other hand, she was looking straight out of the picture at the spectator, which in this case meant straight at me. She had her eyes half-closed, as though she could see me and was taunting me, and she was smiling. And her eyes were as green as could be. I began to understand what the artist was trying to say. Either she'd posed like that knowing she was being watched, which meant she was absolutely shameless, which I didn't want to believe. Or she'd been lying like that because she thought there was no one around, and she was smiling at the spectator simply out of inertia, because she'd only just noticed him. In that case the artist was a real genius, because he'd caught the precise moment when her brain had already given the command to scream, but the command still hadn't reached the muscles of her throat. In that case, for as long as I carried on examining her, I was free of shame myself, so free in fact that it was actually arousing. In a word, genuine art. An absolutely enigmatic masterpiece. But I didn't have time to study her properly, because the bouquet she was using to conceal the lower part of her belly trembled and started sliding downwards. And it wasn't just the lower part of her belly she'd been hiding, but the lowest part of all, so low you can't get any lower, only higher..."
   },
   {
@@ -1176,7 +1182,7 @@
   {
     "character": "IsoldA",
     "to": "Romeo-y-Cohiba",
-    "mood": "proud",
+    "mood": "calm",
     "text": "Of course. It had the initials 'RR' and a little Oscar with wings on the radiator, like they all have."
   },
   {
@@ -1188,7 +1194,7 @@
   {
     "character": "IsoldA",
     "to": "Romeo-y-Cohiba",
-    "mood": "sarcastic",
+    "mood": "excited",
     "text": "Romeo, I can tell my SUV from my elbow. I even saw the name of the model  –  'Full Drive Shadow' I think it was. That's the whole point. It was an artist's fantasy, but it was so convincing I could see straight away that if Rolls-Royce decided to make an SUV they'd have to make the car that was painted there; circumstances would simply force them to do it. The jeep was made of gold and steel, like an exquisite watch. To say it looked impressive gives you no idea. If the space shuttle and the most expensive diamond necklace in the world could together produce a son, then it would probably look just like that when it grew up. In front of the jeep was a platform with steps. I mean the platform wasn't in the picture, it was on the floor of the room, real, made of wooden boards. And the jeep's windows were real too, tinted glass that looked black and there were skis and a surfboard on its roof."
   },
   {
@@ -1230,7 +1236,7 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "IsoldA",
-    "mood": "calm",
+    "mood": "playful",
     "text": "Well, I've learned one lesson. Nice and easy does it."
   },
   {
@@ -1278,7 +1284,7 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "IsoldA",
-    "mood": "calm",
+    "mood": "loving",
     "text": "Let's say it's ours then. Then we can't be wrong."
   },
   {
@@ -1314,7 +1320,7 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "IsoldA",
-    "mood": "calm",
+    "mood": "hopeful",
     "text": "The light goes out when the window opens."
   },
   {
@@ -1326,7 +1332,7 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "IsoldA",
-    "mood": "playful",
+    "mood": "confused",
     "text": "Then who would they show it to?"
   },
   {
@@ -1338,13 +1344,13 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "IsoldA",
-    "mood": "calm",
+    "mood": "irritated",
     "text": "I haven't got a wife. And I couldn't give a damn for Ariadne and her dreams. If we start worrying about spies, pretty soon the world will be full of them."
   },
   {
     "character": "IsoldA",
     "to": "Romeo-y-Cohiba",
-    "mood": "contemplative",
+    "mood": "loving",
     "text": "You're right. The only way to be alone is to behave as though we are already alone."
   },
   {
@@ -1368,7 +1374,7 @@
   {
     "character": "IsoldA",
     "to": "Romeo-y-Cohiba",
-    "mood": "calm",
+    "mood": "loving",
     "text": "And now to sleep, Cohiba. Be seeing you."
   },
   {
@@ -1380,7 +1386,7 @@
   {
     "character": "Monstradamus",
     "to": "Nutscracker",
-    "mood": "sarcastic",
+    "mood": "calm",
     "text": "Yes. Where else could I be?"
   },
   {
@@ -1392,7 +1398,7 @@
   {
     "character": "Monstradamus",
     "to": "Nutscracker",
-    "mood": "contemplative",
+    "mood": "sarcastic",
     "text": "No doubt our master shed a great big sentimental tear. The twilight of Ancient Greek thought in a nutshell. Zeno's paradoxes. Achilles can't go riding in his big beautiful car. Because when he's riding in it, he can't see it. The passers-by can see it, so they're the ones riding in it. And Achilles only imagines he's driving it, but in actual fact it's driving him."
   },
   {
@@ -1404,13 +1410,13 @@
   {
     "character": "Monstradamus",
     "to": "Nutscracker",
-    "mood": "calm",
+    "mood": "playful",
     "text": "Not particularly. I don't like jeeps. You're too high above the road when you sit in them. And anyway an RR SUV is a bit OTT. Cohiba ought to have an Alfa Romeo."
   },
   {
     "character": "Nutscracker",
     "to": "Monstradamus",
-    "mood": "playful",
+    "mood": "resigned",
     "text": "I don't mean the car. Alfa Romeo, Beta Romeo - all that sounds like the stud ranking in a herd of chimpanzees to me. I mean the feelings."
   },
   {
@@ -1422,7 +1428,7 @@
   {
     "character": "Nutscracker",
     "to": "",
-    "mood": "sarcastic",
+    "mood": "playful",
     "text": "And on that optimistic note..."
   },
   {
