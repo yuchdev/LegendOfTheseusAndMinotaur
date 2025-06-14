@@ -85,10 +85,7 @@
   },
   {
     "character": "Organizm(-:",
-    "to": [
-      "Nutscracker",
-      "Romeo-y-Cohiba"
-    ],
+    "to": ["Nutscracker", "Romeo-y-Cohiba"],
     "mood": "curious",
     "text": "Attention, roll-call. There's just Nutcracker, Romeo and me here, is that right?"
   },
@@ -100,7 +97,7 @@
   },
   {
     "character": "Nutscracker",
-    "to": "",
+    "to": ["Organizm(-:", "Romeo-y-Cohiba"],
     "mood": "resigned",
     "text": "At least, we're the only ones who want to join in."
   },
@@ -126,7 +123,7 @@
     "character": "Nutscracker",
     "to": "Organizm(-:",
     "mood": "curious",
-    "text": "Quite literally. Can you describe where you are now? What is it  -  a room, a hall, a house? A hole in someone's xxx?"
+    "text": "Quite literally. Can you describe where you are now? What is it - a room, a hall, a house? A hole in someone's xxx?"
   },
   {
     "character": "Romeo-y-Cohiba",
@@ -138,7 +135,7 @@
     "character": "Organizm(-:",
     "to": "Nutscracker",
     "mood": "calm",
-    "text": "I've got the same as Romeo. A locked metal door with some kind of relief design on it. A hotel-style bathroom with soap, shower gel and shampoo on the shelf under the mirror. Everything in packaging marked with a strange symbol  -  something like a little cogwheel. So where are you, Nutcracker?"
+    "text": "I've got the same as Romeo. A locked metal door with some kind of relief design on it. A hotel-style bathroom with soap, shower gel and shampoo on the shelf under the mirror. Everything in packaging marked with a strange symbol - something like a little cogwheel. So where are you, Nutcracker?"
   },
   {
     "character": "Nutscracker",
@@ -198,7 +195,7 @@
     "character": "Nutscracker",
     "to": "Organizm(-:",
     "mood": "calm",
-    "text": "It's not a housecoat. It's a chiton  -  the kind of tunic the ancient Greeks used to wear, so I won't take issue with your opinion of it. I don't think they wore any underclothes either."
+    "text": "It's not a housecoat. It's a chiton - the kind of tunic the ancient Greeks used to wear, so I won't take issue with your opinion of it. I don't think they wore any underclothes either."
   },
   {
     "character": "Romeo-y-Cohiba",
@@ -225,7 +222,7 @@
       "Nutscracker"
     ],
     "mood": "curious",
-    "text": "Why have you two got such odd names  -  Organizm, Nutscracker?"
+    "text": "Why have you two got such odd names - Organizm, Nutscracker?"
   },
   {
     "character": "Nutscracker",
@@ -243,7 +240,7 @@
     "character": "Organizm(-:",
     "to": "Romeo-y-Cohiba",
     "mood": "playful",
-    "text": "Porn business? Socially significant work. You and I are almost colleagues, Romeo  -  I'm a xxx. I used to work at xxx.com, so I'm temporarily out of a job. But there's not much danger of that for you."
+    "text": "Porn business? Socially significant work. You and I are almost colleagues, Romeo - I'm a xxx. I used to work at xxx.com, so I'm temporarily out of a job. But there's not much danger of that for you."
   },
   {
     "character": "Romeo-y-Cohiba",
@@ -432,7 +429,7 @@
     "character": "Organizm(-:",
     "to": "Romeo-y-Cohiba",
     "mood": "contemplative",
-    "text": "Maybe it's just decoration, without any meaning. But Romeo saying it looks like an axe has made me think so too. The fascists used to have axes like that  -  or was it the ancient Romans?"
+    "text": "Maybe it's just decoration, without any meaning. But Romeo saying it looks like an axe has made me think so too. The fascists used to have axes like that - or was it the ancient Romans?"
   },
   {
     "character": "Monstradamus",
@@ -572,7 +569,7 @@
     "character": "Ariadne",
     "to": "",
     "mood": "contemplative",
-    "text": "I saw this old city. I mean, really ancient. The kind they must have built thousands and thousands of years ago. It was really beautiful there. Roads paved with big, flat stones, stone walls covered with living curtains of some climbing plant with pale-pink flowers. The doors and windows of all the houses were locked, but all the time I had the feeling I was being watched by someone. I wandered round the streets for ages, but I didn't meet anyone. And then on the crossroads up ahead of me I kept catching sight of a dwarf dressed in grey rags and a strange hat with a wide brim and a round crown. Every time I spotted him, he instantly darted round a corner, as though he could feel my gaze on his back. It happened lots of times, over and over again. Soon I realised he wasn't hiding from me, it was just that the rhythm of his movement was linked with the rhythm of mine so I couldn't see him for more than those few seconds. Only don't ask me how I realised it, in a dream everything has its own logic. I began trying to adjust to the rhythm, trying to get a better look at the dwarf. By choosing broad, straight streets, I could keep him in my field of vision for longer. But most of the streets were narrow and crooked  -  the way they linked up made a genuine labyrinth. I realised there were actually two dwarves, but it was easy to confuse the second one with the first. He was dressed in exactly the same way, in some old rags, only the brim of his hat was bent up on one side. Gradually I became certain there was someone else with them as well, but no matter how hard I tried, I couldn't see the third person. Sometimes I could just catch a glimpse of the edge of his dark cloak from round a corner. I guessed I needed to find the way to the main street  -  it would be long and wide and I would be able to see all of them ..."
+    "text": "I saw this old city. I mean, really ancient. The kind they must have built thousands and thousands of years ago. It was really beautiful there. Roads paved with big, flat stones, stone walls covered with living curtains of some climbing plant with pale-pink flowers. The doors and windows of all the houses were locked, but all the time I had the feeling I was being watched by someone. I wandered round the streets for ages, but I didn't meet anyone. And then on the crossroads up ahead of me I kept catching sight of a dwarf dressed in grey rags and a strange hat with a wide brim and a round crown. Every time I spotted him, he instantly darted round a corner, as though he could feel my gaze on his back. It happened lots of times, over and over again. Soon I realised he wasn't hiding from me, it was just that the rhythm of his movement was linked with the rhythm of mine so I couldn't see him for more than those few seconds. Only don't ask me how I realised it, in a dream everything has its own logic. I began trying to adjust to the rhythm, trying to get a better look at the dwarf. By choosing broad, straight streets, I could keep him in my field of vision for longer. But most of the streets were narrow and crooked - the way they linked up made a genuine labyrinth. I realised there were actually two dwarves, but it was easy to confuse the second one with the first. He was dressed in exactly the same way, in some old rags, only the brim of his hat was bent up on one side. Gradually I became certain there was someone else with them as well, but no matter how hard I tried, I couldn't see the third person. Sometimes I could just catch a glimpse of the edge of his dark cloak from round a corner. I guessed I needed to find the way to the main street - it would be long and wide and I would be able to see all of them ..."
   },
   {
     "character": "Romeo-y-Cohiba",
@@ -605,7 +602,7 @@
     "character": "Ariadne",
     "to": "Nutscracker",
     "mood": "calm",
-    "text": "Yes, autumn set in while I was following the dwarf. I thought he must have done that on purpose to spoil my mood and prevent me catching up with him. There was no one in the main street. I came to a large square with a fountain with bronze statues standing in it. From their style I thought they must be just as ancient as the city, but their subjects were more like something from a Japanese cartoon film  -  naked teenagers being strangled by tentacles twined around their bodies. Or snakes ..."
+    "text": "Yes, autumn set in while I was following the dwarf. I thought he must have done that on purpose to spoil my mood and prevent me catching up with him. There was no one in the main street. I came to a large square with a fountain with bronze statues standing in it. From their style I thought they must be just as ancient as the city, but their subjects were more like something from a Japanese cartoon film - naked teenagers being strangled by tentacles twined around their bodies. Or snakes ..."
   },
   {
     "character": "Nutscracker",
@@ -695,13 +692,13 @@
     "character": "Ariadne",
     "to": "",
     "mood": "contemplative",
-    "text": "I realised I had to go over to the fountain and then I would see both dwarves. Only don't ask me how I realised it; it was suddenly clear, that's all. When I reached the fountain I turned my back to it and leaned against the wall. Opposite me there was a building with a colonnade  -  a massive, depressing building with ugly superstructures on the roof. It occurred to me somehow that a long time ago it had been burnt down, and nothing was left but the stone skeleton, and since then a lot of attempts had been made to repair it and restore it to life. But you could still see the traces of the catastrophe through the restoration work and the paint, and you could tell the building was dead and empty ..."
+    "text": "I realised I had to go over to the fountain and then I would see both dwarves. Only don't ask me how I realised it; it was suddenly clear, that's all. When I reached the fountain I turned my back to it and leaned against the wall. Opposite me there was a building with a colonnade - a massive, depressing building with ugly superstructures on the roof. It occurred to me somehow that a long time ago it had been burnt down, and nothing was left but the stone skeleton, and since then a lot of attempts had been made to repair it and restore it to life. But you could still see the traces of the catastrophe through the restoration work and the paint, and you could tell the building was dead and empty ..."
   },
   {
     "character": "Romeo-y-Cohiba",
     "to": "Monstradamus",
     "mood": "sarcastic",
-    "text": "I'd say we need an entire committee of psychiatrists for this spiel. Or we could ask Monstradamus, he's got a good handle on this stuff. What was that phrase he used  -  corporate frustration?"
+    "text": "I'd say we need an entire committee of psychiatrists for this spiel. Or we could ask Monstradamus, he's got a good handle on this stuff. What was that phrase he used - corporate frustration?"
   },
   {
     "character": "Monstradamus",
@@ -713,7 +710,7 @@
     "character": "Ariadne",
     "to": "",
     "mood": "contemplative",
-    "text": "Suddenly I noticed one of the dwarves standing beside me  -  the one with the side of his hat bent up. I didn't see how he got there. He was really close to me, but I couldn't see his face under the hat. I remember he was wearing medieval-style pointed shoes in red and white stripes. He began speaking without raising his head, and what he said was very strange. He said the master he served was the creator of everything I saw around me, and a great many other things too. The way I understood it, this master of his was not a man. Or not just a man. His name was Asterisk ..."
+    "text": "Suddenly I noticed one of the dwarves standing beside me - the one with the side of his hat bent up. I didn't see how he got there. He was really close to me, but I couldn't see his face under the hat. I remember he was wearing medieval-style pointed shoes in red and white stripes. He began speaking without raising his head, and what he said was very strange. He said the master he served was the creator of everything I saw around me, and a great many other things too. The way I understood it, this master of his was not a man. Or not just a man. His name was Asterisk ..."
   },
   {
     "character": "Monstradamus",
@@ -725,7 +722,7 @@
     "character": "Ariadne",
     "to": "Monstradamus",
     "mood": "contemplative",
-    "text": "I think so. The way the dwarf explained it, Asterisk is some boundlessly and infinitely powerful being. I asked whether he didn't mean God, and he said that God was merely Asterisk's errand boy. I asked how that was possible. The dwarf told me not even to try to understand. He said it was a great mystery, and repeated this several times. I asked him what was the correct name to use for someone who is mightier than God. Any name you like, the dwarf replied  -  the word 'Asterisk', or any other that can be spoken  -  they're no more than loose dust covers, they make no difference at all. That was what he said, honestly ..."
+    "text": "I think so. The way the dwarf explained it, Asterisk is some boundlessly and infinitely powerful being. I asked whether he didn't mean God, and he said that God was merely Asterisk's errand boy. I asked how that was possible. The dwarf told me not even to try to understand. He said it was a great mystery, and repeated this several times. I asked him what was the correct name to use for someone who is mightier than God. Any name you like, the dwarf replied - the word 'Asterisk', or any other that can be spoken - they're no more than loose dust covers, they make no difference at all. That was what he said, honestly ..."
   },
   {
     "character": "Romeo-y-Cohiba",
@@ -737,7 +734,7 @@
     "character": "Ariadne",
     "to": "",
     "mood": "contemplative",
-    "text": "The way I understood it, Asterisk is angry with people because at some time in the past they killed him. Or because they will kill him at some time in the future  -  the dwarf expressed himself in such a complicated manner, you could take his meaning any way at all. Since that time  -  or until that time  -  people have to pay tribute to Asterisk by sending him people to join in his games and die in his arena. Like us, for instance ..."
+    "text": "The way I understood it, Asterisk is angry with people because at some time in the past they killed him. Or because they will kill him at some time in the future - the dwarf expressed himself in such a complicated manner, you could take his meaning any way at all. Since that time - or until that time - people have to pay tribute to Asterisk by sending him people to join in his games and die in his arena. Like us, for instance ..."
   },
   {
     "character": "Nutscracker",
@@ -749,7 +746,7 @@
     "character": "Ariadne",
     "to": "",
     "mood": "contemplative",
-    "text": "But the dwarf said there was no need to be upset, because the people Asterisk sacrifices to himself have already been born, and dying in the arena is the common fate that nobody escapes. I tried to ask in that case what was the point of the sacrificial tribute, but the dwarf began getting nervous and said, 'Look, he's coming, now you can see him for yourself.' I looked up. Two figures had appeared in front of the burnt-out building. Striding along solemnly in front was a dwarf holding a flag with the Merrill Lynch symbol on it  -  you remember it, they have that jolly little bull  -  and the inscription 'Be Bullish!' But I didn't feel like laughing at all, the figure following it looked so terrifying. I don't even know what to call him. He wasn't like a man. He was absolutely massive, and I thought for a moment he was a monstrously overgrown mushroom with a big cap of blackish-green metal. Then I took a closer look at him. He was wearing a long loose robe that reached right down to the ground, dark-coloured and not particularly clean either, but not the same kind of tattered rags as the dwarves. And on his head he had a bronze helmet, like a gladiator's mask  -  a headpiece with a wide brim and a plate with holes in it where the face would be. There were two horns on the helmet ..."
+    "text": "But the dwarf said there was no need to be upset, because the people Asterisk sacrifices to himself have already been born, and dying in the arena is the common fate that nobody escapes. I tried to ask in that case what was the point of the sacrificial tribute, but the dwarf began getting nervous and said, 'Look, he's coming, now you can see him for yourself.' I looked up. Two figures had appeared in front of the burnt-out building. Striding along solemnly in front was a dwarf holding a flag with the Merrill Lynch symbol on it - you remember it, they have that jolly little bull - and the inscription 'Be Bullish!' But I didn't feel like laughing at all, the figure following it looked so terrifying. I don't even know what to call him. He wasn't like a man. He was absolutely massive, and I thought for a moment he was a monstrously overgrown mushroom with a big cap of blackish-green metal. Then I took a closer look at him. He was wearing a long loose robe that reached right down to the ground, dark-coloured and not particularly clean either, but not the same kind of tattered rags as the dwarves. And on his head he had a bronze helmet, like a gladiator's mask - a headpiece with a wide brim and a plate with holes in it where the face would be. There were two horns on the helmet ..."
   },
   {
     "character": "Monstradamus",
@@ -785,7 +782,7 @@
     "character": "Ariadne",
     "to": "Monstradamus",
     "mood": "contemplative",
-    "text": "I didn't see Asterisk again. Suddenly the dwarf and I were somewhere else, on one of the little streets, facing an old wooden door with a handle in the form of a ring set through the head of a bull. The dwarf knocked on the door with the ring and it opened. Inside there was a small room. From where we were standing all we could see was a bed with a man sleeping on it, a tall man with a moustache and a mole beside his nose. The dwarf muttered that we were in the wrong place, led me to a different door and opened it in the same way. The room behind it looked the same, but it was empty. The dwarf raised his finger and asked, 'I shall construct a labyrinth in which I can lose myself, together with anyone who tries to find me  -  who said this and about what?' I started thinking about it  -  in the dream I almost knew the answer. Then suddenly he pushed me inside and slammed the door shut."
+    "text": "I didn't see Asterisk again. Suddenly the dwarf and I were somewhere else, on one of the little streets, facing an old wooden door with a handle in the form of a ring set through the head of a bull. The dwarf knocked on the door with the ring and it opened. Inside there was a small room. From where we were standing all we could see was a bed with a man sleeping on it, a tall man with a moustache and a mole beside his nose. The dwarf muttered that we were in the wrong place, led me to a different door and opened it in the same way. The room behind it looked the same, but it was empty. The dwarf raised his finger and asked, 'I shall construct a labyrinth in which I can lose myself, together with anyone who tries to find me - who said this and about what?' I started thinking about it - in the dream I almost knew the answer. Then suddenly he pushed me inside and slammed the door shut."
   },
   {
     "character": "Monstradamus",
@@ -965,7 +962,7 @@
     "character": "Romeo-y-Cohiba",
     "to": "Monstradamus",
     "mood": "sarcastic",
-    "text": "What does that mean  -  shown it specially? This isn't a cinema. And if the information's for everyone, then why was it shown to Ariadne?"
+    "text": "What does that mean - shown it specially? This isn't a cinema. And if the information's for everyone, then why was it shown to Ariadne?"
   },
   {
     "character": "Organizm(-:",
@@ -1160,7 +1157,7 @@
     "character": "Monstradamus",
     "to": "",
     "mood": "contemplative",
-    "text": "The soap, the toilet paper and other items in the bathroom are all marked with something that looks like the symbol for indicating a footnote  -  a little star. It's called an asterisk, which is also the name of the character Ariadne dreamed about. It sounds a lot like 'Asterius'."
+    "text": "The soap, the toilet paper and other items in the bathroom are all marked with something that looks like the symbol for indicating a footnote - a little star. It's called an asterisk, which is also the name of the character Ariadne dreamed about. It sounds a lot like 'Asterius'."
   },
   {
     "character": "UGLI 666",
@@ -1232,7 +1229,7 @@
     "character": "Romeo-y-Cohiba",
     "to": "Monstradamus",
     "mood": "anxious",
-    "text": "Names and coincidences are all very well. But what I don't understand is  -  what are we going to do?"
+    "text": "Names and coincidences are all very well. But what I don't understand is - what are we going to do?"
   },
   {
     "character": "Monstradamus",
@@ -1268,7 +1265,7 @@
     "character": "Organizm(-:",
     "to": "",
     "mood": "contemplative",
-    "text": "It's not really all that different. The screen design is an imitation of the 'Guardian' site. The heading is the same  -  'Guardian Unlimited'. And the chat area looks the same. The difference is there are hundreds of threads there. But we've only got one."
+    "text": "It's not really all that different. The screen design is an imitation of the 'Guardian' site. The heading is the same - 'Guardian Unlimited'. And the chat area looks the same. The difference is there are hundreds of threads there. But we've only got one."
   },
   {
     "character": "Monstradamus",
@@ -2045,7 +2042,7 @@
     "character": "IsoldA",
     "to": "Romeo-y-Cohiba",
     "mood": "contemplative",
-    "text": "I don't know. I went through a few forks in the path and at every one there was a small ... I don't know what to call it  -  an oasis, I suppose. Trees and a fountain with bronze figures of animals. First a hare and a tortoise. They were sitting facing each other, with their faces lifted up to the sky. Their mouths were open and there were long thin streams of water spurting out. To be quite honest, it looked a bit ridiculous, as though they were spitting at an invisible ceiling that was too high, so that everything just fell back down on their own heads. At another fork there was a fountain with a fox and a crow. The crow was high up in the tree, and so big it looked more like an eagle. There was a water pipe leading up to it, hidden among the leaves. The fox was squatting on his haunches gazing up at the crow as though it was trying to hit it with the stream of water spurting out of its throat, but it couldn't reach high enough. The crow had its wings pulled back and up and its beak was open, and there was another stream of water spurting out of that, as though the sight of the fox made it feel sick."
+    "text": "I don't know. I went through a few forks in the path and at every one there was a small ... I don't know what to call it - an oasis, I suppose. Trees and a fountain with bronze figures of animals. First a hare and a tortoise. They were sitting facing each other, with their faces lifted up to the sky. Their mouths were open and there were long thin streams of water spurting out. To be quite honest, it looked a bit ridiculous, as though they were spitting at an invisible ceiling that was too high, so that everything just fell back down on their own heads. At another fork there was a fountain with a fox and a crow. The crow was high up in the tree, and so big it looked more like an eagle. There was a water pipe leading up to it, hidden among the leaves. The fox was squatting on his haunches gazing up at the crow as though it was trying to hit it with the stream of water spurting out of its throat, but it couldn't reach high enough. The crow had its wings pulled back and up and its beak was open, and there was another stream of water spurting out of that, as though the sight of the fox made it feel sick."
   },
   {
     "character": "Sartrik",
