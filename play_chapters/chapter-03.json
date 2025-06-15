@@ -86,7 +86,7 @@
   {
     "character": "Monstradamus",
     "to": "UGLI 666",
-    "mood": "calm",
+    "mood": "confused",
     "text": "Stop, that's enough for now."
   },
   {
@@ -128,7 +128,7 @@
   {
     "character": "Nutscracker",
     "to": "UGLI 666",
-    "mood": "humorous",
+    "mood": "sarcastic",
     "text": "Catacombs."
   },
   {
@@ -151,12 +151,15 @@
   },
   {
     "character": "UGLI 666",
-    "to": [
-      "Nutscracker",
-      "Monstradamus"
-    ],
+    "to": "Nutscracker",
     "mood": "irritated",
-    "text": "I wish you'd go back to your bitches, Nutcracker, I really do. Can you make anything of it, Monstradamus?"
+    "text": "I wish you'd go back to your bitches, Nutcracker, I really do."
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Monstradamus",
+    "mood": "hopeful",
+    "text": "Can you make anything of it, Monstradamus?"
   },
   {
     "character": "Monstradamus",
@@ -263,7 +266,7 @@
   {
     "character": "Monstradamus",
     "to": "UGLI 666",
-    "mood": "calm",
+    "mood": "contemplative",
     "text": "Well, what do you think?"
   },
   {
@@ -287,13 +290,13 @@
   {
     "character": "Monstradamus",
     "to": "UGLI 666",
-    "mood": "calm",
+    "mood": "compassionate",
     "text": "I'll give it a try."
   },
   {
     "character": "UGLI 666",
     "to": "Monstradamus",
-    "mood": "calm",
+    "mood": "resigned",
     "text": "There's a cathedral there. A Gothic cathedral."
   },
   {
@@ -311,7 +314,7 @@
   {
     "character": "Monstradamus",
     "to": "UGLI 666",
-    "mood": "calm",
+    "mood": "contemplative",
     "text": "The meaning of that is more or less as follows - 'the labyrinth represents the world in which we live, wide at the entrance, but narrow at the exit. He who is ensnared by the joys of this world and is burdened with its sins, may only rediscover the doctrine of life through effort.' Only don't ask me what the doctrine of life is. Was there really a wide entrance and a narrow exit?"
   },
   {
@@ -359,7 +362,7 @@
   {
     "character": "Nutscracker",
     "to": "UGLI 666",
-    "mood": "sarcastic",
+    "mood": "confused",
     "text": "Now we've got a second canon as well."
   },
   {
@@ -395,7 +398,7 @@
   {
     "character": "UGLI 666",
     "to": "Nutscracker",
-    "mood": "calm",
+    "mood": "solemn",
     "text": "They said that a long time ago, when faith was strong in people's souls, a priest could send a repentant sinner on a pilgrimage to the Holy Land. In later times, when faith began to fail..."
   },
   {
@@ -407,7 +410,7 @@
   {
     "character": "Monstradamus",
     "to": "Nutscracker",
-    "mood": "curious",
+    "mood": "contemplative",
     "text": "What about Ariadne?"
   },
   {
@@ -419,7 +422,7 @@
   {
     "character": "Monstradamus",
     "to": "Nutscracker",
-    "mood": "calm",
+    "mood": "sarcastic",
     "text": "Yes, explain it, Nutcracker."
   },
   {
@@ -448,12 +451,15 @@
   },
   {
     "character": "Nutscracker",
-    "to": [
-      "Monstradamus",
-      "UGLI 666"
-    ],
+    "to": "Monstradamus",
     "mood": "resigned",
-    "text": "Not again. You've worn me out. Ugly, are you there?"
+    "text": "Not again. You've worn me out."
+  },
+  {
+    "character": "Nutscracker",
+    "to": "UGLI 666",
+    "mood": "curious",
+    "text": "Ugly, are you there?"
   },
   {
     "character": "UGLI 666",
@@ -542,7 +548,7 @@
   {
     "character": "UGLI 666",
     "to": "Nutscracker",
-    "mood": "calm",
+    "mood": "solemn",
     "text": "Yes. It's the old name for the church labyrinth. That's approximately how long it was. Although the one I was facing was a lot shorter. You were supposed to walk through these labyrinths on your knees. And for the time of ultimate decline that will come just before the end of the world, labyrinths on walls were prepared, really small ones that people go through by tracing the way with their finger. They are for those who are only willing to spend a very small amount of time on their souls. But there are labyrinths that are quite the opposite, endlessly long ones in which you can repent eternally. For instance in the Church of Sta. Maria-di-Trastavera in Rome. The first canon showed me a plan of it."
   },
   {
@@ -572,7 +578,7 @@
   {
     "character": "Nutscracker",
     "to": "UGLI 666",
-    "mood": "humorous",
+    "mood": "sarcastic",
     "text": "So the Lord loves sinners more then?"
   },
   {
@@ -584,7 +590,7 @@
   {
     "character": "Nutscracker",
     "to": "UGLI 666",
-    "mood": "humorous",
+    "mood": "sarcastic",
     "text": "They have more sins, so their centrifugal force is stronger. For them to stay in orbit, the force of God's love has to increase to balance it."
   },
   {
@@ -665,13 +671,13 @@
   {
     "character": "Monstradamus",
     "to": "UGLI 666",
-    "mood": "calm",
+    "mood": "contemplative",
     "text": "The whole point is in the way the letters are arranged. In French it's called a jeu-de-lettres ."
   },
   {
     "character": "UGLI 666",
     "to": "Monstradamus",
-    "mood": "curious",
+    "mood": "hopeful",
     "text": "But do you have the key to the inscription the canon was talking about?"
   },
   {
@@ -683,7 +689,7 @@
   {
     "character": "UGLI 666",
     "to": "Monstradamus",
-    "mood": "curious",
+    "mood": "hopeful",
     "text": "What is it?"
   },
   {
@@ -701,7 +707,7 @@
   {
     "character": "Monstradamus",
     "to": "UGLI 666",
-    "mood": "calm",
+    "mood": "proud",
     "text": "Yes. You have to start from the very centre. Find the letter S there and trace a cross through it. If you read the text in any direction of the cross and then along any line from it at right angles, you get SANCTA ECLESIA, which means 'the holy church', with one mistake."
   },
   {
@@ -797,7 +803,7 @@
   {
     "character": "Nutscracker",
     "to": "UGLI 666",
-    "mood": "sarcastic",
+    "mood": "curious",
     "text": "And are you sure you didn't just dream it all, like Ariadne?"
   },
   {
@@ -918,7 +924,7 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "IsoldA",
-    "mood": "desperate",
+    "mood": "hopeful",
     "text": "Isolde, are you there? Isolde!"
   },
   {
@@ -960,7 +966,7 @@
   {
     "character": "Monstradamus",
     "to": "Nutscracker",
-    "mood": "hopeful",
+    "mood": "compassionate",
     "text": "Say you're sorry, Nutcracker."
   },
   {
@@ -972,7 +978,7 @@
   {
     "character": "Monstradamus",
     "to": "Nutscracker",
-    "mood": "hopeful",
+    "mood": "compassionate",
     "text": "Please, say you're sorry."
   },
   {
@@ -984,7 +990,7 @@
   {
     "character": "UGLI 666",
     "to": "Nutscracker",
-    "mood": "cold",
+    "mood": "dismissive",
     "text": "God will forgive you."
   },
   {
@@ -996,7 +1002,7 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "IsoldA",
-    "mood": "anxious",
+    "mood": "excited",
     "text": "I was starting to get worried. Tell me what happened."
   },
   {
@@ -1008,7 +1014,7 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "IsoldA",
-    "mood": "calm",
+    "mood": "anxious",
     "text": "All right. I would have reached the pavilion quickly, because last time I marked which way to go at the forks in the path. But I met someone really terrifying on the way."
   },
   {
@@ -1032,13 +1038,13 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "IsoldA",
-    "mood": "excited",
+    "mood": "anxious",
     "text": "When I got past the bench where I can see the roof and the fountain, I suddenly sensed a movement behind me. And when I turned round I saw something absolutely incredible. Just imagine it, a long narrow corridor between the bushes. And coming towards me along it on roller skates was... I don't even know if it was a man or not. He was immensely tall, wearing a sombrero hat and an ice-hockey goalkeeper's mask made of white plastic. And there were two smaller figures on roller skates behind him. I could hardly see them, because he took up the entire passage. He was wearing a goalkeeper's uniform too - an immense blue sweatshirt with the number '35' and the words 'chicago bulls'. Or at least, that's what I thought at first. But when he got closer, I could see the number was actually totally weird: ' - 3.5%', and the word 'bulls' was really 'BEARS'. It was just that the minus sign and the percentage sign were the same colour as the sweatshirt and I hadn't spotted them from the distance. And he was holding a double hockey-stick."
   },
   {
     "character": "IsoldA",
     "to": "Romeo-y-Cohiba",
-    "mood": "curious",
+    "mood": "confused",
     "text": "How do you mean?"
   },
   {
@@ -1080,19 +1086,19 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "IsoldA",
-    "mood": "curious",
+    "mood": "compassionate",
     "text": "Fortunately, yes. Who did you meet?"
   },
   {
     "character": "IsoldA",
     "to": "Romeo-y-Cohiba",
-    "mood": "confused",
+    "mood": "calm",
     "text": "It was at the corner of one of the alleys. I heard the sound of a guitar string behind me. When I turned round, about twenty metres away from me I saw an immensely tall man standing beside a fountain. He was dressed all in black and gold like an eighteenth-century gallant, and he was hiding his face behind a mask in the form of a golden sun that he was holding on a stick. There were two dwarves dressed up in red velvet standing beside him, holding old potbellied guitars. They strummed a few soft chords, then the giant turned his mask slightly and the sun glinted on it so brightly I was dazzled and I screwed up my eyes. And when I opened them again there was no one beside the fountain any more. I didn't even have time to be scared and I thought I must have had a hallucination after everything I'd been hearing. But now I don't know what to think. You go on."
   },
   {
     "character": "Romeo-y-Cohiba",
     "to": "IsoldA",
-    "mood": "calm",
+    "mood": "anxious",
     "text": "Well, I decided that if the giant had wanted to kill me he would have done it already. So I carried on as though nothing had happened. I didn't meet anyone else on the way. The door in the wall of the pavilion was open. And behind it there was a winding corridor. Naturally, there was no light. The floorboards squeaked horribly, as if every one of them had three mice sitting under it. It was absolutely terrifying. There were doors in the walls and more doors behind them. I began groping my way at random through the musty, squeaking darkness and became disorientated straightaway. I was overcome by apathy. I wanted to drop down on the floor, close my eyes and forget about absolutely everything. Probably that's what I would have done, but then one of the doors led me out into a large room where there was a light on. It was deserted and dusty, with no windows and divided in half by a set of steel bars so thick they could have kept out an elephant. There was no furniture at all, if you didn't count several pictures turned around so that the images faced the wall. I thought it was probably so they wouldn't get dusty - clever and very simple, no need for any glass. Hanging on the door, which closed behind my back, was a plaque that said 'Silence!' And beyond the bars was a fresco with a portrait of the most beautiful girl I've ever seen. Right across the whole wall."
   },
   {
@@ -1110,7 +1116,7 @@
   {
     "character": "IsoldA",
     "to": "Romeo-y-Cohiba",
-    "mood": "curious",
+    "mood": "confused",
     "text": "How could you touch them? You said there were bars between the door and the fresco."
   },
   {
@@ -1200,7 +1206,7 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "IsoldA",
-    "mood": "curious",
+    "mood": "surprised",
     "text": "Real ones?"
   },
   {
@@ -1260,7 +1266,7 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "IsoldA",
-    "mood": "flirty",
+    "mood": "humorous",
     "text": "It's on your side!"
   },
   {
@@ -1290,7 +1296,7 @@
   {
     "character": "IsoldA",
     "to": "Romeo-y-Cohiba",
-    "mood": "calm",
+    "mood": "compassionate",
     "text": "Agreed."
   },
   {
@@ -1338,13 +1344,13 @@
   {
     "character": "IsoldA",
     "to": "Romeo-y-Cohiba",
-    "mood": "sarcastic",
+    "mood": "anxious",
     "text": "Your wife, for instance. Or Ariadne in a dream."
   },
   {
     "character": "Romeo-y-Cohiba",
     "to": "IsoldA",
-    "mood": "irritated",
+    "mood": "dismissive",
     "text": "I haven't got a wife. And I couldn't give a damn for Ariadne and her dreams. If we start worrying about spies, pretty soon the world will be full of them."
   },
   {

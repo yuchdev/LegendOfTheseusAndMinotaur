@@ -8,7 +8,7 @@
   {
     "character": "Ariadne",
     "to": "Monstradamus",
-    "mood": "confused",
+    "mood": "curious",
     "text": "Where are all the others?"
   },
   {
@@ -104,7 +104,7 @@
   {
     "character": "Ariadne",
     "to": "Monstradamus",
-    "mood": "calm",
+    "mood": "contemplative",
     "text": "No, I definitely remember that. After that the dwarf began explaining how the helmet works. He said you had to grasp the essence of the matter first before going into the details. The helmet's operating cycle has no beginning, so it can be explained starting from any phase. And so, he said, start by imagining the gentle glow of a summer day caressing your face. That's precisely how the frontal net, heated by the action of the stream of impressions falling on it, transmits heat to the now grid. The grid sublimates the past contained in the upper section of the helmet, transforming it into vapour, which is driven up into the horns of plenty by the force of circumstances. The horns of plenty emerge from the forehead, curve round the sides of the helmet and intertwine to form the occipital braid, which descends into the base of the helmet. There, below the now grid, the bubbles of hope that arise in the occipital braid are ejected into the region of the future. As they rise, these bubbles burst against the now grid, generating the force of circumstances, which induces the stream of impressions in the separator labyrinth. And the stream of impressions, in turn, is shattered against the frontal net, heating the now grid and renewing the energy of the cycle. The heat he was speaking about when he used the verb 'to heat' is different from the kind of heat you get from fire, more like the kind you get from love. He said he was simply using an analogy with something I knew about, so I would be able to imagine what happens. And in the same way the stream of impressions doesn't actually flow anywhere, the bubbles of hope aren't really bubbles at all, and so on."
   },
   {
@@ -266,7 +266,7 @@
   {
     "character": "Monstradamus",
     "to": "Ariadne",
-    "mood": "irritated",
+    "mood": "confused",
     "text": "And then what?"
   },
   {
@@ -350,7 +350,7 @@
   {
     "character": "Monstradamus",
     "to": "Nutscracker",
-    "mood": "confused",
+    "mood": "resigned",
     "text": "Where's Nutcracker got to? I can't make sense of all this on my own."
   },
   {
@@ -521,7 +521,7 @@
   {
     "character": "Nutscracker",
     "to": "Organizm(-:",
-    "mood": "sarcastic",
+    "mood": "proud",
     "text": "That's not any kind of virtual reality helmet; it's some kind of fancy pressure cooker. Games for children. I ought to know how a virtual reality helmet works when grown-ups put one together, and this is nothing like it."
   },
   {
@@ -557,7 +557,7 @@
   {
     "character": "Nutscracker",
     "to": "Monstradamus",
-    "mood": "calm",
+    "mood": "contemplative",
     "text": "That's right! So there never is any genuine interactivity, only the appearance of it. Or rather, it is permitted, but only within a narrow range where no choice you make can change the fundamental situation. The main problem is to eliminate freedom of choice so that the subject is led unerringly to make the decision required, while at the same time maintaining his firm belief that his choice is free. In scientific terms it's known as coercive orientation."
   },
   {
@@ -569,7 +569,7 @@
   {
     "character": "Nutscracker",
     "to": "UGLI 666",
-    "mood": "calm",
+    "mood": "dismissive",
     "text": "That's a long story."
   },
   {
@@ -599,7 +599,7 @@
   {
     "character": "Nutscracker",
     "to": "Organizm(-:",
-    "mood": "calm",
+    "mood": "contemplative",
     "text": "In professional jargon that's what they call the guy in the helmet. A Helmholtz is someone who's located in an artificial dimension that totally isolates him from the real world and moves around in it, or rather, thinks he moves around in it. Let's assume this dimension takes the form of a flat area with three identical marble vases standing on it. And what we have to do to keep the action moving in the right direction is to lead the Helmholtz to the middle vase."
   },
   {
@@ -611,7 +611,7 @@
   {
     "character": "Nutscracker",
     "to": "Organizm(-:",
-    "mood": "calm",
+    "mood": "contemplative",
     "text": "Instead of vases they could be doors, turns at a road junction, any kind of choice at all in fact. It's not important. Everything you see in the helmet is computed by a special program and the program can be set up so that, every time, the Helmholtz makes the same choice we made for him earlier."
   },
   {
@@ -647,7 +647,7 @@
   {
     "character": "Nutscracker",
     "to": "Organizm(-:",
-    "mood": "calm",
+    "mood": "contemplative",
     "text": "The simplest external editing program is 'Sticky Eye'. That's when, as you turn your head, one of the vases gets stuck in the field of vision and lingers there longer than it should."
   },
   {
@@ -683,7 +683,7 @@
   {
     "character": "UGLI 666",
     "to": "Organizm(-:",
-    "mood": "calm",
+    "mood": "sarcastic",
     "text": "No he didn't. He just studied conditioned reflexes in dogs."
   },
   {
@@ -704,7 +704,7 @@
   {
     "character": "Nutscracker",
     "to": "UGLI 666",
-    "mood": "proud",
+    "mood": "contemplative",
     "text": "We want you to notice it straightaway, draw the right conclusion and look in the right direction in future. It's a cheap technology for third-world countries. But if the budget's big enough, then for instance we can use infrasonics. The Helmholtz won't notice anything, but he'll experience a dark, mysterious horror when he turns towards any vase except the one we want. The obverse method is stimulation of the pleasure centre when the correct choice is made. They used to insert an electrode, but now it's done by pharmacological means or by entraining the brain to delta rhythms."
   },
   {
@@ -716,7 +716,7 @@
   {
     "character": "Nutscracker",
     "to": "Organizm(-:",
-    "mood": "calm",
+    "mood": "resigned",
     "text": "I don't think so. These techniques weren't developed for the movies, not even for virtual spaces. They were just modelled there. The topic is not in the public domain. But since you and I aren't in the public domain either, I suppose it's okay for me to tell you about it."
   },
   {
@@ -728,7 +728,7 @@
   {
     "character": "Nutscracker",
     "to": "Organizm(-:",
-    "mood": "calm",
+    "mood": "contemplative",
     "text": "Well, for instance, take 'Sunny Kiss'. The vase we have to choose is endowed with positive emotional coloration by employing universally accepted aesthetic codes, given a positive inner content, if you like."
   },
   {
@@ -776,7 +776,7 @@
   {
     "character": "Nutscracker",
     "to": "Organizm(-:",
-    "mood": "contemplative",
+    "mood": "humorous",
     "text": "Exactly. Only in our case absolutely everybody in the station is in on it, including the stone Atlantes by the main entrance."
   },
   {
@@ -836,7 +836,7 @@
   {
     "character": "Nutscracker",
     "to": "Organizm(-:",
-    "mood": "calm",
+    "mood": "proud",
     "text": "And if the mark turns his head too rapidly, so that 'Sticky Eye' and 'Sunny Kiss' stop working, then 'Doom and Gloom' and 'The Weight' kick in immediately."
   },
   {
@@ -860,7 +860,7 @@
   {
     "character": "Organizm(-:",
     "to": "UGLI 666",
-    "mood": "calm",
+    "mood": "sarcastic",
     "text": "To be honest, I do."
   },
   {
@@ -872,7 +872,7 @@
   {
     "character": "Organizm(-:",
     "to": "UGLI 666",
-    "mood": "resigned",
+    "mood": "sarcastic",
     "text": "Being locked in here, for instance. Or being fed pancakes for the second day running."
   },
   {
@@ -884,13 +884,13 @@
   {
     "character": "Organizm(-:",
     "to": "UGLI 666",
-    "mood": "calm",
+    "mood": "contemplative",
     "text": "Ugly, let me explain to you how we're manipulated in here. Let's assume that headgear on Asterisk's head is a virtual reality helmet after all."
   },
   {
     "character": "UGLI 666",
     "to": "Organizm(-:",
-    "mood": "curious",
+    "mood": "calm",
     "text": "And then what?"
   },
   {
@@ -902,7 +902,7 @@
   {
     "character": "Nutscracker",
     "to": "Organizm(-:",
-    "mood": "calm",
+    "mood": "contemplative",
     "text": "For us to be manipulated like that, we'd have to be wearing helmets."
   },
   {
@@ -926,7 +926,7 @@
   {
     "character": "Monstradamus",
     "to": "Nutscracker",
-    "mood": "calm",
+    "mood": "contemplative",
     "text": "I know what he's going to ask now. He's going to ask whether you can use a helmet to simulate what you feel with your hands."
   },
   {
@@ -1148,7 +1148,7 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "IsoldA",
-    "mood": "resigned",
+    "mood": "calm",
     "text": "It's all very monotonous where I am. Bushes, a bend, bushes, a fork, a bend, on and on for ever. The passage is about six feet wide."
   },
   {
@@ -1160,7 +1160,7 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "IsoldA",
-    "mood": "anxious",
+    "mood": "contemplative",
     "text": "Two. Makes you feel like a rat in a maze. At one point I decided I'd had enough and tried to climb through the hedge. Some chance. There's a barbed-wire mesh fence in the bushes - like the grid of bars in reinforced concrete. And I'd been wondering how they managed to keep the bushes so even!"
   },
   {
@@ -1220,13 +1220,13 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "IsoldA",
-    "mood": "calm",
+    "mood": "contemplative",
     "text": "I can see a jet of water and the roof of a house when I climb up on to a bench and stand on the back of it. But it's not possible to stand up there like that for very long, you sway backwards and forwards and then you lose your balance and you have to jump down. That makes it hard to make out the details. But if it is the same fountain you should see my labyrinth when you stand beside it."
   },
   {
     "character": "IsoldA",
     "to": "Romeo-y-Cohiba",
-    "mood": "contemplative",
+    "mood": "hopeful",
     "text": "There's a tall hedge beside the fountain with the snake and the porcupine and I can't tell what's behind it. It's very long - I walked a little way along it, the bushes fence off a large section of park. I think that must be your enclosure."
   },
   {
