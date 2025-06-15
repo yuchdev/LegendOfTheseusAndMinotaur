@@ -36,7 +36,7 @@
   {
     "character": "Nutscracker",
     "to": "Organizm(-:",
-    "mood": "playful",
+    "mood": "humorous",
     "text": "It would be hard not to notice. We all use toilet paper with a little star on it."
   },
   {
@@ -180,7 +180,7 @@
   {
     "character": "Ariadne",
     "to": "Monstradamus",
-    "mood": "playful",
+    "mood": "humorous",
     "text": "Probably like bats, on a coral perch. And they have special gold hooks on their slippers."
   },
   {
@@ -198,7 +198,7 @@
   {
     "character": "Nutscracker",
     "to": "UGLI 666",
-    "mood": "playful",
+    "mood": "humorous",
     "text": "Ugly probably knows about that. Or she can check with some of her friends. Ugly, are you there?"
   },
   {
@@ -477,7 +477,7 @@
   {
     "character": "Nutscracker",
     "to": "Organizm(-:",
-    "mood": "playful",
+    "mood": "humorous",
     "text": "Maybe he does, but you just don't understand. Maybe the Minotaur's actually the dead rat on the ceiling."
   },
   {
@@ -531,7 +531,7 @@
   {
     "character": "Monstradamus",
     "to": "Nutscracker",
-    "mood": "playful",
+    "mood": "humorous",
     "text": "Open General License. Or maybe Open Great Labyrinth."
   },
   {
@@ -549,7 +549,7 @@
   {
     "character": "Nutscracker",
     "to": "Organizm(-:",
-    "mood": "playful",
+    "mood": "humorous",
     "text": "I can guess. Tarkovsky's Mirror."
   },
   {
@@ -693,7 +693,7 @@
   {
     "character": "Nutscracker",
     "to": "Monstradamus",
-    "mood": "playful",
+    "mood": "humorous",
     "text": "The Minotaur is you."
   },
   {
@@ -759,7 +759,7 @@
   {
     "character": "Monstradamus",
     "to": "Nutscracker",
-    "mood": "playful",
+    "mood": "humorous",
     "text": "You're the one who's been frightening me for the last hour. Were there any women candidates?"
   },
   {
@@ -795,7 +795,7 @@
   {
     "character": "Monstradamus",
     "to": "Nutscracker",
-    "mood": "playful",
+    "mood": "humorous",
     "text": "He'll lead you out through the television. How else? You of all people should understand that. Is there anything else you remember?"
   },
   {
@@ -966,13 +966,13 @@
   {
     "character": "Nutscracker",
     "to": "Monstradamus",
-    "mood": "playful",
+    "mood": "calm",
     "text": "To be honest, Monstradamus, I used to think you were Theseus."
   },
   {
     "character": "Organizm(-:",
     "to": "Monstradamus",
-    "mood": "playful",
+    "mood": "humorous",
     "text": "I was convinced Monstradamus was the Minotaur."
   },
   {
@@ -984,13 +984,13 @@
   {
     "character": "Sartrik",
     "to": "",
-    "mood": "playful",
+    "mood": "calm",
     "text": "Didn't you ever think I was Theseus?"
   },
   {
     "character": "Nutscracker",
     "to": "Sartrik",
-    "mood": "playful",
+    "mood": "humorous",
     "text": "Well hello, Sartrik! You know, not even once..."
   },
   {
@@ -1063,7 +1063,7 @@
   {
     "character": "Nutscracker",
     "to": "Sartrik",
-    "mood": "playful",
+    "mood": "humorous",
     "text": "Vodka?"
   },
   {
@@ -1177,7 +1177,7 @@
   {
     "character": "Nutscracker",
     "to": "Monstradamus",
-    "mood": "playful",
+    "mood": "humorous",
     "text": "Translate from the Latin, will you?"
   },
   {
@@ -1219,19 +1219,19 @@
   {
     "character": "Sartrik",
     "to": "Monstradamus",
-    "mood": "playful",
+    "mood": "respectful",
     "text": "Listen, Monstradamus, you're some guy! The way you put that! I even understood it myself. Some mess, eh? If you think that thought through all the way to the end, all those English astrophysicists and the entire xxx Academy of Sciences should be thrown in the slammer!"
   },
   {
     "character": "Monstradamus",
     "to": "Sartrik",
-    "mood": "dismissive",
+    "mood": "humorous",
     "text": "Why bother putting them away? Who cares about those buffoons."
   },
   {
     "character": "Sartrik",
     "to": "Monstradamus",
-    "mood": "playful",
+    "mood": "respectful",
     "text": "Oho! You're a hard case, aren't you? Theseus, you're Theseus, no two ways about it."
   },
   {

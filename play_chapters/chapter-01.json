@@ -74,7 +74,7 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "Nutscracker",
-    "mood": "curious",
+    "mood": "skeptical",
     "text": "How can you tell? There's no date on it."
   },
   {
@@ -85,7 +85,10 @@
   },
   {
     "character": "Organizm(-:",
-    "to": ["Nutscracker", "Romeo-y-Cohiba"],
+    "to": [
+      "Nutscracker",
+      "Romeo-y-Cohiba"
+    ],
     "mood": "curious",
     "text": "Attention, roll-call. There's just Nutcracker, Romeo and me here, is that right?"
   },
@@ -97,8 +100,11 @@
   },
   {
     "character": "Nutscracker",
-    "to": ["Organizm(-:", "Romeo-y-Cohiba"],
-    "mood": "calm",
+    "to": [
+      "Organizm(-:",
+      "Romeo-y-Cohiba"
+    ],
+    "mood": "contemplative",
     "text": "At least, we're the only ones who want to join in."
   },
   {
@@ -110,7 +116,7 @@
   {
     "character": "Nutscracker",
     "to": "",
-    "mood": "curious",
+    "mood": "contemplative",
     "text": "But where is here exactly?"
   },
   {
@@ -134,12 +140,15 @@
   {
     "character": "Organizm(-:",
     "to": "Nutscracker",
-    "mood": "calm",
+    "mood": "contemplative",
     "text": "I've got the same as Romeo. A locked metal door with some kind of relief design on it. A hotel-style bathroom with soap, shower gel and shampoo on the shelf under the mirror. Everything in packaging marked with a strange symbol - something like a little cogwheel. So where are you, Nutcracker?"
   },
   {
     "character": "Nutscracker",
-    "to": "Organizm(-:",
+    "to": [
+      "Organizm(-:",
+      "Romeo-y-Cohiba"
+    ],
     "mood": "contemplative",
     "text": "In the same kind of room. I think the door's made of cast bronze. But Organism, the symbol on the soap looks more like a star than a cogwheel. In fact it looks like the symbol they use in books for a footnote. It's even on the loo paper, every sheet."
   },
@@ -188,7 +197,7 @@
   {
     "character": "Organizm(-:",
     "to": "Romeo-y-Cohiba",
-    "mood": "ashamed",
+    "mood": "embarrassed",
     "text": "I just woke up here wearing this pooftah's housecoat with nothing underneath it."
   },
   {
@@ -200,7 +209,7 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "",
-    "mood": "calm",
+    "mood": "contemplative",
     "text": "It's a good job it's warm in here then."
   },
   {
@@ -233,13 +242,13 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "Nutscracker",
-    "mood": "anxious",
+    "mood": "defensive",
     "text": "I suppose that depends whose you compare it with. And anyway, it wasn't me who invented the name. It just appears on the screen when I send a message. I'm not Romeo, I'm xxx. A professional xxx, if anyone's interested."
   },
   {
     "character": "Organizm(-:",
     "to": "Romeo-y-Cohiba",
-    "mood": "playful",
+    "mood": "humorous",
     "text": "Porn business? Socially significant work. You and I are almost colleagues, Romeo - I'm a xxx. I used to work at xxx.com, so I'm temporarily out of a job. But there's not much danger of that for you."
   },
   {
@@ -263,7 +272,7 @@
   {
     "character": "Nutscracker",
     "to": "Romeo-y-Cohiba",
-    "mood": "curious",
+    "mood": "skeptical",
     "text": "What makes you think there's a xxx embassy here?"
   },
   {
@@ -275,7 +284,7 @@
   {
     "character": "Nutscracker",
     "to": "Romeo-y-Cohiba",
-    "mood": "curious",
+    "mood": "skeptical",
     "text": "Are you sure? What if we're in xxx?"
   },
   {
@@ -332,7 +341,7 @@
       "Organizm(-:",
       "Romeo-y-Cohiba"
     ],
-    "mood": "hopeful",
+    "mood": "contemplative",
     "text": "So now we are four. That's nice."
   },
   {
@@ -350,7 +359,7 @@
   {
     "character": "Organizm(-:",
     "to": "",
-    "mood": "confused",
+    "mood": "anxious",
     "text": "And what if we've simply died?"
   },
   {
@@ -381,7 +390,7 @@
       "Romeo-y-Cohiba",
       "Monstradamus"
     ],
-    "mood": "calm",
+    "mood": "contemplative",
     "text": "Let's discuss the situation. I suggest we don't take Organism's hypothesis about the afterlife into consideration."
   },
   {
@@ -403,7 +412,7 @@
       "Organizm(-:",
       "Romeo-y-Cohiba"
     ],
-    "mood": "curious",
+    "mood": "contemplative",
     "text": "Right, so everybody has a bronze door. Let's try figuring out the design on that door. It's a figure like a rectangle with the upper and lower edges bent inwards and the sides bent outwards."
   },
   {
@@ -452,30 +461,25 @@
   {
     "character": "Organizm(-:",
     "to": "Monstradamus",
-    "mood": "playful",
+    "mood": "humorous",
     "text": "Hey, that's right. I forgot."
   },
   {
     "character": "Ariadne",
-    "to": [
-      "Organizm(-:",
-      "Romeo-y-Cohiba",
-      "Nutscracker",
-      "Monstradamus"
-    ],
+    "to": "",
     "mood": "hopeful",
     "text": "Hi. I'm glad I'm not the only one here."
   },
   {
     "character": "Organizm(-:",
     "to": "Ariadne",
-    "mood": "playful",
+    "mood": "flirty",
     "text": "Hi there, darling."
   },
   {
     "character": "Romeo-y-Cohiba",
     "to": "Ariadne",
-    "mood": "playful",
+    "mood": "humorous",
     "text": "Where there are boys, there have to be girls. Some funny rainbow-coloured patches of light just appeared on my walls."
   },
   {
@@ -523,7 +527,7 @@
   {
     "character": "Organizm(-:",
     "to": "Ariadne",
-    "mood": "playful",
+    "mood": "humorous",
     "text": "In that case, we know all about you already. Your real name's xxx, you're xxx years old and you come from xxx."
   },
   {
@@ -612,7 +616,7 @@
   {
     "character": "IsoldA",
     "to": "Nutscracker",
-    "mood": "calm",
+    "mood": "contemplative",
     "text": "She's talking about mangas, young girls who are raped by demons with their tentacles. It's a persistent theme in Japanese virtual porn."
   },
   {
@@ -624,7 +628,7 @@
   {
     "character": "Nutscracker",
     "to": "Monstradamus",
-    "mood": "playful",
+    "mood": "humorous",
     "text": "Or maybe they're just octopuses?"
   },
   {
@@ -660,7 +664,7 @@
   {
     "character": "Organizm(-:",
     "to": "IsoldA",
-    "mood": "playful",
+    "mood": "flirty",
     "text": "Are you pretty?"
   },
   {
@@ -702,7 +706,7 @@
   {
     "character": "Monstradamus",
     "to": "Romeo-y-Cohiba",
-    "mood": "calm",
+    "mood": "irritated",
     "text": "Romeo, please, be patient just a moment longer."
   },
   {
@@ -870,7 +874,7 @@
   {
     "character": "Nutscracker",
     "to": "UGLI 666",
-    "mood": "curious",
+    "mood": "calm",
     "text": "New members, please introduce yourselves to the group straightaway. What do you think?"
   },
   {
@@ -882,7 +886,7 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "UGLI 666",
-    "mood": "irritated",
+    "mood": "angry",
     "text": "That's just great! We've been locked up in here, and we have to repent? Repent for what?"
   },
   {
@@ -900,13 +904,13 @@
   {
     "character": "UGLI 666",
     "to": "Romeo-y-Cohiba",
-    "mood": "calm",
+    "mood": "solemn",
     "text": "Each of us for his own reason. For it is said: 'There is no man that shall live without sin, though his life be but a single day.'"
   },
   {
     "character": "Organizm(-:",
     "to": "UGLI 666",
-    "mood": "playful",
+    "mood": "sarcastic",
     "text": "Ugly, what sex are you?"
   },
   {
@@ -918,7 +922,7 @@
   {
     "character": "Organizm(-:",
     "to": "Monstradamus",
-    "mood": "curious",
+    "mood": "sarcastic",
     "text": "Is he/she really serious?"
   },
   {
@@ -960,7 +964,7 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "Monstradamus",
-    "mood": "irritated",
+    "mood": "skeptical",
     "text": "What does that mean - shown it specially? This isn't a cinema. And if the information's for everyone, then why was it shown to Ariadne?"
   },
   {
@@ -996,7 +1000,7 @@
   {
     "character": "IsoldA",
     "to": "Romeo-y-Cohiba",
-    "mood": "curious",
+    "mood": "contemplative",
     "text": "But what kind of details? There can't be many tattoos like that. An anchor with a dollar sign."
   },
   {
@@ -1023,7 +1027,7 @@
   {
     "character": "Sartrik",
     "to": "Nutscracker",
-    "mood": "resigned",
+    "mood": "down",
     "text": "I'm absolutely xxx. My entire body aches."
   },
   {
@@ -1035,7 +1039,7 @@
   {
     "character": "Sartrik",
     "to": "Monstradamus",
-    "mood": "resigned",
+    "mood": "down",
     "text": "I feel sick. Is there any beer to be had around here?"
   },
   {
@@ -1047,7 +1051,7 @@
   {
     "character": "Sartrik",
     "to": "Monstradamus",
-    "mood": "sad",
+    "mood": "down",
     "text": "Something of the sort."
   },
   {
@@ -1092,7 +1096,7 @@
   {
     "character": "Nutscracker",
     "to": "Romeo-y-Cohiba",
-    "mood": "playful",
+    "mood": "humorous",
     "text": "Cool it, Romeo. Sometimes a cochiba's just a cigar."
   },
   {
@@ -1185,7 +1189,7 @@
   {
     "character": "Sartrik",
     "to": "",
-    "mood": "sad",
+    "mood": "down",
     "text": "God, I feel really sick."
   },
   {
@@ -1221,7 +1225,7 @@
   {
     "character": "IsoldA",
     "to": "Monstradamus",
-    "mood": "dismissive",
+    "mood": "skeptical",
     "text": "It's a very common name. I had a lotion for dry skin called 'Ariadne's Milk'."
   },
   {
@@ -1338,7 +1342,7 @@
       "Ariadne",
       "Monstradamus"
     ],
-    "mood": "playful",
+    "mood": "humorous",
     "text": "Nobody ever doubted it. Nebuchadnezzar's just theorising, right?"
   },
   {
@@ -1440,7 +1444,7 @@
   {
     "character": "Organizm(-:",
     "to": "Romeo-y-Cohiba",
-    "mood": "playful",
+    "mood": "humorous",
     "text": "Good for you, Romeo! They did what you told them to. Why not try telling our moderators to do something else?"
   },
   {
@@ -1469,7 +1473,10 @@
   },
   {
     "character": "Nutscracker",
-    "to": ["Organizm(-:", "Monstradamus"],
+    "to": [
+      "Organizm(-:",
+      "Monstradamus"
+    ],
     "mood": "calm",
     "text": "The one who killed the Minotaur, Organism. Or who has to kill him. What do you have in mind, Monstradamus?"
   },
@@ -1482,7 +1489,7 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "Monstradamus",
-    "mood": "dismissive",
+    "mood": "skeptical",
     "text": "You talk about him as if you'd seen him with your own eyes. But we don't actually have any reason to believe he exists."
   },
   {
@@ -1494,7 +1501,7 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "Ariadne",
-    "mood": "dismissive",
+    "mood": "skeptical",
     "text": "Both."
   },
   {
@@ -1524,7 +1531,7 @@
   {
     "character": "Organizm(-:",
     "to": "Monstradamus",
-    "mood": "playful",
+    "mood": "humorous",
     "text": "I bet a hundred xxx the Minotaur's Monstradamus."
   },
   {
@@ -1572,7 +1579,7 @@
   {
     "character": "Ariadne",
     "to": "Monstradamus",
-    "mood": "playful",
+    "mood": "humorous",
     "text": "I've composed a little poem. Dedicated to Monstradamus."
   },
   {
@@ -1584,7 +1591,7 @@
   {
     "character": "Ariadne",
     "to": "Monstradamus",
-    "mood": "playful",
+    "mood": "humorous",
     "text": "The Minotaur lurks at the door,\nHis axe it gleams moon-bright.\n'Dear Watson this could not be more...'\nThen silence in the night."
   },
   {
@@ -1776,7 +1783,7 @@
   {
     "character": "Organizm(-:",
     "to": "",
-    "mood": "playful",
+    "mood": "humorous",
     "text": "I'm hungry. Hey, you moderators, how's about a bit of nosh down here? Right... I think I've got it. You have to turn this thingy that way, and then that thingy this way... Now we're talking."
   },
   {
@@ -1998,7 +2005,7 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "IsoldA",
-    "mood": "playful",
+    "mood": "flirty",
     "text": "That's handy all right. And wasn't there any little sign saying: 'The Minotaur is here'?"
   },
   {
@@ -2010,7 +2017,7 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "IsoldA",
-    "mood": "playful",
+    "mood": "flirty",
     "text": "I was joking. Did you meet anyone?"
   },
   {
@@ -2046,7 +2053,7 @@
   {
     "character": "Sartrik",
     "to": "IsoldA",
-    "mood": "sad",
+    "mood": "down",
     "text": "Now that's something I can understand."
   },
   {
@@ -2163,19 +2170,19 @@
   {
     "character": "IsoldA",
     "to": "Romeo-y-Cohiba",
-    "mood": "playful",
+    "mood": "flirty",
     "text": "Are you handsome?"
   },
   {
     "character": "Romeo-y-Cohiba",
     "to": "IsoldA",
-    "mood": "playful",
+    "mood": "flirty",
     "text": "What does 'handsome' mean?"
   },
   {
     "character": "IsoldA",
     "to": "Romeo-y-Cohiba",
-    "mood": "playful",
+    "mood": "flirty",
     "text": "Well, it means a man is nice to look at."
   },
   {
@@ -2205,7 +2212,7 @@
   {
     "character": "IsoldA",
     "to": "Romeo-y-Cohiba",
-    "mood": "playful",
+    "mood": "flirty",
     "text": "Such as?"
   },
   {
@@ -2253,7 +2260,7 @@
   {
     "character": "IsoldA",
     "to": "Romeo-y-Cohiba",
-    "mood": "playful",
+    "mood": "flirty",
     "text": "How would you like me to look?"
   },
   {
@@ -2313,7 +2320,7 @@
   {
     "character": "IsoldA",
     "to": "Romeo-y-Cohiba",
-    "mood": "ashamed",
+    "mood": "embarrassed",
     "text": "Not in the slightest. I suppose it sounds stupid."
   },
   {
@@ -2392,19 +2399,19 @@
       "Nutscracker",
       "Organizm(-:"
     ],
-    "mood": "playful",
+    "mood": "humorous",
     "text": "I think they're in love."
   },
   {
     "character": "Monstradamus",
     "to": "Ariadne",
-    "mood": "playful",
+    "mood": "humorous",
     "text": "According to their names they have to be. Imagine being called Romeo. What else could you do?"
   },
   {
     "character": "Organizm(-:",
     "to": "Romeo-y-Cohiba",
-    "mood": "playful",
+    "mood": "humorous",
     "text": "Take a pack of condoms and go looking for your Juliet."
   },
   {

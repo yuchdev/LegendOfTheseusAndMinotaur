@@ -8,7 +8,7 @@
   {
     "character": "Nutscracker",
     "to": "UGLI 666",
-    "mood": "playful",
+    "mood": "humorous",
     "text": "The Senate and People of Rome. P-Q-R-S. No, I'm confusing it with the alphabet. What the Romans had was S-P-Q-R."
   },
   {
@@ -128,7 +128,7 @@
   {
     "character": "Nutscracker",
     "to": "UGLI 666",
-    "mood": "playful",
+    "mood": "humorous",
     "text": "Catacombs."
   },
   {
@@ -197,7 +197,7 @@
   {
     "character": "Nutscracker",
     "to": "",
-    "mood": "playful",
+    "mood": "humorous",
     "text": "Eat NASA. I can't make out any other references there."
   },
   {
@@ -239,7 +239,7 @@
   {
     "character": "Monstradamus",
     "to": "UGLI 666",
-    "mood": "playful",
+    "mood": "humorous",
     "text": "Dominus illuminatio mea."
   },
   {
@@ -263,7 +263,7 @@
   {
     "character": "Monstradamus",
     "to": "UGLI 666",
-    "mood": "playful",
+    "mood": "calm",
     "text": "Well, what do you think?"
   },
   {
@@ -407,7 +407,7 @@
   {
     "character": "Monstradamus",
     "to": "Nutscracker",
-    "mood": "playful",
+    "mood": "curious",
     "text": "What about Ariadne?"
   },
   {
@@ -494,7 +494,7 @@
   {
     "character": "UGLI 666",
     "to": "Monstradamus",
-    "mood": "dismissive",
+    "mood": "defensive",
     "text": "That has nothing to do with anything."
   },
   {
@@ -560,7 +560,7 @@
   {
     "character": "Monstradamus",
     "to": "UGLI 666",
-    "mood": "playful",
+    "mood": "humorous",
     "text": "The most mystical one is mine; please enter that in the minutes."
   },
   {
@@ -572,7 +572,7 @@
   {
     "character": "Nutscracker",
     "to": "UGLI 666",
-    "mood": "playful",
+    "mood": "humorous",
     "text": "So the Lord loves sinners more then?"
   },
   {
@@ -584,7 +584,7 @@
   {
     "character": "Nutscracker",
     "to": "UGLI 666",
-    "mood": "playful",
+    "mood": "humorous",
     "text": "They have more sins, so their centrifugal force is stronger. For them to stay in orbit, the force of God's love has to increase to balance it."
   },
   {
@@ -834,13 +834,13 @@
   {
     "character": "Monstradamus",
     "to": "Nutscracker",
-    "mood": "playful",
+    "mood": "humorous",
     "text": "You have the same letter at your centre too. And just at the moment it's looking like a dollar sign."
   },
   {
     "character": "Nutscracker",
     "to": "Monstradamus",
-    "mood": "ashamed",
+    "mood": "embarrassed",
     "text": "Where? Oh, that. That's the moderators taking the piss again. If that's what you had in mind, I can tell you the pay for my job is so low it's an insult."
   },
   {
@@ -888,7 +888,7 @@
   {
     "character": "Nutscracker",
     "to": "Monstradamus",
-    "mood": "playful",
+    "mood": "humorous",
     "text": "One of them is old and one of them is young."
   },
   {
@@ -1236,19 +1236,19 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "IsoldA",
-    "mood": "playful",
+    "mood": "flirty",
     "text": "Well, I've learned one lesson. Nice and easy does it."
   },
   {
     "character": "IsoldA",
     "to": "Romeo-y-Cohiba",
-    "mood": "playful",
+    "mood": "flirty",
     "text": "Yes. Especially in your RR SUV."
   },
   {
     "character": "Romeo-y-Cohiba",
     "to": "IsoldA",
-    "mood": "playful",
+    "mood": "flirty",
     "text": "It's your RR SUV."
   },
   {
@@ -1260,13 +1260,13 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "IsoldA",
-    "mood": "playful",
+    "mood": "flirty",
     "text": "It's on your side!"
   },
   {
     "character": "IsoldA",
     "to": "Romeo-y-Cohiba",
-    "mood": "playful",
+    "mood": "flirty",
     "text": "But you're the one inside it. That means it's yours."
   },
   {
@@ -1278,7 +1278,7 @@
   {
     "character": "IsoldA",
     "to": "Romeo-y-Cohiba",
-    "mood": "playful",
+    "mood": "flirty",
     "text": "And how can it be mine if I can't even get into it? Apart from sticking my head in the window."
   },
   {
@@ -1362,7 +1362,7 @@
   {
     "character": "IsoldA",
     "to": "Romeo-y-Cohiba",
-    "mood": "playful",
+    "mood": "flirty",
     "text": "Tomorrow at three, Romeo. I date your car."
   },
   {
@@ -1410,7 +1410,7 @@
   {
     "character": "Monstradamus",
     "to": "Nutscracker",
-    "mood": "playful",
+    "mood": "humorous",
     "text": "Not particularly. I don't like jeeps. You're too high above the road when you sit in them. And anyway an RR SUV is a bit OTT. Cohiba ought to have an Alfa Romeo."
   },
   {
@@ -1428,7 +1428,7 @@
   {
     "character": "Nutscracker",
     "to": "",
-    "mood": "playful",
+    "mood": "humorous",
     "text": "And on that optimistic note..."
   },
   {

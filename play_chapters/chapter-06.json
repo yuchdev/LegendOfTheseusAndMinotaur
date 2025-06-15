@@ -44,7 +44,7 @@
   {
     "character": "Nutscracker",
     "to": "Ariadne",
-    "mood": "playful",
+    "mood": "resigned",
     "text": "And what I've heard is that if anyone's kind then it's precisely because he knows."
   },
   {
@@ -110,7 +110,7 @@
   {
     "character": "Monstradamus",
     "to": "Sartrik",
-    "mood": "playful",
+    "mood": "humorous",
     "text": "Back with us again, hero? Ladies and gents, a joke. Imagine Sartrik wakes up with a massive hangover. He can't remember anything about the previous day. There's a pool of blood beside him. He's surrounded by a labyrinth. But there's no Minotaur anywhere. Sartrik raises his eyes to the ceiling and whispers in horror: 'I killed him... Killed him and ate him...'"
   },
   {
@@ -395,7 +395,7 @@
   {
     "character": "Ariadne",
     "to": "Sartrik",
-    "mood": "playful",
+    "mood": "humorous",
     "text": "Hi, little brother. My, but you're ugly."
   },
   {

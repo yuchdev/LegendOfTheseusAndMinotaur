@@ -203,7 +203,7 @@
   {
     "character": "Organizm(-:",
     "to": "Ariadne",
-    "mood": "playful",
+    "mood": "humorous",
     "text": "I get it. Good, bad and UGLI. But did you ask him why the helmet of horror is called that? I asked you to, remember?"
   },
   {
@@ -505,7 +505,7 @@
       "Romeo-y-Cohiba",
       "IsoldA"
     ],
-    "mood": "playful",
+    "mood": "sarcastic",
     "text": "Well, lady and gent, pardon my lack of modesty, but what exactly did happen in the pavilion? My imagination blushes and fails me. Nothing that comes to mind is worthy of the emotions that we have observed. 'Oh, it's very hard to come with your finger up your bum' or the last tango in Paris. I'm thinking in banal terms, of course. Romeo, can you elaborate?"
   },
   {
@@ -634,7 +634,7 @@
   {
     "character": "Ariadne",
     "to": "Monstradamus",
-    "mood": "playful",
+    "mood": "humorous",
     "text": "You seem to be worrying about it already. Wait, that's not the right page. Here's the beginning: 'Asterius is everything that is before us and within us, especially \"before\" and \"within\". Irrupting into the mind he simulates this world and our own reason with all its voices, which dispute so convincingly with each other. To understand this means to see Asterius. One may begin with whatever one likes, without worrying about it at all...'"
   },
   {
@@ -766,7 +766,7 @@
   {
     "character": "IsoldA",
     "to": "Romeo-y-Cohiba",
-    "mood": "sad",
+    "mood": "resigned",
     "text": "Romeo! Goodbye, you bastard!"
   },
   {

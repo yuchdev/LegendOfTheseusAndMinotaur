@@ -356,7 +356,7 @@
   {
     "character": "Nutscracker",
     "to": "Monstradamus",
-    "mood": "playful",
+    "mood": "humorous",
     "text": "I'm following your discussion with intense interest."
   },
   {
@@ -551,7 +551,7 @@
   {
     "character": "Monstradamus",
     "to": "Nutscracker",
-    "mood": "playful",
+    "mood": "humorous",
     "text": "That's for sure. And even when it does make us miserable, we should feel happy in our misery."
   },
   {
@@ -575,7 +575,7 @@
   {
     "character": "Organizm(-:",
     "to": "Nutscracker",
-    "mood": "playful",
+    "mood": "humorous",
     "text": "We don't have much else to occupy ourselves with."
   },
   {
@@ -665,7 +665,7 @@
   {
     "character": "Organizm(-:",
     "to": "Nutscracker",
-    "mood": "playful",
+    "mood": "humorous",
     "text": "A mathematical weight. That's beautiful."
   },
   {
@@ -677,7 +677,7 @@
   {
     "character": "Organizm(-:",
     "to": "Nutscracker",
-    "mood": "playful",
+    "mood": "humorous",
     "text": "So it's named after that Russian scientist who noticed his stomach juices started flowing when the phone rang?"
   },
   {
@@ -782,25 +782,25 @@
   {
     "character": "Ariadne",
     "to": "Nutscracker",
-    "mood": "playful",
+    "mood": "humorous",
     "text": "How clever you are, Nutcracker. After I listened to you I wrote a poem. It's dedicated to you, Romeo and Isolde. Shall I read it?"
   },
   {
     "character": "Nutscracker",
     "to": "Ariadne",
-    "mood": "playful",
+    "mood": "humorous",
     "text": "Go on."
   },
   {
     "character": "Ariadne",
     "to": "",
-    "mood": "playful",
+    "mood": "humorous",
     "text": "Beyond the window-pane on Doom and Gloom\nOld Pavlov's Bitch's Sticky Glance is glued.\nMy Minotaur! Creep silently into my room\nBeckon me with a glance, brazenly nude."
   },
   {
     "character": "Nutscracker",
     "to": "Ariadne",
-    "mood": "playful",
+    "mood": "humorous",
     "text": "Powerful as ever. And he's already partly fulfilled your wish by removing his helmet, even though he has no head underneath it. I'd say it's impossible to expose yourself any more brazenly than that."
   },
   {
@@ -842,7 +842,7 @@
   {
     "character": "Organizm(-:",
     "to": "Nutscracker",
-    "mood": "playful",
+    "mood": "curious",
     "text": "Well, Nutcracker, so now I understand what you do for a living. Tell me, as a professional, do you reckon they could be influencing us in some similar kind of way in here?"
   },
   {
@@ -1082,7 +1082,7 @@
   {
     "character": "Organizm(-:",
     "to": "Monstradamus",
-    "mood": "playful",
+    "mood": "humorous",
     "text": "Great idea, let's. I've just had a thought. Has anyone ever wondered why Star Wars has such a strange sequel - instead of filming what came after the third episode, they filmed what came before the first one?"
   },
   {
@@ -1106,13 +1106,13 @@
   {
     "character": "Organizm(-:",
     "to": "Monstradamus",
-    "mood": "playful",
+    "mood": "humorous",
     "text": "Yes, but it's just a fantasy, after all."
   },
   {
     "character": "Nutscracker",
     "to": "Organizm(-:",
-    "mood": "playful",
+    "mood": "humorous",
     "text": "Yes, Organism. Very profound. And the Iron Mask was another Minotaur. When they handed him over to the Marquis de Sade to be corrupted, the revolution began, because the pain in his xxx made him stop thinking up royalist France."
   },
   {
@@ -1136,13 +1136,13 @@
   {
     "character": "IsoldA",
     "to": "Romeo-y-Cohiba",
-    "mood": "dismissive",
+    "mood": "compassionate",
     "text": "Nothing very interesting. Nutcracker was telling everybody about politics. And I only got back from Versailles just recently."
   },
   {
     "character": "Monstradamus",
     "to": "Nutscracker",
-    "mood": "playful",
+    "mood": "humorous",
     "text": "Nutcracker, on that business of royalist France. You know, the Marquis turned out not to be so terrible after all."
   },
   {

@@ -29,16 +29,17 @@ ALIASES = {
 
 EMOTIONS = {
     "positive": [
-        "calm",
         "compassionate",
         "excited",
         "flirty",
         "hopeful",
-        "playful", # TBRen: humorous, flirty
+        "humorous",
         "proud",
+        "respectful",
         "solemn"
     ],
     "neutral": [
+        "calm",
         "confused",
         "contemplative",
         "curious",
@@ -48,10 +49,10 @@ EMOTIONS = {
     "negative": [
         "angry",
         "anxious",
-        "ashamed", # TBRen
+        "down",
+        "embarrassed",
         "fearful",
-        "irritated",
-        "sad" # TBRen
+        "irritated"
     ],
     "complex": [
         "defensive",
@@ -59,7 +60,7 @@ EMOTIONS = {
         "dismissive",
         "jealous",
         "sarcastic",
-        "skeptical" # TBRem
+        "skeptical"
     ]
 }
 
