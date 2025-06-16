@@ -42,12 +42,16 @@
   {
     "character": "Monstradamus",
     "to": "Organizm(-:",
-    "mood": "hopeful",
+    "mood": "compassionate",
     "text": "And we share a great passion for life."
   },
   {
     "character": "Organizm(-:",
-    "to": "",
+    "to": [
+      "Monstradamus",
+      "Ariadne",
+      "Nutscracker"
+    ],
     "mood": "calm",
     "text": "That's not all, though."
   },
@@ -65,7 +69,11 @@
   },
   {
     "character": "Monstradamus",
-    "to": "",
+    "to": [
+      "Ariadne",
+      "Nutscracker",
+      "Organizm(-:"
+    ],
     "mood": "contemplative",
     "text": "I know what he means. None of us has said anything about our labyrinths."
   },
@@ -108,31 +116,31 @@
   {
     "character": "Ariadne",
     "to": "Nutscracker",
-    "mood": "contemplative",
+    "mood": "excited",
     "text": "No, not ordinary. If you ever leaf through those fashionable journals with all the chic interiors, you might have seen something of the kind. It's a large room, and the bed takes up at least half of it. The mattress is so wonderful I don't even know how to describe it. I should write more poems. When you lie down on it, it feels like you're parachuting through the air, soaring along the pillows, the blankets and the sheets - everything is absolutely the very best. And there's an air conditioner with heaps of different operating modes. You can set it so that a fresh breeze blows through the room as though it's coming straight off the sea. And there are thick curtains on the window that..."
   },
   {
     "character": "Nutscracker",
     "to": "Ariadne",
-    "mood": "curious",
+    "mood": "surprised",
     "text": "You've got a window? What does it look out on?"
   },
   {
     "character": "Ariadne",
     "to": "Nutscracker",
-    "mood": "calm",
+    "mood": "confused",
     "text": "I don't know. There's some kind of garden, and the branches of trees. I can't see anything else."
   },
   {
     "character": "Nutscracker",
     "to": "Ariadne",
-    "mood": "curious",
+    "mood": "hopeful",
     "text": "Have you tried opening it?"
   },
   {
     "character": "Ariadne",
     "to": "Nutscracker",
-    "mood": "resigned",
+    "mood": "excited",
     "text": "The window doesn't open. What else now? There's a really elegant wall-lamp above the bed and a night-lamp in the corner. There's a mini-bar too, only there aren't any drinks in it, nothing but little boxes of sleeping pills. There are lots and lots of them, all beautiful kinds of colours, and inside each one there are instructions on how many pills you can take at once, which ones you can take with others, which ones you can't, and so on. Only I don't need any sleeping pills. I only have to lie down on the bed, and I'm gone. I just fly away."
   },
   {
@@ -144,7 +152,7 @@
   {
     "character": "Ariadne",
     "to": "Nutscracker",
-    "mood": "confused",
+    "mood": "anxious",
     "text": "When I leave the bedroom for a long time - say an hour or more - someone changes the sheets and makes the bed. But I haven't met anyone, not even once. And there aren't any other doors in the bedroom, there's only one way in."
   },
   {
@@ -186,19 +194,19 @@
   {
     "character": "Monstradamus",
     "to": "Ariadne",
-    "mood": "contemplative",
+    "mood": "humorous",
     "text": "Perhaps. Only they hang head-up, because they aren't attracted by the earth's gravity, only by the love of the Lord. Like Ugly said. Angels are non-material beings."
   },
   {
     "character": "Organizm(-:",
     "to": "Monstradamus",
-    "mood": "curious",
+    "mood": "sarcastic",
     "text": "Then how did they manage to choose wives for themselves from among the daughters of man and beget children?"
   },
   {
     "character": "Nutscracker",
     "to": "UGLI 666",
-    "mood": "humorous",
+    "mood": "sarcastic",
     "text": "Ugly probably knows about that. Or she can check with some of her friends. Ugly, are you there?"
   },
   {
@@ -257,7 +265,10 @@
   },
   {
     "character": "Nutscracker",
-    "to": "Monstradamus",
+    "to": [
+      "Ariadne",
+      "Monstradamus"
+      ],
     "mood": "calm",
     "text": "Go on then. And we'll carry on here. What was that you said about your labyrinth. Monster?"
   },
@@ -276,6 +287,7 @@
   {
     "character": "Monstradamus",
     "to": [
+      "Nutscracker",
       "Sartrik"
     ],
     "mood": "contemplative",
@@ -290,7 +302,7 @@
   {
     "character": "Monstradamus",
     "to": [
-      "Sartrik",
+      "Nutscracker",
       "Organizm(-:"
     ],
     "mood": "curious",
@@ -299,7 +311,7 @@
   {
     "character": "Organizm(-:",
     "to": "Monstradamus",
-    "mood": "calm",
+    "mood": "dismissive",
     "text": "I haven't got anything interesting. Just a screen-saver."
   },
   {
@@ -311,7 +323,7 @@
   {
     "character": "Organizm(-:",
     "to": "Monstradamus",
-    "mood": "calm",
+    "mood": "contemplative",
     "text": "In Windows there's a screen-saver called 'maze'. And I've got a model of it here. Built out of planks instead of pixels. It's the only time I can ever recall software being turned into hardware."
   },
   {
@@ -359,7 +371,7 @@
   {
     "character": "Nutscracker",
     "to": "UGLI 666",
-    "mood": "skeptical",
+    "mood": "sarcastic",
     "text": "Ah, you're back. Am I correct in suspecting your saviour also doubles up as the creator?"
   },
   {
@@ -405,13 +417,13 @@
       "UGLI 666",
       "Organizm(-:"
     ],
-    "mood": "resigned",
+    "mood": "irritated",
     "text": "Stop it will you, you're like little children. Let's just drop it. Why don't you tell us about this screen-saver, Organism?"
   },
   {
     "character": "Organizm(-:",
     "to": "",
-    "mood": "calm",
+    "mood": "contemplative",
     "text": "It's a standard program. If you don't touch the keyboard for a few minutes, a labyrinth with red-brick walls appears on the screen, with a camera moving through it. It has all sorts of bells and whistles, like stones that turn everything upside down when you bump into them. The ceiling becomes the floor, the floor becomes the ceiling, and the camera starts turning in the opposite direction at the forks in the path. There's a big rat in the labyrinth too. I've actually got two screen-savers like that. The first one appears on the screen when I forget about you lot for a long time. And the second is right outside my door, constructed fairly accurately out of plywood and planks. It even has a rat in it - a kind of little mat with a plush face and paws sewn on to it. Sometimes the rat is lying in the passage. Sometimes it's glued to the ceiling. There are tumble-stones too, blocks of grey plastic. Only they don't turn anything upside down. If you touch one of them, the maze freezes."
   },
   {
@@ -423,7 +435,7 @@
   {
     "character": "Organizm(-:",
     "to": "Nutscracker",
-    "mood": "calm",
+    "mood": "contemplative",
     "text": "That's what I call it, like a computer program. What happens is, the light goes out and a panel lights up above the tumble-stone: 'This program has performed an illegal operation and will be shut down. If the problem persists, contact the program vendor.'"
   },
   {
@@ -459,7 +471,7 @@
   {
     "character": "Organizm(-:",
     "to": "Nutscracker",
-    "mood": "fearful",
+    "mood": "anxious",
     "text": "Always the same thing: 'I am the vendor, I am the vendor. What will you do? What can you do?'"
   },
   {
@@ -483,7 +495,7 @@
   {
     "character": "Organizm(-:",
     "to": "Nutscracker",
-    "mood": "calm",
+    "mood": "contemplative",
     "text": "Maybe. Anyway, if you don't touch these stones, and avoid doing a couple of other things, you can walk right round the labyrinth without any bother. And then you realise fairly quickly it's not a real labyrinth at all, just a big concrete cellar with plywood partitions."
   },
   {
@@ -518,7 +530,7 @@
   },
   {
     "character": "Organizm(-:",
-    "to": "",
+    "to": "Nutscracker",
     "mood": "confused",
     "text": "A little room with the words 'Open GL' on the wall. The real screen-saver has the same words, but they hang in the air there, and here they're daubed on the plywood in gloss paint. What does that mean, anyway?"
   },
@@ -567,7 +579,7 @@
   {
     "character": "Organizm(-:",
     "to": "Monstradamus",
-    "mood": "curious",
+    "mood": "confused",
     "text": "What do you mean? Always the way when you sit looking into a mirror for a long time?"
   },
   {
@@ -609,7 +621,7 @@
   {
     "character": "Nutscracker",
     "to": "Monstradamus",
-    "mood": "calm",
+    "mood": "contemplative",
     "text": "Okay. I'll tell you what I've got. It's a bit like a TV editing room. Professional equipment - a Betacam VCR, a special monitor, all sorts of mixers for functions I don't really understand. The whole works. There's a weird-looking poster hanging on the wall, a picture of a dog in an empty white room. On the wall in front of the dog there's something like a distribution board with a few little lamps screwed into it. Two of them are lit up - a red one on the left and a blue one on the right. And below the lamps there's a bell, surrounded by drawings of sound waves - it's obviously ringing. There's an electrode inserted into the dog's head, with wires leading from it to the distribution board. And there's a cut on its belly stuck together with sticking plaster and a rubber tube leading down out of it into a glass flask standing on the floor. The dog's right paw is raised, its tongue is hanging out, its ears are pricked up and its eyes are full of love. The text underneath it reads: 'Put it there, bro!' The first time I saw it I just froze. I wondered how the moderators could have found out. It was only afterwards I remembered I told you all about 'Pavlov's Bitch'. Standing under the poster there's a safe full of Betacam tapes with episodes of 'The Hornists of Plenitude' - that's a kind of chic international TV programme, it has these interesting titles, with the globe flanked by two bugles. The tapes all contain pretty much the same thing: a television address by someone putting himself forward for the job of Theseus. In most cases the candidate is a middle-aged man with a pleasant face and good diction. He's sitting in front of some kind of symbol, with a dozen microphones standing on a table in front of him. He promises to deal with the Minotaur and lead everyone out of the labyrinth. Before that, naturally, he expounds his own vision of what the labyrinth is and who the Minotaur is."
   },
   {
@@ -633,7 +645,7 @@
   {
     "character": "Nutscracker",
     "to": "Monstradamus",
-    "mood": "calm",
+    "mood": "contemplative",
     "text": "Well, take the last one for instance. The candidate was a tall man with grey hair. A professor of history, very distinguished looking, stylishly dressed. And his symbol was beautiful, a bit like a knight's coat of arms: a bull's skull in a net against a hatched ground. The man said the labyrinth is a symbol of the brain. An exposed brain and a classical labyrinth even look very similar. The Minotaur is the animal part of the mind and Theseus is the human part. The animal part is stronger, of course, but the human part triumphs in the end, and this is the meaning of evolution in history. At the very centre of the labyrinth there is a cross that symbolises the intersection of the animal and human principles. That is the site of the initiatory passage, where Theseus meets and conquers his enemy. He said you can only conquer the Minotaur in yourself. We must strangle the beast without mercy, and then we will be morally justified in renaming the Helmet of Horror the Helmet of Civilisation and Progress."
   },
   {
@@ -657,7 +669,7 @@
   {
     "character": "Nutscracker",
     "to": "Monstradamus",
-    "mood": "calm",
+    "mood": "contemplative",
     "text": "The last but one. A Frenchman. He was definitely the cleverest of the lot, and his appearance was very picturesque - a threadbare Chinese field jacket, with a pipe and a wild shock of hair. His symbol was a red and white chessboard with butterflies on the white squares and letters from various alphabets on the red ones. For the first few minutes he just stared into the camera, then he ruffled up his hair and announced that he would start with a truism. The major achievement of contemporary French philosophy, he said, was its success in establishing a non-contradictory unity of liberal values and revolutionary romanticism within the bounds of a unitary sexually aroused consciousness. After that he glared out of the screen for at least a minute without speaking, then he raised a finger and explained in a whisper that this declaration, despite its crystal clarity, is already a labyrinth, for a labyrinth comes into being in the course of any discussion with yourself or others, and for that period of time each of us becomes either the Minotaur or his victim. Although there is nothing we can do with this, he continued, there's nothing we can do without it either. Specifically, however, we can introduce a broader concept than the labyrinth - we can declare a discourse."
   },
   {
@@ -669,7 +681,7 @@
   {
     "character": "Nutscracker",
     "to": "Monstradamus",
-    "mood": "calm",
+    "mood": "contemplative",
     "text": "According to the shaggy professor, a discourse is the place in which words and concepts, labyrinths and Minotaurs, Theseuses and Ariadnes all come into being. Even the discourse itself can only come into being within the discourse. But the paradox is that, although the entirety of nature arises within it, the discourse itself is not encountered anywhere in nature and was only developed quite recently. Another tragic dissonance is that, although everything comes into being within the discourse, without funding from the state or private individuals the discourse itself only lasts for three days at the most and is then extinguished forever. And so there can be no more urgent task for society than to fund the discourse."
   },
   {
@@ -681,13 +693,13 @@
   {
     "character": "Nutscracker",
     "to": "Monstradamus",
-    "mood": "calm",
+    "mood": "contemplative",
     "text": "When he was talking about the labyrinth he spoke very quickly, so I don't remember it all. Basically, a labyrinth comes into being when you have to choose between several alternatives, and the alternatives are a set of our possible preferences, conditioned by the nature of language, the structure of the moment and the specific features of the sponsor. I didn't understand very much after that, I only remember that at some point he launched into the 'Internationale', and at first he sang really loudly and menacingly, but after a minute he shifted into 'Happy birthday to you'."
   },
   {
     "character": "Monstradamus",
     "to": "Nutscracker",
-    "mood": "calm",
+    "mood": "humorous",
     "text": "That's called the plurality of discourses. I remember that from university. And what did he say about the Minotaur?"
   },
   {
@@ -735,7 +747,7 @@
   {
     "character": "Monstradamus",
     "to": "Nutscracker",
-    "mood": "contemplative",
+    "mood": "calm",
     "text": "Interesting."
   },
   {
@@ -765,7 +777,7 @@
   {
     "character": "Nutscracker",
     "to": "Monstradamus",
-    "mood": "calm",
+    "mood": "contemplative",
     "text": "Yes. There was one very attractive little heifer who looked like a psychiatrist. Her symbol was right for that, too: a bull on a chain lying on a couch. I don't remember everything she said now, but the main idea was that the only way to defeat the Minotaur is to stop thinking of yourself as a victim. Then he'll simply disappear. Everyone has his own Minotaur, she said, but in reality it's not he who pursues us, we pursue him. And the labyrinth in which we seek him is the dopamine chains of pleasure linking up into rings in the human brain - they're different for everyone, as unique as fingerprints. And as for which turns to make in the labyrinth, it's all very simple. Suppose you're standing at an intersection with ten identical corridors leading in different directions. Then of course your choice of which corridor to follow should not be determined by fears and superstitions, but by the promptings of simple common sense."
   },
   {
@@ -801,7 +813,7 @@
   {
     "character": "Nutscracker",
     "to": "Monstradamus",
-    "mood": "calm",
+    "mood": "contemplative",
     "text": "I watched it all on fast forward, just listened to each one for about five minutes to get the general idea. As long as they're talking it all seems interesting and new. Then you wind on the cassette and you've forgotten it all. Some American or other said that the labyrinth is the Internet. That it's inhabited by a some being that hacks into the mind, and that's the Minotaur. It's not really a bull-man, it's a spider-man. He said if there's a worldwide web, then there must be a soul-sucking spider. He also explained why the Minotaur has two names. It seems that 'Minotaur' is the politically correct version of the name 'Asterisk'. So every time we want to say 'Asterisk', we should say 'Minotaur'. But then 'Asterisk' is the politically correct version of the name 'Minotaur', and every time we want to say 'Minotaur' we should say 'Asterisk'. And so in principle we can use both names, only not when we want to, but the other way round. There was an interesting German who said that the Minotaur is the spirit of the time, the Zeitgeist , which has manifested itself in the form of mad cow disease, hence its symbolic representation in the form of a man with a bull's head. Its counterpart in art is postmodernism, which is the mad cow disease of a culture forced to feed on its own powdered bones. And in politics it's all that stuff you see and feel when you switch on the television. Then there was an Italian, dressed in black, who announced that the Minotaur - he said 'Mondotaur' - is a being whose physical body is the gross dollar supply. It's stupid to believe that everything is controlled through money, he said - why through it and not by money itself? The Mondotaur is the evil spirit that reigns over the world, and compels every single one of us to wander aimlessly through the foul, stinking labyrinth of his intestines. And his two horns are... I've forgotten."
   },
   {
@@ -813,7 +825,7 @@
   {
     "character": "Nutscracker",
     "to": "Monstradamus",
-    "mood": "calm",
+    "mood": "contemplative",
     "text": "Then a priest with kind eyes spoke and explained that the creator of the labyrinth is also our saviour, who loves us greatly. In much the same way as we love little children, he said."
   },
   {
@@ -849,7 +861,7 @@
   {
     "character": "Monstradamus",
     "to": "Organizm(-:",
-    "mood": "resigned",
+    "mood": "calm",
     "text": "You'll be disappointed, Organism."
   },
   {
@@ -936,7 +948,7 @@
   {
     "character": "Monstradamus",
     "to": "Nutscracker",
-    "mood": "angry",
+    "mood": "irritated",
     "text": "Maybe so. But I'm fed up of these labyrinths you can't get lost in or escape from. And all these Minotaurs with horns on their xxx who promise to lead us out to the stars in just a moment. I wonder what Theseus will see instead of all this. I'd give a lot to find out."
   },
   {
@@ -1015,7 +1027,7 @@
   {
     "character": "Nutscracker",
     "to": "Sartrik",
-    "mood": "skeptical",
+    "mood": "humorous",
     "text": "Sartrik, that isn't a userpic. Perhaps we can call it a dialogue header. And that isn't a gaping xxx, it's a capital 'O'."
   },
   {
@@ -1096,7 +1108,7 @@
   {
     "character": "Sartrik",
     "to": "Monstradamus",
-    "mood": "angry",
+    "mood": "irritated",
     "text": "If you listened to what I'm saying, then you'd know what I'm trying to say. He sees this bronze phizog with horns on it because he sees himself in the mirror through the holes. Without Theseus there is no xxx Minotaur."
   },
   {
@@ -1117,7 +1129,7 @@
       "Monstradamus",
       "Nutscracker"
     ],
-    "mood": "angry",
+    "mood": "irritated",
     "text": "That's it. The helmet of horror is simply the reflection that Theseus sees, and that's all. But if he decides there really is a Minotaur and starts swearing blind at him and discussing the meaning of life with him, well that's when the Minotaur appears. And how! And then there's no way to get the helmet of horror off again. Get it now, you vermin? I know everything."
   },
   {
@@ -1171,7 +1183,7 @@
   {
     "character": "Monstradamus",
     "to": "Nutscracker",
-    "mood": "resigned",
+    "mood": "contemplative",
     "text": "I might have. But I'm not a hundred per cent certain."
   },
   {
