@@ -74,7 +74,7 @@
   {
     "character": "Monstradamus",
     "to": "Ariadne",
-    "mood": "curious",
+    "mood": "contemplative",
     "text": "That's clear enough. What else did you see?"
   },
   {
@@ -86,7 +86,7 @@
   {
     "character": "Nutscracker",
     "to": "Ariadne",
-    "mood": "skeptical",
+    "mood": "curious",
     "text": "Paper headed with a crest? What was the crest like?"
   },
   {
@@ -95,7 +95,7 @@
       "Nutscracker",
       "Monstradamus"
     ],
-    "mood": "calm",
+    "mood": "curious",
     "text": "A little star framed in laurel leaves. It looked very impressive, you could even feel it with your fingers. Embossing. There was a motto under the crest: 'per aspera ad asterisk'. And there were watermarks in the paper. And as well as all that, there was a three-figure number in the upper right corner of the page - the blank sheets were numbered. Monstradamus, I wanted to ask you, what do those words mean?"
   },
   {
@@ -128,7 +128,7 @@
   {
     "character": "Monstradamus",
     "to": "Ariadne",
-    "mood": "curious",
+    "mood": "confused",
     "text": "What do you mean, 'type them out'? Have you got the sheets there?"
   },
   {
@@ -164,7 +164,7 @@
   {
     "character": "Monstradamus",
     "to": "Nutscracker",
-    "mood": "skeptical",
+    "mood": "sarcastic",
     "text": "Is that bit about the bull some kind of a hint?"
   },
   {
@@ -173,7 +173,7 @@
       "Monstradamus",
       "Nutscracker"
     ],
-    "mood": "resigned",
+    "mood": "calm",
     "text": "Let me answer your questions and get something to eat, okay? Then you can talk among yourselves."
   },
   {
@@ -233,7 +233,7 @@
   {
     "character": "Ariadne",
     "to": "Nutscracker",
-    "mood": "fearful",
+    "mood": "anxious",
     "text": "We heard some kind of horn or trumpet sounding a low, sinister note. Or it could have been some animal bellowing. The dwarf was so startled he dropped his inkwell on the floor and it broke, making a blue puddle beside the table. He said his master was summoning him to help and he ran off. And as he left he shouted it was possible that blood would soon be spilled, but it would be avenged."
   },
   {
@@ -323,7 +323,7 @@
     "character": "IsoldA",
     "to": "Romeo-y-Cohiba",
     "mood": "angry",
-    "text": "So you're embarrassed of them, but not of me! And you have the cheek to ask me how you behaved? All right, I'll tell you. Like a coarse brute, that's how. Worse than that, like an absolutely shameless and depraved brute who thinks he can get away with anything."
+    "text": "TODO So you're embarrassed of them, but not of me! And you have the cheek to ask me how you behaved? All right, I'll tell you. Like a coarse brute, that's how. Worse than that, like an absolutely shameless and depraved brute who thinks he can get away with anything."
   },
   {
     "character": "Romeo-y-Cohiba",
@@ -373,13 +373,13 @@
   {
     "character": "IsoldA",
     "to": "Monstradamus",
-    "mood": "sarcastic",
+    "mood": "dismissive",
     "text": "What gibberish."
   },
   {
     "character": "Romeo-y-Cohiba",
     "to": "Monstradamus",
-    "mood": "skeptical",
+    "mood": "dismissive",
     "text": "That's way over the top."
   },
   {
@@ -394,7 +394,7 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "Monstradamus",
-    "mood": "resigned",
+    "mood": "defensive",
     "text": "Everything around us is the same."
   },
   {
@@ -478,7 +478,7 @@
   {
     "character": "Organizm(-:",
     "to": "Romeo-y-Cohiba",
-    "mood": "curious",
+    "mood": "sarcastic",
     "text": "Romeo, did you hear any laughter from behind the wall?"
   },
   {
@@ -580,7 +580,7 @@
   {
     "character": "Monstradamus",
     "to": "Ariadne",
-    "mood": "skeptical",
+    "mood": "irritated",
     "text": "You didn't say anything about that."
   },
   {
@@ -700,7 +700,7 @@
   {
     "character": "UGLI 666",
     "to": "",
-    "mood": "anxious",
+    "mood": "angry",
     "text": "Closer and closer, and still this stupid cow just won't..."
   },
   {
@@ -712,7 +712,7 @@
   {
     "character": "Nutscracker",
     "to": "",
-    "mood": "anxious",
+    "mood": "fearful",
     "text": "What's happening? Help! I think that idiot Romeo..."
   },
   {
@@ -754,7 +754,7 @@
   {
     "character": "UGLI 666",
     "to": "Nutscracker",
-    "mood": "angry",
+    "mood": "desperate",
     "text": "Do not waste your final moments in blasphemy!"
   },
   {
@@ -772,13 +772,13 @@
   {
     "character": "Ariadne",
     "to": "",
-    "mood": "anxious",
+    "mood": "fearful",
     "text": "My door's getting hot. Are yours?"
   },
   {
     "character": "Nutscracker",
     "to": "",
-    "mood": "anxious",
+    "mood": "fearful",
     "text": "I'm stifling. Something..."
   },
   {
@@ -923,13 +923,13 @@
   {
     "character": "Nutscracker",
     "to": "",
-    "mood": "calm",
+    "mood": "contemplative",
     "text": "I think it's getting cooler. And the noise has stopped."
   },
   {
     "character": "IsoldA",
     "to": "Organizm(-:",
-    "mood": "curious",
+    "mood": "excited",
     "text": "What, don't you understand? It's Theseus!"
   },
   {
@@ -941,7 +941,7 @@
   {
     "character": "Monstradamus",
     "to": "Theseus",
-    "mood": "curious",
+    "mood": "compassionate",
     "text": "Theseus. At last. Where are you? What do you see around you?"
   },
   {
@@ -983,13 +983,13 @@
   {
     "character": "IsoldA",
     "to": "",
-    "mood": "sarcastic",
+    "mood": "anxious",
     "text": "But of course..."
   },
   {
     "character": "UGLI 666",
     "to": "",
-    "mood": "calm",
+    "mood": "resigned",
     "text": "There is no more Minotaur."
   },
   {
