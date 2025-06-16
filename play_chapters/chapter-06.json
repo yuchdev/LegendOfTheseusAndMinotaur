@@ -2,7 +2,7 @@
   {
     "character": "Organizm(-:",
     "to": "",
-    "mood": "curious",
+    "mood": "hopeful",
     "text": "Why don't we look for him? Maybe he still believes?"
   },
   {
@@ -14,7 +14,7 @@
   {
     "character": "Organizm(-:",
     "to": "Monstradamus",
-    "mood": "skeptical",
+    "mood": "hopeful",
     "text": "Well, in the whole pile of xxx. That he has a body. And it's in a room."
   },
   {
@@ -26,13 +26,13 @@
   {
     "character": "Romeo-y-Cohiba",
     "to": "",
-    "mood": "hopeful",
+    "mood": "contemplative",
     "text": "You could say he saved us. He could have just killed us all once he'd seen us."
   },
   {
     "character": "Nutscracker",
     "to": "Romeo-y-Cohiba",
-    "mood": "skeptical",
+    "mood": "contemplative",
     "text": "No he couldn't. Then he'd never have got the helmet off. He isn't kind, he just knew."
   },
   {
@@ -44,7 +44,7 @@
   {
     "character": "Nutscracker",
     "to": "Ariadne",
-    "mood": "resigned",
+    "mood": "calm",
     "text": "And what I've heard is that if anyone's kind then it's precisely because he knows."
   },
   {
@@ -56,7 +56,7 @@
   {
     "character": "UGLI 666",
     "to": "Organizm(-:",
-    "mood": "resigned",
+    "mood": "calm",
     "text": "We get distracted. Make too much fuss. Talk off the point, all this stuff about Versailles and Mona Lisa."
   },
   {
@@ -98,19 +98,19 @@
   {
     "character": "Monstradamus",
     "to": "UGLI 666",
-    "mood": "calm",
+    "mood": "sarcastic",
     "text": "That's right, any route. But it seems like a very long time since anyone walked round your route, Ugly."
   },
   {
     "character": "Sartrik",
     "to": "Monstradamus",
-    "mood": "confused",
+    "mood": "down",
     "text": "What... What route is that?"
   },
   {
     "character": "Monstradamus",
     "to": "Sartrik",
-    "mood": "humorous",
+    "mood": "sarcastic",
     "text": "Back with us again, hero? Ladies and gents, a joke. Imagine Sartrik wakes up with a massive hangover. He can't remember anything about the previous day. There's a pool of blood beside him. He's surrounded by a labyrinth. But there's no Minotaur anywhere. Sartrik raises his eyes to the ceiling and whispers in horror: 'I killed him... Killed him and ate him...'"
   },
   {
@@ -170,13 +170,13 @@
   {
     "character": "UGLI 666",
     "to": "Ariadne",
-    "mood": "jealous",
+    "mood": "angry",
     "text": "Ariadne, maybe you can explain what made you like him more than us?"
   },
   {
     "character": "Ariadne",
     "to": "UGLI 666",
-    "mood": "angry",
+    "mood": "irritated",
     "text": "Oh, go to hell. You can lead him round the labyrinth instead of me."
   },
   {
@@ -224,7 +224,7 @@
   {
     "character": "Monstradamus",
     "to": "Organizm(-:",
-    "mood": "calm",
+    "mood": "resigned",
     "text": "What are we going to do? Carry on with the discourse."
   },
   {
@@ -401,7 +401,7 @@
   {
     "character": "Organizm(-:",
     "to": "",
-    "mood": "resigned",
+    "mood": "proud",
     "text": "So what, now we'll be the Minosaur. The ancient serpent."
   },
   {
@@ -419,7 +419,7 @@
   {
     "character": "Monstradamus",
     "to": "",
-    "mood": "nauseous",
+    "mood": "irritated",
     "text": "Easier? But we've got Sartrik stuck right in the middle of us. Now we'll feel like puking all the time. Constantly. No matter how deep we dive, no matter who we pretend to be. Even Lolita, even a Rolls-Royce."
   },
   {
@@ -431,7 +431,7 @@
   {
     "character": "Nutscracker",
     "to": "",
-    "mood": "calm",
+    "mood": "hopeful",
     "text": "Let's not have any gloom and doom. The helmet isn't coming off."
   },
   {
@@ -462,28 +462,28 @@
     "character": "Monstradamus",
     "complex": true,
     "to": "",
-    "mood": "nauseous",
+    "mood": "down",
     "text": "I feel sick, xxx."
   },
   {
     "character": "IsoldA",
     "complex": true,
     "to": "",
-    "mood": "nauseous",
+    "mood": "down",
     "text": "I feel sick, xxx."
   },
   {
     "character": "Nutscracker",
     "complex": true,
     "to": "",
-    "mood": "nauseous",
+    "mood": "down",
     "text": "I feel sick, xxx."
   },
   {
     "character": "Organizm(-:",
     "complex": true,
     "to": "",
-    "mood": "nauseous",
+    "mood": "down",
     "text": "I feel sick, xxx.",
     "alias": "Organizm(-"
   },
@@ -491,28 +491,28 @@
     "character": "Sartrik",
     "complex": true,
     "to": "",
-    "mood": "nauseous",
+    "mood": "down",
     "text": "I feel sick, xxx."
   },
   {
     "character": "Ariadne",
     "complex": true,
     "to": "",
-    "mood": "nauseous",
+    "mood": "down",
     "text": "I feel sick, xxx. It's time to get out of here..."
   },
   {
     "character": "UGLI 666",
     "complex": true,
     "to": "",
-    "mood": "nauseous",
+    "mood": "down",
     "text": "I feel sick, xxx."
   },
   {
     "character": "Romeo-y-Cohiba",
     "complex": true,
     "to": "",
-    "mood": "nauseous",
+    "mood": "down",
     "text": "I feel sick, xxx."
   },
   {
@@ -524,7 +524,7 @@
   {
     "character": "Monstradamus",
     "to": "Sartrik",
-    "mood": "angry",
+    "mood": "irritated",
     "text": "Are you really that stupid or can you just not sober up? In the helmet of horror."
   },
   {
