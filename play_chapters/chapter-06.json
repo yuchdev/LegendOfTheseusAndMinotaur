@@ -212,7 +212,7 @@
   {
     "character": "Nutscracker",
     "to": "UGLI 666",
-    "mood": "sarcastic",
+    "mood": "humorous",
     "text": "Don't be such a Cassandra."
   },
   {
@@ -236,7 +236,7 @@
   {
     "character": "Monstradamus",
     "to": "Nutscracker",
-    "mood": "sarcastic",
+    "mood": "resigned",
     "text": "You've only got the capacity for doing one thing, Nutcracker. Staring into that screen, like Pavlov's bitch gazing into Tarkovsky's mirror."
   },
   {
@@ -407,7 +407,7 @@
   {
     "character": "UGLI 666",
     "to": "",
-    "mood": "sarcastic",
+    "mood": "humorous",
     "text": "We always were, heh-heh. That human stuff was nothing but a nuisance. And all that bovine stuff too."
   },
   {

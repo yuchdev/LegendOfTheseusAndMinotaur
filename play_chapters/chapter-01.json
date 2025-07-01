@@ -634,7 +634,7 @@
   {
     "character": "Monstradamus",
     "to": "Nutscracker",
-    "mood": "sarcastic",
+    "mood": "humorous",
     "text": "Octopuses? How original. I'd never have thought of that."
   },
   {
@@ -861,7 +861,10 @@
   },
   {
     "character": "Organizm(-:",
-    "to": "Nutscracker",
+    "to": [
+      "Monstradamus",
+      "Nutscracker"
+    ],
     "mood": "sarcastic",
     "text": "I don't get it, are we seriously discussing someone's dream?"
   },
@@ -922,7 +925,7 @@
   {
     "character": "Organizm(-:",
     "to": "Monstradamus",
-    "mood": "sarcastic",
+    "mood": "humorous",
     "text": "Is he/she really serious?"
   },
   {
@@ -1705,7 +1708,7 @@
   {
     "character": "Nutscracker",
     "to": "",
-    "mood": "sarcastic",
+    "mood": "humorous",
     "text": "xxx, eh? Again!"
   },
   {
@@ -2417,7 +2420,7 @@
   {
     "character": "Nutscracker",
     "to": "Romeo-y-Cohiba",
-    "mood": "sarcastic",
+    "mood": "humorous",
     "text": "Or take a pump-action shotgun and go looking for your Shakespeare."
   },
   {

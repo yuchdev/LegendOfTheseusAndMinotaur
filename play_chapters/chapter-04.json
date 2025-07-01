@@ -58,7 +58,7 @@
   {
     "character": "Nutscracker",
     "to": "Organizm(-:",
-    "mood": "sarcastic",
+    "mood": "humorous",
     "text": "We've all been fed garbage just recently as well. Did everyone get that putrid lasagne yesterday? And how did you like today's vegetarian beefsteak, rare and bloody?"
   },
   {
@@ -176,7 +176,7 @@
   {
     "character": "Ariadne",
     "to": "Nutscracker",
-    "mood": "sarcastic",
+    "mood": "humorous",
     "text": "You weren't listening to what I said, Nutcracker. The mattress I have is so wonderful I can't even feel it. What bedsores? An angel could sleep on it without even creasing its wings."
   },
   {
@@ -200,7 +200,7 @@
   {
     "character": "Organizm(-:",
     "to": "Monstradamus",
-    "mood": "sarcastic",
+    "mood": "humorous",
     "text": "Then how did they manage to choose wives for themselves from among the daughters of man and beget children?"
   },
   {
@@ -296,7 +296,7 @@
   {
     "character": "Nutscracker",
     "to": "Monstradamus",
-    "mood": "sarcastic",
+    "mood": "humorous",
     "text": "He must be busy with his booze now."
   },
   {
@@ -359,7 +359,7 @@
   {
     "character": "Nutscracker",
     "to": "UGLI 666",
-    "mood": "sarcastic",
+    "mood": "humorous",
     "text": "Ugly can ask her canons about that. They know all about saviours and salvation."
   },
   {
@@ -477,7 +477,7 @@
   {
     "character": "Nutscracker",
     "to": "Organizm(-:",
-    "mood": "sarcastic",
+    "mood": "humorous",
     "text": "Yes, you've been screwed all right. And doesn't Bull Gates ever get in touch?"
   },
   {
@@ -675,7 +675,7 @@
   {
     "character": "Monstradamus",
     "to": "Nutscracker",
-    "mood": "sarcastic",
+    "mood": "humorous",
     "text": "Oh Mama! When I hear the word 'discourse', I reach for my simulacrum."
   },
   {
@@ -729,7 +729,7 @@
   {
     "character": "Nutscracker",
     "to": "Monstradamus",
-    "mood": "sarcastic",
+    "mood": "humorous",
     "text": "What else? As long as there's a sponsor, carry on with the discourse!"
   },
   {
@@ -759,7 +759,7 @@
   {
     "character": "Monstradamus",
     "to": "Nutscracker",
-    "mood": "sarcastic",
+    "mood": "humorous",
     "text": "It's something like a glue that sticks the helmet of horror on really solidly. So you can't get it off again."
   },
   {
@@ -927,7 +927,7 @@
   {
     "character": "Organizm(-:",
     "to": "Monstradamus",
-    "mood": "sarcastic",
+    "mood": "humorous",
     "text": "Truly magnificent simplicity and elegance."
   },
   {
@@ -1062,9 +1062,9 @@
   },
   {
     "character": "Nutscracker",
-    "to": "Monstradamus",
-    "mood": "sarcastic",
-    "text": "He's lost it, Monster. Delirium tremens . He needs a drip installed."
+    "to": ["Monstradamus", "Sartrik"],
+    "mood": "humorous",
+    "text": "He's lost it, Monster. Delirium tremens. He needs a drip installed."
   },
   {
     "character": "Monstradamus",
@@ -1134,7 +1134,7 @@
   },
   {
     "character": "Nutscracker",
-    "to": "Monstradamus",
+    "to": "Sartrik",
     "mood": "sarcastic",
     "text": "I bet you he can see little pink Minotaurs running round the room. Now that's the kind of labyrinth I understand! And no need to bother going anywhere."
   },
@@ -1249,7 +1249,7 @@
   {
     "character": "Nutscracker",
     "to": "Sartrik",
-    "mood": "sarcastic",
+    "mood": "humorous",
     "text": "You're a real Theseus too, Sartrik. Maybe you've even found the way out?"
   },
   {
