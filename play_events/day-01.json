@@ -1,17 +1,11 @@
 [
   {
-    "event_type": "day_start"
+    "event_type": "day_start",
+    "number": 1
   },
   {
     "character": "Organizm(-:",
     "event_type": "enter"
-  },
-  {
-    "character": "",
-    "to": "",
-    "mood": "",
-    "text": "",
-    "event_type": ""
   },
   {
     "character": "Organizm(-:",
@@ -367,6 +361,10 @@
   },
   {
     "character": "Monstradamus",
+     "event_type": "enter"
+  },
+  {
+    "character": "Monstradamus",
     "to": [
       "Organizm(-:",
       "Romeo-y-Cohiba",
@@ -382,10 +380,6 @@
     "mood": "curious",
     "text": "Who are you, Monstradamus?",
     "event_type": "dialogue"
-  },
-    {
-    "character": "Monstradamus",
-    "event_type": "enter"
   },
   {
     "character": "Monstradamus",
@@ -737,7 +731,7 @@
     "text": "What have Japanese cartoons got to do with anything?",
     "event_type": "dialogue"
   },
-    {
+  {
     "character": "IsoldA",
     "event_type": "enter"
   },
@@ -1908,6 +1902,10 @@
     "event_type": "dialogue"
   },
   {
+    "event_type": "enviromnent_change",
+    "change": "Doors open. Music plays."
+  },
+  {
     "character": "UGLI 666",
     "to": "",
     "mood": "fearful",
@@ -1957,6 +1955,10 @@
     "event_type": "dialogue"
   },
   {
+    "character": "IsoldA",
+    "event_type": "exit"
+  },
+  {
     "character": "Romeo-y-Cohiba",
     "to": "IsoldA",
     "mood": "anxious",
@@ -1999,6 +2001,10 @@
     "event_type": "dialogue"
   },
   {
+    "event_type": "enviromnent_change",
+    "change": "Doors closed."
+  },
+  {
     "character": "Nutscracker",
     "to": "",
     "mood": "anxious",
@@ -2018,6 +2024,10 @@
     "mood": "anxious",
     "text": "Now how's Isolde going to get back? Doors, open!",
     "event_type": "dialogue"
+  },
+  {
+    "event_type": "enviromnent_change",
+    "change": "Doors open. Music plays."
   },
   {
     "character": "Nutscracker",
@@ -2174,6 +2184,10 @@
     "event_type": "dialogue"
   },
   {
+    "character": "Organizm(-:",
+    "event_type": "exit"
+  },
+  {
     "character": "UGLI 666",
     "to": "",
     "mood": "contemplative",
@@ -2193,6 +2207,10 @@
     "mood": "hopeful",
     "text": "Moderators! Give us all something to eat!",
     "event_type": "dialogue"
+  },
+  {
+    "event_type": "enviromnent_change",
+    "change": "Brief sound of dishes clinging."
   },
   {
     "character": "Ariadne",
@@ -2235,6 +2253,22 @@
     "mood": "calm",
     "text": "Let's all eat in peace. Bon appetit .",
     "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "event_type": "exit"
+  },
+  {
+    "character": "Ariadne",
+    "event_type": "exit"
+  },
+  {
+    "character": "Monstradamus",
+    "event_type": "exit"
+  },
+  {
+    "character": "IsoldA",
+    "event_type": "enter"
   },
   {
     "character": "IsoldA",
@@ -2447,6 +2481,10 @@
     "event_type": "dialogue"
   },
   {
+    "character": "Sartrik",
+    "event_type": "exit"
+  },
+  {
     "character": "IsoldA",
     "to": "Romeo-y-Cohiba",
     "mood": "curious",
@@ -2466,6 +2504,10 @@
     "mood": "confused",
     "text": "Versailles? Then why is it written with a small letter?",
     "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "event_type": "enter"
   },
   {
     "character": "Monstradamus",
@@ -2595,6 +2637,10 @@
     "mood": "curious",
     "text": "What do you mean? Do you mean I wouldn't be frightened of you? Or do you mean that with you I wouldn't have to be afraid of anything?",
     "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "event_type": "enter"
   },
   {
     "character": "Nutscracker",
@@ -2824,6 +2870,14 @@
     "event_type": "dialogue"
   },
   {
+    "character": "IsoldA",
+    "event_type": "exit"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "event_type": "exit"
+  },
+  {
     "character": "Ariadne",
     "to": [
       "Monstradamus",
@@ -2857,6 +2911,10 @@
   },
   {
     "character": "Romeo-y-Cohiba",
+    "event_type": "enter"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
     "to": [
       "Organizm(-:",
       "Nutscracker"
@@ -2873,6 +2931,11 @@
     "event_type": "dialogue"
   },
   {
+    "character": "Romeo-y-Cohiba",
+    "event_type": "exit",
+    "details": "offended"
+  },
+  {
     "character": "Monstradamus",
     "to": "Ariadne",
     "mood": "hopeful",
@@ -2880,6 +2943,27 @@
     "event_type": "dialogue"
   },
   {
-    "event_type": "day_end"
+    "character": "Monstradamus",
+    "event_type": "exit"
+  },
+  {
+    "character": "Ariadne",
+    "event_type": "exit"
+  },
+  {
+    "character": "Nutscracker",
+    "event_type": "exit"
+  },
+  {
+    "character": "UGLI 666",
+    "event_type": "exit"
+  },
+  {
+    "character": "Organizm:-)",
+    "event_type": "exit"
+  },
+  {
+    "event_type": "day_end",
+    "number": 1
   }
 ]
