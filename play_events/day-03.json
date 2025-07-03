@@ -1,0 +1,1692 @@
+[
+  {
+    "event_type": "day_start"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Nutscracker",
+    "mood": "curious",
+    "text": "Nutcracker, do you know any Latin?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "UGLI 666",
+    "mood": "humorous",
+    "text": "The Senate and People of Rome. P-Q-R-S. No, I'm confusing it with the alphabet. What the Romans had was S-P-Q-R.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "UGLI 666",
+    "mood": "curious",
+    "text": "Why are you interested in Latin, Ugly?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Monstradamus",
+    "mood": "calm",
+    "text": "To translate a few words.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "UGLI 666",
+    "mood": "compassionate",
+    "text": "I'll give it a try.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Monstradamus",
+    "mood": "hopeful",
+    "text": "What's 'aiselceclesia'?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "UGLI 666",
+    "mood": "confused",
+    "text": "I don't know.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Monstradamus",
+    "mood": "hopeful",
+    "text": "And 'ieselceaeclesi'?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "UGLI 666",
+    "mood": "confused",
+    "text": "I don't know that either. Are you sure it's Latin?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Monstradamus",
+    "mood": "confused",
+    "text": "What else could it be?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "UGLI 666",
+    "mood": "curious",
+    "text": "I can't tell yet. Can you give us the whole phrase?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Monstradamus",
+    "mood": "resigned",
+    "text": "It's very long.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "UGLI 666",
+    "mood": "curious",
+    "text": "Then a couple of words at least.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Monstradamus",
+    "mood": "calm",
+    "text": "It starts: 'aiselceclesia ieselceaeclesi selceataecles elceatctaecle'.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "UGLI 666",
+    "mood": "confused",
+    "text": "Stop, that's enough for now.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Monstradamus",
+    "mood": "curious",
+    "text": "What is it?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "UGLI 666",
+    "mood": "contemplative",
+    "text": "Not so fast. Let me have a think.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "UGLI 666",
+    "mood": "curious",
+    "text": "Where's it from, Ugly?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Nutscracker",
+    "mood": "calm",
+    "text": "From a labyrinth.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "UGLI 666",
+    "mood": "curious",
+    "text": "Have you got a labyrinth outside your door?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Nutscracker",
+    "mood": "sarcastic",
+    "text": "What else am I supposed to have?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "UGLI 666",
+    "mood": "sarcastic",
+    "text": "Catacombs.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Nutscracker",
+    "mood": "calm",
+    "text": "Don't mock, Nutcracker.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Nutscracker",
+    "mood": "proud",
+    "text": "The catacombs were the cradle of the faith. It would have been great reassurance from the Lord.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "",
+    "mood": "sarcastic",
+    "text": "She said before she had a hall full of benches. Now all of a sudden there's a labyrinth.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Nutscracker",
+    "mood": "irritated",
+    "text": "I wish you'd go back to your bitches, Nutcracker, I really do.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Monstradamus",
+    "mood": "hopeful",
+    "text": "Can you make anything of it, Monstradamus?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "UGLI 666",
+    "mood": "curious",
+    "text": "Were the words written in a column, one under the other?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Monstradamus",
+    "mood": "calm",
+    "text": "Yes.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "UGLI 666",
+    "mood": "curious",
+    "text": "Can you type the one that was in the middle?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Monstradamus",
+    "mood": "confused",
+    "text": "What do you mean? Which one's that?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "UGLI 666",
+    "mood": "calm",
+    "text": "The seventh from the top, if that makes it easier.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Monstradamus",
+    "mood": "calm",
+    "text": "Eatcnasanctae.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "",
+    "mood": "humorous",
+    "text": "Eat NASA. I can't make out any other references there.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "UGLI 666",
+    "mood": "curious",
+    "text": "Where did you find it?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Monstradamus",
+    "mood": "anxious",
+    "text": "I don't really want to talk about that.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "UGLI 666",
+    "mood": "curious",
+    "text": "What if I reproduce the entire inscription, then will you tell me?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Monstradamus",
+    "mood": "calm",
+    "text": "In that case, yes.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "",
+    "mood": "proud",
+    "text": "The inscription was this:\nA I S E L C E C L E S I A I S E L C E A E C L\nE S I S E L C E A T A E C L E S E L C E A T\nC T A E C L E L C E A T C N C T A E C L C\nE A T C E A N C T A E C E A T C N A S A\nN C T A E C E A T C N A N C T A E C L C\nE A T C N C T A E C L E L C E A T C T A E\nC L E S E L C E A T A E C L E S I S E L C E\nA E C L E S I A I S E L C E C L E S I A",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Monstradamus",
+    "mood": "surprised",
+    "text": "That's right. How did you do that?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "UGLI 666",
+    "mood": "humorous",
+    "text": "Dominus illuminatio mea.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Monstradamus",
+    "mood": "curious",
+    "text": "But what does it mean?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "UGLI 666",
+    "mood": "calm",
+    "text": "The Lord is my light.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Monstradamus",
+    "mood": "curious",
+    "text": "I mean what does my inscription mean?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "UGLI 666",
+    "mood": "contemplative",
+    "text": "Well, what do you think?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Monstradamus",
+    "mood": "confused",
+    "text": "I can't make any sense of it at all. What sense is there?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "UGLI 666",
+    "mood": "calm",
+    "text": "The sense can be very different, depending on where you found it. So you'll have to be honest about everything.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Monstradamus",
+    "mood": "anxious",
+    "text": "All right. Outside my door there really is a hall with benches. I didn't really look at it properly at first. But then when I did... I'm not even sure whether you'll believe me or not, Monstradamus.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "UGLI 666",
+    "mood": "compassionate",
+    "text": "I'll give it a try.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Monstradamus",
+    "mood": "resigned",
+    "text": "There's a cathedral there. A Gothic cathedral.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "UGLI 666",
+    "mood": "confused",
+    "text": "You just said there was a labyrinth.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Nutscracker",
+    "mood": "calm",
+    "text": "That's there too, only inside the cathedral. And in front of the entrance to the labyrinth there's another Latin inscription laid out on the floor:\nHVNC MVNDVM TIPICE LABERINTHVS\nDENOTAT ISTE:\nINTRANTI LARGVS, REDEVNTI SED\nNIMIS ARTVS SIC MVNDO CAPTVS,\nVICIORVM MOLLE GRAVATVS VIX VALET\nAD VITE DOCTRINAM QVISQVE REDIRE.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "UGLI 666",
+    "mood": "contemplative",
+    "text": "The meaning of that is more or less as follows - 'the labyrinth represents the world in which we live, wide at the entrance, but narrow at the exit. He who is ensnared by the joys of this world and is burdened with its sins, may only rediscover the doctrine of life through effort.' Only don't ask me what the doctrine of life is. Was there really a wide entrance and a narrow exit?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Monstradamus",
+    "mood": "calm",
+    "text": "There wasn't any entrance or exit at all in the usual sense. The entire labyrinth was laid out on the floor of the cathedral in light-blue marble. It's just a mosaic.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "UGLI 666",
+    "mood": "curious",
+    "text": "Is there such a thing as light-blue marble?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Nutscracker",
+    "mood": "calm",
+    "text": "Yes, there is.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "UGLI 666",
+    "mood": "curious",
+    "text": "But what's a labyrinth doing in a cathedral?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Nutscracker",
+    "mood": "calm",
+    "text": "The first canon told me a labyrinth is a part of that church and many others, because it illustrates the full complexity of the Christian path.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "UGLI 666",
+    "mood": "confused",
+    "text": "The first canon?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Nutscracker",
+    "mood": "calm",
+    "text": "Yes. But the second canon objected that the Christian path is as simple and straight as an arrow. And the twists and turns and dead-ends of the labyrinth symbolise sin, in which fallen souls wander, hopelessly lost. And then the first canon replied that he had essentially meant the same thing, since sin is a distortion arising in the straight line of the Christian path. But no matter how tortuous the path of life might be, if the person walking it remains within the bosom of the Church, the simple arithmetic of good and evil ceases to apply, and the higher mathematics of the spirit comes into play.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "UGLI 666",
+    "mood": "confused",
+    "text": "Now we've got a second canon as well.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "UGLI 666",
+    "mood": "curious",
+    "text": "And what higher mathematics is that?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Monstradamus",
+    "mood": "solemn",
+    "text": "However crooked and tortuous a life may be overall, a communicant of the Sacred Gifts may regard each infinitesimally small sector of his path as straight. And if any sector of his path is straight, then it is straight at any moment, and if it is straight at any moment, then it is always straight, and the Lord will not reject his soul. It is as though we grow mathematical wings that lift us up out of the depths of our degradation.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "UGLI 666",
+    "mood": "curious",
+    "text": "But who are these canons? You mean you met someone?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Nutscracker",
+    "mood": "calm",
+    "text": "There were two of them. They were praying on bended knees near the altar. I made a noise, they noticed me and came over to help me with explanations and instructions.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "UGLI 666",
+    "mood": "curious",
+    "text": "Tell us about them.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Nutscracker",
+    "mood": "solemn",
+    "text": "They said that a long time ago, when faith was strong in people's souls, a priest could send a repentant sinner on a pilgrimage to the Holy Land. In later times, when faith began to fail...",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "UGLI 666",
+    "mood": "irritated",
+    "text": "Not about the instructions, tell us about the canons themselves. Don't you understand, or what? No one else here has met anybody.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Nutscracker",
+    "mood": "contemplative",
+    "text": "What about Ariadne?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "Monstradamus",
+    "mood": "sarcastic",
+    "text": "She only dreamed about them. Surely I don't have to explain the difference?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Nutscracker",
+    "mood": "sarcastic",
+    "text": "Yes, explain it, Nutcracker.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "Monstradamus",
+    "mood": "sarcastic",
+    "text": "You don't understand the difference between a dream and reality?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Nutscracker",
+    "mood": "sarcastic",
+    "text": "I don't understand what the difference is between the two stories.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "Monstradamus",
+    "mood": "sarcastic",
+    "text": "The difference is one's about a dream and one's about reality.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Nutscracker",
+    "mood": "sarcastic",
+    "text": "But all I can see are letters on a screen.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "Monstradamus",
+    "mood": "resigned",
+    "text": "Not again. You've worn me out.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "UGLI 666",
+    "mood": "curious",
+    "text": "Ugly, are you there?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Nutscracker",
+    "mood": "calm",
+    "text": "Yes.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "UGLI 666",
+    "mood": "curious",
+    "text": "These canons, what did they look like?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Nutscracker",
+    "mood": "calm",
+    "text": "Medium height. In threadbare cassocks, with old-fashioned, wide-brimmed cardinal's hats on their heads. The canons explained that the hats once belonged to holy prelates and they helped to calm the passions. The second canon had the brim of his hat bent upwards at one side, like a duellist. It reminded me of Aramis from 'The Three Musketeers', the one who was an ordinary sinner at first, and then became a general of the order of Jesuits.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Nutscracker",
+    "mood": "contemplative",
+    "text": "Sounds like the two dwarves that Ariadne saw at the very beginning.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "Monstradamus",
+    "mood": "contemplative",
+    "text": "That's what I thought too. But those were dwarves, and these two are medium height.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "UGLI 666",
+    "mood": "curious",
+    "text": "Ugly, what height are you?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Monstradamus",
+    "mood": "defensive",
+    "text": "That has nothing to do with anything.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "UGLI 666",
+    "mood": "curious",
+    "text": "Forget it. Let's move on. Ugly, did you see their faces?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Nutscracker",
+    "mood": "calm",
+    "text": "No. They stood with their heads bowed, as befits monks and spiritual people, and the brims of their hats hid their features completely.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "UGLI 666",
+    "mood": "curious",
+    "text": "And what were their voices like?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Nutscracker",
+    "mood": "calm",
+    "text": "Humble and sincere.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "UGLI 666",
+    "mood": "curious",
+    "text": "What did they say?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Nutscracker",
+    "mood": "contemplative",
+    "text": "I started telling you that, but you interrupted. They said that in the glorious times of the Holy Crusades, especially after the victory of Gottfried of Bouillon, pilgrims journeyed on foot to the grave of our Lord to repent. Later, when faith grew weaker and the human spirit no longer possessed the strength for such great effort, the site of pilgrimage was relocated to monasteries and abbeys, where people went to pay homage to the local saint. When people's piety became too weak even for that, they were instructed to walk The League to do penance.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "UGLI 666",
+    "mood": "confused",
+    "text": "The League?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Nutscracker",
+    "mood": "solemn",
+    "text": "Yes. It's the old name for the church labyrinth. That's approximately how long it was. Although the one I was facing was a lot shorter. You were supposed to walk through these labyrinths on your knees. And for the time of ultimate decline that will come just before the end of the world, labyrinths on walls were prepared, really small ones that people go through by tracing the way with their finger. They are for those who are only willing to spend a very small amount of time on their souls. But there are labyrinths that are quite the opposite, endlessly long ones in which you can repent eternally. For instance in the Church of Sta. Maria-di-Trastavera in Rome. The first canon showed me a plan of it.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "UGLI 666",
+    "mood": "sarcastic",
+    "text": "He prepared well for the conversation.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Monstradamus",
+    "mood": "calm",
+    "text": "He didn't prepare for it. The plans of the labyrinths were on the columns and walls of the cathedral. In fact, everything there was covered with them. The one that's in Sta. Maria-di-Trastavera consists of a large number of circles set inside each other. It looks like a target for shooting practice. It's the most mystical of all the labyrinths.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "UGLI 666",
+    "mood": "humorous",
+    "text": "The most mystical one is mine; please enter that in the minutes.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Monstradamus",
+    "mood": "solemn",
+    "text": "The second canon explained that the meaning of these circles is that it's no more possible for the soul to approach the Lord through its own desire than for the moon suddenly to decide to fly closer to the earth. The soul will remain eternally on the plane to which the Lord has sent it, and it will only be able to approach Him through His mercy, and not of its own will. And His mercy is expressed in the existence of the Church. It's the Church that lends us those mathematical wings we were talking about. Without them we can only circle around Him like the planets. Sin is the centrifugal force that pulls us away from Him. But God's love is like the force of gravity, because it draws us to Him. The soul dwells in this world below because these forces balance each other.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "UGLI 666",
+    "mood": "sarcastic",
+    "text": "So the Lord loves sinners more then?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Nutscracker",
+    "mood": "confused",
+    "text": "Why?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "UGLI 666",
+    "mood": "sarcastic",
+    "text": "They have more sins, so their centrifugal force is stronger. For them to stay in orbit, the force of God's love has to increase to balance it.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Nutscracker",
+    "mood": "defensive",
+    "text": "But it happens in families too, that the best-loved children are the naughtiest.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "UGLI 666",
+    "mood": "sarcastic",
+    "text": "Then that means, if you want the Lord to love you more, pull as many dirty tricks as you can?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Nutscracker",
+    "mood": "resigned",
+    "text": "Yes it does, according to logic. But I'm not really sure that's what the Lord is actually guided by.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "UGLI 666",
+    "mood": "curious",
+    "text": "Okay, we'll check that one out. What happened next?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Nutscracker",
+    "mood": "solemn",
+    "text": "Next? The second canon folded his arms and fell silent and withdrew humbly into the shadow. I began walking around the cathedral arm-in-arm with the first one, examining the plans of the various spiritual labyrinths, while the canon quietly explained their function and symbolic meaning to me. I thought the labyrinth from Poitiers Cathedral was particularly beautiful. It's shaped like a tree with a spreading crown and arranged so that the same threshold serves as its entrance and its exit. It works out like that because the path only divides in two once, at the very centre, and its two halves twist and turn to form the right and left parts of the tree's crown. The canon said it was the Tree of Life, and the meaning of the labyrinth was that we enter life and leave it through the same door, naked and taking nothing with us.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "UGLI 666",
+    "mood": "curious",
+    "text": "And where's that inscription with the secret message from, the one you asked us to translate?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Nutscracker",
+    "mood": "calm",
+    "text": "From an ancient basilica in Algeria.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "UGLI 666",
+    "mood": "curious",
+    "text": "Does it have a labyrinth too?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Monstradamus",
+    "mood": "calm",
+    "text": "Yes. It surrounds a central square containing the holy inscription. The canon told me to copy it out and assured me there was a secret in the inscription. He said I would only be able to read it when I had the key. In exactly the same way, he said, I would not be able to understand the predestined purpose of people and things in this world until the moment when the wisdom that comes with true faith opened my eyes to the transcendental meaning of creation. And the key to that wisdom was the same as the key to the inscription. He also told me not to be seduced by the empty talk about Theseus, which he knows all about. In time, he said, I would see for myself that the true Theseus is the One whom he serves. And that's all. Is Monstradamus still there?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "UGLI 666",
+    "mood": "dismissive",
+    "text": "Later. Go on with your story.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": [
+      "Nutscracker",
+      "Monstradamus"
+    ],
+    "mood": "irritated",
+    "text": "I'm not going to tell you any more until he translates for me.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "Monstradamus",
+    "mood": "hopeful",
+    "text": "Monster, are you there? Translate for her, please.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "UGLI 666",
+    "mood": "contemplative",
+    "text": "The whole point is in the way the letters are arranged. In French it's called a jeu-de-lettres .",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Monstradamus",
+    "mood": "hopeful",
+    "text": "But do you have the key to the inscription the canon was talking about?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "UGLI 666",
+    "mood": "proud",
+    "text": "Of course.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Monstradamus",
+    "mood": "hopeful",
+    "text": "What is it?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "UGLI 666",
+    "mood": "calm",
+    "text": "It's a cross.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "",
+    "mood": "solemn",
+    "text": "My Lord! Thy will be done!",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "UGLI 666",
+    "mood": "proud",
+    "text": "Yes. You have to start from the very centre. Find the letter S there and trace a cross through it. If you read the text in any direction of the cross and then along any line from it at right angles, you get SANCTA ECLESIA, which means 'the holy church', with one mistake.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Monstradamus",
+    "mood": "curious",
+    "text": "Are you saying the inscription was made with a spelling mistake? Or does the inscription refer to a mistake made by the holy church?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "UGLI 666",
+    "mood": "calm",
+    "text": "What I'm saying is there should be two C's in the word for church - ecclesia. But in olden times they might have thought that was excessive.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "UGLI 666",
+    "mood": "curious",
+    "text": "Then what happened, Ugly?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Monstradamus",
+    "mood": "excited",
+    "text": "Wait a moment. Let me see if it works with the letters. It really does. How profound! Now I understand what the canon was trying to say, Monstradamus. This world will remain a meaningless conglomeration of absurdities and riddles, where we continue to wander aimlessly about in the dark, until we accept the teachings of the Holy Church. But as soon as that happens, the holy cross will shine out at the centre of life's labyrinth, and the fullness of the purpose concealed in all things will instantly be revealed! The world will be miraculously transformed, the harmonious scheme of things will emerge from the chaos and insanity, and whichever way we direct our gaze, we shall see Hosannah to the Lord on every side! Is that right, Monstradamus?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "UGLI 666",
+    "mood": "compassionate",
+    "text": "But of course. And we shall hear the radiance of his glory.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "UGLI 666",
+    "mood": "curious",
+    "text": "Amen. So what happened next?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Nutscracker",
+    "mood": "solemn",
+    "text": "The canon led me over to the labyrinth laid out on the floor and said 'My daughter, the One whom I serve wishes you to walk The League and repent.' I went down on my knees and set off. The canon said that while walking through a labyrinth like that the correct thing to do is to meditate intensely on everything that you have done in your life. I didn't have to try very hard. I only had to glance at the grid by the altar for pictures of my childhood to start floating past my inner eye like coloured balloons, magically transforming what I saw around me. With every new second I was immersed deeper and deeper into the past. The majestic columns soaring upwards to meet the distant vaults took on the appearance of the lime trees in the park in xxx where I spent the first few years of my life. It's not surprising - in those distant days the trees were every bit as huge in relation to me as those columns are now. The images of the saints watching me from niches in the walls had the faces of grown-ups from my childhood. I sensed that some of them were strict and others were indulgent, but they all loved me equally, even though they knew absolutely everything about me. Then the path turned a corner and I began walking, or rather crawling, in a different direction; now I remembered the time of my youth. The stone boatman decorating the preacher's pulpit came to life and sailed across the waters of my memory, transformed into the only friend of my life's brief springtime. He looked exactly as he did on the lake in xxx, where we swore to love each other forever. A new turn, and sin had swept him into oblivion - I no longer knew him and did not wish to know him. Yet another turn and the time of maturity had arrived. My stockings were worn into holes, my knees were scratched, but I didn't feel any pain - tears of repentance and hope were flowing down my cheeks. And the Lord sent me word, yes He did! A little miracle occurred - I don't know how it happened that in my blindness I only realised it afterwards, when I came back to my cell. I mean my room. As I circled through the labyrinth, no matter which way I turned within it, I could always see the crucifixion with a ray of sunlight falling on it through a stained-glass window, suffusing it with ruby, emerald and sapphire light! And that unearthly radiance made my heart feel so happy, so bright and calm that I wanted to cry and sing, cry and sing...",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "UGLI 666",
+    "mood": "curious",
+    "text": "And?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Nutscracker",
+    "mood": "excited",
+    "text": "Cry and sing.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "UGLI 666",
+    "mood": "curious",
+    "text": "And is that it?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Nutscracker",
+    "mood": "calm",
+    "text": "Yes, that's more or less everything. When I'd crawled all the way through the labyrinth, the canons were no longer anywhere to be seen. I walked out of the cathedral and found myself in my room.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "UGLI 666",
+    "mood": "curious",
+    "text": "And can you go back into the cathedral now?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Nutscracker",
+    "mood": "resigned",
+    "text": "Its door is locked now.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "UGLI 666",
+    "mood": "curious",
+    "text": "When did they find time to lock it?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Nutscracker",
+    "mood": "calm",
+    "text": "I don't know.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "UGLI 666",
+    "mood": "curious",
+    "text": "And are you sure you didn't just dream it all, like Ariadne?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Nutscracker",
+    "mood": "calm",
+    "text": "Yes, I'm sure. The canon gave me a rosary and I'm holding it in my hand. I'm going to take a rest now.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "UGLI 666",
+    "mood": "compassionate",
+    "text": "Yes, Ugly, take a rest. After all you've been through it will do you good.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "Monstradamus",
+    "mood": "curious",
+    "text": "An interesting crossword puzzle. But from a mystical point of view, how do you explain that at the very centre of the labyrinth of life there lies the letter 'S'?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Nutscracker",
+    "mood": "humorous",
+    "text": "That ought to be clear enough to you of all people, Nutscracker.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "alias": "Nut$cracker",
+    "to": "Monstradamus",
+    "mood": "confused",
+    "text": "Why?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Nutscracker",
+    "mood": "humorous",
+    "text": "You have the same letter at your centre too. And just at the moment it's looking like a dollar sign.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "Monstradamus",
+    "mood": "embarrassed",
+    "text": "Where? Oh, that. That's the moderators taking the piss again. If that's what you had in mind, I can tell you the pay for my job is so low it's an insult.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "anxious",
+    "text": "Isolde, are you back yet?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Romeo-y-Cohiba",
+    "mood": "calm",
+    "text": "Hi there, Romeo.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "Monstradamus",
+    "mood": "irritated",
+    "text": "Are you IsoldA then?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "Monstradamus",
+    "mood": "humorous",
+    "text": "Cohiba's in a bad mood today.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Nutscracker",
+    "mood": "contemplative",
+    "text": "I liked the phrase 'With every new second I was immersed deeper and deeper into the past.'",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "Monstradamus",
+    "mood": "calm",
+    "text": "Yes, I noticed that too.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Nutscracker",
+    "mood": "contemplative",
+    "text": "Pure poetry. With every new day we slide deeper and deeper into the past. We disappear into it, like a diver sinking under the water in a slow-motion sequence. What is the difference between an old man and a young man if you put them side by side?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "Monstradamus",
+    "mood": "humorous",
+    "text": "One of them is old and one of them is young.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Nutscracker",
+    "mood": "contemplative",
+    "text": "Yes, but what does that mean? That there is only a tiny little piece of the old man left in our dimension - he is almost completely submerged in Lethe's waters of oblivion. But the young man is still all here - he has just barely touched the surface of the water. Isn't that it?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "Monstradamus",
+    "mood": "contemplative",
+    "text": "I don't know. The way things are these days, they could both go down together at any moment. And the size of the pieces would depend less on their age than the force of the blast.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Nutscracker",
+    "mood": "calm",
+    "text": "That's also true.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "Monstradamus",
+    "mood": "contemplative",
+    "text": "And, as for that phrase you liked, I think Ugly was thinking of the helmet of horror. The future is produced from the past, so the further we go into the future, the more past is required to produce it. You know, the closer you build to the stars, the deeper the pit you dig the soil out of...",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "hopeful",
+    "text": "Isolde, are you there? Isolde!",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "",
+    "mood": "contemplative",
+    "text": "And, to complete the picture, you could say the bubbles of the past were bursting in a helmet that was running 'Sticky Eye' and 'Sunny Kiss' simultaneously.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Nutscracker",
+    "mood": "confused",
+    "text": "What?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "UGLI 666",
+    "mood": "compassionate",
+    "text": "Are you still here, Ugly? Take no notice, he's joking.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Nutscracker",
+    "mood": "angry",
+    "text": "I should never have told you.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "UGLI 666",
+    "mood": "compassionate",
+    "text": "Don't be offended, Ugly.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Nutscracker",
+    "mood": "angry",
+    "text": "I'm never going to tell you anything again.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Nutscracker",
+    "mood": "compassionate",
+    "text": "Say you're sorry, Nutcracker.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "Monstradamus",
+    "mood": "confused",
+    "text": "For what?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Nutscracker",
+    "mood": "compassionate",
+    "text": "Please, say you're sorry.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "UGLI 666",
+    "mood": "resigned",
+    "text": "All right. I'm sorry, Ugly.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Nutscracker",
+    "mood": "dismissive",
+    "text": "God will forgive you.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "hopeful",
+    "text": "Romeo, where are you? I'm back.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "excited",
+    "text": "I was starting to get worried. Tell me what happened.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "curious",
+    "text": "You first.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "anxious",
+    "text": "All right. I would have reached the pavilion quickly, because last time I marked which way to go at the forks in the path. But I met someone really terrifying on the way.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "surprised",
+    "text": "You too?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "anxious",
+    "text": "What happened? Are you all right?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "compassionate",
+    "text": "Yes, everything's fine. Go on.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "anxious",
+    "text": "When I got past the bench where I can see the roof and the fountain, I suddenly sensed a movement behind me. And when I turned round I saw something absolutely incredible. Just imagine it, a long narrow corridor between the bushes. And coming towards me along it on roller skates was... I don't even know if it was a man or not. He was immensely tall, wearing a sombrero hat and an ice-hockey goalkeeper's mask made of white plastic. And there were two smaller figures on roller skates behind him. I could hardly see them, because he took up the entire passage. He was wearing a goalkeeper's uniform too - an immense blue sweatshirt with the number '35' and the words 'chicago bulls'. Or at least, that's what I thought at first. But when he got closer, I could see the number was actually totally weird: ' - 3.5%', and the word 'bulls' was really 'BEARS'. It was just that the minus sign and the percentage sign were the same colour as the sweatshirt and I hadn't spotted them from the distance. And he was holding a double hockey-stick.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "confused",
+    "text": "How do you mean?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "contemplative",
+    "text": "You've seen a goalkeeper's stick, haven't you? Now imagine it has two blades curving in opposite directions. Of course, you couldn't possibly play with one like that.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "curious",
+    "text": "And what happened when he reached you?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "anxious",
+    "text": "He didn't get that far. When he was only ten feet away, he turned a corner and disappeared into a side passage. And the others darted in there after him as well.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "curious",
+    "text": "Who was it following him?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "contemplative",
+    "text": "It was two dwarves. They were on roller skates too, and wearing sombreros. I couldn't see their faces, they had their heads lowered so the wind wouldn't blow their hats off. And they were holding up the hem at the back of his sweatshirt, like ladies in waiting.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "curious",
+    "text": "Was that all?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "compassionate",
+    "text": "Fortunately, yes. Who did you meet?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "calm",
+    "text": "It was at the corner of one of the alleys. I heard the sound of a guitar string behind me. When I turned round, about twenty metres away from me I saw an immensely tall man standing beside a fountain. He was dressed all in black and gold like an eighteenth-century gallant, and he was hiding his face behind a mask in the form of a golden sun that he was holding on a stick. There were two dwarves dressed up in red velvet standing beside him, holding old potbellied guitars. They strummed a few soft chords, then the giant turned his mask slightly and the sun glinted on it so brightly I was dazzled and I screwed up my eyes. And when I opened them again there was no one beside the fountain any more. I didn't even have time to be scared and I thought I must have had a hallucination after everything I'd been hearing. But now I don't know what to think. You go on.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "anxious",
+    "text": "Well, I decided that if the giant had wanted to kill me he would have done it already. So I carried on as though nothing had happened. I didn't meet anyone else on the way. The door in the wall of the pavilion was open. And behind it there was a winding corridor. Naturally, there was no light. The floorboards squeaked horribly, as if every one of them had three mice sitting under it. It was absolutely terrifying. There were doors in the walls and more doors behind them. I began groping my way at random through the musty, squeaking darkness and became disorientated straightaway. I was overcome by apathy. I wanted to drop down on the floor, close my eyes and forget about absolutely everything. Probably that's what I would have done, but then one of the doors led me out into a large room where there was a light on. It was deserted and dusty, with no windows and divided in half by a set of steel bars so thick they could have kept out an elephant. There was no furniture at all, if you didn't count several pictures turned around so that the images faced the wall. I thought it was probably so they wouldn't get dusty - clever and very simple, no need for any glass. Hanging on the door, which closed behind my back, was a plaque that said 'Silence!' And beyond the bars was a fresco with a portrait of the most beautiful girl I've ever seen. Right across the whole wall.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "surprised",
+    "text": "A girl right across the whole wall?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "excited",
+    "text": "No, the fresco. Some kind of garden full of wonderful plants and birds. And the girl was at the very centre, life-size. Absolutely naked, but it suited her really well. She had green hair that looked like grass, fluttering in the painted breeze. And green eyelashes too. She was lying in a mother-of-pearl shell, barely concealing the lower part of her belly with a bouquet of flowers. There was one strange thing, though - the edge of the shell above her head was covered with projections that looked like horns. And there were black rubber handles attached to them. That is, the projections were painted, but the handles were real, like in a bus. I touched them and I could tell it really was possible to hold on to them. But I couldn't understand what for.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "confused",
+    "text": "How could you touch them? You said there were bars between the door and the fresco.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "calm",
+    "text": "That's right. But it was easy enough to slip between the bars. So that's what I did. They probably weren't meant to keep out people.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "curious",
+    "text": "Describe this girl.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "excited",
+    "text": "I suppose she was about eighteen, but she didn't look any older than fourteen. I'd describe her pose as brazen, but entirely natural. What I mean is, the pose would have been absolutely brazen, if she'd been lying there like that, knowing that she was being watched. But if she lay around like that at home, especially if it was hot, then of course, there wouldn't be anything brazen about it. But on the other hand, she was looking straight out of the picture at the spectator, which in this case meant straight at me. She had her eyes half-closed, as though she could see me and was taunting me, and she was smiling. And her eyes were as green as could be. I began to understand what the artist was trying to say. Either she'd posed like that knowing she was being watched, which meant she was absolutely shameless, which I didn't want to believe. Or she'd been lying like that because she thought there was no one around, and she was smiling at the spectator simply out of inertia, because she'd only just noticed him. In that case the artist was a real genius, because he'd caught the precise moment when her brain had already given the command to scream, but the command still hadn't reached the muscles of her throat. In that case, for as long as I carried on examining her, I was free of shame myself, so free in fact that it was actually arousing. In a word, genuine art. An absolutely enigmatic masterpiece. But I didn't have time to study her properly, because the bouquet she was using to conceal the lower part of her belly trembled and started sliding downwards. And it wasn't just the lower part of her belly she'd been hiding, but the lowest part of all, so low you can't get any lower, only higher...",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "resigned",
+    "text": "All right, Romeo, I get the idea.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "anxious",
+    "text": "There must have been some kind of mechanism in the wall. The arm that was holding the bouquet began turning from the elbow, like the hand of a clock. But I didn't get a chance to see what was behind the bouquet, because the light began to fade and soon it was completely dark. I went up to the wall and began feeling it with my hands. Where the bouquet had been quite a big gap had appeared. I put my hand into it carefully and suddenly felt something soft and alive that jerked away from me. I think it was another hand. I cried out in surprise and suddenly there was a spray of something acrid from the ceiling, like tear gas. I jumped back. The light started coming on. When it was bright enough to see, the bouquet was already back in place. My eyes were stinging really badly and I ran out of the room like it was a gas chamber.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "anxious",
+    "text": "Do your eyes still hurt?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "calm",
+    "text": "Not any more.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "contemplative",
+    "text": "Now I see.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "curious",
+    "text": "What do you see, Isolde?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "calm",
+    "text": "It seems I discovered the same amusement arcade from the other side. After the giant with the sun-mask disappeared, I went to the pavilion. The door was locked. And the windows too. I broke a window, lifted the latch and opened it. Behind the first door was the beginning of a dark, winding corridor like the one you told me about. From there I found my way into a large room with a light and no windows, just like you did. Instead of pictures it had mirrors painted over with white paint. Standing in the middle of the room was an absolutely huge steel ring as tall as the ceiling, with nylon mesh attached all around its edge  –  it hung down from the ring and trailed across the floor like a seine net. On the door there was a plaque about keeping silent, just like on yours. And on the wall behind the ring there was a mural, only it was very different from yours. It was a picture of something like the Grand Canyon. Through the mist I could make out the desert floor far below me. And on the edge of the red cliff, right up in front of the spectator's eyes, there was a car with a cloud of painted dust settling around it. It all looked just as though the car had braked after a steep turn and stopped at the very last moment, with its wheels hanging over the edge of the precipice. It was a Rolls-Royce jeep, in perfect profile, like a photo in an advert.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "curious",
+    "text": "Are you sure it was a Rolls-Royce?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "calm",
+    "text": "Of course. It had the initials 'RR' and a little Oscar with wings on the radiator, like they all have.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "confused",
+    "text": "Then it wasn't a jeep. Rolls-Royce don't make jeeps.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "excited",
+    "text": "Romeo, I can tell my SUV from my elbow. I even saw the name of the model  –  'Full Drive Shadow' I think it was. That's the whole point. It was an artist's fantasy, but it was so convincing I could see straight away that if Rolls-Royce decided to make an SUV they'd have to make the car that was painted there; circumstances would simply force them to do it. The jeep was made of gold and steel, like an exquisite watch. To say it looked impressive gives you no idea. If the space shuttle and the most expensive diamond necklace in the world could together produce a son, then it would probably look just like that when it grew up. In front of the jeep was a platform with steps. I mean the platform wasn't in the picture, it was on the floor of the room, real, made of wooden boards. And the jeep's windows were real too, tinted glass that looked black and there were skis and a surfboard on its roof.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "surprised",
+    "text": "Real ones?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "calm",
+    "text": "The skis and the board were painted. But the rack they were attached to, or that they looked as if they were attached to in the painting, was real, made of steel and gold.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "curious",
+    "text": "What kind of rack?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "calm",
+    "text": "I don't know what its proper name is – the kind they make so you can tie on what you carry on the roof. There were loops of black leather hanging from it, like the ones used for doing gymnastics; they were real as well. And, apart from that, the door handles and the hub-caps were real – and they were made of steel and gold too.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "curious",
+    "text": "Did you try opening the door?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "anxious",
+    "text": "I told you, there weren't any doors, only handles. But I didn't even get a chance to touch them. The moment I took a couple of steps towards the jeep, its window began slowly winding down. Some kind of mechanism must have switched on. I really wanted to find out what was behind the glass, but the light began to fade, and a few seconds later it was dark. Exactly the same thing as happened to you, in fact. I climbed up on the platform and touched the wall where the window of the jeep had been. There was a gap there now. I ran my hand round its edge. It really felt like a car window. But the window hadn't opened all the way and the gap wasn't big enough to climb through the wall. There was a slight draught from the window, as if there was an air-conditioner working inside. And I thought I caught a faint glimpse of light. I leaned down to look inside, but as soon as my face was level with the opening something bumped against my cheek and I heard a terrible howl. I leapt back, lost my balance and fell off the platform on to the floor. The light came on – dim at first, then brighter and brighter, like in the cinema after a film. By the time it got really light, the jeep's window was already closed again. I went back out through the corridor into the open air and came back here. I was shaking all over at first, but I started feeling better on the way. It's funny to think about it now.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "flirty",
+    "text": "Well, I've learned one lesson. Nice and easy does it.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "flirty",
+    "text": "Yes. Especially in your RR SUV.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "flirty",
+    "text": "It's your RR SUV.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "curious",
+    "text": "Why?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "humorous",
+    "text": "It's on your side!",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "flirty",
+    "text": "But you're the one inside it. That means it's yours.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "confused",
+    "text": "How can it be mine if I can't see it?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "flirty",
+    "text": "And how can it be mine if I can't even get into it? Apart from sticking my head in the window.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "compassionate",
+    "text": "Let's say it's ours then. Then we can't be wrong.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "compassionate",
+    "text": "Agreed.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "compassionate",
+    "text": "Isolde... I want to tell you something. It will probably sound stupid, but I want you to hear it anyway. Whatever I'm thinking about, I always come back to you. As if all the thoughts that aren't connected with you are heavy weights and as soon as my mind tries to deal with them, the effort becomes too much. But everything to do with you is light and happy, like the bubbles in champagne. I just want to go on and on thinking about it.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "compassionate",
+    "text": "Yes, Romeo, that really did sound stupid. But I could say the same thing to you.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "hopeful",
+    "text": "Why don't we meet again at the same place? Say tomorrow afternoon? Calmly, without any fuss. Or any noise.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "anxious",
+    "text": "But what if we're being followed? I mean there, inside.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "hopeful",
+    "text": "The light goes out when the window opens.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "anxious",
+    "text": "Haven't you ever heard of infra-red cameras? They could do more than just watch us. They could shoot an entire movie.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "confused",
+    "text": "Then who would they show it to?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "anxious",
+    "text": "Your wife, for instance. Or Ariadne in a dream.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "dismissive",
+    "text": "I haven't got a wife. And I couldn't give a damn for Ariadne and her dreams. If we start worrying about spies, pretty soon the world will be full of them.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "compassionate",
+    "text": "You're right. The only way to be alone is to behave as though we are already alone.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "hopeful",
+    "text": "So it's a date then?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "flirty",
+    "text": "Tomorrow at three, Romeo. I date your car.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "compassionate",
+    "text": "Our car. My green-eyed Lolita. My lovely Mona Lita.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "compassionate",
+    "text": "And now to sleep, Cohiba. Be seeing you.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "Monstradamus",
+    "mood": "curious",
+    "text": "Be seeing you, be seeing you. Monster, are you there?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Nutscracker",
+    "mood": "calm",
+    "text": "Yes. Where else could I be?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "Monstradamus",
+    "mood": "curious",
+    "text": "Well, what do you make of that?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Nutscracker",
+    "mood": "humorous",
+    "text": "No doubt our master shed a great big sentimental tear. The twilight of Ancient Greek thought in a nutshell. Zeno's paradoxes. Achilles can't go riding in his big beautiful car. Because when he's riding in it, he can't see it. The passers-by can see it, so they're the ones riding in it. And Achilles only imagines he's driving it, but in actual fact it's driving him.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "Monstradamus",
+    "mood": "jealous",
+    "text": "I feel a bit jealous. How about you?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Nutscracker",
+    "mood": "humorous",
+    "text": "Not particularly. I don't like jeeps. You're too high above the road when you sit in them. And anyway an RR SUV is a bit OTT. Cohiba ought to have an Alfa Romeo.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "Monstradamus",
+    "mood": "resigned",
+    "text": "I don't mean the car. Alfa Romeo, Beta Romeo - all that sounds like the stud ranking in a herd of chimpanzees to me. I mean the feelings.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Nutscracker",
+    "mood": "contemplative",
+    "text": "But you have them too. They have love, you have envy. As comrade Ariadne teaches us, these are merely different states assumed by past within the helmet of horror.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "",
+    "mood": "humorous",
+    "text": "And on that optimistic note...",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Nutscracker",
+    "mood": "calm",
+    "text": "Yes indeed. Good night.",
+    "event_type": "dialogue"
+  },
+  {
+    "event_type": "day_end"
+  }
+]

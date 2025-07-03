@@ -1,0 +1,634 @@
+[
+  {
+    "event_type": "day_start"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "",
+    "mood": "hopeful",
+    "text": "Why don't we look for him? Maybe he still believes?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Organizm(-:",
+    "mood": "curious",
+    "text": "In what?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "Monstradamus",
+    "mood": "hopeful",
+    "text": "Well, in the whole pile of xxx. That he has a body. And it's in a room.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Ariadne",
+    "to": "Organizm(-:",
+    "mood": "calm",
+    "text": "He never did believe in that.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "",
+    "mood": "contemplative",
+    "text": "You could say he saved us. He could have just killed us all once he'd seen us.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "Romeo-y-Cohiba",
+    "mood": "contemplative",
+    "text": "No he couldn't. Then he'd never have got the helmet off. He isn't kind, he just knew.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Ariadne",
+    "to": "Nutscracker",
+    "mood": "calm",
+    "text": "What I've heard is that if anyone knows then it's precisely because he is kind.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "Ariadne",
+    "mood": "calm",
+    "text": "And what I've heard is that if anyone's kind then it's precisely because he knows.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "",
+    "mood": "confused",
+    "text": "What difference does it make to us? How did we give ourselves away?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Organizm(-:",
+    "mood": "calm",
+    "text": "We get distracted. Make too much fuss. Talk off the point, all this stuff about Versailles and Mona Lisa.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "UGLI 666",
+    "mood": "curious",
+    "text": "Ugly, you don't mind us living here, do you?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "IsoldA",
+    "mood": "angry",
+    "text": "This time it was Ariadne who blurted everything out. That's why he gave us the slip.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "UGLI 666",
+    "mood": "curious",
+    "text": "What do you suggest?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Monstradamus",
+    "mood": "calm",
+    "text": "Not to tell him anything.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "UGLI 666",
+    "mood": "skeptical",
+    "text": "That's going too far. Then how will he find out he's wearing a helmet? We can't put something that doesn't exist on his head just like that. We have to explain. And it's best to start from childhood. Not so he understands everything, though, just enough for him to do it all to himself. Ariadne's our best guide round the labyrinth. She's very skilful at it.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Nutscracker",
+    "mood": "angry",
+    "text": "Nutcracker, you're talking about what she ought to do. I'm talking about what she's already done. And anyway, I beg your pardon, but what has skill got to do with it? The labyrinth is any route the Helmholz has been led along.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "UGLI 666",
+    "mood": "sarcastic",
+    "text": "That's right, any route. But it seems like a very long time since anyone walked round your route, Ugly.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Sartrik",
+    "to": "Monstradamus",
+    "mood": "down",
+    "text": "What... What route is that?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Sartrik",
+    "mood": "sarcastic",
+    "text": "Back with us again, hero? Ladies and gents, a joke. Imagine Sartrik wakes up with a massive hangover. He can't remember anything about the previous day. There's a pool of blood beside him. He's surrounded by a labyrinth. But there's no Minotaur anywhere. Sartrik raises his eyes to the ceiling and whispers in horror: 'I killed him... Killed him and ate him...'",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Monstradamus",
+    "mood": "angry",
+    "text": "What's funny about that? That's exactly how it happened.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Monstradamus",
+    "mood": "sarcastic",
+    "text": "Your joke's older than the labyrinth, Monstradamus. Let's discuss the serious situation we're in. Some day Ariadne will be the death of us.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "UGLI 666",
+    "mood": "angry",
+    "text": "Stop stirring things up, Ugly. It's not Ariadne's fault at all. Sartrik blurted it all out in a drunken stupor.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Sartrik",
+    "to": "IsoldA",
+    "mood": "defensive",
+    "text": "You always blame everything on Sartrik.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Sartrik",
+    "mood": "angry",
+    "text": "You should be xxx to xxx. Why did you butt in? What for? Lousy drunk.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "UGLI 666",
+    "mood": "curious",
+    "text": "But how did he actually find out the Name?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Monstradamus",
+    "mood": "angry",
+    "text": "Ariadne gave away the whole thing to him in so many words.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "UGLI 666",
+    "mood": "curious",
+    "text": "Then why hasn't he dissolved the lot of us if he knows the Name?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Nutscracker",
+    "mood": "calm",
+    "text": "He has. It just seems to us in here that he's dissolved himself.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Ariadne",
+    "mood": "angry",
+    "text": "Ariadne, maybe you can explain what made you like him more than us?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Ariadne",
+    "to": "UGLI 666",
+    "mood": "irritated",
+    "text": "Oh, go to hell. You can lead him round the labyrinth instead of me.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Ariadne",
+    "mood": "angry",
+    "text": "I'll come back to you about this. I'll show you up for what you are.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "",
+    "mood": "confused",
+    "text": "I don't understand - who's responsible? Ariadne or Sartrik?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Romeo-y-Cohiba",
+    "mood": "angry",
+    "text": "Ariadne's to blame. She was beside Theseus in the MINOTAUR and they got too cosy.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Ariadne",
+    "to": "UGLI 666",
+    "mood": "angry",
+    "text": "You be careful who you go yapping at. Or you'll wind up lost forever in that cathedral of yours, get it? You're here on my thread. And there isn't any other.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "",
+    "mood": "angry",
+    "text": "Did you all hear that? Did you hear it? Papa, have you thought where we'll all end up when she goes running off to that snake?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "UGLI 666",
+    "mood": "humorous",
+    "text": "Don't be such a Cassandra.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "",
+    "mood": "confused",
+    "text": "What are we going to do here now?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Organizm(-:",
+    "mood": "resigned",
+    "text": "What are we going to do? Carry on with the discourse.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "Monstradamus",
+    "mood": "confused",
+    "text": "I know that. But in what capacity?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Nutscracker",
+    "mood": "resigned",
+    "text": "You've only got the capacity for doing one thing, Nutcracker. Staring into that screen, like Pavlov's bitch gazing into Tarkovsky's mirror.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "Monstradamus",
+    "mood": "confused",
+    "text": "I mean, who are we going to be?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Ariadne",
+    "to": "Monstradamus",
+    "mood": "hopeful",
+    "text": "Papa will tell us that now.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "Monstradamus",
+    "mood": "curious",
+    "text": "How...",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "complex": true,
+    "to": "",
+    "mood": "solemn",
+    "text": "PRE PARSIPHAE HUM HUM MINOSAUR",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "complex": true,
+    "to": "",
+    "mood": "solemn",
+    "text": "PRE PARSIPHAE HUM HUM MINOSAUR",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "complex": true,
+    "to": "",
+    "mood": "solemn",
+    "text": "PRE PARSIPHAE HUM HUM MINOSAUR",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "complex": true,
+    "to": "",
+    "mood": "solemn",
+    "text": "PRE PARSIPHAE HUM HUM MINOSAUR",
+    "alias": "Organizm(-",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Sartrik",
+    "complex": true,
+    "to": "",
+    "mood": "solemn",
+    "text": "PRE PARSIPHAE HUM HUM MINOSAUR",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "",
+    "mood": "fearful",
+    "text": "No, anything but that! No!",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "",
+    "mood": "anxious",
+    "text": "What? What? No I don't want that either. Nobody does. But why? Why?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "",
+    "mood": "calm",
+    "text": "Stay calm.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "",
+    "mood": "calm",
+    "text": "Don't panic.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "",
+    "mood": "calm",
+    "text": "Stay calm...",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "",
+    "mood": "fearful",
+    "text": "Please, no!",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Monstradamus",
+    "mood": "calm",
+    "text": "Just relax. You're our head, and that goes through first.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "complex": true,
+    "to": "",
+    "mood": "desperate",
+    "text": "Wha-a-a! Wha-a-a! Wha-a-a!",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "complex": true,
+    "to": "",
+    "mood": "desperate",
+    "text": "Wha-a-a! Wha-a-a! Wha-a-a!",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "complex": true,
+    "to": "",
+    "mood": "desperate",
+    "text": "Wha-a-a! Wha-a-a! Wha-a-a!",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "complex": true,
+    "to": "",
+    "mood": "desperate",
+    "text": "Wha-a-a! Wha-a-a! Wha-a-a!",
+    "alias": "Organizm(-",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Sartrik",
+    "complex": true,
+    "to": "",
+    "mood": "desperate",
+    "text": "Wha-a-a! Wha-a-a! Wha-a-a!",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Ariadne",
+    "complex": true,
+    "to": "",
+    "mood": "desperate",
+    "text": "Wha-a-a! Wha-a-a! Wha-a-a!",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "complex": true,
+    "to": "",
+    "mood": "desperate",
+    "text": "Wha-a-a! Wha-a-a! Wha-a-a!",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "complex": true,
+    "to": "",
+    "mood": "desperate",
+    "text": "Wha-a-a! Wha-a-a! Wha-a-a!",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Ariadne",
+    "to": "Sartrik",
+    "mood": "humorous",
+    "text": "Hi, little brother. My, but you're ugly.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "",
+    "mood": "proud",
+    "text": "So what, now we'll be the Minosaur. The ancient serpent.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "",
+    "mood": "humorous",
+    "text": "We always were, heh-heh. That human stuff was nothing but a nuisance. And all that bovine stuff too.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "",
+    "mood": "hopeful",
+    "text": "We'll be a dragon. We'll fly up to the clouds and dive down to the bottom of the sea. Maybe now things really will be easier.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "",
+    "mood": "irritated",
+    "text": "Easier? But we've got Sartrik stuck right in the middle of us. Now we'll feel like puking all the time. Constantly. No matter how deep we dive, no matter who we pretend to be. Even Lolita, even a Rolls-Royce.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "",
+    "mood": "curious",
+    "text": "But what if Sartrik hits the drink so hard that he slips the hook too?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "",
+    "mood": "hopeful",
+    "text": "Let's not have any gloom and doom. The helmet isn't coming off.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "",
+    "mood": "confused",
+    "text": "But Theseus took it off.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "",
+    "mood": "contemplative",
+    "text": "Maybe he never even put it on. Otherwise where could he have got to? There's no way out of there. There's nothing but jeeps, surf and sunshine. And horror, of course. And I'm not just guessing, I'm speaking as a professional.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "",
+    "mood": "curious",
+    "text": "But where is he now?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "",
+    "mood": "resigned",
+    "text": "What does it matter to us? There's no stopping him now.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "complex": true,
+    "to": "",
+    "mood": "down",
+    "text": "I feel sick, xxx.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "complex": true,
+    "to": "",
+    "mood": "down",
+    "text": "I feel sick, xxx.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "complex": true,
+    "to": "",
+    "mood": "down",
+    "text": "I feel sick, xxx.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "complex": true,
+    "to": "",
+    "mood": "down",
+    "text": "I feel sick, xxx.",
+    "alias": "Organizm(-",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Sartrik",
+    "complex": true,
+    "to": "",
+    "mood": "down",
+    "text": "I feel sick, xxx.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Ariadne",
+    "complex": true,
+    "to": "",
+    "mood": "down",
+    "text": "I feel sick, xxx. It's time to get out of here...",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "complex": true,
+    "to": "",
+    "mood": "down",
+    "text": "I feel sick, xxx.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "complex": true,
+    "to": "",
+    "mood": "down",
+    "text": "I feel sick, xxx.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Sartrik",
+    "to": "Monstradamus",
+    "mood": "confused",
+    "text": "And my stomach's rumbling, xxx. Listen, Monstradamus. There's one thing I still don't get. Where did all this happen?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Sartrik",
+    "mood": "irritated",
+    "text": "Are you really that stupid or can you just not sober up? In the helmet of horror.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Sartrik",
+    "to": "Monstradamus",
+    "mood": "confused",
+    "text": "Oh. And who to?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Sartrik",
+    "mood": "sarcastic",
+    "text": "You.",
+    "event_type": "dialogue"
+  },
+  {
+    "event_type": "day_end"
+  }
+]

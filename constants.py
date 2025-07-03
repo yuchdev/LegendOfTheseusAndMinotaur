@@ -34,6 +34,7 @@ ALIASES = {
     "UGLI666": "UGLI 666",
     "Isolda": "IsoldA",
     "Romeo": "Romeo-y-Cohiba",
+    "Organizm": "Organizm(-:",
     "Organizm)-": "Organizm(-:",
     "Organizm(-": "Organizm(-:",
     "Organizm)-:": "Organizm(-:",

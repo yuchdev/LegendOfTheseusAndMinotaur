@@ -104,24 +104,24 @@ class Game:
             special_props = attrs.pop("special_properties", None)
             self.characters[name] = Character(name, **attrs, special_properties=special_props)
 
-    def load_chapter(self, chapter_file):
-        """Load a chapter from a JSON file and convert it to a list of Event objects.
+    def load_day(self, day_file):
+        """Load a day from a JSON file and convert it to a list of Event objects.
 
         Reads the specified JSON file, which should contain a list of dialogue entries.
         Each entry is converted to a DIALOGUE Event with the appropriate character,
         target, and payload.
 
         Args:
-            chapter_file (str): Path to the JSON file containing the chapter data
+            day_file (str): Path to the JSON file containing the day data
 
         Returns:
-            list: A list of Event objects representing the chapter's events
+            list: A list of Event objects representing the day's events
         """
-        with open(chapter_file, 'r') as f:
-            chapter_data = json.load(f)
+        with open(day_file, 'r') as f:
+            day_data = json.load(f)
 
         events = []
-        for entry in chapter_data:
+        for entry in day_data:
             # Get the character (or create if not exists)
             char_name = entry.get("character")
             char_canonical, _ = resolve_character(char_name)
@@ -152,7 +152,7 @@ class Game:
 
             # Create a dialogue event
             event = Event(
-                type=EventType.DIALOGUE,
+                event_type=EventType.DIALOGUE,
                 actor=character,
                 target=target,
                 payload={
@@ -165,15 +165,15 @@ class Game:
 
         return events
 
-    def run_chapter(self, chapter_file):
-        """Run a chapter from a JSON file.
+    def run_day(self, day_file):
+        """Run a day from a JSON file.
 
-        This method loads a chapter from the specified JSON file, adds all characters
-        to the group, and processes each event in the chapter. It displays the initial
-        and final state of the group, as well as periodic status updates during the chapter.
+        This method loads a day from the specified JSON file, adds all characters
+        to the group, and processes each event in the day. It displays the initial
+        and final state of the group, as well as periodic status updates during the day.
 
         The method performs the following steps:
-        1. Load the chapter events using load_chapter()
+        1. Load the day events using load_day()
         2. Add all characters to the group
         3. Display the initial group state
         4. Process each event, applying it to the group
@@ -181,15 +181,15 @@ class Game:
         6. Display the final group state
 
         Args:
-            chapter_file (str): Path to the JSON file containing the chapter data
+            day_file (str): Path to the JSON file containing the day data
         """
-        events = self.load_chapter(chapter_file)
+        events = self.load_day(day_file)
 
         # Add all characters to the group initially
         for character in self.characters.values():
             self.group.add(character)
 
-        print(f"\n=== Starting Chapter: {chapter_file} ===\n")
+        print(f"\n=== Starting Day: {day_file} ===\n")
         print(
             f"Initial group state: {len(self.group.members)} members, mood: {self.group.get_dominant_mood().name}, tension: {self.group.get_tension_description()} ({self.group.tension:.4f})\n")
 
@@ -211,20 +211,20 @@ class Game:
                             print(f"  → Feels {self.group.emotions[char][other].name} towards {other.name}")
                 print()
 
-        print(f"\n=== Chapter Complete ===")
+        print(f"\n=== Day Complete ===")
         print(
             f"Final group state: {len(self.group.members)} members, mood: {self.group.get_dominant_mood().name}, tension: {self.group.get_tension_description()} ({self.group.tension:.4f})\n")
 
 
-def parse_chapter_arg(arg):
+def parse_day_arg(arg):
     """
-    Parse the chapter argument to determine if it's a single chapter or a range
+    Parse the day argument to determine if it's a single day or a range
 
     Args:
-        arg (str): The chapter argument (e.g., "01", "01-03")
+        arg (str): The day argument (e.g., "01", "01-03")
 
     Returns:
-        list: A list of chapter numbers to run
+        list: A list of day numbers to run
     """
     if "-" in arg:
         # It's a range
@@ -234,65 +234,65 @@ def parse_chapter_arg(arg):
             end_num = int(end)
             return [f"{i:02d}" for i in range(start_num, end_num + 1)]
         except ValueError:
-            print(f"Invalid chapter range: {arg}")
-            return ["01"]  # Default to chapter 01
+            print(f"Invalid day range: {arg}")
+            return ["01"]  # Default to day 01
     else:
-        # It's a single chapter
+        # It's a single day
         try:
             # Ensure it's a valid number and format as 2 digits
-            chapter_num = int(arg)
-            return [f"{chapter_num:02d}"]
+            day_num = int(arg)
+            return [f"{day_num:02d}"]
         except ValueError:
             # If it's already a full path, return it as is
             if arg.endswith(".json") and "/" in arg:
                 return [arg]
-            print(f"Invalid chapter number: {arg}")
-            return ["01"]  # Default to chapter 01
+            print(f"Invalid day number: {arg}")
+            return ["01"]  # Default to day 01
 
-def run_chapters(game, chapter_numbers):
+def run_days(game, day_numbers):
     """
-    Run a sequence of chapters
+    Run a sequence of days
 
     Args:
         game (Game): The game instance
-        chapter_numbers (list): List of chapter numbers to run
+        day_numbers (list): List of day numbers to run
     """
-    for i, chapter_num in enumerate(chapter_numbers):
-        # Convert chapter number to filename if it's not already a path
-        if not chapter_num.endswith(".json"):
-            chapter_file = f"play_chapters/chapter-{chapter_num}.json"
+    for i, day_num in enumerate(day_numbers):
+        # Convert day number to filename if it's not already a path
+        if not day_num.endswith(".json"):
+            day_file = f"play_chapters/day-{day_num}.json"
         else:
-            chapter_file = chapter_num
+            day_file = day_num
 
-        # Add a day separator if this isn't the first chapter
+        # Add a day separator if this isn't the first day
         if i > 0:
             print("\n" + "="*50)
             print(f"=== DAY {i+1} ===")
             print("="*50 + "\n")
 
-        # Run the chapter
-        game.run_chapter(chapter_file)
+        # Run the day
+        game.run_day(day_file)
 
 def main():
     """
     Main entry point for the game.
 
     Usage:
-        python game.py                # Run chapter 01
-        python game.py 01             # Run chapter 01
-        python game.py 01-03          # Run chapters 01, 02, and 03 in sequence
-        python game.py path/to/file.json  # Run a specific chapter file
+        python game.py                # Run day 01
+        python game.py 01             # Run day 01
+        python game.py 01-03          # Run days 01, 02, and 03 in sequence
+        python game.py path/to/file.json  # Run a specific day file
 
     :return: system exit code
     """
     if len(sys.argv) > 1:
-        chapter_arg = sys.argv[1]
-        chapter_numbers = parse_chapter_arg(chapter_arg)
+        day_arg = sys.argv[1]
+        day_numbers = parse_day_arg(day_arg)
     else:
-        chapter_numbers = ["01"]  # Default to chapter 01
+        day_numbers = ["01"]  # Default to day 01
 
     game = Game()
-    run_chapters(game, chapter_numbers)
+    run_days(game, day_numbers)
 
     exit()
 

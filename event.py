@@ -21,15 +21,13 @@ class EventType(Enum):
     can affect the game state, such as dialogue between characters, characters
     entering or leaving the group, or changes in the game world.
     """
+    DAY_START = auto()
+    DAY_END = auto()
     DIALOGUE = auto()
     ENTER = auto()
     LEAVE = auto()
     OFFENDED = auto()
-    POWER_SHIFT = auto()
-    ITEM_TRANSFER = auto()
     ENVIRONMENT_CHANGE = auto()
-    WORLD_EVENT = auto()
-    QUEST_UPDATE = auto()
 
 class Event:
     """Represents an event that can occur in the game.
@@ -44,7 +42,7 @@ class Event:
     """
     def __init__(
         self,
-        type: EventType,
+        event_type: EventType,
         timestamp: datetime = None,
         actor: Character = None,
         target: Any = None,
@@ -53,7 +51,7 @@ class Event:
         """Initialize a new Event instance.
 
         Args:
-            type (EventType): The type of event (DIALOGUE, ENTER, LEAVE, etc.)
+            event_type (EventType): The type of event (DIALOGUE, ENTER, LEAVE, etc.)
             timestamp (datetime, optional): When the event occurred. Defaults to current time.
             actor (Character, optional): The character initiating the event. Defaults to None.
             target (Any, optional): The target of the event (another character, object, etc.). 
@@ -61,7 +59,7 @@ class Event:
             payload (Any, optional): Additional data specific to the event type. For DIALOGUE
                 events, this would include the text and emotion. Defaults to None.
         """
-        self.type = type
+        self.event_type = event_type
         self.timestamp = timestamp or datetime.utcnow()
         self.actor = actor
         self.target = target
@@ -84,15 +82,19 @@ class Event:
         Args:
             group (Group): The group to which the event should be applied
         """
-        if self.type == EventType.ENTER:
+        if self.event_type == EventType.DAY_START:
+            print("It is now daytime.")
+        elif self.event_type == EventType.DAY_END:
+            print("It is now nighttime.")
+        elif self.event_type == EventType.ENTER:
             group.add(self.actor)
             print(f"{self.actor.name} has entered the chatroom.")
 
-        elif self.type == EventType.LEAVE:
+        elif self.event_type == EventType.LEAVE:
             group.remove(self.actor)
             print(f"{self.actor.name} has left the chatroom.")
 
-        elif self.type == EventType.DIALOGUE:
+        elif self.event_type == EventType.DIALOGUE:
             speaker, addressed_to, text, emotion = self.actor, self.target, self.payload.get("text", ""), self.payload.get("emotion")
 
             # Format the dialogue output
@@ -112,27 +114,16 @@ class Event:
             else:
                 group.apply_line(speaker, text, addressed_to, Emotion.from_string(emotion) if isinstance(emotion, str) else emotion)
 
-        elif self.type == EventType.OFFENDED:
+        elif self.event_type == EventType.OFFENDED:
             # actor takes offense at target → hostility
             if self.actor in group.members and self.target in group.members:
                 group.emotions[self.actor][self.target] = Emotion.HOSTILE
                 print(f"{self.actor.name} is offended by {self.target.name}!")
                 group.update_mood()
 
-        elif self.type == EventType.POWER_SHIFT:
-            print(f"Power shift: {self.payload}")
-
-        elif self.type == EventType.ITEM_TRANSFER:
-            print(f"{self.actor.name} gives {self.payload} to {self.target.name}.")
-
-        elif self.type == EventType.ENVIRONMENT_CHANGE:
+        elif self.event_type == EventType.ENVIRONMENT_CHANGE:
             print(f"Environment change: {self.payload}")
 
-        elif self.type == EventType.WORLD_EVENT:
-            print(f"World event: {self.payload}")
-
-        elif self.type == EventType.QUEST_UPDATE:
-            print(f"Quest update: {self.payload}")
 
     def __repr__(self):
         """Return a string representation of the event.
@@ -140,4 +131,4 @@ class Event:
         Returns:
             str: A string representation in the format "<Event type by actor>"
         """
-        return f"<Event {self.type} by {self.actor}>"
+        return f"<Event {self.event_type} by {self.actor}>"
