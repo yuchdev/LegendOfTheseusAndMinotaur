@@ -175,7 +175,11 @@
     "to": "",
     "mood": "sarcastic",
     "text": "She said before she had a hall full of benches. Now all of a sudden there's a labyrinth.",
-    "event_type": "dialogue"
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "UGLI 666",
+      "mood": "sarcastic"
+    }
   },
   {
     "character": "UGLI 666",

@@ -1113,7 +1113,11 @@
     "to": "Monstradamus",
     "mood": "curious",
     "text": "What do you care what he'll see?",
-    "event_type": "dialogue"
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Theseus",
+      "mood": "curious"
+    }
   },
   {
     "character": "Monstradamus",
@@ -1337,7 +1341,15 @@
   },
   {
     "character": "Sartrik",
-    "to": "",
+    "to": [
+      "Monstradamus",
+      "Nutscracker",
+      "Ariadne",
+      "Organizm(-:",
+      "UGLI 666",
+      "Romeo-y-Cohiba",
+      "IsoldA"
+    ],
     "mood": "angry",
     "text": "Because you're all nothing but bits and pieces of the helmet of horror. I figured that out ages ago. And that's the real xxx killer, when you realise that absolutely everybody - all your friends and all your enemies - are just little bits and pieces! I'm not talking about you. Meaning you're not my friends. And not my enemies. But you're bits and pieces, all right. You, Monstradamus, and you, Nutcracker - you're the horns. You'll stick out a bit too far some day. Ariadne's the labyrinth, but she's not such a bad girl, she's okay. Ugly's the past that makes me want to puke. And Organism's the future, that makes me want to puke five times worse. Who's left? Romeo and that Isolde of his? They're the double xxx that's cooking up the whole xxx mess.",
     "event_type": "dialogue"

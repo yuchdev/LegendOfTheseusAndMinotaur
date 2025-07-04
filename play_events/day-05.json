@@ -844,7 +844,11 @@
     "to": "",
     "mood": "fearful",
     "text": "I think he really has found me. If it's him. Someone's hammering like hell on the door from the outside. Or it...",
-    "event_type": "dialogue"
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Romeo-y-Cohiba",
+      "mood": "angry"
+    }
   },
   {
     "character": "Romeo-y-Cohiba",
@@ -1122,14 +1126,22 @@
     "to": "",
     "mood": "resigned",
     "text": "He's given us the slip.",
-    "event_type": "dialogue"
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Theseus",
+      "mood": "resigned"
+    }
   },
   {
     "character": "Monstradamus",
     "to": "",
     "mood": "anxious",
     "text": "Has he really gone?",
-    "event_type": "dialogue"
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Theseus",
+      "mood": "anxious"
+    }
   },
   {
     "character": "Nutscracker",

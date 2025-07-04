@@ -7,20 +7,13 @@
     "event_type": "enter"
   },
   {
-    "character": "",
-    "to": "",
-    "mood": "",
-    "text": "",
-    "event_type": ""
-  },
-  {
     "character": "Organizm(-:",
     "to": "",
     "mood": "confused",
     "text": "What's going on? Is there anyone there...?",
     "event_type": "dialogue"
   },
-    {
+  {
     "character": "Romeo-y-Cohiba",
     "event_type": "enter"
   },
@@ -57,14 +50,22 @@
     "to": "Organizm(-:",
     "mood": "curious",
     "text": "Who's she?",
-    "event_type": "dialogue"
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Ariadne",
+      "mood": "curious"
+    }
   },
   {
     "character": "Organizm(-:",
     "to": "Romeo-y-Cohiba",
     "mood": "contemplative",
     "text": "She started this thread. Seems this isn't the Internet, just looks like it. You can't link to anywhere else from here.",
-    "event_type": "dialogue"
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Ariadne",
+      "mood": "curious"
+    }
   },
   {
     "character": "Romeo-y-Cohiba",
@@ -80,7 +81,7 @@
     "text": "Hello! If anyone can read this, please answer.",
     "event_type": "dialogue"
   },
-    {
+  {
     "character": "Nutscracker",
     "event_type": "enter"
   },
@@ -148,14 +149,20 @@
   },
   {
     "character": "Romeo-y-Cohiba",
-    "to": "",
+    "to": [
+      "Nutscracker",
+      "Organizm(-:"
+    ],
     "mood": "contemplative",
     "text": "Right, so there are three of us here.",
     "event_type": "dialogue"
   },
   {
     "character": "Nutscracker",
-    "to": "",
+    "to": [
+      "Romeo-y-Cohiba",
+      "Organizm(-:"
+    ],
     "mood": "contemplative",
     "text": "But where is here exactly?",
     "event_type": "dialogue"
@@ -186,7 +193,11 @@
     "to": "Nutscracker",
     "mood": "contemplative",
     "text": "I've got the same as Romeo. A locked metal door with some kind of relief design on it. A hotel-style bathroom with soap, shower gel and shampoo on the shelf under the mirror. Everything in packaging marked with a strange symbol - something like a little cogwheel. So where are you, Nutcracker?",
-    "event_type": "dialogue"
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Romeo-y-Cohiba",
+      "mood": "calm"
+    }
   },
   {
     "character": "Nutscracker",
@@ -200,7 +211,10 @@
   },
   {
     "character": "Romeo-y-Cohiba",
-    "to": "",
+    "to": [
+      "Nutscracker",
+      "Organizm(-:"
+    ],
     "mood": "hopeful",
     "text": "So we're all in the same hotel. Let's try knocking on the walls. Can you hear anything?",
     "event_type": "dialogue"
@@ -383,7 +397,7 @@
     "text": "Who are you, Monstradamus?",
     "event_type": "dialogue"
   },
-    {
+  {
     "character": "Monstradamus",
     "event_type": "enter"
   },
@@ -477,7 +491,11 @@
     ],
     "mood": "contemplative",
     "text": "Let's discuss the situation. I suggest we don't take Organism's hypothesis about the afterlife into consideration.",
-    "event_type": "dialogue"
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Organizm(-:",
+      "mood": "confused"
+    }
   },
   {
     "character": "Organizm(-:",
@@ -526,7 +544,11 @@
     "to": "Romeo-y-Cohiba",
     "mood": "contemplative",
     "text": "Maybe it's just decoration, without any meaning. But Romeo saying it looks like an axe has made me think so too. The fascists used to have axes like that - or was it the ancient Romans?",
-    "event_type": "dialogue"
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Romeo-y-Cohiba",
+      "mood": "calm"
+    }
   },
   {
     "character": "Monstradamus",
@@ -560,7 +582,7 @@
     "text": "Hey, that's right. I forgot.",
     "event_type": "dialogue"
   },
-    {
+  {
     "character": "Ariadne",
     "event_type": "enter"
   },
@@ -737,7 +759,7 @@
     "text": "What have Japanese cartoons got to do with anything?",
     "event_type": "dialogue"
   },
-    {
+  {
     "character": "IsoldA",
     "event_type": "enter"
   },
@@ -746,7 +768,11 @@
     "to": "Nutscracker",
     "mood": "contemplative",
     "text": "She's talking about mangas, young girls who are raped by demons with their tentacles. It's a persistent theme in Japanese virtual porn.",
-    "event_type": "dialogue"
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Ariadne",
+      "mood": "calm"
+    }
   },
   {
     "character": "Monstradamus",
@@ -765,7 +791,7 @@
   {
     "character": "Monstradamus",
     "to": "Nutscracker",
-    "mood": "humorous",
+    "mood": "sarcastic",
     "text": "Octopuses? How original. I'd never have thought of that.",
     "event_type": "dialogue"
   },
@@ -844,7 +870,11 @@
     "to": "",
     "mood": "sarcastic",
     "text": "I'd say we need an entire committee of psychiatrists for this spiel. Or we could ask Monstradamus, he's got a good handle on this stuff. What was that phrase he used - corporate frustration?",
-    "event_type": "dialogue"
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Ariadne",
+      "mood": "sarcastic"
+    }
   },
   {
     "character": "Monstradamus",
@@ -1061,7 +1091,11 @@
     "to": "",
     "mood": "calm",
     "text": "The Lord sent her that vision to make us repent.",
-    "event_type": "dialogue"
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Ariadne",
+      "mood": "calm"
+    }
   },
   {
     "character": "Romeo-y-Cohiba",
@@ -1152,7 +1186,11 @@
     "to": "",
     "mood": "contemplative",
     "text": "We were talking about Ariadne's dream. It has been suggested that she was shown it specially and it contains information for everyone.",
-    "event_type": "dialogue"
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Ariadne",
+      "mood": "calm"
+    }
   },
   {
     "character": "Romeo-y-Cohiba",
@@ -1388,7 +1426,11 @@
     "to": "",
     "mood": "contemplative",
     "text": "The soap, the toilet paper and other items in the bathroom are all marked with something that looks like the symbol for indicating a footnote - a little star. It's called an asterisk, which is also the name of the character Ariadne dreamed about. It sounds a lot like 'Asterius.'",
-    "event_type": "dialogue"
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Ariadne",
+      "mood": "calm"
+    }
   },
   {
     "character": "UGLI 666",
@@ -1458,7 +1500,11 @@
     "to": "",
     "mood": "contemplative",
     "text": "Let me go on with the names. As well as Asterius and Asterisk, it's hard not to notice another coincidence. It was Ariadne who dreamed about him. That was the name of the Minotaur's sister. And it was also Ariadne who started this thread with the question about the labyrinth.",
-    "event_type": "dialogue"
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Ariadne",
+      "mood": "calm"
+    }
   },
   {
     "character": "IsoldA",
@@ -1535,14 +1581,22 @@
     "to": "",
     "mood": "confused",
     "text": "But Ariadne saw the flag in a dream, so it's not clear whose joke it is. Our moderators' or hers.",
-    "event_type": "dialogue"
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Ariadne",
+      "mood": "curious"
+    }
   },
   {
     "character": "Monstradamus",
     "to": "",
     "mood": "anxious",
     "text": "I wouldn't like to alarm anyone, but shouldn't we consider the possibility that Ariadne herself is also a joke by our moderators, as Organism called them.",
-    "event_type": "dialogue"
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Ariadne",
+      "mood": "anxious"
+    }
   },
   {
     "character": "Organizm(-:",
@@ -1556,7 +1610,11 @@
     "to": "Organizm(-:",
     "mood": "contemplative",
     "text": "Because, phenomenologically speaking, she only exists in the form of messages of unknown origin signed 'Ariadne'.",
-    "event_type": "dialogue"
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Ariadne",
+      "mood": "calm"
+    }
   },
   {
     "character": "Ariadne",
@@ -1741,14 +1799,22 @@
     "to": "",
     "mood": "curious",
     "text": "Maybe that's why Theseus isn't saying anything?",
-    "event_type": "dialogue"
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Theseus",
+      "mood": "curious"
+    }
   },
   {
     "character": "Organizm(-:",
     "to": "Monstradamus",
     "mood": "confused",
     "text": "What Theseus?",
-    "event_type": "dialogue"
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Theseus",
+      "mood": "curious"
+    }
   },
   {
     "character": "Nutscracker",
@@ -1758,35 +1824,55 @@
     ],
     "mood": "calm",
     "text": "The one who killed the Minotaur, Organism. Or who has to kill him. What do you have in mind, Monstradamus?",
-    "event_type": "dialogue"
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Theseus",
+      "mood": "calm"
+    }
   },
   {
     "character": "Monstradamus",
     "to": "",
     "mood": "contemplative",
     "text": "Maybe he's already here, but he doesn't want the moderator to notice him. And I suspect the moderator's our bronze mushroom.",
-    "event_type": "dialogue"
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Theseus",
+      "mood": "curious"
+    }
   },
   {
     "character": "Romeo-y-Cohiba",
     "to": "Monstradamus",
     "mood": "skeptical",
     "text": "You talk about him as if you'd seen him with your own eyes. But we don't actually have any reason to believe he exists.",
-    "event_type": "dialogue"
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Theseus",
+      "mood": "skeptical"
+    }
   },
   {
     "character": "Ariadne",
     "to": "Romeo-y-Cohiba",
     "mood": "curious",
     "text": "Who do you mean? Theseus or Asterisk?",
-    "event_type": "dialogue"
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Theseus",
+      "mood": "curious"
+    }
   },
   {
     "character": "Romeo-y-Cohiba",
     "to": "Ariadne",
     "mood": "skeptical",
     "text": "Both.",
-    "event_type": "dialogue"
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Theseus",
+      "mood": "skeptical"
+    }
   },
   {
     "character": "Monstradamus",
@@ -1807,7 +1893,11 @@
     "to": "",
     "mood": "curious",
     "text": "Perhaps Theseus is one of us?",
-    "event_type": "dialogue"
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Theseus",
+      "mood": "curious"
+    }
   },
   {
     "character": "Nutscracker",
@@ -1818,10 +1908,14 @@
   },
   {
     "character": "Organizm(-:",
-    "to": "Monstradamus",
+    "to": "",
     "mood": "humorous",
     "text": "I bet a hundred xxx the Minotaur's Monstradamus.",
-    "event_type": "dialogue"
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Monstradamus",
+      "mood": "humorous"
+    }
   },
   {
     "character": "Monstradamus",
@@ -2178,14 +2272,22 @@
     "to": "",
     "mood": "contemplative",
     "text": "I never understood before why gluttony is a sin. Then a spiritual friend of mine explained. Gluttony is not so very terrible in itself. But it's a sign of a base soul. The same thing applies to debauchery. The soul doesn't become debased through committing these acts. A base soul manifests itself through them.",
-    "event_type": "dialogue"
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Organizm(-:",
+      "mood": "irritated"
+    }
   },
   {
     "character": "Romeo-y-Cohiba",
     "to": "UGLI 666",
     "mood": "irritated",
     "text": "No, you won't get under his skin that easily.",
-    "event_type": "dialogue"
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Organizm(-:",
+      "mood": "angry"
+    }
   },
   {
     "character": "Monstradamus",
@@ -2220,14 +2322,22 @@
     "to": "",
     "mood": "anxious",
     "text": "But what are you supposed to turn? Organism said...",
-    "event_type": "dialogue"
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Organizm(-:",
+      "mood": "confused"
+    }
   },
   {
     "character": "Ariadne",
     "to": "Romeo-y-Cohiba",
     "mood": "compassionate",
     "text": "He was just joking, Romeo. Having a laugh at us.",
-    "event_type": "dialogue"
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Organizm(-:",
+      "mood": "dismissive"
+    }
   },
   {
     "character": "Nutscracker",

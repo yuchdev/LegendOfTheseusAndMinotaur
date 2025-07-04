@@ -7,7 +7,11 @@
     "to": "",
     "mood": "hopeful",
     "text": "Why don't we look for him? Maybe he still believes?",
-    "event_type": "dialogue"
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Theseus",
+      "mood": "anxious"
+    }
   },
   {
     "character": "Monstradamus",
@@ -21,28 +25,44 @@
     "to": "Monstradamus",
     "mood": "hopeful",
     "text": "Well, in the whole pile of xxx. That he has a body. And it's in a room.",
-    "event_type": "dialogue"
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Theseus",
+      "mood": "anxious"
+    }
   },
   {
     "character": "Ariadne",
     "to": "Organizm(-:",
     "mood": "calm",
     "text": "He never did believe in that.",
-    "event_type": "dialogue"
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Theseus",
+      "mood": "calm"
+    }
   },
   {
     "character": "Romeo-y-Cohiba",
     "to": "",
     "mood": "contemplative",
     "text": "You could say he saved us. He could have just killed us all once he'd seen us.",
-    "event_type": "dialogue"
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Theseus",
+      "mood": "contemplative"
+    }
   },
   {
     "character": "Nutscracker",
     "to": "Romeo-y-Cohiba",
     "mood": "contemplative",
     "text": "No he couldn't. Then he'd never have got the helmet off. He isn't kind, he just knew.",
-    "event_type": "dialogue"
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Theseus",
+      "mood": "contemplative"
+    }
   },
   {
     "character": "Ariadne",
@@ -245,7 +265,11 @@
     "to": "",
     "mood": "angry",
     "text": "Did you all hear that? Did you hear it? Papa, have you thought where we'll all end up when she goes running off to that snake?",
-    "event_type": "dialogue"
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Theseus",
+      "mood": "angry"
+    }
   },
   {
     "character": "Nutscracker",
@@ -460,7 +484,7 @@
   },
   {
     "character": "Ariadne",
-    "to": "Sartrik",
+    "to": "",
     "mood": "humorous",
     "text": "Hi, little brother. My, but you're ugly.",
     "event_type": "dialogue"
@@ -491,14 +515,22 @@
     "to": "",
     "mood": "irritated",
     "text": "Easier? But we've got Sartrik stuck right in the middle of us. Now we'll feel like puking all the time. Constantly. No matter how deep we dive, no matter who we pretend to be. Even Lolita, even a Rolls-Royce.",
-    "event_type": "dialogue"
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Sartrik",
+      "mood": "irritated"
+    }
   },
   {
     "character": "Romeo-y-Cohiba",
     "to": "",
     "mood": "curious",
     "text": "But what if Sartrik hits the drink so hard that he slips the hook too?",
-    "event_type": "dialogue"
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Sartrik",
+      "mood": "anxious"
+    }
   },
   {
     "character": "Nutscracker",
@@ -519,21 +551,33 @@
     "to": "",
     "mood": "contemplative",
     "text": "Maybe he never even put it on. Otherwise where could he have got to? There's no way out of there. There's nothing but jeeps, surf and sunshine. And horror, of course. And I'm not just guessing, I'm speaking as a professional.",
-    "event_type": "dialogue"
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Theseus",
+      "mood": "contemplative"
+    }
   },
   {
     "character": "IsoldA",
     "to": "",
     "mood": "curious",
     "text": "But where is he now?",
-    "event_type": "dialogue"
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Theseus",
+      "mood": "contemplative"
+    }
   },
   {
     "character": "Nutscracker",
     "to": "",
     "mood": "resigned",
     "text": "What does it matter to us? There's no stopping him now.",
-    "event_type": "dialogue"
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Theseus",
+      "mood": "resigned"
+    }
   },
   {
     "character": "Monstradamus",
