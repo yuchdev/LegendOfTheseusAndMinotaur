@@ -220,6 +220,11 @@
     "event_type": "dialogue"
   },
   {
+    "character": "Romeo-y-Cohiba",
+    "text": "KNOCKING ON THE WALL",
+    "event_type": "sound"
+  },
+  {
     "character": "Organizm(-:",
     "to": "Romeo-y-Cohiba",
     "mood": "calm",
@@ -239,6 +244,11 @@
     "mood": "hopeful",
     "text": "I'll try knocking on the door, listen.",
     "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "text": "KNOCKING ON THE DOOR",
+    "event_type": "sound"
   },
   {
     "character": "Romeo-y-Cohiba",
