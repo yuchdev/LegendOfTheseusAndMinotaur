@@ -227,8 +227,8 @@ class GameGUI(QMainWindow):
         stats_grid = QGridLayout()
 
         # Create labels for stats with light gray text
-        stats_style = "color: #f0f0f0; font-weight: bold; background-color: rgba(50, 50, 50, 150); padding: 3px; border-radius: 3px;"
-        values_style = "color: #f0f0f0; background-color: rgba(70, 70, 70, 150); padding: 3px; border-radius: 3px;"
+        stats_style = "color: #f0f0f0; font-weight: bold; background-color: rgba(50, 50, 50, 150); padding: 3px; border-radius: 3px; border: none;"
+        values_style = "color: #f0f0f0; background-color: rgba(70, 70, 70, 150); padding: 3px; border-radius: 3px; border: none;"
 
         # Stat labels (left column)
         self.leadership_label = QLabel("Leadership:")
