@@ -13,7 +13,7 @@ from typing import List, Optional
 from PySide6.QtWidgets import (
     QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, QGridLayout,
     QTextEdit, QTableWidget, QTableWidgetItem, QProgressBar, QLabel, QPushButton,
-    QSplitter, QFrame, QHeaderView, QGroupBox
+    QSplitter, QFrame, QHeaderView, QGroupBox, QSizePolicy
 )
 from PySide6.QtCore import Qt, QTimer, QPropertyAnimation, QRect, Signal, QThread
 from PySide6.QtGui import QFont, QPixmap, QPalette, QColor
@@ -36,7 +36,11 @@ class GameGUI(QMainWindow):
         self.current_events = []
         self.speaking_animation = None
 
+        # Cache for pre-loaded avatar images
+        self.avatar_cache = {}
+
         self.init_ui()
+        self.preload_avatar_images()
         self.load_current_day()
 
     def init_ui(self):
@@ -75,6 +79,42 @@ class GameGUI(QMainWindow):
         # Set column stretch to make columns equal width
         main_layout.setColumnStretch(0, 1)
         main_layout.setColumnStretch(1, 1)
+
+    def preload_avatar_images(self):
+        """Pre-load all avatar images to avoid memory leaks from repeated loading."""
+        self.debug_log("Pre-loading avatar images...")
+
+        # Get the target height for scaling
+        # We need to ensure the avatar_label is created first
+        if hasattr(self, 'avatar_label'):
+            target_height = self.avatar_label.maximumHeight() - 4  # Account for border
+        else:
+            target_height = 296  # Default fallback height (300 - 4)
+
+        # List all avatar files in the avatars directory
+        avatars_dir = "avatars"
+        if os.path.exists(avatars_dir):
+            for filename in os.listdir(avatars_dir):
+                if filename.endswith('.png'):
+                    avatar_path = os.path.join(avatars_dir, filename)
+                    character_name = filename[:-4]  # Remove .png extension
+
+                    try:
+                        # Load the original image
+                        pixmap = QPixmap(avatar_path)
+                        if not pixmap.isNull():
+                            # Scale the image to fit by height while maintaining aspect ratio
+                            scaled_pixmap = pixmap.scaledToHeight(target_height, Qt.SmoothTransformation)
+
+                            # Store in cache with character name as key
+                            self.avatar_cache[character_name] = scaled_pixmap
+                            self.debug_log(f"Pre-loaded avatar: {character_name}")
+                        else:
+                            self.debug_log(f"Failed to load avatar image: {avatar_path}")
+                    except Exception as e:
+                        self.debug_log(f"Error pre-loading avatar {character_name}: {str(e)}")
+
+        self.debug_log(f"Pre-loaded {len(self.avatar_cache)} avatar images")
 
     def create_character_list(self):
         """Create the character list widget."""
@@ -136,28 +176,96 @@ class GameGUI(QMainWindow):
     def create_avatar_voice(self):
         """Create the avatar and voice UI widget."""
         self.avatar_group = QGroupBox("Character Avatar + Voice UI")
-        layout = QVBoxLayout(self.avatar_group)
+        main_layout = QVBoxLayout(self.avatar_group)
 
-        # Avatar image placeholder
+        # Create horizontal layout for avatar and reserved space
+        avatar_layout = QHBoxLayout()
+
+        # Avatar image - aligned to left, scaled to fit by height
         self.avatar_label = QLabel()
-        self.avatar_label.setAlignment(Qt.AlignCenter)
+        self.avatar_label.setAlignment(Qt.AlignLeft | Qt.AlignTop)
         self.avatar_label.setStyleSheet("""
             QLabel {
                 border: 2px solid gray;
                 background-color: #f0f0f0;
-                min-height: 150px;
                 font-size: 14px;
             }
         """)
         self.avatar_label.setText("[Avatar image]")
-        layout.addWidget(self.avatar_label)
+        self.avatar_label.setMinimumSize(150, 225)  # Maintain aspect ratio of 256x384
+        self.avatar_label.setMaximumSize(200, 300)  # Set reasonable maximum size
+        self.avatar_label.setSizePolicy(QSizePolicy.Fixed, QSizePolicy.Fixed)
 
-        # Speaking indicator
+        # Reserved space to the right - now a widget with its own layout
+        self.reserved_space = QWidget()
+        self.reserved_space.setStyleSheet("background-color: #fafafa; border: 1px dashed #ccc;")
+
+        # Create layout for reserved space
+        reserved_layout = QVBoxLayout(self.reserved_space)
+
+        # Add placeholder text at the top
+        reserved_placeholder = QLabel("Reserved space")
+        reserved_placeholder.setAlignment(Qt.AlignCenter)
+        reserved_layout.addWidget(reserved_placeholder)
+
+        # Add stretch to push speaking label to bottom
+        reserved_layout.addStretch()
+
+        # Speaking indicator - now at bottom of reserved space
         self.speaking_label = QLabel("⏺ Speaking (pulsing UI)")
         self.speaking_label.setAlignment(Qt.AlignCenter)
         self.speaking_label.setStyleSheet("color: red; font-weight: bold;")
         self.speaking_label.hide()  # Initially hidden
-        layout.addWidget(self.speaking_label)
+        reserved_layout.addWidget(self.speaking_label)
+
+        # Add to horizontal layout
+        avatar_layout.addWidget(self.avatar_label)
+        avatar_layout.addWidget(self.reserved_space, 1)  # Give reserved space stretch factor
+
+        main_layout.addLayout(avatar_layout)
+
+        # Initialize with a default character if available
+        self.current_character = None
+
+    def load_labyrinth_avatar(self):
+        """Load the Labyrinth.png avatar as the default from cache."""
+        # Try to get Labyrinth from cache
+        labyrinth_pixmap = self.avatar_cache.get("Labyrinth")
+
+        if labyrinth_pixmap:
+            self.avatar_label.setPixmap(labyrinth_pixmap)
+            self.avatar_label.setText("")  # Clear any text
+            self.current_character = "Labyrinth"
+            self.debug_log("Loaded cached Labyrinth avatar as default")
+        else:
+            # Fallback to text if not in cache
+            self.avatar_label.clear()
+            self.avatar_label.setText("[Labyrinth]")
+            self.debug_log("Labyrinth avatar not found in cache, using text fallback")
+
+    def update_current_character_avatar(self, character_name):
+        """Update the avatar display with the current character."""
+        if character_name != self.current_character:
+            self.current_character = character_name
+
+            if character_name:
+                # Load and display the character's avatar
+                avatar_pixmap = self.load_avatar_image(character_name)
+
+                if avatar_pixmap:
+                    # Display the avatar image
+                    self.avatar_label.setPixmap(avatar_pixmap)
+                    self.avatar_label.setText("")  # Clear any text
+                    self.debug_log(f"Updated avatar display for {character_name}")
+                else:
+                    # Fallback to text if no avatar found
+                    self.avatar_label.clear()
+                    self.avatar_label.setText(f"[{character_name}]")
+                    self.debug_log(f"No avatar found for {character_name}, showing text fallback")
+            else:
+                # Clear avatar if no character
+                self.avatar_label.clear()
+                self.avatar_label.setText("[Avatar image]")
 
     def create_debug_console(self):
         """Create the debug console widget."""
@@ -205,7 +313,7 @@ class GameGUI(QMainWindow):
     def load_current_day(self):
         """Load the current day's events."""
         try:
-            day_file = f"play_chapters/day-{self.current_day:02d}.json"
+            day_file = f"play_events/day-{self.current_day:02d}.json"
             self.current_events = self.game.load_day(day_file)
             self.current_event_index = 0
 
@@ -214,7 +322,25 @@ class GameGUI(QMainWindow):
             for character in self.game.characters.values():
                 self.game.group.add(character)
 
+            # Initialize avatar with Labyrinth.png by default
+            self.load_labyrinth_avatar()
+
             self.debug_log(f"Loaded day {self.current_day} with {len(self.current_events)} events")
+
+            # Automatically execute the first event if it exists
+            if self.current_events and len(self.current_events) > 0:
+                first_event = self.current_events[0]
+                # Apply event to game
+                first_event.apply(self.game.group)
+                # Display event in chat
+                self.display_event(first_event)
+                # Show speaking animation if there's an actor
+                if hasattr(first_event, 'actor') and first_event.actor:
+                    self.show_speaking_animation(first_event.actor, first_event.event_type)
+
+                self.current_event_index = 1  # Move to next event
+                self.debug_log(f"Automatically executed first event: {first_event.event_type}")
+
             self.update_display()
 
         except FileNotFoundError:
@@ -234,7 +360,7 @@ class GameGUI(QMainWindow):
             self.display_event(event)
 
             # Show speaking animation
-            self.show_speaking_animation(event.actor)
+            self.show_speaking_animation(event.actor, event.event_type)
 
             self.current_event_index += 1
             self.update_display()
@@ -255,7 +381,7 @@ class GameGUI(QMainWindow):
 
     def next_day(self):
         """Move to the next day."""
-        if os.path.exists(f"play_chapters/day-{self.current_day + 1:02d}.json"):
+        if os.path.exists(f"play_events/day-{self.current_day + 1:02d}.json"):
             self.current_day += 1
             self.day_label.setText(f"Current Day: {self.current_day}")
             self.load_current_day()
@@ -335,82 +461,91 @@ class GameGUI(QMainWindow):
 
         return None
 
-    def load_avatar_image(self, character_name):
+    def load_avatar_image(self, character_name, target_height=None):
         """
-        Load an avatar image for a character.
+        Get a cached avatar image for a character.
 
         Args:
             character_name (str): The character name
+            target_height (int): Target height for scaling (unused, kept for compatibility)
 
         Returns:
-            QPixmap or None: The loaded avatar image, or None if not found
+            QPixmap or None: The cached avatar image, or None if not found
         """
+        # First try to find the character name directly in cache
+        if character_name in self.avatar_cache:
+            self.debug_log(f"Retrieved cached avatar for {character_name}")
+            return self.avatar_cache[character_name]
+
+        # Try to resolve the character name using the existing mapping logic
         avatar_path = self.resolve_avatar_filename(character_name)
+        if avatar_path:
+            # Extract the filename without extension to use as cache key
+            filename = os.path.basename(avatar_path)
+            cache_key = filename[:-4] if filename.endswith('.png') else filename
 
-        if avatar_path and os.path.exists(avatar_path):
-            try:
-                pixmap = QPixmap(avatar_path)
-                if not pixmap.isNull():
-                    # Scale the image to fit the avatar label while maintaining aspect ratio
-                    scaled_pixmap = pixmap.scaled(200, 200, Qt.KeepAspectRatio, Qt.SmoothTransformation)
-                    self.debug_log(f"Loaded avatar for {character_name}: {avatar_path}")
-                    return scaled_pixmap
-                else:
-                    self.debug_log(f"Failed to load avatar image: {avatar_path}")
-            except Exception as e:
-                self.debug_log(f"Error loading avatar for {character_name}: {str(e)}")
-        else:
-            self.debug_log(f"Avatar not found for {character_name}")
+            if cache_key in self.avatar_cache:
+                self.debug_log(f"Retrieved cached avatar for {character_name} using key {cache_key}")
+                return self.avatar_cache[cache_key]
 
+        self.debug_log(f"No cached avatar found for {character_name}")
         return None
 
     def display_event(self, event):
         """Display an event in the chat window."""
-        if hasattr(event, 'actor') and hasattr(event, 'payload'):
-            actor_name = event.actor.name if event.actor else "Unknown"
-            text = event.payload.get('text', '')
-            emotion = event.payload.get('emotion', 'neutral')
+        if hasattr(event, 'actor') and event.actor:
+            actor_name = event.actor.name
 
-            # Format the message
-            if hasattr(event, 'target') and event.target:
-                if isinstance(event.target, list):
-                    target_names = [t.name for t in event.target]
-                    target_str = f" (to {', '.join(target_names)})"
+            # Handle environment_change events
+            if hasattr(event, 'event_type') and event.event_type.name == 'ENVIRONMENT_CHANGE':
+                if hasattr(event, 'payload') and event.payload:
+                    # Capitalize the payload and format as required
+                    payload_text = str(event.payload).upper()
+                    message = f"<b>[{actor_name}]</b> {payload_text}"
                 else:
-                    target_str = f" (to {event.target.name})"
-            else:
-                target_str = ""
+                    message = f"<b>[{actor_name}]</b> [ENVIRONMENT CHANGE]"
+            # Handle events with payload (dialogue events)
+            elif hasattr(event, 'payload') and event.payload:
+                text = event.payload.get('text', '')
+                emotion = event.payload.get('emotion', 'neutral')
 
-            message = f"{actor_name}{target_str}: \"{text}\" [{emotion}]"
+                # Format the message
+                if hasattr(event, 'target') and event.target:
+                    if isinstance(event.target, list):
+                        target_names = [t.name for t in event.target]
+                        target_str = f"[to {', '.join(target_names)}]"
+                    else:
+                        target_str = f"[to {event.target.name}]"
+                else:
+                    target_str = ""
+
+                message = f"<b>[{actor_name}]{target_str}[{emotion}]</b> {text}"
+            else:
+                # Handle events without payload (enter, leave, etc.)
+                event_type_name = event.event_type.name if hasattr(event.event_type, 'name') else str(event.event_type)
+                message = f"[{event_type_name}] {actor_name}"
 
             # Add to chat with color coding based on emotion
-            self.chat_text.append(message)
+            self.chat_text.insertHtml(message + "<br>")
 
             # Auto-scroll to bottom
             scrollbar = self.chat_text.verticalScrollBar()
             scrollbar.setValue(scrollbar.maximum())
 
-    def show_speaking_animation(self, character):
+    def show_speaking_animation(self, character, event_type=None):
         """Show speaking animation for a character."""
         if character:
-            # Load and display the character's avatar
-            avatar_pixmap = self.load_avatar_image(character.name)
+            # Only show speaking animation for dialogue events
+            if event_type and hasattr(event_type, 'name') and event_type.name == 'DIALOGUE':
+                # Update the character avatar for dialogue events
+                self.update_current_character_avatar(character.name)
 
-            if avatar_pixmap:
-                # Display the avatar image
-                self.avatar_label.setPixmap(avatar_pixmap)
-                self.avatar_label.setText("")  # Clear any text
-            else:
-                # Fallback to text if no avatar found
-                self.avatar_label.clear()
-                self.avatar_label.setText(f"[{character.name}]")
+                # Show speaking indicator
+                self.speaking_label.setText(f"⏺ {character.name} Speaking")
+                self.speaking_label.show()
 
-            # Show speaking indicator
-            self.speaking_label.setText(f"⏺ {character.name} Speaking")
-            self.speaking_label.show()
-
-            # Hide speaking indicator after 2 seconds
-            QTimer.singleShot(2000, self.speaking_label.hide)
+                # Hide speaking indicator after 2 seconds
+                QTimer.singleShot(2000, self.speaking_label.hide)
 
     def update_display(self):
         """Update all display components."""

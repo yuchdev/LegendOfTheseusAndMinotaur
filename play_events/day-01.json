@@ -221,8 +221,8 @@
   },
   {
     "character": "Romeo-y-Cohiba",
-    "text": "KNOCKING ON THE WALL",
-    "event_type": "sound"
+    "payload": "KNOCKING ON THE WALL",
+    "event_type": "environment_change"
   },
   {
     "character": "Organizm(-:",
@@ -247,8 +247,8 @@
   },
   {
     "character": "Organizm(-:",
-    "text": "KNOCKING ON THE DOOR",
-    "event_type": "sound"
+    "payload": "KNOCKING ON THE DOOR",
+    "event_type": "environment_change"
   },
   {
     "character": "Romeo-y-Cohiba",

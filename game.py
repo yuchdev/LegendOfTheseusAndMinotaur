@@ -107,9 +107,8 @@ class Game:
     def load_day(self, day_file):
         """Load a day from a JSON file and convert it to a list of Event objects.
 
-        Reads the specified JSON file, which should contain a list of dialogue entries.
-        Each entry is converted to a DIALOGUE Event with the appropriate character,
-        target, and payload.
+        Reads the specified JSON file, which should contain a list of event entries.
+        Each entry is converted to the appropriate Event type based on the event_type field.
 
         Args:
             day_file (str): Path to the JSON file containing the day data
@@ -122,10 +121,49 @@ class Game:
 
         events = []
         for entry in day_data:
-            # Get the character (or create if not exists)
-            char_name = entry.get("character")
-            char_canonical, _ = resolve_character(char_name)
+            event_type_str = entry.get("event_type", "dialogue")
 
+            # Handle different event types
+            if event_type_str == "day_start":
+                event = Event(event_type=EventType.DAY_START)
+                events.append(event)
+                continue
+            elif event_type_str == "day_end":
+                event = Event(event_type=EventType.DAY_END)
+                events.append(event)
+                continue
+            elif event_type_str == "environment_change":
+                # For environment_change events, we need a character
+                char_name = entry.get("character")
+                if not char_name:
+                    print(f"Warning: Environment change event missing character field")
+                    continue
+
+                char_canonical, _ = resolve_character(char_name)
+                if not char_canonical:
+                    print(f"Warning: Unknown character {char_name}")
+                    continue
+
+                character = self.characters.get(char_canonical)
+                if not character:
+                    print(f"Warning: Character {char_canonical} not initialized")
+                    continue
+
+                event = Event(
+                    event_type=EventType.ENVIRONMENT_CHANGE,
+                    actor=character,
+                    payload=entry.get("payload", "")
+                )
+                events.append(event)
+                continue
+
+            # For events that require a character
+            char_name = entry.get("character")
+            if not char_name:
+                print(f"Warning: Event {event_type_str} missing character field")
+                continue
+
+            char_canonical, _ = resolve_character(char_name)
             if not char_canonical:
                 print(f"Warning: Unknown character {char_name}")
                 continue
@@ -135,33 +173,62 @@ class Game:
                 print(f"Warning: Character {char_canonical} not initialized")
                 continue
 
-            # Get the target character(s)
-            target = None
-            to_field = entry.get("to", "")
-            if to_field:
-                if isinstance(to_field, list):
-                    target = []
-                    for target_name in to_field:
-                        target_canonical, _ = resolve_character(target_name)
-                        if target_canonical and target_canonical in self.characters:
-                            target.append(self.characters[target_canonical])
-                else:
-                    target_canonical, _ = resolve_character(to_field)
+            if event_type_str == "enter":
+                event = Event(
+                    event_type=EventType.ENTER,
+                    actor=character
+                )
+                events.append(event)
+            elif event_type_str == "leave":
+                event = Event(
+                    event_type=EventType.LEAVE,
+                    actor=character
+                )
+                events.append(event)
+            elif event_type_str == "offended":
+                # Get the target character for offended events
+                target = None
+                target_name = entry.get("target")
+                if target_name:
+                    target_canonical, _ = resolve_character(target_name)
                     if target_canonical and target_canonical in self.characters:
                         target = self.characters[target_canonical]
 
-            # Create a dialogue event
-            event = Event(
-                event_type=EventType.DIALOGUE,
-                actor=character,
-                target=target,
-                payload={
-                    "text": entry.get("text", ""),
-                    "emotion": entry.get("mood", "neutral")
-                }
-            )
+                event = Event(
+                    event_type=EventType.OFFENDED,
+                    actor=character,
+                    target=target
+                )
+                events.append(event)
+            elif event_type_str == "dialogue" or not event_type_str:
+                # Get the target character(s) for dialogue
+                target = None
+                to_field = entry.get("to", "")
+                if to_field:
+                    if isinstance(to_field, list):
+                        target = []
+                        for target_name in to_field:
+                            target_canonical, _ = resolve_character(target_name)
+                            if target_canonical and target_canonical in self.characters:
+                                target.append(self.characters[target_canonical])
+                    else:
+                        target_canonical, _ = resolve_character(to_field)
+                        if target_canonical and target_canonical in self.characters:
+                            target = self.characters[target_canonical]
 
-            events.append(event)
+                # Create a dialogue event
+                event = Event(
+                    event_type=EventType.DIALOGUE,
+                    actor=character,
+                    target=target,
+                    payload={
+                        "text": entry.get("text", ""),
+                        "emotion": entry.get("mood", "neutral")
+                    }
+                )
+                events.append(event)
+            else:
+                print(f"Warning: Unknown event type {event_type_str}")
 
         return events
 
