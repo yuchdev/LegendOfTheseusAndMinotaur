@@ -26,6 +26,12 @@ class GameGUI(QMainWindow):
 
     def __init__(self):
         super().__init__()
+        self.day_label = None
+        self.next_day_button = None
+        self.prev_day_button = None
+        self.prev_button = None
+        self.next_button = None
+        self.controls_group = None
         self.debug_text = None
         self.debug_group = None
         self.current_character = None
@@ -55,7 +61,7 @@ class GameGUI(QMainWindow):
         self.current_events = []
         self.speaking_animation = None
 
-        # Cache for pre-loaded avatar images
+        # Cache for preloaded avatar images
         self.avatar_cache = {}
 
         self.init_ui()
@@ -70,11 +76,11 @@ class GameGUI(QMainWindow):
         # Apply background image styling
         self.apply_background_styling()
 
-        # Create central widget and main layout
+        # Create the central widget and main layout
         central_widget = QWidget()
         self.setCentralWidget(central_widget)
 
-        # Create main grid layout (2x3 grid)
+        # Create the main grid layout (2x3 grid)
         main_layout = QGridLayout(central_widget)
 
         # Create components
@@ -103,7 +109,7 @@ class GameGUI(QMainWindow):
         main_layout.setColumnStretch(1, 1)
 
     def apply_background_styling(self):
-        """Apply background image styling to all Qt widgets from external QSS file."""
+        """Apply background image styling to all Qt widgets from the external QSS file."""
         # Load the stylesheet from the external QSS file
         qss_file = os.path.join("resources", "style.qss")
 
@@ -121,13 +127,13 @@ class GameGUI(QMainWindow):
             self.debug_log(f"Stylesheet file not found: {qss_file}")
 
     def preload_avatar_images(self):
-        """Pre-load all avatar images to avoid memory leaks from repeated loading."""
+        """Preload all avatar images to avoid memory leaks from repeated loading."""
         self.debug_log("Pre-loading avatar images...")
 
         # Get the target height for scaling
         # We need to ensure the avatar_label is created first
         if hasattr(self, 'avatar_label'):
-            target_height = self.avatar_label.maximumHeight() - 4  # Account for border
+            target_height = self.avatar_label.maximumHeight() - 4  # Account for a border
         else:
             target_height = 296  # Default fallback height (300 - 4)
 
@@ -148,7 +154,7 @@ class GameGUI(QMainWindow):
                             # noinspection PyUnresolvedReferences
                             scaled_pixmap = pixmap.scaledToHeight(target_height, Qt.SmoothTransformation)
 
-                            # Store in cache with character name as key
+                            # Store in cache with character name as a key
                             self.avatar_cache[character_name] = scaled_pixmap
                             self.debug_log(f"Pre-loaded avatar: {character_name}")
                         else:
@@ -163,7 +169,7 @@ class GameGUI(QMainWindow):
         self.character_group = QGroupBox("Character List (with full stats)")
         layout = QVBoxLayout(self.character_group)
 
-        # Create table widget for characters
+        # Create a table widget for characters
         self.character_table = QTableWidget()
         self.character_table.setColumnCount(5)
         self.character_table.setHorizontalHeaderLabels([
@@ -222,7 +228,7 @@ class GameGUI(QMainWindow):
         self.avatar_group = QGroupBox("Character Avatar + Voice UI")
         main_layout = QVBoxLayout(self.avatar_group)
 
-        # Create horizontal layout for avatar and reserved space
+        # Create a horizontal layout for avatar and reserved space
         avatar_layout = QHBoxLayout()
 
         # Avatar image - aligned to left, scaled to fit by height
@@ -237,8 +243,8 @@ class GameGUI(QMainWindow):
             }
         """)
         self.avatar_label.setText("[Avatar image]")
-        self.avatar_label.setMinimumSize(150, 225)  # Maintain aspect ratio of 256x384
-        self.avatar_label.setMaximumSize(200, 300)  # Set reasonable maximum size
+        self.avatar_label.setMinimumSize(150, 225)  # Maintain an aspect ratio of 256x384
+        self.avatar_label.setMaximumSize(200, 300)  # Set a reasonable maximum size
         # noinspection PyUnresolvedReferences
         self.avatar_label.setSizePolicy(QSizePolicy.Fixed, QSizePolicy.Fixed)
 
@@ -503,7 +509,8 @@ class GameGUI(QMainWindow):
 
         self.update_display()
 
-    def resolve_avatar_filename(self, character_name):
+    @staticmethod
+    def resolve_avatar_filename(character_name):
         """
         Resolve a character name to an avatar filename.
 
@@ -547,13 +554,12 @@ class GameGUI(QMainWindow):
 
         return None
 
-    def load_avatar_image(self, character_name, target_height=None):
+    def load_avatar_image(self, character_name):
         """
         Get a cached avatar image for a character.
 
         Args:
             character_name (str): The character name
-            target_height (int): Target height for scaling (unused, kept for compatibility)
 
         Returns:
             QPixmap or None: The cached avatar image, or None if not found
@@ -741,7 +747,8 @@ class GameGUI(QMainWindow):
             self.resilience_value.setText("--")
             self.emotion_value.setText("--")
 
-    def get_mood_emoji(self, emotion):
+    @staticmethod
+    def get_mood_emoji(emotion):
         """Get emoji for emotion."""
         emotion_emojis = {
             'NEUTRAL': '😐',
