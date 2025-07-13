@@ -8,21 +8,17 @@ group dynamics, character avatars, and game controls.
 
 import sys
 import os
-import json
-from typing import List, Optional
 from PySide6.QtWidgets import (
     QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, QGridLayout,
     QTextEdit, QTableWidget, QTableWidgetItem, QProgressBar, QLabel, QPushButton,
-    QSplitter, QFrame, QHeaderView, QGroupBox, QSizePolicy
+    QHeaderView, QGroupBox, QSizePolicy
 )
-from PySide6.QtCore import Qt, QTimer, QPropertyAnimation, QRect, Signal, QThread
-from PySide6.QtGui import QFont, QPixmap, QPalette, QColor
+from PySide6.QtCore import Qt, QTimer
+from PySide6.QtGui import QFont, QPixmap
 
 from game import Game
-from character import Character
 from group import Group
-from emotion import Emotion
-from constants import resolve_character, CHARACTERS, ALIASES
+from constants import resolve_character
 
 
 class GameGUI(QMainWindow):
@@ -30,6 +26,29 @@ class GameGUI(QMainWindow):
 
     def __init__(self):
         super().__init__()
+        self.debug_text = None
+        self.debug_group = None
+        self.current_character = None
+        self.leadership_value = None
+        self.intelligence_value = None
+        self.resilience_value = None
+        self.emotion_value = None
+        self.character_stats = None
+        self.avatar_label = None
+        self.avatar_group = None
+        self.trust_label = None
+        self.tension_bar = None
+        self.mood_label = None
+        self.dynamics_group = None
+        self.chat_text = None
+        self.chat_group = None
+        self.character_table = None
+        self.character_group = None
+        self.speaking_label = None
+        self.leadership_label = None
+        self.intelligence_label = None
+        self.resilience_label = None
+        self.emotion_label = None
         self.game = Game()
         self.current_day = 1
         self.current_event_index = 0
@@ -123,8 +142,10 @@ class GameGUI(QMainWindow):
                     try:
                         # Load the original image
                         pixmap = QPixmap(avatar_path)
+
+                        # Scale the image to fit by height while maintaining the aspect ratio
                         if not pixmap.isNull():
-                            # Scale the image to fit by height while maintaining aspect ratio
+                            # noinspection PyUnresolvedReferences
                             scaled_pixmap = pixmap.scaledToHeight(target_height, Qt.SmoothTransformation)
 
                             # Store in cache with character name as key
@@ -152,6 +173,7 @@ class GameGUI(QMainWindow):
         # Set table properties
         header = self.character_table.horizontalHeader()
         header.setStretchLastSection(True)
+        # noinspection PyUnresolvedReferences
         header.setSectionResizeMode(QHeaderView.Stretch)
 
         layout.addWidget(self.character_table)
@@ -175,6 +197,7 @@ class GameGUI(QMainWindow):
 
         # Mood label
         self.mood_label = QLabel("Mood: NEUTRAL 😐")
+        # noinspection PyUnresolvedReferences
         self.mood_label.setFont(QFont("Arial", 12, QFont.Bold))
         layout.addWidget(self.mood_label)
 
@@ -190,6 +213,7 @@ class GameGUI(QMainWindow):
 
         # Trust matrix placeholder
         self.trust_label = QLabel("[Trust Matrix]")
+        # noinspection PyUnresolvedReferences
         self.trust_label.setAlignment(Qt.AlignCenter)
         layout.addWidget(self.trust_label)
 
@@ -203,6 +227,7 @@ class GameGUI(QMainWindow):
 
         # Avatar image - aligned to left, scaled to fit by height
         self.avatar_label = QLabel()
+        # noinspection PyUnresolvedReferences
         self.avatar_label.setAlignment(Qt.AlignLeft | Qt.AlignTop)
         self.avatar_label.setStyleSheet("""
             QLabel {
@@ -214,14 +239,15 @@ class GameGUI(QMainWindow):
         self.avatar_label.setText("[Avatar image]")
         self.avatar_label.setMinimumSize(150, 225)  # Maintain aspect ratio of 256x384
         self.avatar_label.setMaximumSize(200, 300)  # Set reasonable maximum size
+        # noinspection PyUnresolvedReferences
         self.avatar_label.setSizePolicy(QSizePolicy.Fixed, QSizePolicy.Fixed)
 
-        # Reserved space to the right - now a widget with its own layout
-        self.reserved_space = QWidget()
-        self.reserved_space.setStyleSheet("background-image: url(resources/background.png); border: 1px dashed #ccc;")
+        # Reserved space for character stats
+        self.character_stats = QWidget()
+        self.character_stats.setStyleSheet("background-image: url(resources/background.png); border: 1px dashed #ccc;")
 
         # Create layout for reserved space
-        reserved_layout = QVBoxLayout(self.reserved_space)
+        character_stats_layout = QVBoxLayout(self.character_stats)
 
         # Create grid layout for character stats
         stats_grid = QGridLayout()
@@ -261,21 +287,22 @@ class GameGUI(QMainWindow):
         stats_grid.addWidget(self.emotion_value, 3, 1)
 
         # Add grid to reserved layout
-        reserved_layout.addLayout(stats_grid)
+        character_stats_layout.addLayout(stats_grid)
 
         # Add stretch to push speaking label to bottom
-        reserved_layout.addStretch()
+        character_stats_layout.addStretch()
 
         # Speaking indicator - now at bottom of reserved space
         self.speaking_label = QLabel("⏺ Speaking (pulsing UI)")
+        # noinspection PyUnresolvedReferences
         self.speaking_label.setAlignment(Qt.AlignCenter)
         self.speaking_label.setStyleSheet("color: red; font-weight: bold; background-color: rgba(255, 255, 255, 200);")
         self.speaking_label.hide()  # Initially hidden
-        reserved_layout.addWidget(self.speaking_label)
+        character_stats_layout.addWidget(self.speaking_label)
 
         # Add to horizontal layout
         avatar_layout.addWidget(self.avatar_label)
-        avatar_layout.addWidget(self.reserved_space, 1)  # Give reserved space stretch factor
+        avatar_layout.addWidget(self.character_stats, 1)  # Give reserved space stretch factor
 
         main_layout.addLayout(avatar_layout)
 
@@ -365,6 +392,7 @@ class GameGUI(QMainWindow):
 
         # Current day label
         self.day_label = QLabel(f"Current Day: {self.current_day}")
+        # noinspection PyUnresolvedReferences
         self.day_label.setAlignment(Qt.AlignCenter)
         layout.addWidget(self.day_label)
 
