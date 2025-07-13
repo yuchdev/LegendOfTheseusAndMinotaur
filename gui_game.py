@@ -48,6 +48,9 @@ class GameGUI(QMainWindow):
         self.setWindowTitle("Legend - Interactive Game")
         self.setGeometry(100, 100, 1400, 900)
 
+        # Apply background image styling
+        self.apply_background_styling()
+
         # Create central widget and main layout
         central_widget = QWidget()
         self.setCentralWidget(central_widget)
@@ -79,6 +82,24 @@ class GameGUI(QMainWindow):
         # Set column stretch to make columns equal width
         main_layout.setColumnStretch(0, 1)
         main_layout.setColumnStretch(1, 1)
+
+    def apply_background_styling(self):
+        """Apply background image styling to all Qt widgets from external QSS file."""
+        # Load the stylesheet from the external QSS file
+        qss_file = os.path.join("resources", "style.qss")
+
+        if os.path.exists(qss_file):
+            try:
+                with open(qss_file, "r") as f:
+                    stylesheet = f.read()
+
+                # Apply the stylesheet to the main window
+                self.setStyleSheet(stylesheet)
+                self.debug_log(f"Applied stylesheet from {qss_file}")
+            except Exception as e:
+                self.debug_log(f"Error loading stylesheet: {str(e)}")
+        else:
+            self.debug_log(f"Stylesheet file not found: {qss_file}")
 
     def preload_avatar_images(self):
         """Pre-load all avatar images to avoid memory leaks from repeated loading."""
@@ -170,7 +191,6 @@ class GameGUI(QMainWindow):
         # Trust matrix placeholder
         self.trust_label = QLabel("[Trust Matrix]")
         self.trust_label.setAlignment(Qt.AlignCenter)
-        self.trust_label.setStyleSheet("border: 1px solid gray; padding: 10px;")
         layout.addWidget(self.trust_label)
 
     def create_avatar_voice(self):
@@ -187,7 +207,7 @@ class GameGUI(QMainWindow):
         self.avatar_label.setStyleSheet("""
             QLabel {
                 border: 2px solid gray;
-                background-color: #f0f0f0;
+                background-color: rgba(240, 240, 240, 220);
                 font-size: 14px;
             }
         """)
@@ -198,15 +218,50 @@ class GameGUI(QMainWindow):
 
         # Reserved space to the right - now a widget with its own layout
         self.reserved_space = QWidget()
-        self.reserved_space.setStyleSheet("background-color: #fafafa; border: 1px dashed #ccc;")
+        self.reserved_space.setStyleSheet("background-image: url(resources/background.png); border: 1px dashed #ccc;")
 
         # Create layout for reserved space
         reserved_layout = QVBoxLayout(self.reserved_space)
 
-        # Add placeholder text at the top
-        reserved_placeholder = QLabel("Reserved space")
-        reserved_placeholder.setAlignment(Qt.AlignCenter)
-        reserved_layout.addWidget(reserved_placeholder)
+        # Create grid layout for character stats
+        stats_grid = QGridLayout()
+
+        # Create labels for stats with light gray text
+        stats_style = "color: #f0f0f0; font-weight: bold; background-color: rgba(50, 50, 50, 150); padding: 3px; border-radius: 3px;"
+        values_style = "color: #f0f0f0; background-color: rgba(70, 70, 70, 150); padding: 3px; border-radius: 3px;"
+
+        # Stat labels (left column)
+        self.leadership_label = QLabel("Leadership:")
+        self.leadership_label.setStyleSheet(stats_style)
+        self.intelligence_label = QLabel("Intelligence:")
+        self.intelligence_label.setStyleSheet(stats_style)
+        self.resilience_label = QLabel("Resilience:")
+        self.resilience_label.setStyleSheet(stats_style)
+        self.emotion_label = QLabel("Emotion:")
+        self.emotion_label.setStyleSheet(stats_style)
+
+        # Value labels (right column)
+        self.leadership_value = QLabel("--")
+        self.leadership_value.setStyleSheet(values_style)
+        self.intelligence_value = QLabel("--")
+        self.intelligence_value.setStyleSheet(values_style)
+        self.resilience_value = QLabel("--")
+        self.resilience_value.setStyleSheet(values_style)
+        self.emotion_value = QLabel("--")
+        self.emotion_value.setStyleSheet(values_style)
+
+        # Add labels to grid
+        stats_grid.addWidget(self.leadership_label, 0, 0)
+        stats_grid.addWidget(self.leadership_value, 0, 1)
+        stats_grid.addWidget(self.intelligence_label, 1, 0)
+        stats_grid.addWidget(self.intelligence_value, 1, 1)
+        stats_grid.addWidget(self.resilience_label, 2, 0)
+        stats_grid.addWidget(self.resilience_value, 2, 1)
+        stats_grid.addWidget(self.emotion_label, 3, 0)
+        stats_grid.addWidget(self.emotion_value, 3, 1)
+
+        # Add grid to reserved layout
+        reserved_layout.addLayout(stats_grid)
 
         # Add stretch to push speaking label to bottom
         reserved_layout.addStretch()
@@ -214,7 +269,7 @@ class GameGUI(QMainWindow):
         # Speaking indicator - now at bottom of reserved space
         self.speaking_label = QLabel("⏺ Speaking (pulsing UI)")
         self.speaking_label.setAlignment(Qt.AlignCenter)
-        self.speaking_label.setStyleSheet("color: red; font-weight: bold;")
+        self.speaking_label.setStyleSheet("color: red; font-weight: bold; background-color: rgba(255, 255, 255, 200);")
         self.speaking_label.hide()  # Initially hidden
         reserved_layout.addWidget(self.speaking_label)
 
@@ -266,6 +321,9 @@ class GameGUI(QMainWindow):
                 # Clear avatar if no character
                 self.avatar_label.clear()
                 self.avatar_label.setText("[Avatar image]")
+
+            # Update character stats display
+            self.update_character_stats()
 
     def create_debug_console(self):
         """Create the debug console widget."""
@@ -552,6 +610,7 @@ class GameGUI(QMainWindow):
         self.update_character_list()
         self.update_group_dynamics()
         self.update_controls()
+        self.update_character_stats()
 
     def update_character_list(self):
         """Update the character list table."""
@@ -586,8 +645,15 @@ class GameGUI(QMainWindow):
                 color = "red"
 
             self.tension_bar.setStyleSheet(f"""
+                QProgressBar {{
+                    background-color: rgba(255, 255, 255, 200);
+                    border: 1px solid gray;
+                    border-radius: 3px;
+                    text-align: center;
+                }}
                 QProgressBar::chunk {{
                     background-color: {color};
+                    border-radius: 2px;
                 }}
             """)
 
@@ -603,8 +669,49 @@ class GameGUI(QMainWindow):
 
         # Update day navigation
         self.prev_day_button.setEnabled(self.current_day > 1)
-        next_day_exists = os.path.exists(f"play_chapters/day-{self.current_day + 1:02d}.json")
+        next_day_exists = os.path.exists(f"play_events/day-{self.current_day + 1:02d}.json")
         self.next_day_button.setEnabled(next_day_exists)
+
+    def update_character_stats(self):
+        """Update the character stats display in the reserved space."""
+        if self.current_character:
+            # Resolve character name to canonical form
+            canonical_name, _ = resolve_character(self.current_character)
+
+            # If not a canonical name, try to find it in the characters dictionary
+            if not canonical_name:
+                # For characters like "Labyrinth" that might not be in CHARACTERS list
+                if self.current_character in self.game.characters:
+                    canonical_name = self.current_character
+                else:
+                    # If we can't resolve the name, show placeholder values
+                    self.leadership_value.setText("--")
+                    self.intelligence_value.setText("--")
+                    self.resilience_value.setText("--")
+                    self.emotion_value.setText("--")
+                    return
+
+            # Get the Character object
+            character = self.game.characters.get(canonical_name)
+
+            if character:
+                # Update stats display
+                self.leadership_value.setText(str(character.leadership))
+                self.intelligence_value.setText(str(character.intelligence))
+                self.resilience_value.setText(str(character.resilience))
+                self.emotion_value.setText(character.current_emotion.name)
+            else:
+                # If character not found, show placeholder values
+                self.leadership_value.setText("--")
+                self.intelligence_value.setText("--")
+                self.resilience_value.setText("--")
+                self.emotion_value.setText("--")
+        else:
+            # If no current character, show placeholder values
+            self.leadership_value.setText("--")
+            self.intelligence_value.setText("--")
+            self.resilience_value.setText("--")
+            self.emotion_value.setText("--")
 
     def get_mood_emoji(self, emotion):
         """Get emoji for emotion."""
@@ -626,11 +733,16 @@ class GameGUI(QMainWindow):
 
     def debug_log(self, message):
         """Add a message to the debug console."""
-        self.debug_text.append(f"[DEBUG] {message}")
+        # Check if debug_text exists (it might not during initialization)
+        if hasattr(self, 'debug_text') and self.debug_text is not None:
+            self.debug_text.append(f"[DEBUG] {message}")
 
-        # Auto-scroll to bottom
-        scrollbar = self.debug_text.verticalScrollBar()
-        scrollbar.setValue(scrollbar.maximum())
+            # Auto-scroll to bottom
+            scrollbar = self.debug_text.verticalScrollBar()
+            scrollbar.setValue(scrollbar.maximum())
+        else:
+            # Print to console if debug_text doesn't exist yet
+            print(f"[DEBUG] {message}")
 
 
 def main():
