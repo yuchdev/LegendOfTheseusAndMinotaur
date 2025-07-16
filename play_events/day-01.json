@@ -391,6 +391,10 @@
   },
   {
     "character": "Monstradamus",
+    "event_type": "enter"
+  },
+  {
+    "character": "Monstradamus",
     "to": [
       "Organizm(-:",
       "Romeo-y-Cohiba",
@@ -406,10 +410,6 @@
     "mood": "curious",
     "text": "Who are you, Monstradamus?",
     "event_type": "dialogue"
-  },
-  {
-    "character": "Monstradamus",
-    "event_type": "enter"
   },
   {
     "character": "Monstradamus",
@@ -2012,6 +2012,10 @@
     "event_type": "dialogue"
   },
   {
+    "event_type": "environment_change",
+    "payload": "ALL DOORS OPENED"
+  },
+  {
     "character": "UGLI 666",
     "to": "",
     "mood": "fearful",
@@ -2103,6 +2107,10 @@
     "event_type": "dialogue"
   },
   {
+    "event_type": "environment_change",
+    "payload": "ALL DOORS CLOSED"
+  },
+  {
     "character": "Nutscracker",
     "to": "",
     "mood": "anxious",
@@ -2122,6 +2130,10 @@
     "mood": "anxious",
     "text": "Now how's Isolde going to get back? Doors, open!",
     "event_type": "dialogue"
+  },
+  {
+    "event_type": "environment_change",
+    "payload": "ALL DOORS OPENED"
   },
   {
     "character": "Nutscracker",

@@ -252,10 +252,10 @@ class GameGUI(QMainWindow):
         self.character_stats = QWidget()
         self.character_stats.setStyleSheet("background-image: url(resources/background.png); border: 1px dashed #ccc;")
 
-        # Create layout for reserved space
+        # Create a layout for reserved space
         character_stats_layout = QVBoxLayout(self.character_stats)
 
-        # Create grid layout for character stats
+        # Create a grid layout for character stats
         stats_grid = QGridLayout()
 
         # Create labels for stats with light gray text
@@ -282,7 +282,7 @@ class GameGUI(QMainWindow):
         self.emotion_value = QLabel("--")
         self.emotion_value.setStyleSheet(values_style)
 
-        # Add labels to grid
+        # Add labels to the grid
         stats_grid.addWidget(self.leadership_label, 0, 0)
         stats_grid.addWidget(self.leadership_value, 0, 1)
         stats_grid.addWidget(self.intelligence_label, 1, 0)
@@ -298,7 +298,7 @@ class GameGUI(QMainWindow):
         # Add stretch to push speaking label to bottom
         character_stats_layout.addStretch()
 
-        # Speaking indicator - now at bottom of reserved space
+        # Speaking indicator - now at the bottom of reserved space
         self.speaking_label = QLabel("⏺ Speaking (pulsing UI)")
         # noinspection PyUnresolvedReferences
         self.speaking_label.setAlignment(Qt.AlignCenter)
@@ -306,9 +306,9 @@ class GameGUI(QMainWindow):
         self.speaking_label.hide()  # Initially hidden
         character_stats_layout.addWidget(self.speaking_label)
 
-        # Add to horizontal layout
+        # Add to the horizontal layout
         avatar_layout.addWidget(self.avatar_label)
-        avatar_layout.addWidget(self.character_stats, 1)  # Give reserved space stretch factor
+        avatar_layout.addWidget(self.character_stats, 1)  # Give a reserved space stretch factor
 
         main_layout.addLayout(avatar_layout)
 
@@ -316,8 +316,8 @@ class GameGUI(QMainWindow):
         self.current_character = None
 
     def load_labyrinth_avatar(self):
-        """Load the Labyrinth.png avatar as the default from cache."""
-        # Try to get Labyrinth from cache
+        """Load the Labyrinth.png avatar as the default from the cache."""
+        # Try to get Labyrinth from a cache
         labyrinth_pixmap = self.avatar_cache.get("Labyrinth")
 
         if labyrinth_pixmap:
@@ -371,7 +371,7 @@ class GameGUI(QMainWindow):
         layout.addWidget(self.debug_text)
 
     def create_controls(self):
-        """Create the game controls widget."""
+        """Create the game controls' widget."""
         self.controls_group = QGroupBox("Controls (Game)")
         layout = QVBoxLayout(self.controls_group)
 
@@ -430,7 +430,7 @@ class GameGUI(QMainWindow):
                 if hasattr(first_event, 'actor') and first_event.actor:
                     self.show_speaking_animation(first_event.actor, first_event.event_type)
 
-                self.current_event_index = 1  # Move to next event
+                self.current_event_index = 1  # Move to the next event
                 self.debug_log(f"Automatically executed first event: {first_event.event_type}")
 
             self.update_display()
@@ -465,7 +465,7 @@ class GameGUI(QMainWindow):
         """Undo the last step (simplified implementation)."""
         if self.current_event_index > 0:
             self.current_event_index -= 1
-            # For PoC, just reload the day and replay up to current index
+            # For PoC, just reload the day and replay up to the current index
             self.reload_day_to_index()
             self.debug_log(f"Undid step, now at {self.current_event_index}/{len(self.current_events)}")
         else:
@@ -492,7 +492,7 @@ class GameGUI(QMainWindow):
             self.debug_log("Already at day 1")
 
     def reload_day_to_index(self):
-        """Reload the current day and replay events up to current index."""
+        """Reload the current day and replay events up to the current index."""
         # Reset game state
         self.game.group = Group()
         for character in self.game.characters.values():
@@ -501,7 +501,7 @@ class GameGUI(QMainWindow):
         # Clear chat
         self.chat_text.clear()
 
-        # Replay events up to current index
+        # Replay events up to the current index
         for i in range(self.current_event_index):
             event = self.current_events[i]
             event.apply(self.game.group)
@@ -523,7 +523,7 @@ class GameGUI(QMainWindow):
         if not character_name:
             return None
 
-        # First try to resolve the character name using constants
+        # First, try to resolve the character name using constants
         canonical_name, alias = resolve_character(character_name)
 
         # List of possible avatar filenames to try
@@ -564,7 +564,7 @@ class GameGUI(QMainWindow):
         Returns:
             QPixmap or None: The cached avatar image, or None if not found
         """
-        # First try to find the character name directly in cache
+        # First, try to find the character name directly in the cache
         if character_name in self.avatar_cache:
             self.debug_log(f"Retrieved cached avatar for {character_name}")
             return self.avatar_cache[character_name]
@@ -572,7 +572,7 @@ class GameGUI(QMainWindow):
         # Try to resolve the character name using the existing mapping logic
         avatar_path = self.resolve_avatar_filename(character_name)
         if avatar_path:
-            # Extract the filename without extension to use as cache key
+            # Extract the filename without extension to use as a cache key
             filename = os.path.basename(avatar_path)
             cache_key = filename[:-4] if filename.endswith('.png') else filename
 
@@ -613,14 +613,14 @@ class GameGUI(QMainWindow):
 
                 message = f"<b>[{actor_name}]{target_str}[{emotion}]</b> {text}"
             else:
-                # Handle events without payload (enter, leave, etc.)
+                # Handle events without a payload (enter, leave, etc.)
                 event_type_name = event.event_type.name if hasattr(event.event_type, 'name') else str(event.event_type)
                 message = f"[{event_type_name}] {actor_name}"
 
             # Add to chat with color coding based on emotion
             self.chat_text.insertHtml(message + "<br>")
 
-            # Auto-scroll to bottom
+            # Auto-scroll to the bottom
             scrollbar = self.chat_text.verticalScrollBar()
             scrollbar.setValue(scrollbar.maximum())
 
@@ -636,7 +636,7 @@ class GameGUI(QMainWindow):
                 self.speaking_label.setText(f"⏺ {character.name} Speaking")
                 self.speaking_label.show()
 
-                # Hide speaking indicator after 2 seconds
+                # Hide the speaking indicator after 2 seconds
                 QTimer.singleShot(2000, self.speaking_label.hide)
 
     def update_display(self):
@@ -714,7 +714,7 @@ class GameGUI(QMainWindow):
 
             # If not a canonical name, try to find it in the characters dictionary
             if not canonical_name:
-                # For characters like "Labyrinth" that might not be in CHARACTERS list
+                # For characters like "Labyrinth" that might not be in the CHARACTERS list
                 if self.current_character in self.game.characters:
                     canonical_name = self.current_character
                 else:
@@ -772,11 +772,11 @@ class GameGUI(QMainWindow):
         if hasattr(self, 'debug_text') and self.debug_text is not None:
             self.debug_text.append(f"[DEBUG] {message}")
 
-            # Auto-scroll to bottom
+            # Auto-scroll to the bottom
             scrollbar = self.debug_text.verticalScrollBar()
             scrollbar.setValue(scrollbar.maximum())
         else:
-            # Print to console if debug_text doesn't exist yet
+            # Print to the console if debug_text doesn't exist yet
             print(f"[DEBUG] {message}")
 
 
@@ -788,11 +788,11 @@ def main():
     app.setApplicationName("Legend - Interactive Game")
     app.setApplicationVersion("1.0")
 
-    # Create and show main window
+    # Create and show the main window
     window = GameGUI()
     window.show()
 
-    # Start event loop
+    # Start an event loop
     sys.exit(app.exec())
 
 
