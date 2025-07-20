@@ -6,9 +6,10 @@ The Group manages the relationships and emotions between characters, tracks the 
 mood and tension of the group, and handles interactions between characters.
 """
 
-from typing import List, Dict, Optional
+from typing import List, Dict, Optional, Any
 from character import Character
 from emotion import Emotion
+from chatbot import Chatbot
 
 class Group:
     """Represents a group of characters in the game.
@@ -39,6 +40,10 @@ class Group:
         }
         # Group tension level (0.0 to 1.0)
         self.tension: float = 0.0
+        # Dictionary to store chatbots for AI-controlled characters
+        # Maps Character objects to their associated Chatbot instances
+        # Used by the AI_ASSUME_CONTROL event to enable AI-generated responses
+        self.chatbots: Dict[Character, Chatbot] = {}
         # Initialize emotions for all members
         for c1 in self.members:
             for c2 in self.members:
@@ -140,6 +145,7 @@ class Group:
         2. If addressed to a specific character, it may change that character's feelings toward the speaker
         3. Other characters may react to the speaker's emotion
         4. The overall group mood is updated
+        5. If AI-controlled characters are involved, their chatbots record the dialogue
 
         Args:
             speaker (Character): The character speaking the line
@@ -160,6 +166,23 @@ class Group:
         self.tension += speaker.current_emotion.get_tension_impact()
         self.tension = max(0.0, min(1.0, self.tension))  # Keep tension between 0 and 1
 
+        # Record dialogue in chatbot conversation history for all active chatbots
+        # This allows AI-controlled characters to be aware of the conversation context
+        dialogue_entry = {
+            "type": "dialogue",
+            "speaker": speaker.name,
+            "text": line,
+            "emotion": speaker.current_emotion.name,
+            "addressed_to": addressed_to.name if addressed_to else None
+        }
+        
+        # Add to conversation history of all active chatbots
+        # Each active chatbot maintains its own conversation history
+        # to generate contextually appropriate responses
+        for char, chatbot in self.chatbots.items():
+            if chatbot.is_active:
+                chatbot.add_to_history(dialogue_entry)
+
         # If addressed to someone specific
         if addressed_to and addressed_to in self.members:
             # The addressee's opinion of speaker may change based on the emotion
@@ -173,6 +196,16 @@ class Group:
                 # Increase tension if someone is offended (slightly less than negative emotions)
                 self.tension += 0.015
                 self.tension = min(1.0, self.tension)
+                
+            # If the addressee has an active chatbot, generate an AI response
+            # This is where the AI silently takes control and generates a response
+            if addressed_to in self.chatbots and self.chatbots[addressed_to].is_active:
+                # Generate a response using the chatbot based on character attributes and context
+                response = self.chatbots[addressed_to].generate_response()
+                if response:
+                    # Apply the generated response as a new line from the addressee
+                    # This recursively calls apply_line with the AI-generated response
+                    self.apply_line(addressed_to, response, speaker, addressed_to.current_emotion)
 
         # For all members, react to the speaker's emotion
         for member in self.members:

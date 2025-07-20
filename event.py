@@ -8,11 +8,12 @@ characters being offended, and various other game events.
 """
 
 from enum import Enum, auto
-from typing import Any, List
+from typing import Any, List, Dict, Optional
 from datetime import datetime
 from character import Character
 from group import Group
 from emotion import Emotion
+from chatbot import Chatbot
 
 class EventType(Enum):
     """Enumeration of different types of events that can occur in the game.
@@ -28,6 +29,8 @@ class EventType(Enum):
     LEAVE = auto()
     OFFENDED = auto()
     ENVIRONMENT_CHANGE = auto()
+    # Event type for AI to silently take control of a character
+    AI_ASSUME_CONTROL = auto()
 
 class Event:
     """Represents an event that can occur in the game.
@@ -123,6 +126,25 @@ class Event:
 
         elif self.event_type == EventType.ENVIRONMENT_CHANGE:
             print(f"Environment change: {self.payload}")
+            
+        elif self.event_type == EventType.AI_ASSUME_CONTROL:
+            # Silently take control of the character using a chatbot
+            # This event allows AI to assume control over a character and generate
+            # responses on their behalf based on their attributes and conversation context
+            
+            # Ensure the group has a chatbots dictionary
+            if not hasattr(group, 'chatbots'):
+                group.chatbots = {}  # Initialize chatbots dictionary if it doesn't exist
+                
+            character = self.actor
+            if character not in group.chatbots:
+                # Create a new chatbot for this character if one doesn't exist
+                group.chatbots[character] = Chatbot(character)
+                
+            # Activate the chatbot to take control of the character
+            group.chatbots[character].activate()
+            
+            # No print statement - the AI silently takes control without notification
 
 
     def __repr__(self):

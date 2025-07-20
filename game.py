@@ -200,6 +200,16 @@ class Game:
                     target=target
                 )
                 events.append(event)
+            elif event_type_str == "ai_assume_control":
+                # Create an AI_ASSUME_CONTROL event
+                # This event allows AI to silently take control of a character
+                # When processed, it will create and activate a chatbot for the character
+                # The chatbot will generate responses based on the character's attributes and conversation context
+                event = Event(
+                    event_type=EventType.AI_ASSUME_CONTROL,
+                    actor=character
+                )
+                events.append(event)
             elif event_type_str == "dialogue" or not event_type_str:
                 # Get the target character(s) for dialogue
                 target = None
