@@ -129,7 +129,7 @@ Create new JSON files in the `play_events/` directory following the format of th
 ## Credits
 
 - Based on Victor Pelevin's novel/play "The Helmet of Horror, or the Myth of Theseus and the Minotaur"
-- Developed to test boundaries of AI-powered interactive storytelling
+- Developed to test boundaries of AI-powered interactive storytelling and modeling dynamic social interaction between the human user and AI-powered characters. 
 
 ## License
 
