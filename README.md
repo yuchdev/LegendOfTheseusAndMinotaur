@@ -128,10 +128,9 @@ Create new JSON files in the `play_events/` directory following the format of th
 
 ## Credits
 
-- Character avatars created by [Artist Name]
-- Based on the Greek myth of Theseus and the Minotaur
-- Developed as a demonstration of AI-powered interactive storytelling
+- Based on Victor Pelevin's novel/play "The Helmet of Horror, or the Myth of Theseus and the Minotaur"
+- Developed to test boundaries of AI-powered interactive storytelling
 
 ## License
 
-[License information]
+MIT License 
