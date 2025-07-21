@@ -409,10 +409,9 @@ class GameGUI(QMainWindow):
             self.current_events = self.game.load_day(day_file)
             self.current_event_index = 0
 
-            # Reset game state
+            # Reset game state with an empty group
+            # Characters will be added to the group only when they enter the chat through ENTER events
             self.game.group = Group()
-            for character in self.game.characters.values():
-                self.game.group.add(character)
 
             # Initialize avatar with Labyrinth.png by default
             self.load_labyrinth_avatar()
@@ -493,10 +492,9 @@ class GameGUI(QMainWindow):
 
     def reload_day_to_index(self):
         """Reload the current day and replay events up to the current index."""
-        # Reset game state
+        # Reset game state with an empty group
+        # Characters will be added to the group only when they enter the chat through ENTER events
         self.game.group = Group()
-        for character in self.game.characters.values():
-            self.game.group.add(character)
 
         # Clear chat
         self.chat_text.clear()
@@ -692,6 +690,9 @@ class GameGUI(QMainWindow):
             """)
 
             # Update trust matrix (simplified)
+            # Display the total number of characters in the group
+            # This counts all characters that have entered the chat, regardless of whether they have
+            # active chatbots or user controls
             trust_info = f"Group Size: {len(self.game.group.members)}\n"
             trust_info += f"Tension: {self.game.group.get_tension_description()}"
             self.trust_label.setText(trust_info)
