@@ -14,6 +14,7 @@ from character import Character
 from group import Group
 from emotion import Emotion
 from chatbot import Chatbot
+from user_control import UserControl
 
 class EventType(Enum):
     """Enumeration of different types of events that can occur in the game.
@@ -31,6 +32,8 @@ class EventType(Enum):
     ENVIRONMENT_CHANGE = auto()
     # Event type for AI to silently take control of a character
     AI_ASSUME_CONTROL = auto()
+    # Event type for user to assume control of a character
+    USER_ASSUME_CONTROL = auto()
 
 class Event:
     """Represents an event that can occur in the game.
@@ -145,6 +148,23 @@ class Event:
             group.chatbots[character].activate()
             
             # No print statement - the AI silently takes control without notification
+            
+        elif self.event_type == EventType.USER_ASSUME_CONTROL:
+            # Allow the user to take control of the character
+            # This event enables the user to control a character and choose from
+            # AI-generated response options when the character is addressed
+            
+            # Ensure the group has a user_controls dictionary
+            if not hasattr(group, 'user_controls'):
+                group.user_controls = {}  # Initialize user_controls dictionary if it doesn't exist
+                
+            character = self.actor
+            if character not in group.user_controls:
+                # Create a new UserControl for this character if one doesn't exist
+                group.user_controls[character] = UserControl(character)
+                
+            # Activate user control for the character
+            group.user_controls[character].activate()
 
 
     def __repr__(self):

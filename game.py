@@ -210,6 +210,16 @@ class Game:
                     actor=character
                 )
                 events.append(event)
+            elif event_type_str == "user_assume_control":
+                # Create a USER_ASSUME_CONTROL event
+                # This event allows the user to take control of a character
+                # When processed, it will create and activate a UserControl for the character
+                # The user will be presented with AI-generated response options when the character is addressed
+                event = Event(
+                    event_type=EventType.USER_ASSUME_CONTROL,
+                    actor=character
+                )
+                events.append(event)
             elif event_type_str == "dialogue" or not event_type_str:
                 # Get the target character(s) for dialogue
                 target = None

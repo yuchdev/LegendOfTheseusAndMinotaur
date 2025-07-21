@@ -44,6 +44,10 @@ class Group:
         # Maps Character objects to their associated Chatbot instances
         # Used by the AI_ASSUME_CONTROL event to enable AI-generated responses
         self.chatbots: Dict[Character, Chatbot] = {}
+        # Dictionary to store user controls for user-controlled characters
+        # Maps Character objects to their associated UserControl instances
+        # Used by the USER_ASSUME_CONTROL event to enable user-controlled responses
+        self.user_controls: Dict[Character, 'UserControl'] = {}
         # Initialize emotions for all members
         for c1 in self.members:
             for c2 in self.members:
@@ -205,6 +209,16 @@ class Group:
                 if response:
                     # Apply the generated response as a new line from the addressee
                     # This recursively calls apply_line with the AI-generated response
+                    self.apply_line(addressed_to, response, speaker, addressed_to.current_emotion)
+            
+            # If the addressee is user-controlled, present options to the user
+            # This is where the user takes control and chooses a response
+            elif addressed_to in self.user_controls and self.user_controls[addressed_to].is_active:
+                # Generate response options and present them to the user
+                response = self.user_controls[addressed_to].handle_addressed(speaker)
+                if response:
+                    # Apply the selected response as a new line from the addressee
+                    # This recursively calls apply_line with the user-selected response
                     self.apply_line(addressed_to, response, speaker, addressed_to.current_emotion)
 
         # For all members, react to the speaker's emotion
