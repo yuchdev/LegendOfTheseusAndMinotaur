@@ -1,5 +1,7 @@
 # Legend of Theseus and the Minotaur
 
+![Game Screenshot](https://github.com/yuchdev/LegendOfTheseusAndMinotaur/blob/master/resources/screenshots/game.png)
+
 A narrative-driven, text-based game with a graphical interface that reimagines the classic Greek myth of Theseus and the Minotaur. The game features a complex social simulation system with AI-powered characters, emotional interactions, and dynamic relationships.
 
 ## Features
