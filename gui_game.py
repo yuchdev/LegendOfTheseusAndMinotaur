@@ -405,7 +405,7 @@ class GameGUI(QMainWindow):
     def load_current_day(self):
         """Load the current day's events."""
         try:
-            day_file = f"play_events/day-{self.current_day:02d}.json"
+            day_file = f"resources/scripted_events/day-{self.current_day:02d}.json"
             self.current_events = self.game.load_day(day_file)
             self.current_event_index = 0
 
@@ -472,7 +472,7 @@ class GameGUI(QMainWindow):
 
     def next_day(self):
         """Move to the next day."""
-        if os.path.exists(f"play_events/day-{self.current_day + 1:02d}.json"):
+        if os.path.exists(f"resources/scripted_events/day-{self.current_day + 1:02d}.json"):
             self.current_day += 1
             self.day_label.setText(f"Current Day: {self.current_day}")
             self.load_current_day()
@@ -704,7 +704,7 @@ class GameGUI(QMainWindow):
 
         # Update day navigation
         self.prev_day_button.setEnabled(self.current_day > 1)
-        next_day_exists = os.path.exists(f"play_events/day-{self.current_day + 1:02d}.json")
+        next_day_exists = os.path.exists(f"resources/scripted_events/day-{self.current_day + 1:02d}.json")
         self.next_day_button.setEnabled(next_day_exists)
 
     def update_character_stats(self):

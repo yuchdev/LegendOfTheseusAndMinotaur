@@ -100,7 +100,7 @@ For more details on the chatbot and user control functionality, see [CHATBOT.md]
   - `user_control.py`: User-controlled character functionality
 
 - **Content**:
-  - `play_events/`: JSON files containing day events
+  - `resources/scripted_events/`: JSON files containing day events
   - `avatars/`: Character avatar images
   - `resources/`: UI resources (background images, stylesheets)
 
@@ -118,7 +118,7 @@ For more details on the chatbot and user control functionality, see [CHATBOT.md]
 
 ### Adding New Days
 
-Create new JSON files in the `play_events/` directory following the format of the existing files. Each file should contain an array of event objects with appropriate event types and data.
+Create new JSON files in the `resources/scripted_events/` directory following the format of the existing files. Each file should contain an array of event objects with appropriate event types and data.
 
 ### Adding New Characters
 

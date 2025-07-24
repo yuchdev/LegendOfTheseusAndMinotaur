@@ -161,12 +161,14 @@ class Emotion(Enum):
         This method calculates how much an emotion affects the tension level in a group.
         Different categories of emotions have different impacts:
         - positive emotions: Significantly reduce tension (-0.03)
-        - neutral emotions: Have no effect on tension (0.0)
+        - neutral emotions: Slightly reduce tension (-0.01)
         - negative emotions: Increase tension (0.02)
         - complex emotions: Slightly increase tension (0.01)
 
         The values are designed so that positive emotions decrease tension more effectively
         than negative emotions increase it, creating a balanced group dynamic.
+        Neutral emotions also ease tension, but at a slower rate than positive emotions,
+        reflecting how calm, measured interactions can gradually reduce group tension.
 
         Returns:
             float: The tension impact value (negative values reduce tension, positive values increase it)
@@ -175,7 +177,7 @@ class Emotion(Enum):
         if category == "positive":
             return -0.03   # Reduces tension (significantly stronger than negative increases it)
         elif category == "neutral":
-            return 0.0     # No effect on tension
+            return -0.01   # Slightly reduces tension (slower than positive emotions)
         elif category == "negative":
             return 0.02    # Increases tension
         elif category == "complex":

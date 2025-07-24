@@ -25,7 +25,7 @@ def find_json_files() -> List[str]:
     # Look for JSON files in common directories
     search_patterns = [
         "*.json",
-        "play_events/*.json",
+        "scripted_events/*.json",
         "play_chapters/*.json",
         "raw/*.json"
     ]

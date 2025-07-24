@@ -6,9 +6,9 @@ control over characters in the game. The Chatbot class provides an interface for
 generating responses based on character attributes and conversation context.
 """
 
+import os
 from abc import ABC, abstractmethod
 from typing import Dict, List, Optional, Any
-import os
 from character import Character
 
 
