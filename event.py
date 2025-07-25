@@ -241,9 +241,12 @@ class Event:
             if character not in group.chatbots:
                 # Create a new chatbot for this character if one doesn't exist
                 logging.info(f"Creating new chatbot for character: {character.name}")
-                group.chatbots[character] = Chatbot(character)
+                # Pass the group to the chatbot so it can access the full day's context
+                group.chatbots[character] = Chatbot(character, group=group)
             else:
                 logging.info(f"Using existing chatbot for character: {character.name}")
+                # Update the group reference in case it changed
+                group.chatbots[character].group = group
                 
             # Activate the chatbot to take control of the character
             # The activate method will log details about the activation and API key source

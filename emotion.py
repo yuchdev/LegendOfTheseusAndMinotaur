@@ -9,8 +9,10 @@ impact on group tension.
 
 from enum import Enum, auto
 
+
 class Emotion(Enum):
-    """Enumeration of emotions that characters can experience in the game.
+    """
+    Enumeration of emotions that characters can experience in the game.
 
     Emotions are categorized into positive, neutral, negative, and complex types.
     Each emotion has different effects on character relationships and group dynamics.
@@ -58,7 +60,8 @@ class Emotion(Enum):
 
     @classmethod
     def from_string(cls, emotion_str: str) -> 'Emotion':
-        """Convert a string emotion to an Emotion enum value.
+        """
+        Convert a string emotion to an Emotion enum value.
 
         This method takes a string representation of an emotion and converts it to
         the corresponding Emotion enum value. The conversion is case-insensitive.
@@ -67,8 +70,7 @@ class Emotion(Enum):
         Args:
             emotion_str (str): The string representation of the emotion
 
-        Returns:
-            Emotion: The corresponding Emotion enum value, or NEUTRAL if not found
+        :return: The corresponding Emotion enum value, or NEUTRAL if not found
         """
         emotion_map = {
             # Positive emotions
@@ -116,7 +118,8 @@ class Emotion(Enum):
         return emotion_map.get(emotion_str.lower(), cls.NEUTRAL)
 
     def get_category(self) -> str:
-        """Return the category of the emotion.
+        """
+        Return the category of the emotion.
 
         This method determines which category an emotion belongs to:
         - positive: Emotions that generally have a positive effect on relationships
@@ -125,24 +128,23 @@ class Emotion(Enum):
         - complex: Emotions that have mixed or context-dependent effects
         - unknown: If the emotion doesn't fit into any of the above categories
 
-        Returns:
-            str: The category of the emotion as a string ('positive', 'neutral', 'negative', 'complex', or 'unknown')
+        :return: The category of the emotion as a string ('positive', 'neutral', 'negative', 'complex', or 'unknown')
         """
-        positive = {Emotion.COMPASSIONATE, Emotion.EXCITED, Emotion.FLIRTY, 
-                   Emotion.HOPEFUL, Emotion.HUMOROUS, Emotion.PROUD, 
-                   Emotion.RESPECTFUL, Emotion.SOLEMN, Emotion.FRIENDLY, 
-                   Emotion.ADMIRATION}
+        positive = {Emotion.COMPASSIONATE, Emotion.EXCITED, Emotion.FLIRTY,
+                    Emotion.HOPEFUL, Emotion.HUMOROUS, Emotion.PROUD,
+                    Emotion.RESPECTFUL, Emotion.SOLEMN, Emotion.FRIENDLY,
+                    Emotion.ADMIRATION}
 
-        neutral = {Emotion.CALM, Emotion.CONFUSED, Emotion.CONTEMPLATIVE, 
-                  Emotion.CURIOUS, Emotion.SURPRISED, Emotion.RESIGNED, 
-                  Emotion.NEUTRAL}
+        neutral = {Emotion.CALM, Emotion.CONFUSED, Emotion.CONTEMPLATIVE,
+                   Emotion.CURIOUS, Emotion.SURPRISED, Emotion.RESIGNED,
+                   Emotion.NEUTRAL}
 
-        negative = {Emotion.ANGRY, Emotion.ANXIOUS, Emotion.DOWN, 
-                   Emotion.EMBARRASSED, Emotion.FEARFUL, Emotion.IRRITATED, 
-                   Emotion.HOSTILE, Emotion.FEAR}
+        negative = {Emotion.ANGRY, Emotion.ANXIOUS, Emotion.DOWN,
+                    Emotion.EMBARRASSED, Emotion.FEARFUL, Emotion.IRRITATED,
+                    Emotion.HOSTILE, Emotion.FEAR}
 
-        complex = {Emotion.DEFENSIVE, Emotion.DESPERATE, Emotion.DISMISSIVE, 
-                  Emotion.JEALOUS, Emotion.SARCASTIC, Emotion.SKEPTICAL}
+        complex = {Emotion.DEFENSIVE, Emotion.DESPERATE, Emotion.DISMISSIVE,
+                   Emotion.JEALOUS, Emotion.SARCASTIC, Emotion.SKEPTICAL}
 
         if self in positive:
             return "positive"
@@ -156,7 +158,8 @@ class Emotion(Enum):
             return "unknown"
 
     def get_tension_impact(self) -> float:
-        """Return the impact on group tension for this emotion.
+        """
+        Return the impact on group tension for this emotion.
 
         This method calculates how much an emotion affects the tension level in a group.
         Different categories of emotions have different impacts:
@@ -170,16 +173,13 @@ class Emotion(Enum):
         Neutral emotions also ease tension, but at a slower rate than positive emotions,
         reflecting how calm, measured interactions can gradually reduce group tension.
 
-        Returns:
-            float: The tension impact value (negative values reduce tension, positive values increase it)
+        :return: The tension impacts value (negative values reduce tension, positive values increase it)
         """
+        tension_impacts = {
+            "positive": -0.02,  # Reduces tension (significantly stronger than negative increases it)
+            "neutral": -0.005,  # Slightly reduces tension (slower than positive emotions)
+            "negative": 0.02,  # Increase tension
+            "complex": 0.005,  # Slightly increases tension
+        }
         category = self.get_category()
-        if category == "positive":
-            return -0.03   # Reduces tension (significantly stronger than negative increases it)
-        elif category == "neutral":
-            return -0.01   # Slightly reduces tension (slower than positive emotions)
-        elif category == "negative":
-            return 0.02    # Increases tension
-        elif category == "complex":
-            return 0.01    # Slightly increases tension
-        return 0.0
+        return tension_impacts.get(category, 0.0)

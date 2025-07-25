@@ -259,10 +259,11 @@ class Game:
         The method performs the following steps:
         1. Load the day events using load_day()
         2. Add all characters to the group
-        3. Display the initial group state
-        4. Process each event, applying it to the group
-        5. Periodically display group status updates (5% chance after each event)
-        6. Display the final group state
+        3. Set the current day in the group
+        4. Display the initial group state
+        5. Process each event, applying it to the group
+        6. Periodically display group status updates (5% chance after each event)
+        7. Display the final group state
 
         Args:
             day_file (str): Path to the JSON file containing the day data
@@ -272,6 +273,14 @@ class Game:
         # Add all characters to the group initially
         for character in self.characters.values():
             self.group.add(character)
+            
+        # Extract the day identifier from the file path
+        # Example: "play_chapters/day-01.json" -> "day-01"
+        import os
+        day_id = os.path.basename(day_file).split('.')[0]
+        
+        # Set the current day in the group
+        self.group.set_current_day(day_id)
 
         print(f"\n=== Starting Day: {day_file} ===\n")
         print(

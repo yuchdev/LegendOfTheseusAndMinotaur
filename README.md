@@ -81,7 +81,7 @@ The game provides two ways to control characters:
 1. **AI Control**: Characters can be controlled by an AI model that generates dialogue based on their attributes and the conversation context.
 2. **User Control**: You can take control of characters and choose from AI-generated dialogue options when they're addressed in a conversation.
 
-For more details on the chatbot and user control functionality, see [CHATBOT.md](CHATBOT.md).
+For more details on the chatbot and user control functionality, see [CHATBOT.md](docs/CHATBOT.md).
 
 ## Project Structure
 

@@ -20,6 +20,7 @@ The `Chatbot` class in `chatbot.py` provides the core functionality for AI-contr
 - Manages conversation history
 - Activates/deactivates AI control
 - Generates responses using an AI adapter
+- Accesses the full day's conversation context when generating responses
 
 ### UserControl Class
 
@@ -157,7 +158,8 @@ event.apply(my_group)
    - The chatbot is activated to take control of the character
 
 2. When dialogue occurs in the game:
-   - All active chatbots record the dialogue in their conversation history
+   - All dialogue events are recorded in the group's global conversation history, organized by day
+   - All active chatbots also record the dialogue in their own conversation history
    - If a character with an active chatbot is addressed, the chatbot generates a response
    - The generated response is applied as a new dialogue line from the character
    - Any scripted lines for the character in the day file are ignored while the chatbot is active
@@ -166,7 +168,7 @@ event.apply(my_group)
    - The character's attributes (leadership, intelligence, resilience)
    - The character's current emotion
    - The character's relationships (friends/enemies)
-   - The conversation history
+   - The full conversation context for the current day (not just what happened while the character was under AI control)
 
 ### User Control
 
@@ -231,6 +233,26 @@ user_control = UserControl(some_character, adapter=adapter)
 ```
 
 The same adapter can be used for both AI control and user control, allowing you to use the same AI service for both functionalities.
+
+## Day Context Tracking
+
+The system now tracks all dialogue events for all characters, organized by day. This ensures that AI-controlled characters have access to the full context of the conversation for the current day, not just what happened while they were under AI control.
+
+### Group Class Methods
+
+The `Group` class has been enhanced with methods to track and access the full day's context:
+
+- `set_current_day(day_id)`: Sets the current day identifier and initializes the conversation history for that day
+- `get_day_context(day_id=None)`: Gets the full conversation context for a specific day, or for the current day if no day is specified
+
+### Chatbot Integration
+
+The `Chatbot` class has been updated to access the full day's context from the Group when generating responses:
+
+- The chatbot now has a reference to the Group
+- When generating a response, it checks if the Group is available
+- If available, it uses the full day's context from the Group instead of its own conversation history
+- This ensures that the chatbot has access to all dialogue events for the day, not just what happened while the character was under AI control
 
 ## Customization
 

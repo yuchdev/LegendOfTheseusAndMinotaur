@@ -7,6 +7,7 @@ mood and tension of the group, and handles interactions between characters.
 """
 
 from typing import List, Dict, Optional, Any
+from datetime import datetime
 from character import Character
 from emotion import Emotion
 from chatbot import Chatbot
@@ -48,6 +49,11 @@ class Group:
         # Maps Character objects to their associated UserControl instances
         # Used by the USER_ASSUME_CONTROL event to enable user-controlled responses
         self.user_controls: Dict[Character, 'UserControl'] = {}
+        # Global conversation history that tracks all dialogue events by day
+        # Maps day identifiers to lists of dialogue events
+        self.conversation_history: Dict[str, List[Dict[str, Any]]] = {}
+        # Current day identifier
+        self.current_day: str = "day-01"
         # Initialize emotions for all members
         for c1 in self.members:
             for c2 in self.members:
@@ -150,6 +156,7 @@ class Group:
         3. Other characters may react to the speaker's emotion
         4. The overall group mood is updated
         5. If AI-controlled characters are involved, their chatbots record the dialogue
+        6. All dialogue is recorded in the global conversation history for the current day
 
         Args:
             speaker (Character): The character speaking the line
@@ -177,8 +184,14 @@ class Group:
             "speaker": speaker.name,
             "text": line,
             "emotion": speaker.current_emotion.name,
-            "addressed_to": addressed_to.name if addressed_to else None
+            "addressed_to": addressed_to.name if addressed_to else None,
+            "timestamp": datetime.now().isoformat()
         }
+        
+        # Add to the global conversation history for the current day
+        if self.current_day not in self.conversation_history:
+            self.conversation_history[self.current_day] = []
+        self.conversation_history[self.current_day].append(dialogue_entry)
         
         # Add to conversation history of all active chatbots
         # Each active chatbot maintains its own conversation history
@@ -271,3 +284,34 @@ class Group:
             return "very tense"
         else:
             return "extremely tense"
+            
+    def set_current_day(self, day_id: str):
+        """Set the current day identifier.
+        
+        This method updates the current day identifier, which is used to organize
+        the conversation history by day.
+        
+        Args:
+            day_id (str): The day identifier (e.g., "day-01", "day-02")
+        """
+        self.current_day = day_id
+        # Initialize the conversation history for this day if it doesn't exist
+        if day_id not in self.conversation_history:
+            self.conversation_history[day_id] = []
+            
+    def get_day_context(self, day_id: Optional[str] = None) -> List[Dict[str, Any]]:
+        """Get the full conversation context for a specific day.
+        
+        This method returns the complete conversation history for the specified day,
+        or for the current day if no day is specified.
+        
+        Args:
+            day_id (Optional[str], optional): The day identifier. Defaults to None,
+                which means the current day.
+                
+        Returns:
+            List[Dict[str, Any]]: The conversation history for the specified day.
+                Returns an empty list if there is no history for that day.
+        """
+        day = day_id or self.current_day
+        return self.conversation_history.get(day, [])

@@ -133,17 +133,19 @@ class Chatbot:
     and generate responses based on the character's attributes and conversation context.
     """
     
-    def __init__(self, character: Character, adapter: Optional[AIAdapter] = None):
+    def __init__(self, character: Character, adapter: Optional[AIAdapter] = None, group=None):
         """Initialize a new Chatbot instance.
         
         Args:
             character: The character to be controlled by this chatbot
             adapter: The AI adapter to use for generating responses. If None, uses OpenAIAdapter.
+            group: The group that this character belongs to. Used to access the full day's context.
         """
         self.character = character
         self.adapter = adapter or self._create_default_adapter()
         self.conversation_history = []
         self.is_active = False
+        self.group = group
     
     def _create_default_adapter(self) -> AIAdapter:
         """Create the default AI adapter.
@@ -187,6 +189,11 @@ class Chatbot:
     def generate_response(self, prompt: Optional[str] = None) -> str:
         """Generate a response for the character.
         
+        This method generates a response for the character based on their attributes
+        and the conversation context. If the chatbot has a reference to the group,
+        it will use the full day's context from the group. Otherwise, it will use
+        its own conversation history.
+        
         Args:
             prompt: Optional additional instructions for the AI
             
@@ -196,8 +203,20 @@ class Chatbot:
         if not self.is_active:
             return ""
         
+        # Use the full day's context from the group if available
+        context = self.conversation_history
+        if self.group:
+            # Get the full day's context from the group
+            day_context = self.group.get_day_context()
+            if day_context:
+                # Use the full day's context instead of the chatbot's own history
+                context = day_context
+                # Log that we're using the full day's context
+                import logging
+                logging.info(f"Using full day's context for {self.character.name} ({len(context)} entries)")
+        
         return self.adapter.generate_response(
             self.character, 
-            self.conversation_history,
+            context,
             prompt
         )
