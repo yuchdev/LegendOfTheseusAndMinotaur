@@ -134,21 +134,9 @@ class Game:
                 continue
             elif event_type_str == "environment_change":
                 # For environment_change events, we need a character
-                char_name = entry.get("character")
-                if not char_name:
-                    print(f"Warning: Environment change event missing character field")
-                    continue
-
-                char_canonical, _ = resolve_character(char_name)
-                if not char_canonical:
-                    print(f"Warning: Unknown character {char_name}")
-                    continue
-
+                char_name = entry.get("character", "")
+                char_canonical, _ = resolve_character(char_name) if char_name else (None, None)
                 character = self.characters.get(char_canonical)
-                if not character:
-                    print(f"Warning: Character {char_canonical} not initialized")
-                    continue
-
                 event = Event(
                     event_type=EventType.ENVIRONMENT_CHANGE,
                     actor=character,
@@ -217,6 +205,15 @@ class Game:
                 # The user will be presented with AI-generated response options when the character is addressed
                 event = Event(
                     event_type=EventType.USER_ASSUME_CONTROL,
+                    actor=character
+                )
+                events.append(event)
+            elif event_type_str == "return_to_script":
+                # Create a RETURN_TO_SCRIPT event
+                # This event returns character control from AI or user back to script
+                # When processed, it will deactivate both chatbot and user control for the character
+                event = Event(
+                    event_type=EventType.RETURN_TO_SCRIPT,
                     actor=character
                 )
                 events.append(event)

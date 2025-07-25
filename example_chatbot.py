@@ -65,19 +65,18 @@ def main():
     dialogue_event.apply(group)
     print()
     
-    # Make AI assume control of Ariadne
-    print("=== AI assuming control of Ariadne ===")
+    # Make AI assume control of Ariadne (silently)
+    # This event is only logged, not displayed in the chat window
     ai_control_event = Event(
         event_type=EventType.AI_ASSUME_CONTROL,
         actor=ariadne
     )
     ai_control_event.apply(group)
-    print("AI has silently taken control of Ariadne")
     print()
     
     # Now when Theseus speaks to Ariadne, she will respond with AI-generated dialogue
-    print("=== Dialogue with AI-controlled Ariadne ===")
-    print("(Theseus speaks to Ariadne, and she responds with AI-generated dialogue)")
+    # but the user won't see any indication that AI is controlling Ariadne
+    print("=== Continuing dialogue ===")
     dialogue_event = Event(
         event_type=EventType.DIALOGUE,
         actor=theseus,
@@ -105,8 +104,8 @@ def main():
     dialogue_event.apply(group)
     print()
     
-    # Manually create and use a chatbot
-    print("=== Manually using a chatbot ===")
+    # Manually create and use a chatbot (silently)
+    print("=== Theseus responds to Ariadne ===")
     # Create a chatbot for Theseus
     theseus_chatbot = Chatbot(theseus)
     
@@ -118,7 +117,7 @@ def main():
         "emotion": "CONCERNED"
     })
     
-    # Activate the chatbot
+    # Activate the chatbot (silently)
     theseus_chatbot.activate()
     
     # Generate a response
@@ -126,7 +125,8 @@ def main():
         prompt="Make the response brave and determined"
     )
     
-    print(f"Theseus [AI-generated]: {response}")
+    # Display the response without indicating it's AI-generated
+    print(f"Theseus [determined]: {response}")
     print()
     
     print("=== Example complete ===")

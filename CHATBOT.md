@@ -47,6 +47,12 @@ A new event type `AI_ASSUME_CONTROL` has been added to the game's event system. 
 
 A new event type `USER_ASSUME_CONTROL` has been added to the game's event system. When this event is triggered, the specified character is placed under user control, allowing the player to choose responses when the character is addressed.
 
+### RETURN_TO_SCRIPT Event
+
+A new event type `RETURN_TO_SCRIPT` has been added to the game's event system. When this event is triggered, the specified character is returned to script control, deactivating both AI and user control. This event is used to end the control period started by either `AI_ASSUME_CONTROL` or `USER_ASSUME_CONTROL`.
+
+Between the pairs of events `AI_ASSUME_CONTROL`-`RETURN_TO_SCRIPT` and `USER_ASSUME_CONTROL`-`RETURN_TO_SCRIPT`, any scripted lines for the controlled character are ignored. This ensures that the character only communicates through the AI or user control mechanism during the control period.
+
 ## Usage
 
 ### AI Control
@@ -111,6 +117,37 @@ event = Event(
 event.apply(my_group)
 ```
 
+### Return to Script
+
+#### In JSON Day Files
+
+To return a character to script control, add a `return_to_script` event to a day file:
+
+```json
+{
+  "event_type": "return_to_script",
+  "character": "CharacterName"
+}
+```
+
+#### Programmatically
+
+To programmatically return a character to script control:
+
+```python
+from event import Event, EventType
+from character import Character
+
+# Create a RETURN_TO_SCRIPT event
+event = Event(
+    event_type=EventType.RETURN_TO_SCRIPT,
+    actor=my_character  # The character to return to script control
+)
+
+# Apply the event to the group
+event.apply(my_group)
+```
+
 ## How It Works
 
 ### AI Control
@@ -123,6 +160,7 @@ event.apply(my_group)
    - All active chatbots record the dialogue in their conversation history
    - If a character with an active chatbot is addressed, the chatbot generates a response
    - The generated response is applied as a new dialogue line from the character
+   - Any scripted lines for the character in the day file are ignored while the chatbot is active
 
 3. The chatbot generates responses based on:
    - The character's attributes (leadership, intelligence, resilience)
@@ -143,6 +181,7 @@ event.apply(my_group)
      - The options are presented to the user
      - The user can choose an option, type their own response, or skip
      - The selected response is applied as a new dialogue line from the character
+   - Any scripted lines for the character in the day file are ignored while the UserControl is active
 
 3. The response options are generated based on:
    - The character's attributes (leadership, intelligence, resilience)
@@ -154,6 +193,23 @@ event.apply(my_group)
    - Select one of the AI-generated options
    - Type a custom response
    - Skip responding (letting another character respond instead)
+
+### Return to Script
+
+1. When a `RETURN_TO_SCRIPT` event is applied to a group:
+   - If the character has an active chatbot, it is deactivated
+   - If the character has an active UserControl, it is deactivated
+   - The character returns to following the scripted lines in the day file
+
+2. This event serves as the counterpart to both `AI_ASSUME_CONTROL` and `USER_ASSUME_CONTROL`:
+   - `AI_ASSUME_CONTROL` → character is controlled by AI → `RETURN_TO_SCRIPT` → character follows script
+   - `USER_ASSUME_CONTROL` → character is controlled by user → `RETURN_TO_SCRIPT` → character follows script
+
+3. Between the pairs of events `AI_ASSUME_CONTROL`-`RETURN_TO_SCRIPT` and `USER_ASSUME_CONTROL`-`RETURN_TO_SCRIPT`:
+   - Any scripted lines for the controlled character are ignored
+   - The character only communicates through the AI or user control mechanism
+   - Other characters continue to follow their scripted lines
+   - This ensures a coherent conversation where the AI or user plays along with the scripted lines of other characters
 
 ## Configuration
 

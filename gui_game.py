@@ -583,19 +583,42 @@ class GameGUI(QMainWindow):
 
     def display_event(self, event):
         """Display an event in the chat window."""
+        # Skip control events - they should only be logged, not displayed in the chat
+        if hasattr(event, 'event_type') and event.event_type.name in ['AI_ASSUME_CONTROL', 'USER_ASSUME_CONTROL', 'RETURN_TO_SCRIPT']:
+            # Log the event but don't display it in the chat
+            import logging
+            logging.info(f"Skipping display of {event.event_type.name} event for {event.actor.name if hasattr(event, 'actor') and event.actor else 'unknown'}")
+            return
+            
+        # First check if it's an environment change event
+        if hasattr(event, 'event_type') and event.event_type.name == 'ENVIRONMENT_CHANGE':
+            if hasattr(event, 'payload') and event.payload:
+                # Capitalize the payload and format as required
+                payload_text = str(event.payload).upper()
+                if hasattr(event, 'actor') and event.actor:
+                    message = f"<b>[{event.actor.name}]</b> ENVIRONMENT CHANGE: {payload_text}"
+                else:
+                    message = f"<b>ENVIRONMENT CHANGE:</b> {payload_text}"
+            else:
+                if hasattr(event, 'actor') and event.actor:
+                    message = f"<b>[{event.actor.name}]</b> [ENVIRONMENT CHANGE]"
+                else:
+                    message = "<b>[ENVIRONMENT CHANGE]</b>"
+                    
+            # Add to chat
+            self.chat_text.insertHtml(message + "<br>")
+            
+            # Auto-scroll to the bottom
+            scrollbar = self.chat_text.verticalScrollBar()
+            scrollbar.setValue(scrollbar.maximum())
+            return
+            
+        # Handle other events that require an actor
         if hasattr(event, 'actor') and event.actor:
             actor_name = event.actor.name
 
-            # Handle environment_change events
-            if hasattr(event, 'event_type') and event.event_type.name == 'ENVIRONMENT_CHANGE':
-                if hasattr(event, 'payload') and event.payload:
-                    # Capitalize the payload and format as required
-                    payload_text = str(event.payload).upper()
-                    message = f"<b>[{actor_name}]</b> {payload_text}"
-                else:
-                    message = f"<b>[{actor_name}]</b> [ENVIRONMENT CHANGE]"
             # Handle events with payload (dialogue events)
-            elif hasattr(event, 'payload') and event.payload:
+            if hasattr(event, 'payload') and event.payload:
                 text = event.payload.get('text', '')
                 emotion = event.payload.get('emotion', 'neutral')
 

@@ -108,6 +108,10 @@
   },
   {
     "character": "Romeo-y-Cohiba",
+    "event_type": "ai_assume_control"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
     "to": "Nutscracker",
     "mood": "skeptical",
     "text": "How can you tell? There's no date on it.",
@@ -270,6 +274,10 @@
     "mood": "confused",
     "text": "Personally speaking, I haven't got the slightest idea. How about you, Organism?",
     "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "event_type": "return_to_script"
   },
   {
     "character": "Organizm(-:",

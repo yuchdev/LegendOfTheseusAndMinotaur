@@ -7,9 +7,11 @@ generating responses based on character attributes and conversation context.
 """
 
 import os
+import logging
 from abc import ABC, abstractmethod
 from typing import Dict, List, Optional, Any
 from character import Character
+import openai
 
 
 class AIAdapter(ABC):
@@ -50,14 +52,17 @@ class OpenAIAdapter(AIAdapter):
             api_key: Optional API key for OpenAI. If not provided, will try to get from
                     OPENAI_API_KEY environment variable.
         """
-        try:
-            import openai
-        except ImportError:
-            raise ImportError("OpenAI package is not installed. Please install it with 'pip install openai'")
+        # Track the source of the API key for logging purposes
+        self.api_key_source = "passed directly" if api_key else "environment variable"
         
-        self.api_key = api_key or os.environ.get("OPENAI_API_KEY")
+        self.api_key = api_key
         if not self.api_key:
-            raise ValueError("OpenAI API key not found. Please set OPENAI_API_KEY environment variable or provide it directly.")
+            self.api_key = os.environ.get("OPENAI_API_KEY")
+            if not self.api_key:
+                raise ValueError("OpenAI API key not provided. Please set OPENAI_API_KEY environment variable.")
+
+        # Log the API key source to log only, not to the chat window
+        logging.info(f"OpenAI API key source: {self.api_key_source}")
         
         openai.api_key = self.api_key
         self.client = openai.OpenAI(api_key=self.api_key)
@@ -108,15 +113,17 @@ Keep responses concise and in-character.
         # Generate response
         try:
             response = self.client.chat.completions.create(
-                model="gpt-3.5-turbo",
+                model="o4-mini",
                 messages=messages,
                 max_tokens=150,
                 temperature=0.7,
             )
             return response.choices[0].message.content.strip()
         except Exception as e:
-            print(f"Error generating response from OpenAI: {e}")
-            return f"[AI response generation failed: {str(e)}]"
+            # Log the error to logs only, not to the chat window
+            import logging
+            logging.error(f"Error generating response from OpenAI: {e}")
+            return f"I'm not sure how to respond to that."
 
 
 class Chatbot:
@@ -157,6 +164,10 @@ class Chatbot:
     def activate(self):
         """Activate the chatbot to take control of the character."""
         self.is_active = True
+        # Log the activation of the chatbot (to logs only, not to chat window)
+        import logging
+        api_key_source = getattr(self.adapter, 'api_key_source', 'unknown source') if hasattr(self.adapter, 'api_key_source') else 'unknown source'
+        logging.info(f"AI assuming control of character: {self.character.name} (API key from {api_key_source})")
     
     def deactivate(self):
         """Deactivate the chatbot, returning control to the game."""
