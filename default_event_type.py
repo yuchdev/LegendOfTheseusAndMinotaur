@@ -7,8 +7,6 @@ adding the property "event_type": "dialogue" to each event.
 
 Usage: python default_event_type.py
 """
-
-import os
 import json
 import glob
 from typing import List, Dict, Any
