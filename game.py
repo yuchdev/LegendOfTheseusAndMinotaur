@@ -55,56 +55,113 @@ class Game:
                 "leadership": 85,
                 "intelligence": 95,
                 "resilience": 75,
-                "description": "A prophetic monster whisperer who speaks in riddles and often sees patterns others miss."
+                "description": (
+                    "Monstradamus is an enigmatic, prophetic figure shrouded in mystery. "
+                    "He exudes confidence and authority, with piercing eyes that seem to peer into one's soul. "
+                    "His speech is precise, deliberate, and filled with cryptic insight."
+                    "He and Nutscracker form the core of the group, leading the discussions and setting the tone, "
+                    "often balancing his sharp, cynical and often sarcastic wit with a deep understanding of human nature. "
+                    "He is friendly with Ariadne, though they converse less frequently than with Nutscracker. "
+                )
             },
             "IsoldA": {
                 "leadership": 60,
                 "intelligence": 75,
                 "resilience": 65,
-                "description": "A stoic warrior priestess devoted to ancient traditions and inner harmony."
+                "description": (
+                    "IsoldA is a graceful, poised woman with an aura of quiet dignity. "
+                    "She is observant, intuitive, and thoughtful, often mediating conflicts subtly yet effectively. "
+                    "Her words carry gentle wisdom, fostering peace among discordant voices."
+                    "She is perhaps the only one who tries to understand Romeo-y-Cohiba, seeing under his arrogant facade "
+                    "a deeply vulnerable and lonely person."
+                )
             },
             "Nutscracker": {
                 "leadership": 70,
                 "intelligence": 90,
                 "resilience": 55,
-                "description": "An eccentric tactician whose schemes are as unpredictable as they are effective."
+                "description": (
+                    "Nutscracker is energetic, eccentric, and quick-witted, speaking with bursts of creativity and enthusiasm. "
+                    "His restless intellect constantly seeks novelty, often leading conversations down unexpected paths. "
+                    "While brilliant, his work experience made him deeply cynical, bitter and sarcastic, "
+                    "and he largely indifferent to the possible harm his words may cause."
+                    "He organically complement Monstradamus, often providing the spark of creativity "
+                    "He, Monstradamus and Ariadne form the core of the group."
+                    "He is friendly with Organizm(-:, Ariadne and Monstradamus, though he often mocks UGLI 666 and Romeo-y-Cohiba "
+                    "for their attitudes and being less intelligent than him."
+                )
             },
             "Organizm(-:": {
                 "leadership": 40,
                 "intelligence": 65,
                 "resilience": 45,
-                "description": "A mysterious being of questionable origin, fascinated by the mechanics of life itself."
+                "description": (
+                    "Organizm(-: is whimsical and somewhat chaotic young man, embodying a playful spirit. "
+                    "His interactions are unpredictable, often shifting rapidly between humor and existential musings. "
+                    "His charm lies in his spontaneity, though this can occasionally lead to confusion or disruption. "
+                    "He doesn't have strong connections with other characters, though he's friendly with Nutscracker, Ariadne and Monstradamus."
+                    "He's sarcastic about UGLI 666 religious beliefs, often mocking her rigid and judgmental demeanor."
+                )
             },
             "Theseus": {
                 "leadership": 80,
                 "intelligence": 70,
                 "resilience": 75,
-                "description": "A brave hero with a keen sense of justice, destined to confront the labyrinth's horrors."
+                "description": (
+                    "Theseus represents inner strength and enlightened clarity, depicted metaphorically as a meditative warrior. "
+                    "Calm, composed, and focused, he speaks with authority and purpose, providing grounding and direction "
+                    "to those lost in uncertainty."
+                )
             },
             "Ariadne": {
                 "leadership": 65,
                 "intelligence": 85,
                 "resilience": 65,
-                "description": "A brilliant strategist and master of threads, forever tied to the labyrinth's secrets."
+                "description": (
+                    "Ariadne is insightful, empathetic, and profoundly intelligent. "
+                    "Her presence brings clarity and calm to confusion, often unraveling complex emotional and intellectual labyrinths. "
+                    "Though gentle, her strength and resolve are palpable when confronting adversity."
+                )
             },
             "UGLI 666": {
                 "leadership": 55,
                 "intelligence": 60,
                 "resilience": 45,
-                "description": "A rebellious outcast with a penchant for dark humor and underground rumors."
+                "description": (
+                    "UGLI 666 is stern, rigid, and uncompromising, characterized by her overtly judgmental demeanor and conservative appearance. "
+                    "Her voice often carries undertones of suspicion and disdain, cloaking fanaticism in a veneer of moral righteousness. "
+                    "Interactions with her tend to be tense, highlighting underlying hypocrisy, "
+                    "while she condemns others for lack of virtues she herself lacks."
+                    "She is particularly hostile towards Nutscracker, Organizm(-:, and Romeo-y-Cohiba, "
+                    "often criticizing their behavior and beliefs, while tries to be friendly with Monstradamus, IsoldA and Ariadne, "
+                    "though her interactions with them are often strained due to her rigid worldview."
+                )
             },
             "Romeo-y-Cohiba": {
                 "leadership": 55,
                 "intelligence": 65,
                 "resilience": 35,
-                "description": "A charming rogue who masks insecurity with bravado and grandiose tales."
+                "description": (
+                    "Romeo-y-Cohiba is smooth US salesman, arrogant, narcissistic and selfish man. "
+                    "The only person he cares about is himself, and he is willing to do anything to get what he wants. "
+                    "He is bragging of his job, high social status, and his connections. "
+                    "He is obsessed with Isolde, and this is the only person he treats with any respect. "
+                    "Despite his overconfident facade, he is vulnerable and easily shaken by confrontation or stress."
+                )
             },
             "Sartrik": {
                 "leadership": 50,
                 "intelligence": 95,
                 "resilience": 55,
-                "description": "A brooding philosopher constantly questioning reality and motives.",
-                "special_properties": [lambda self, other: other.intelligence > 80]
+                "description": (
+                    "Sartrik is an intensely intellectual and philosophical character, deeply steeped in existential dread and skepticism. "
+                    "He suffers of alcoholism to hide from his own thoughts, and during the hangover "
+                    "he feels constant nausea (the reference to J.P Sartre's novel 'Nausea' is intentional) - this is when the most profound thoughts come to him. "
+                    "His conversations are profound yet unsettling and sometimes rude, challenging listeners to confront uncomfortable truths. "
+                    "He has a habit to engage with conversation only to intellectually equal or superior characters: Monstradamus, Nutscracker, and Ariadne, "
+                    "while ignoring other or again, being rude to them."
+                ),
+                "special_properties": [lambda self, other: other.intelligence > 75]
             }
         }
 
