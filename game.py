@@ -43,8 +43,9 @@ class Game:
 
         Creates Character instances for all canonical characters defined in the CHARACTERS
         constant. Each character is initialized with specific attributes (leadership,
-        intelligence, resilience) and special properties as defined in the character_attributes
-        dictionary.
+        intelligence, resilience) and special properties as well as a descriptive
+        text explaining their personality and background. Descriptions are used
+        by the chatbot to generate more authentic dialogue.
 
         The created characters are stored in the self.characters dictionary, keyed by
         their names.
@@ -53,47 +54,56 @@ class Game:
             "Monstradamus": {
                 "leadership": 85,
                 "intelligence": 95,
-                "resilience": 75
+                "resilience": 75,
+                "description": "A prophetic monster whisperer who speaks in riddles and often sees patterns others miss."
             },
             "IsoldA": {
                 "leadership": 60,
                 "intelligence": 75,
-                "resilience": 65
+                "resilience": 65,
+                "description": "A stoic warrior priestess devoted to ancient traditions and inner harmony."
             },
             "Nutscracker": {
                 "leadership": 70,
                 "intelligence": 90,
-                "resilience": 55
+                "resilience": 55,
+                "description": "An eccentric tactician whose schemes are as unpredictable as they are effective."
             },
             "Organizm(-:": {
                 "leadership": 40,
                 "intelligence": 65,
-                "resilience": 45
+                "resilience": 45,
+                "description": "A mysterious being of questionable origin, fascinated by the mechanics of life itself."
             },
             "Theseus": {
                 "leadership": 80,
                 "intelligence": 70,
-                "resilience": 75
+                "resilience": 75,
+                "description": "A brave hero with a keen sense of justice, destined to confront the labyrinth's horrors."
             },
             "Ariadne": {
                 "leadership": 65,
                 "intelligence": 85,
-                "resilience": 65
+                "resilience": 65,
+                "description": "A brilliant strategist and master of threads, forever tied to the labyrinth's secrets."
             },
             "UGLI 666": {
                 "leadership": 55,
                 "intelligence": 60,
-                "resilience": 45
+                "resilience": 45,
+                "description": "A rebellious outcast with a penchant for dark humor and underground rumors."
             },
             "Romeo-y-Cohiba": {
                 "leadership": 55,
                 "intelligence": 65,
-                "resilience": 35
+                "resilience": 35,
+                "description": "A charming rogue who masks insecurity with bravado and grandiose tales."
             },
             "Sartrik": {
                 "leadership": 50,
                 "intelligence": 95,
                 "resilience": 55,
+                "description": "A brooding philosopher constantly questioning reality and motives.",
                 "special_properties": [lambda self, other: other.intelligence > 80]
             }
         }

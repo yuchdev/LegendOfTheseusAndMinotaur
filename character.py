@@ -25,6 +25,7 @@ class Character:
         leadership: int = 50,
         intelligence: int = 50,
         resilience: int = 50,
+        description: str = "",
         friends: List["Character"] = None,
         enemies: List["Character"] = None,
         special_properties: List[Callable[["Character", "Character"], bool]] = None
@@ -36,6 +37,7 @@ class Character:
             leadership (int, optional): Leadership attribute (0-100). Defaults to 50.
             intelligence (int, optional): Intelligence attribute (0-100). Defaults to 50.
             resilience (int, optional): Resilience attribute (0-100). Defaults to 50.
+            description (str, optional): Textual description of the character.
             friends (List[Character], optional): Initial list of friends. Defaults to empty list.
             enemies (List[Character], optional): Initial list of enemies. Defaults to empty list.
             special_properties (List[Callable], optional): Special behavior predicates. 
@@ -51,6 +53,7 @@ class Character:
         # each property is a predicate (self, other) → bool
         self.special_properties = special_properties or []
         self.current_emotion = Emotion.NEUTRAL
+        self.description = description
 
     def can_talk_to(self, other: "Character") -> bool:
         """Determine if this character can talk to another character.

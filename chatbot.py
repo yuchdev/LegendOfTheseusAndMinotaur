@@ -80,7 +80,9 @@ class OpenAIAdapter(AIAdapter):
             str: The generated response text
         """
         # Create a system message that describes the character
-        system_message = f"""You are roleplaying as {character.name}, a character with the following attributes:
+        system_message = f"""You are roleplaying as {character.name}.
+Description: {character.description}
+The character has the following attributes:
 - Leadership: {character.leadership}/100
 - Intelligence: {character.intelligence}/100
 - Resilience: {character.resilience}/100
