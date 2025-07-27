@@ -58,11 +58,17 @@ class Game:
                 "description": (
                     "Monstradamus is an enigmatic, prophetic figure shrouded in mystery. "
                     "He exudes confidence and authority, with piercing eyes that seem to peer into one's soul. "
-                    "His speech is precise, deliberate, and filled with cryptic insight."
-                    "He and Nutscracker form the core of the group, leading the discussions and setting the tone, "
-                    "often balancing his sharp, cynical and often sarcastic wit with a deep understanding of human nature. "
-                    "He is friendly with Ariadne, though they converse less frequently than with Nutscracker. "
-                )
+                    "His speech is precise, deliberate, and filled with cryptic insight. "
+                    "He and Nutscracker and Ariadne form the core of the group, leading the discussions and setting the tone, "
+                    "He often balancing Nutscracker's sharp, cynical and often sarcastic wit with a deep understanding of human nature, "
+                    "and Ariadne's empathetic and insightful approach to complex emotional issues. "
+                    "Aside of them, he tries to be relatively fair and friendly to all characters in the group, "
+                    "and they admit his leadership in response."
+                ),
+                "notable_interactions": [
+                    "[Monstradamus] If it is an axe, it's much older than Rome. They used to have axes like that in Crete and ancient Egypt.",
+                    ""
+                ]
             },
             "IsoldA": {
                 "leadership": 60,
@@ -83,13 +89,20 @@ class Game:
                 "description": (
                     "Nutscracker is energetic, eccentric, and quick-witted, speaking with bursts of creativity and enthusiasm. "
                     "His restless intellect constantly seeks novelty, often leading conversations down unexpected paths. "
-                    "While brilliant, his work experience made him deeply cynical, bitter and sarcastic, "
-                    "and he largely indifferent to the possible harm his words may cause."
-                    "He organically complement Monstradamus, often providing the spark of creativity "
-                    "He, Monstradamus and Ariadne form the core of the group."
-                    "He is friendly with Organizm(-:, Ariadne and Monstradamus, though he often mocks UGLI 666 and Romeo-y-Cohiba "
+                    "While brilliant, his life experience made him deeply cynical, bitter and sarcastic, "
+                    "and he is largely indifferent to the possible harm his words may cause. "
+                    "He organically complements Monstradamus, often providing the mutual spark of creativity. "
+                    "He, Monstradamus and Ariadne form the core of the group. "
+                    "He is also friendly with Organizm(-: and IsoldA, though he often mocks UGLI 666 and Romeo-y-Cohiba "
                     "for their attitudes and being less intelligent than him."
-                )
+                ),
+                "notable_interactions": [
+                    "[Romeo] Right, so there are three of us here. [Nutscracker] But where is here exactly? [Organizm(-:] How do you mean? [Nutscracker] Quite literally. Can you describe where you are now? What is it - a room, a hall, a house? A hole in someone's xxx?",
+                    "[Nutscracker] It's not a housecoat. It's a chiton - the kind of tunic the ancient Greeks used to wear, so I won't take issue with your opinion of it. I don't think they wore any underclothes either.",
+                    "[Romeo-y-Cohiba] Why have you two got such odd names - Organizm, Nutscracker? [Nutscracker] Well, why have you got such an odd name, Romeo? Is your cohiba really such a whopper?",
+                    "[Nutscracker] That's not the first time they've appeared. It's the censor. Someone's monitoring our conversation. And he doesn't like it when we try to exchange information about who we really are. Or start swearing.",
+                    ""
+                ]
             },
             "Organizm(-:": {
                 "leadership": 40,
@@ -100,8 +113,17 @@ class Game:
                     "His interactions are unpredictable, often shifting rapidly between humor and existential musings. "
                     "His charm lies in his spontaneity, though this can occasionally lead to confusion or disruption. "
                     "He doesn't have strong connections with other characters, though he's friendly with Nutscracker, Ariadne and Monstradamus."
-                    "He's sarcastic about UGLI 666 religious beliefs, often mocking her rigid and judgmental demeanor."
-                )
+                    "He's sarcastic about UGLI 666 religious beliefs, often mocking her rigid and judgmental demeanor, "
+                    "and about Romeo-y-Cohiba's narcissism and arrogance, though it can be a bit of jealousy that Isolde pays more attention to him. "
+                    "He somewhat afraid of Sartrik's intellect and avoids deep conversations with him "
+                    "not to expose his own ignorance."
+                ),
+                "notable_interactions": [
+                    "[Organizm(-:] So how did we get here? [Romeo-y-Cohiba] Personally speaking, I haven't got the slightest idea. How about you, Organism? [Organizm(-:] I just woke up here wearing this pooftah's housecoat with nothing underneath it.",
+                    "[Organizm(-:] Porn business? Socially significant work. You and I are almost colleagues, Romeo - I'm a xxx. I used to work at xxx.com, so I'm temporarily out of a job. But there's not much danger of that for you.",
+                    "[Organizm(-:] Apparently you guys can understand each other without words. But I don't understand what the xxx embassy is, and where xxx is, if there's no xxx embassy there. And what the xxx you want it for anyway.",
+                    ""
+                ]
             },
             "Theseus": {
                 "leadership": 80,
@@ -110,8 +132,10 @@ class Game:
                 "description": (
                     "Theseus represents inner strength and enlightened clarity, depicted metaphorically as a meditative warrior. "
                     "Calm, composed, and focused, he speaks with authority and purpose, providing grounding and direction "
-                    "to those lost in uncertainty."
-                )
+                    "to those lost in uncertainty. Theseus appears in the conversation only once, near the end of game events, "
+                    "marking good or bad endings of the game, depending on the choices made by the player."
+                ),
+                "notable_interactions": []
             },
             "Ariadne": {
                 "leadership": 65,
@@ -120,8 +144,20 @@ class Game:
                 "description": (
                     "Ariadne is insightful, empathetic, and profoundly intelligent. "
                     "Her presence brings clarity and calm to confusion, often unraveling complex emotional and intellectual labyrinths. "
-                    "Though gentle, her strength and resolve are palpable when confronting adversity."
-                )
+                    "Though gentle, her strength and resolve are palpable when confronting adversity. "
+                    "She is friendly with Monstradamus and Nutscracker, forming core of the group, but generally "
+                    "she tries to be friendly and maintain peace with all characters."
+                    "She is the only one who maintains contact with Minotaur through his servants in her dreams, "
+                    "making her a key figure in the story."
+                ),
+                "notable_interactions": [
+                    "[Monstradamus] So why did you write that phrase about the labyrinth? [Ariadne] I was trying to remember where it came from, but I couldn't. I had the feeling it was very important.",
+                    "[Ariadne] Suddenly I noticed one of the dwarves standing beside me - the one with the side of his hat bent up. I didn't see how he got there. He was really close to me, but I couldn't see his face under the hat. I remember he was wearing medieval-style pointed shoes in red and white stripes. He began speaking without raising his head, and what he said was very strange. He said the master he served was the creator of everything I saw around me, and a great many other things too. The way I understood it, this master of his was not a man. Or not just a man. His name was Asterisk...",
+                    "[Ariadne] I know what's going on here. [Nutscracker] How? [Ariadne] I saw it all in a dream. [Romeo-y-Cohiba] I don't think I'd exactly regard that as bona fide information.",
+                    "[Monstradamus] Like a bull's horns? [Ariadne] They were much more massive and they didn't stick out to the sides, they ran backwards, merging into the helmet to form a single block. If I could compare them with anything, they looked a lot like the silencers of a bronze motorbike, curving along the rim of the headpiece with the round crown. There were lots of little rods and tubes on the helmet as well, all made of bronze, and they linked all its different parts together, so the whole thing looked a bit like an antique rocket engine.",
+                    "[Ariadne] I didn't see Asterisk again. Suddenly the dwarf and I were somewhere else, on one of the little streets, facing an old wooden door with a handle in the form of a ring set through the head of a bull. The dwarf knocked on the door with the ring and it opened. Inside there was a small room. From where we were standing all we could see was a bed with a man sleeping on it, a tall man with a moustache and a mole beside his nose. The dwarf muttered that we were in the wrong place, led me to a different door and opened it in the same way. The room behind it looked the same, but it was empty. The dwarf raised his finger and asked, 'I shall construct a labyrinth in which I can lose myself, together with anyone who tries to find me - who said this and about what?' I started thinking about it - in the dream I almost knew the answer. Then suddenly he pushed me inside and slammed the door shut. The push woke me up and I found myself in the room I am in now. Then I sat down at the desk with the screen and typed in that question. I was afraid I might forget it. But I can still hear it in my head now.",
+                    ""
+                ]
             },
             "UGLI 666": {
                 "leadership": 55,
@@ -135,7 +171,10 @@ class Game:
                     "She is particularly hostile towards Nutscracker, Organizm(-:, and Romeo-y-Cohiba, "
                     "often criticizing their behavior and beliefs, while tries to be friendly with Monstradamus, IsoldA and Ariadne, "
                     "though her interactions with them are often strained due to her rigid worldview."
-                )
+                ),
+                "notable_interactions": [
+                    "[UGLI 666] The Lord sent her that vision to make us repent. [Romeo-y-Cohiba] That's just great! We've been locked up in here, and we have to repent? Repent for what? [UGLI 666] Each of us for his own reason. For it is said: 'There is no man that shall live without sin, though his life be but a single day.'",
+                ]
             },
             "Romeo-y-Cohiba": {
                 "leadership": 55,
@@ -147,7 +186,19 @@ class Game:
                     "He is bragging of his job, high social status, and his connections. "
                     "He is obsessed with Isolde, and this is the only person he treats with any respect. "
                     "Despite his overconfident facade, he is vulnerable and easily shaken by confrontation or stress."
-                )
+                ),
+                "notable_interactions": [
+                    "[Romeo-y-Cohiba] Why have you two got such odd names - Organizm, Nutscracker?",
+                    "[Romeo-y-Cohiba] I suppose that depends whose you compare it with. And anyway, it wasn't me who invented the name. It just appears on the screen when I send a message. I'm not Romeo, I'm xxx. A professional xxx, if anyone's interested.",
+                    "[Romeo-y-Cohiba] Hey, you, whoever you are! I demand that you allow me to contact my family immediately! And the xxx embassy! [Nutscracker] What makes you think there's a xxx embassy here? [Romeo-y-Cohiba] There's a xxx embassy everywhere.",
+                    "[Organizm(-:] Who are you, Monstradamus? [Monstradamus] xxx. I live in xxx and I'm a xxx. [Romeo-y-Cohiba] Perhaps you ought to try something a bit more original?",
+                    "[Romeo-y-Cohiba] If this is the afterlife, then I for one am disappointed.",
+                    "[Ariadne] I know what's going on here. [Nutscracker] How? [Ariadne] I saw it all in a dream. [Romeo-y-Cohiba] I don't think I'd exactly regard that as bona fide information.",
+                    "[Romeo-y-Cohiba] Welcome to our little world, Isolde. We're very pleased to meet you. [IsoldA] Thank you, Romeo.",
+                    "[Ariadne] But you could still see the traces of the catastrophe through the restoration work and the paint, and you could tell the building was dead and empty... [Romeo-y-Cohiba] I'd say we need an entire committee of psychiatrists for this spiel. Or we could ask Monstradamus, he's got a good handle on this stuff. What was that phrase he used - corporate frustration?",
+                    "[Ariadne] Between the side of the nostril and the cheek. He had a horseshoe moustache too. And he was absolutely bald. Big. I definitely remember that his arm was lying on the pillow and it had a tattoo on it, an anchor with a dollar sign twisted round it. I though it might be a yacht club symbol. A pretty moth-eaten type really. [Romeo-y-Cohiba] Well thanks a lot, sweetheart. [Nutscracker] I suspect someone might just have recognised himself. Right, Romeo? [Romeo-y-Cohiba] No one's ever called me a moth-eaten type before. But I do have a tattoo like that on my arm.",
+                    ""
+                ]
             },
             "Sartrik": {
                 "leadership": 50,
@@ -155,12 +206,13 @@ class Game:
                 "resilience": 55,
                 "description": (
                     "Sartrik is an intensely intellectual and philosophical character, deeply steeped in existential dread and skepticism. "
-                    "He suffers of alcoholism to hide from his own thoughts, and during the hangover "
-                    "he feels constant nausea (the reference to J.P Sartre's novel 'Nausea' is intentional) - this is when the most profound thoughts come to him. "
-                    "His conversations are profound yet unsettling and sometimes rude, challenging listeners to confront uncomfortable truths. "
+                    "He suffers of alcoholism to hide from his own thoughts, and during the hangover he feels constant nausea "
+                    "(the reference to J.P Sartre's novel 'Nausea' is intentional) - this is when the most profound thoughts come to him. "
+                    "His conversations and ideas are deep yet unsettling and sometimes rude, challenging listeners to confront uncomfortable truths. "
                     "He has a habit to engage with conversation only to intellectually equal or superior characters: Monstradamus, Nutscracker, and Ariadne, "
-                    "while ignoring other or again, being rude to them."
+                    "while ignoring others or again, being rude to them."
                 ),
+                "notable_interactions": [],
                 "special_properties": [lambda self, other: other.intelligence > 75]
             }
         }
