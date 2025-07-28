@@ -1,0 +1,3027 @@
+[
+  {
+    "event_type": "day_start"
+  },
+  {
+    "character": "Organizm(-:",
+    "event_type": "enter"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "",
+    "mood": "confused",
+    "text": "What's going on? Is there anyone there...?",
+    "event_type": "dialogue"
+  },
+  {
+    "event_type": "ai_assume_control",
+    "write_to": "ai-generated-01.json",
+    "dialog_directions": [
+      "Romeo ask Nutscracker why he's so sure about the message been for a long time, Nutscracker answers he saw it several hours ago. After that all 3 characters ask each other, do they remember how they end up here. After that Nutscracker ask to describe their surrounding by each of characters. They find around similar hotel rooms. Organizm tries to knock in the door, and Romeo tries to knock in the wall to no avail.",
+      "Organizm suggests checking if their computers have any other functionality or messages beyond the chat. Romeo finds only a basic web interface without internet access, imitating chatroom of Guardian newspaper with the only chat thread. Organizm then proposes a theory that they're part of an experiment or test. Nutscracker and Romeo cautiously agree to search their rooms for any hidden clues or unusual features, describing features of their rooms real-time."
+    ]
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "Organizm(-:",
+    "mood": "calm",
+    "text": "I'm here.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "Romeo-y-Cohiba",
+    "mood": "curious",
+    "text": "So what's going on round here?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "Organizm(-:",
+    "mood": "resigned",
+    "text": "Your guess is as good as mine.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "Ariadne",
+    "mood": "hopeful",
+    "text": "Ariadne, are you there?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "Organizm(-:",
+    "mood": "curious",
+    "text": "Who's she?",
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Ariadne",
+      "mood": "curious"
+    }
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "Romeo-y-Cohiba",
+    "mood": "contemplative",
+    "text": "She started this thread. Seems this isn't the Internet, just looks like it. You can't link to anywhere else from here.",
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Ariadne",
+      "mood": "curious"
+    }
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "",
+    "mood": "angry",
+    "text": "xxx",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "",
+    "mood": "anxious",
+    "text": "Hello! If anyone can read this, please answer.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "event_type": "enter"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "Organizm(-:",
+    "mood": "calm",
+    "text": "I can read it.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "Nutscracker",
+    "mood": "curious",
+    "text": "Who posted the first message?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "Organizm(-:",
+    "mood": "calm",
+    "text": "It's been up on the board a long time.",
+    "event_type": "dialogue"
+  },
+  {
+    "event_type": "ai_assume_control"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "Nutscracker",
+    "mood": "skeptical",
+    "text": "How can you tell? There's no date on it.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "Romeo-y-Cohiba",
+    "mood": "calm",
+    "text": "I saw it three hours ago.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": [
+      "Nutscracker",
+      "Romeo-y-Cohiba"
+    ],
+    "mood": "curious",
+    "text": "Attention, roll-call. There's just Nutcracker, Romeo and me here, is that right?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "Organizm(-:",
+    "mood": "calm",
+    "text": "That's right.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": [
+      "Organizm(-:",
+      "Romeo-y-Cohiba"
+    ],
+    "mood": "contemplative",
+    "text": "At least, we're the only ones who want to join in.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": [
+      "Nutscracker",
+      "Organizm(-:"
+    ],
+    "mood": "contemplative",
+    "text": "Right, so there are three of us here.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": [
+      "Romeo-y-Cohiba",
+      "Organizm(-:"
+    ],
+    "mood": "contemplative",
+    "text": "But where is here exactly?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "Nutscracker",
+    "mood": "confused",
+    "text": "How do you mean?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "Organizm(-:",
+    "mood": "curious",
+    "text": "Quite literally. Can you describe where you are now? What is it - a room, a hall, a house? A hole in someone's xxx?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "Nutscracker",
+    "mood": "contemplative",
+    "text": "Well I'm in a room, anyway. Or a cell, I can't tell which is more correct. Not very big. Green walls, white ceiling lamp. A bed by one wall and by the opposite wall a desk with the keyboard I'm typing on right now. The keyboard is attached rigidly to the desk. Above the desk there's an LCD screen set in the wall behind thick glass. That's where all these letters appear. It's impossible to break, I tried already. The room has two doors, one made of strange, blackish-green metal. It's locked. There's a raised section in the middle of it. The other door's made of wood, painted white, and it leads into a bathroom. It's open.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "Nutscracker",
+    "mood": "contemplative",
+    "text": "I've got the same as Romeo. A locked metal door with some kind of relief design on it. A hotel-style bathroom with soap, shower gel and shampoo on the shelf under the mirror. Everything in packaging marked with a strange symbol - something like a little cogwheel. So where are you, Nutcracker?",
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Romeo-y-Cohiba",
+      "mood": "calm"
+    }
+  },
+  {
+    "character": "Nutscracker",
+    "to": [
+      "Organizm(-:",
+      "Romeo-y-Cohiba"
+    ],
+    "mood": "contemplative",
+    "text": "In the same kind of room. I think the door's made of cast bronze. But Organism, the symbol on the soap looks more like a star than a cogwheel. In fact it looks like the symbol they use in books for a footnote. It's even on the loo paper, every sheet.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": [
+      "Nutscracker",
+      "Organizm(-:"
+    ],
+    "mood": "hopeful",
+    "text": "So we're all in the same hotel. Let's try knocking on the walls. Can you hear anything?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "payload": "KNOCKING ON THE WALL",
+    "event_type": "environment_change"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "Romeo-y-Cohiba",
+    "mood": "calm",
+    "text": "No.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "Romeo-y-Cohiba",
+    "mood": "calm",
+    "text": "Me neither.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "",
+    "mood": "hopeful",
+    "text": "I'll try knocking on the door, listen.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "payload": "KNOCKING ON THE DOOR",
+    "event_type": "environment_change"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "Organizm(-:",
+    "mood": "resigned",
+    "text": "I can't hear a thing.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "",
+    "mood": "confused",
+    "text": "So how did we get here?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "Organizm(-:",
+    "mood": "confused",
+    "text": "Personally speaking, I haven't got the slightest idea. How about you, Organism?",
+    "event_type": "dialogue"
+  },
+  {
+    "event_type": "return_to_script"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "Romeo-y-Cohiba",
+    "mood": "embarrassed",
+    "text": "I just woke up here wearing this pooftah's housecoat with nothing underneath it.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "Organizm(-:",
+    "mood": "contemplative",
+    "text": "It's not a housecoat. It's a chiton - the kind of tunic the ancient Greeks used to wear, so I won't take issue with your opinion of it. I don't think they wore any underclothes either.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "",
+    "mood": "contemplative",
+    "text": "It's a good job it's warm in here then.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "Nutscracker",
+    "mood": "hopeful",
+    "text": "So, maybe you remember how you got here, Nutcracker?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "Organizm(-:",
+    "mood": "calm",
+    "text": "No, I don't.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": [
+      "Organizm(-:",
+      "Nutscracker"
+    ],
+    "mood": "curious",
+    "text": "Why have you two got such odd names - Organizm, Nutscracker?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "Romeo-y-Cohiba",
+    "mood": "sarcastic",
+    "text": "Well, why have you got such an odd name, Romeo? Is your cohiba really such a whopper?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "Nutscracker",
+    "mood": "defensive",
+    "text": "I suppose that depends whose you compare it with. And anyway, it wasn't me who invented the name. It just appears on the screen when I send a message. I'm not Romeo, I'm xxx. A professional xxx, if anyone's interested.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "Romeo-y-Cohiba",
+    "mood": "humorous",
+    "text": "Porn business? Socially significant work. You and I are almost colleagues, Romeo - I'm a xxx. I used to work at xxx.com, so I'm temporarily out of a job. But there's not much danger of that for you.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "Organizm(-:",
+    "mood": "confused",
+    "text": "How did the porn business get mixed up in all this? And what are all these x's?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "Romeo-y-Cohiba",
+    "mood": "contemplative",
+    "text": "That's not the first time they've appeared. It's the censor. Someone's monitoring our conversation. And he doesn't like it when we try to exchange information about who we really are. Or start swearing.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "",
+    "mood": "angry",
+    "text": "Hey, you, whoever you are! I demand that you allow me to contact my family immediately! And the xxx embassy!",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "Romeo-y-Cohiba",
+    "mood": "skeptical",
+    "text": "What makes you think there's a xxx embassy here?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "Nutscracker",
+    "mood": "proud",
+    "text": "There's a xxx embassy everywhere.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "Romeo-y-Cohiba",
+    "mood": "skeptical",
+    "text": "Are you sure? What if we're in xxx?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": [
+      "Romeo-y-Cohiba",
+      "Nutscracker"
+    ],
+    "mood": "sarcastic",
+    "text": "Apparently you guys can understand each other without words. But I don't understand what the xxx embassy is, and where xxx is, if there's no xxx embassy there. And what the xxx you want it for anyway.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "event_type": "enter"
+  },
+  {
+    "character": "Monstradamus",
+    "to": [
+      "Organizm(-:",
+      "Romeo-y-Cohiba",
+      "Nutscracker"
+    ],
+    "mood": "hopeful",
+    "text": "Hi there, is it okay if I join in your discussion?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "Monstradamus",
+    "mood": "curious",
+    "text": "Who are you, Monstradamus?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Organizm(-:",
+    "mood": "calm",
+    "text": "xxx. I live in xxx and I'm a xxx.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "Monstradamus",
+    "mood": "sarcastic",
+    "text": "Perhaps you ought to try something a bit more original?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": [
+      "Romeo-y-Cohiba",
+      "Organizm(-:",
+      "Nutscracker"
+    ],
+    "mood": "calm",
+    "text": "I've read all the messages on this thread. I'm in the same situation, the same room, the same fancy getup. And I don't remember how I got here, either.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": [
+      "Monstradamus",
+      "Organizm(-:",
+      "Romeo-y-Cohiba"
+    ],
+    "mood": "contemplative",
+    "text": "So now we are four. That's nice.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "Nutscracker",
+    "mood": "curious",
+    "text": "What's so nice about it?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "Organizm(-:",
+    "mood": "hopeful",
+    "text": "Maybe more will turn up soon. The more heads we have, the better our chances of coming up with something.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "",
+    "mood": "anxious",
+    "text": "And what if we've simply died?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "Organizm(-:",
+    "mood": "anxious",
+    "text": "Don't panic! Dead people don't hang around in chat rooms.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "Nutscracker",
+    "mood": "contemplative",
+    "text": "We don't know that for a fact. Maybe that's all they can do.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": [
+      "Organizm(-:",
+      "Nutscracker"
+    ],
+    "mood": "sarcastic",
+    "text": "If this is the afterlife, then I for one am disappointed.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": [
+      "Organizm(-:",
+      "Romeo-y-Cohiba",
+      "Monstradamus"
+    ],
+    "mood": "contemplative",
+    "text": "Let's discuss the situation. I suggest we don't take Organism's hypothesis about the afterlife into consideration.",
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Organizm(-:",
+      "mood": "confused"
+    }
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "Nutscracker",
+    "mood": "confused",
+    "text": "Then maybe it's a dream?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "Organizm(-:",
+    "mood": "calm",
+    "text": "Pinch yourself. Maybe you'll wake up. I tried already, it didn't work.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": [
+      "Monstradamus",
+      "Organizm(-:",
+      "Romeo-y-Cohiba"
+    ],
+    "mood": "contemplative",
+    "text": "Right, so everybody has a bronze door. Let's try figuring out the design on that door. It's a figure like a rectangle with the upper and lower edges bent inwards and the sides bent outwards.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "Nutscracker",
+    "mood": "contemplative",
+    "text": "It looks like a bat. Or the Batman symbol.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": [
+      "Organizm(-:",
+      "Nutscracker"
+    ],
+    "mood": "contemplative",
+    "text": "I reckon it's a double-headed axe.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "Romeo-y-Cohiba",
+    "mood": "contemplative",
+    "text": "Maybe it's just decoration, without any meaning. But Romeo saying it looks like an axe has made me think so too. The fascists used to have axes like that - or was it the ancient Romans?",
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Romeo-y-Cohiba",
+      "mood": "calm"
+    }
+  },
+  {
+    "character": "Monstradamus",
+    "to": [
+      "Romeo-y-Cohiba",
+      "Organizm(-:",
+      "Nutscracker"
+    ],
+    "mood": "calm",
+    "text": "If it is an axe, it's much older than Rome. They used to have axes like that in Crete and ancient Egypt.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "Monstradamus",
+    "mood": "curious",
+    "text": "Are you a historian then, Monstradamus?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Organizm(-:",
+    "mood": "calm",
+    "text": "No. I'm a xxx.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "Monstradamus",
+    "mood": "humorous",
+    "text": "Hey, that's right. I forgot.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Ariadne",
+    "event_type": "enter"
+  },
+  {
+    "character": "Ariadne",
+    "to": "",
+    "mood": "hopeful",
+    "text": "Hi. I'm glad I'm not the only one here.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "Ariadne",
+    "mood": "flirty",
+    "text": "Hi there, darling.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "Ariadne",
+    "mood": "humorous",
+    "text": "Where there are boys, there have to be girls. Some funny rainbow-coloured patches of light just appeared on my walls.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Romeo-y-Cohiba",
+    "mood": "confused",
+    "text": "That's odd, I had them too. Or maybe I imagined it.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "Ariadne",
+    "mood": "curious",
+    "text": "Ariadne? Did you start this thread?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Ariadne",
+    "to": "Nutscracker",
+    "mood": "calm",
+    "text": "Yes. But no one answered, and I fell asleep.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Ariadne",
+    "mood": "curious",
+    "text": "So why did you write that phrase about the labyrinth?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Ariadne",
+    "to": "Monstradamus",
+    "mood": "confused",
+    "text": "I was trying to remember where it came from, but I couldn't. I had the feeling it was very important.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Ariadne",
+    "mood": "curious",
+    "text": "Who are you and how did you get here?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Ariadne",
+    "to": "Monstradamus",
+    "mood": "calm",
+    "text": "I'm in exactly the same situation as you.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "Ariadne",
+    "mood": "humorous",
+    "text": "In that case, we know all about you already. Your real name's xxx, you're xxx years old and you come from xxx.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Ariadne",
+    "to": [
+      "Organizm(-:",
+      "Romeo-y-Cohiba",
+      "Nutscracker",
+      "Monstradamus"
+    ],
+    "mood": "calm",
+    "text": "I know what's going on here.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "Ariadne",
+    "mood": "curious",
+    "text": "How?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Ariadne",
+    "to": "Nutscracker",
+    "mood": "calm",
+    "text": "I saw it all in a dream.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "Ariadne",
+    "mood": "sarcastic",
+    "text": "I don't think I'd exactly regard that as bona fide information.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Ariadne",
+    "mood": "compassionate",
+    "text": "I wouldn't mind hearing about it, though. Tell us about it.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Ariadne",
+    "to": "",
+    "mood": "contemplative",
+    "text": "I saw this old city. I mean, really ancient. The kind they must have built thousands and thousands of years ago. It was really beautiful there. Roads paved with big, flat stones, stone walls covered with living curtains of some climbing plant with pale-pink flowers. The doors and windows of all the houses were locked, but all the time I had the feeling I was being watched by someone. I wandered round the streets for ages, but I didn't meet anyone. And then on the crossroads up ahead of me I kept catching sight of a dwarf dressed in grey rags and a strange hat with a wide brim and a round crown. Every time I spotted him, he instantly darted round a corner, as though he could feel my gaze on his back. It happened lots of times, over and over again. Soon I realised he wasn't hiding from me, it was just that the rhythm of his movement was linked with the rhythm of mine so I couldn't see him for more than those few seconds. Only don't ask me how I realised it, in a dream everything has its own logic. I began trying to adjust to the rhythm, trying to get a better look at the dwarf. By choosing broad, straight streets, I could keep him in my field of vision for longer. But most of the streets were narrow and crooked - the way they linked up made a genuine labyrinth. I realised there were actually two dwarves, but it was easy to confuse the second one with the first. He was dressed in exactly the same way, in some old rags, only the brim of his hat was bent up on one side. Gradually I became certain there was someone else with them as well, but no matter how hard I tried, I couldn't see the third person. Sometimes I could just catch a glimpse of the edge of his dark cloak from round a corner. I guessed I needed to find the way to the main street - it would be long and wide and I would be able to see all of them...",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "",
+    "mood": "dismissive",
+    "text": "What's the point of us listening to all this?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Romeo-y-Cohiba",
+    "mood": "irritated",
+    "text": "Please, don't interrupt!",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Ariadne",
+    "mood": "curious",
+    "text": "What happened after that, Ariadne?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Ariadne",
+    "to": "",
+    "mood": "contemplative",
+    "text": "After that I made my way to the main street. There was a long line of palm trees in tubs along the middle of it. I remember that what was most astonishing was that there were yellow leaves everywhere, it was autumn, and then here were these palm trees.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "Ariadne",
+    "mood": "confused",
+    "text": "You started off with pink flowers. Now suddenly it's autumn, with yellow leaves.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Ariadne",
+    "to": "Nutscracker",
+    "mood": "contemplative",
+    "text": "Yes, autumn set in while I was following the dwarf. I thought he must have done that on purpose to spoil my mood and prevent me catching up with him. There was no one in the main street. I came to a large square with a fountain with bronze statues standing in it. From their style I thought they must be just as ancient as the city, but their subjects were more like something from a Japanese cartoon film - naked teenagers being strangled by tentacles twined around their bodies. Or snakes...",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "Ariadne",
+    "mood": "confused",
+    "text": "What have Japanese cartoons got to do with anything?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "event_type": "enter"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Nutscracker",
+    "mood": "contemplative",
+    "text": "She's talking about mangas, young girls who are raped by demons with their tentacles. It's a persistent theme in Japanese virtual porn.",
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Ariadne",
+      "mood": "calm"
+    }
+  },
+  {
+    "character": "Monstradamus",
+    "to": "",
+    "mood": "contemplative",
+    "text": "It's an expression of the repressed subconscious frustration resulting from defeat in the Second World War. The schoolgirl raped in these cartoons symbolises the Japanese national spirit, and the monster that sprouts these multiple phallic tentacles represents the modern Western-style corporate economy.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "Monstradamus",
+    "mood": "humorous",
+    "text": "Or maybe they're just octopuses?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Nutscracker",
+    "mood": "sarcastic",
+    "text": "Octopuses? How original. I'd never have thought of that.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "IsoldA",
+    "mood": "curious",
+    "text": "Hey, who is this Isolde? Someone new?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Organizm(-:",
+    "mood": "calm",
+    "text": "Yes.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "compassionate",
+    "text": "Welcome to our little world, Isolde. We're very pleased to meet you.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "compassionate",
+    "text": "Thank you, Romeo.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "IsoldA",
+    "mood": "flirty",
+    "text": "Are you pretty?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "Organizm(-:",
+    "mood": "jealous",
+    "text": "Get a grip, Organism.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "IsoldA",
+    "mood": "curious",
+    "text": "Isolde, can you add anything to the sum of our experience?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Nutscracker",
+    "mood": "calm",
+    "text": "No.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Ariadne",
+    "mood": "calm",
+    "text": "Then, if no one has any objections, Ariadne can continue.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Ariadne",
+    "to": "",
+    "mood": "contemplative",
+    "text": "I realised I had to go over to the fountain and then I would see both dwarves. Only don't ask me how I realised it; it was suddenly clear, that's all. When I reached the fountain I turned my back to it and leaned against the wall. Opposite me there was a building with a colonnade - a massive, depressing building with ugly superstructures on the roof. It occurred to me somehow that a long time ago it had been burnt down, and nothing was left but the stone skeleton, and since then a lot of attempts had been made to repair it and restore it to life. But you could still see the traces of the catastrophe through the restoration work and the paint, and you could tell the building was dead and empty...",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "",
+    "mood": "sarcastic",
+    "text": "I'd say we need an entire committee of psychiatrists for this spiel. Or we could ask Monstradamus, he's got a good handle on this stuff. What was that phrase he used - corporate frustration?",
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Ariadne",
+      "mood": "sarcastic"
+    }
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Romeo-y-Cohiba",
+    "mood": "irritated",
+    "text": "Romeo, please, be patient just a moment longer.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Ariadne",
+    "to": "",
+    "mood": "contemplative",
+    "text": "Suddenly I noticed one of the dwarves standing beside me - the one with the side of his hat bent up. I didn't see how he got there. He was really close to me, but I couldn't see his face under the hat. I remember he was wearing medieval-style pointed shoes in red and white stripes. He began speaking without raising his head, and what he said was very strange. He said the master he served was the creator of everything I saw around me, and a great many other things too. The way I understood it, this master of his was not a man. Or not just a man. His name was Asterisk...",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Ariadne",
+    "mood": "curious",
+    "text": "Are you sure you heard correctly?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Ariadne",
+    "to": "Monstradamus",
+    "mood": "contemplative",
+    "text": "I think so. The way the dwarf explained it, Asterisk is some boundlessly and infinitely powerful being. I asked whether he didn't mean God, and he said that God was merely Asterisk's errand boy. I asked how that was possible. The dwarf told me not even to try to understand. He said it was a great mystery, and repeated this several times. I asked him what was the correct name to use for someone who is mightier than God. Any name you like, the dwarf replied - the word 'Asterisk', or any other that can be spoken - they're no more than loose dust covers, they make no difference at all. That was what he said, honestly...",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "",
+    "mood": "dismissive",
+    "text": "What absolute gibberish.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Ariadne",
+    "to": "",
+    "mood": "contemplative",
+    "text": "The way I understood it, Asterisk is angry with people because at some time in the past they killed him. Or because they will kill him at some time in the future - the dwarf expressed himself in such a complicated manner, you could take his meaning any way at all. Since that time - or until that time - people have to pay tribute to Asterisk by sending him people to join in his games and die in his arena. Like us, for instance...",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "",
+    "mood": "resigned",
+    "text": "Well, there you go then.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Ariadne",
+    "to": "",
+    "mood": "contemplative",
+    "text": "But the dwarf said there was no need to be upset, because the people Asterisk sacrifices to himself all have already been born, and dying in the arena is the common fate that nobody escapes. I tried to ask in that case what was the point of the sacrificial tribute, but the dwarf began getting nervous and said, 'Look, he's coming, now you can see him for yourself.' I looked up. Two figures had appeared in front of the burnt-out building. Striding along solemnly in front was a dwarf holding a flag with the Merrill Lynch symbol on it - you remember it, they have that jolly little bull - and the inscription 'Be Bullish!' But I didn't feel like laughing at all, the figure following it looked so terrifying. I don't even know what to call him. He wasn't like a man. He was absolutely massive, and I thought for a moment he was a monstrously overgrown mushroom with a big cap of blackish-green metal. Then I took a closer look at him. He was wearing a long loose robe that reached right down to the ground, dark-coloured and not particularly clean either, but not the same kind of tattered rags as the dwarves. And on his head he had a bronze helmet, like a gladiator's mask - a headpiece with a wide brim and a plate with holes in it where the face would be. There were two horns on the helmet...",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Ariadne",
+    "mood": "curious",
+    "text": "Like a bull's horns?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Ariadne",
+    "to": "Monstradamus",
+    "mood": "contemplative",
+    "text": "They were much more massive and they didn't stick out to the sides, they ran backwards, merging into the helmet to form a single block. If I could compare them with anything, they looked a lot like the silencers of a bronze motorbike, curving along the rim of the headpiece with the round crown. There were lots of little rods and tubes on the helmet as well, all made of bronze, and they linked all its different parts together, so the whole thing looked a bit like an antique rocket engine.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "Ariadne",
+    "mood": "curious",
+    "text": "Did he say anything?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Ariadne",
+    "to": "Nutscracker",
+    "mood": "contemplative",
+    "text": "No, I didn't see him for very long. I only had just enough time to think the two dwarves were dressed so strangely because they were trying to look like him. Beside him they looked absolutely tiny. And there seemed to be something wistful or sad and lonely about him, as if he was some banished emperor. Or just the opposite, as though he was an emperor who had been left all alone because he had banished everyone else.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Ariadne",
+    "mood": "curious",
+    "text": "Is that how the dream ended?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Ariadne",
+    "to": "Monstradamus",
+    "mood": "contemplative",
+    "text": "I didn't see Asterisk again. Suddenly the dwarf and I were somewhere else, on one of the little streets, facing an old wooden door with a handle in the form of a ring set through the head of a bull. The dwarf knocked on the door with the ring and it opened. Inside there was a small room. From where we were standing all we could see was a bed with a man sleeping on it, a tall man with a moustache and a mole beside his nose. The dwarf muttered that we were in the wrong place, led me to a different door and opened it in the same way. The room behind it looked the same, but it was empty. The dwarf raised his finger and asked, 'I shall construct a labyrinth in which I can lose myself, together with anyone who tries to find me - who said this and about what?' I started thinking about it - in the dream I almost knew the answer. Then suddenly he pushed me inside and slammed the door shut.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Ariadne",
+    "mood": "curious",
+    "text": "What happened after that?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Ariadne",
+    "to": "Monstradamus",
+    "mood": "confused",
+    "text": "The push woke me up and I found myself in the room I am in now. Then I sat down at the desk with the screen and typed in that question. I was afraid I might forget it. But I can still hear it in my head now.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Ariadne",
+    "mood": "curious",
+    "text": "Is it the same room as you entered in the dream?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Ariadne",
+    "to": "Monstradamus",
+    "mood": "contemplative",
+    "text": "It's hard to say. It's just as small.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "Ariadne",
+    "mood": "curious",
+    "text": "And who was the man with the mole beside his nose?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Ariadne",
+    "to": "Romeo-y-Cohiba",
+    "mood": "calm",
+    "text": "I don't know. I'd never seen him before.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "Ariadne",
+    "mood": "curious",
+    "text": "Can you describe him in more detail? Exactly where was this mole of his?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Ariadne",
+    "to": "Romeo-y-Cohiba",
+    "mood": "contemplative",
+    "text": "Between the side of the nostril and the cheek. He had a horseshoe moustache too. And he was absolutely bald. Big. I definitely remember that his arm was lying on the pillow and it had a tattoo on it, an anchor with a dollar sign twisted round it. I though it might be a yacht club symbol. A pretty moth-eaten type really.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "Ariadne",
+    "mood": "sarcastic",
+    "text": "Well thanks a lot, sweetheart.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "Romeo-y-Cohiba",
+    "mood": "sarcastic",
+    "text": "I suspect someone might just have recognised himself. Right, Romeo?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "Nutscracker",
+    "mood": "resigned",
+    "text": "No one's ever called me a moth-eaten type before. But I do have a tattoo like that on my arm.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "",
+    "mood": "curious",
+    "text": "So does anyone have any ideas?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": [
+      "Monstradamus",
+      "Nutscracker"
+    ],
+    "mood": "sarcastic",
+    "text": "I don't get it, are we seriously discussing someone's dream?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "event_type": "enter"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "",
+    "mood": "contemplative",
+    "text": "I think...",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "UGLI 666",
+    "mood": "calm",
+    "text": "New members, please introduce yourselves to the group straightaway. What do you think?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "",
+    "mood": "calm",
+    "text": "The Lord sent her that vision to make us repent.",
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Ariadne",
+      "mood": "calm"
+    }
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "UGLI 666",
+    "mood": "angry",
+    "text": "That's just great! We've been locked up in here, and we have to repent? Repent for what?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Romeo-y-Cohiba",
+    "mood": "calm",
+    "text": "What we were locked up for.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "UGLI 666",
+    "mood": "confused",
+    "text": "And what were we locked up for?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Romeo-y-Cohiba",
+    "mood": "solemn",
+    "text": "Each of us for his own reason. For it is said: 'There is no man that shall live without sin, though his life be but a single day.'",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "UGLI 666",
+    "mood": "sarcastic",
+    "text": "Ugly, what sex are you?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Organizm(-:",
+    "mood": "defensive",
+    "text": "That's of no relevance.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "Monstradamus",
+    "mood": "humorous",
+    "text": "Is he/she really serious?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Organizm(-:",
+    "mood": "calm",
+    "text": "I think he/she means what he/she says.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Organizm(-:",
+    "mood": "proud",
+    "text": "I'm female, since it interests you so very much. My name's xxx, I'm a xxx by profession and a xxx by education, but by vocation I've always been a xxx. I've read everything already. And I have nothing interesting to add. As for whether I'm being serious or not, you can be quite sure I always mean what I say.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "UGLI 666",
+    "mood": "sarcastic",
+    "text": "Tell me, Ugly, did you invent your views to match your name or was your name invented to match your views?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Organizm(-:",
+    "mood": "sarcastic",
+    "text": "My name's for my sins. And so is yours.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "UGLI 666",
+    "mood": "sarcastic",
+    "text": "But do you know what 'UGLI' really means? It's not from the word 'ugly' as you probably thought. It's 'Universal Gate for Logic Implementation'. A universal logic element, I remember that from school. So if you chose your views to match your name you were looking in the wrong place altogether.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "",
+    "mood": "contemplative",
+    "text": "We were talking about Ariadne's dream. It has been suggested that she was shown it specially and it contains information for everyone.",
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Ariadne",
+      "mood": "calm"
+    }
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "Monstradamus",
+    "mood": "skeptical",
+    "text": "What does that mean - shown it specially? This isn't a cinema. And if the information's for everyone, then why was it shown to Ariadne?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "Romeo-y-Cohiba",
+    "mood": "sarcastic",
+    "text": "You'll get a showing too, don't be in such a hurry.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "Organizm(-:",
+    "mood": "anxious",
+    "text": "You think that monster in the bronze helmet really is walking about outside our doors?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Romeo-y-Cohiba",
+    "mood": "calm",
+    "text": "You don't have to take everything so literally. In the dream the door was made of wood, with a bull's head. But in here it's made of bronze, with an infernal symbol. Dreams are metaphorical.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "UGLI 666",
+    "mood": "anxious",
+    "text": "Ariadne saw Romeo in her dream and when she described him he recognised himself. What kind of metaphor is that?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "defensive",
+    "text": "Who says I recognised myself? It was just a couple of details that matched.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "contemplative",
+    "text": "But what kind of details? There can't be many tattoos like that. An anchor with a dollar sign.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": [
+      "IsoldA",
+      "Ariadne"
+    ],
+    "mood": "defensive",
+    "text": "Let's introduce a bit of clarity here. I actually do have a tattoo on my arm, just above the wrist. It's a fountain of oil, gushing up through a dollar sign. From upside down it looks a bit like an anchor. That's all. I don't know what tattoo she saw. And my yacht club symbol is nothing like that.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Sartrik",
+    "event_type": "enter"
+  },
+  {
+    "character": "Sartrik",
+    "to": "",
+    "mood": "sarcastic",
+    "text": "xxx me, a xxx sailor.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "Sartrik",
+    "mood": "calm",
+    "text": "New members, once again, please introduce yourselves.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Sartrik",
+    "to": "Nutscracker",
+    "mood": "down",
+    "text": "I'm absolutely xxx. My entire body aches.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Sartrik",
+    "mood": "curious",
+    "text": "Have you been beaten up, or what?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Sartrik",
+    "to": "Monstradamus",
+    "mood": "down",
+    "text": "I feel sick. Is there any beer to be had around here?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Sartrik",
+    "mood": "compassionate",
+    "text": "I doubt it. Did you overdo it yesterday then?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Sartrik",
+    "to": "Monstradamus",
+    "mood": "down",
+    "text": "Something of the sort.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "Sartrik",
+    "mood": "curious",
+    "text": "How did you end up in here?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Sartrik",
+    "to": "Nutscracker",
+    "mood": "confused",
+    "text": "I don't remember a thing.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": [
+      "Nutscracker",
+      "Monstradamus"
+    ],
+    "mood": "curious",
+    "text": "Leave the man alone, let him get his head together. But can this dream of Ariadne's be interpreted scientifically? Seems to me Monstradamus knows about that kind of thing.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Romeo-y-Cohiba",
+    "mood": "confused",
+    "text": "What does 'interpreted scientifically' mean?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "Monstradamus",
+    "mood": "contemplative",
+    "text": "Well, for instance, this Asterisk is tall, with a big helmet. That symbolises the male sexual organ in a state of erection.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "Romeo-y-Cohiba",
+    "mood": "sarcastic",
+    "text": "And the two dwarves symbolise the balls, do they?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "Romeo-y-Cohiba",
+    "mood": "humorous",
+    "text": "Cool it, Romeo. Sometimes a cochiba's just a cigar.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": [
+      "Romeo-y-Cohiba",
+      "Organizm(-:"
+    ],
+    "mood": "irritated",
+    "text": "Could you talk about that separately somehow?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "IsoldA",
+    "mood": "calm",
+    "text": "I second that motion.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": [
+      "IsoldA",
+      "UGLI 666"
+    ],
+    "mood": "sarcastic",
+    "text": "Unfortunately we can't just go out into the corridor.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "Monstradamus",
+    "mood": "curious",
+    "text": "You didn't answer the question, Monstradamus. Can the dream be analysed?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": [
+      "Romeo-y-Cohiba",
+      "Nutscracker"
+    ],
+    "mood": "calm",
+    "text": "If you're thinking of penis symbolism, then I've got nothing to add to what Nutcracker said. But I do have a few observations along an entirely different line. I can share them if you're interested.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "Monstradamus",
+    "mood": "hopeful",
+    "text": "Of course we're interested.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "",
+    "mood": "contemplative",
+    "text": "In the first place, the names. Has anyone any guesses on that score?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Monstradamus",
+    "mood": "calm",
+    "text": "Names of demons from hell.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "",
+    "mood": "contemplative",
+    "text": "The soap, the toilet paper and other items in the bathroom are all marked with something that looks like the symbol for indicating a footnote - a little star. It's called an asterisk, which is also the name of the character Ariadne dreamed about. It sounds a lot like 'Asterius.'",
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Ariadne",
+      "mood": "calm"
+    }
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Monstradamus",
+    "mood": "curious",
+    "text": "What's 'Asterius'?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "UGLI 666",
+    "mood": "calm",
+    "text": "'Starry' in Latin. Asterius, the son of Minos and Parsiphae. The half-man, half-animal from Crete. Better known as the Minotaur.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Sartrik",
+    "to": "Monstradamus",
+    "mood": "confused",
+    "text": "That one on the 'Remy Martin' bottle?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "Sartrik",
+    "mood": "calm",
+    "text": "No, the 'Remy Martin' beast is a Cyclops. The Minotaur is a freak with a bull's head.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Sartrik",
+    "to": "",
+    "mood": "down",
+    "text": "God, I feel really sick.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "",
+    "mood": "contemplative",
+    "text": "Now for that double axe on the door. In Greek it's called a 'labros'. That's where we get the word 'Labyrinth', the place where the Minotaur lived. Some accounts say it was a beautiful palace with lots of corridors and rooms, according to others it was a foul-smelling cave with numerous branches plunged in eternal darkness. Or it could be that people from different cultures had different impressions of the same place.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Monstradamus",
+    "mood": "curious",
+    "text": "But what has an axe got to do with a labyrinth?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "IsoldA",
+    "mood": "calm",
+    "text": "They find them in Crete. Where the labyrinth was. That's all I know.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Monstradamus",
+    "mood": "curious",
+    "text": "Maybe the Minotaur was killed with an axe like that?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "",
+    "mood": "contemplative",
+    "text": "Let me go on with the names. As well as Asterius and Asterisk, it's hard not to notice another coincidence. It was Ariadne who dreamed about him. That was the name of the Minotaur's sister. And it was also Ariadne who started this thread with the question about the labyrinth.",
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Ariadne",
+      "mood": "calm"
+    }
+  },
+  {
+    "character": "IsoldA",
+    "to": "Monstradamus",
+    "mood": "skeptical",
+    "text": "It's a very common name. I had a lotion for dry skin called 'Ariadne's Milk'.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "Monstradamus",
+    "mood": "anxious",
+    "text": "Names and coincidences are all very well. But what I don't understand is - what are we going to do?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Romeo-y-Cohiba",
+    "mood": "resigned",
+    "text": "Well, what can we do? Wait for Theseus, who will lead us out of the labyrinth. And hope the joke doesn't go too far.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Monstradamus",
+    "mood": "confused",
+    "text": "Does it seem like a joke to you?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "UGLI 666",
+    "mood": "calm",
+    "text": "Well, I'd say our hosts certainly seem to have a sense of humour.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "Monstradamus",
+    "mood": "sarcastic",
+    "text": "I haven't laughed even once yet.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "",
+    "mood": "contemplative",
+    "text": "Monster's right. There's definitely humour in all of this, only it's infernal humour. Forcing serious people like us to call each other by idiotic names. Dressing us in ancient Greek chitons and making us sit at these screens. And then the Internet we end up in has about as much to do with the real one as we do with Ancient Greece.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "",
+    "mood": "contemplative",
+    "text": "It's not really all that different. The screen design is an imitation of the 'Guardian' site. The heading is the same - 'Guardian Unlimited'. And the chat area looks the same. The difference is there are hundreds of threads there. But we've only got one.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "",
+    "mood": "contemplative",
+    "text": "The name makes sense though. Our guardian really is unlimited.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "",
+    "mood": "contemplative",
+    "text": "And another joke is the Merrill Lynch symbol on the flag.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "",
+    "mood": "confused",
+    "text": "But Ariadne saw the flag in a dream, so it's not clear whose joke it is. Our moderators' or hers.",
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Ariadne",
+      "mood": "curious"
+    }
+  },
+  {
+    "character": "Monstradamus",
+    "to": "",
+    "mood": "anxious",
+    "text": "I wouldn't like to alarm anyone, but shouldn't we consider the possibility that Ariadne herself is also a joke by our moderators, as Organism called them.",
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Ariadne",
+      "mood": "anxious"
+    }
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "Monstradamus",
+    "mood": "confused",
+    "text": "Why's that?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Organizm(-:",
+    "mood": "contemplative",
+    "text": "Because, phenomenologically speaking, she only exists in the form of messages of unknown origin signed 'Ariadne'.",
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Ariadne",
+      "mood": "calm"
+    }
+  },
+  {
+    "character": "Ariadne",
+    "to": "Monstradamus",
+    "mood": "sarcastic",
+    "text": "Thanks. Ariadne.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Ariadne",
+    "mood": "compassionate",
+    "text": "Ariadne, please don't take offence. I'm talking about a hypothetical possibility. It doesn't mean I suspect you of anything. The same thing could apply to any of us.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "Monstradamus",
+    "mood": "curious",
+    "text": "What does 'phenomenologically' mean?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Organizm(-:",
+    "mood": "calm",
+    "text": "It's the way you can see these words now.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Ariadne",
+    "to": "Monstradamus",
+    "mood": "calm",
+    "text": "Everything I told you was the truth.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": [
+      "Ariadne",
+      "Monstradamus"
+    ],
+    "mood": "humorous",
+    "text": "Nobody ever doubted it. Nebuchadnezzar's just theorising, right?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Nutscracker",
+    "mood": "irritated",
+    "text": "I'm not Nebuchadnezzar.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "Monstradamus",
+    "mood": "compassionate",
+    "text": "Sorry, Monstradamus.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "",
+    "mood": "resigned",
+    "text": "I'm no more Monstradamus than I am Nebuchadnezzar, so what's the difference?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "",
+    "mood": "contemplative",
+    "text": "You know what I think? Either no one's noticed it or everyone has, but no one's saying.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "Organizm(-:",
+    "mood": "curious",
+    "text": "What's that, then?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "",
+    "mood": "contemplative",
+    "text": "We don't post our messages complete, like in a normal chat room. The words appear on the screen one letter at a time, in real time. We can even interrupt each other, and then three dots appear at the end of the phrase that's interrupted.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "Organizm(-:",
+    "mood": "calm",
+    "text": "Everyone's noticed that.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "Nutscracker",
+    "mood": "curious",
+    "text": "But at the same time, as far as I can tell, no one's made a single spelling mistake yet. Not a single typing error. Doesn't that seem a bit strange?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Organizm(-:",
+    "mood": "calm",
+    "text": "That's richt.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "",
+    "mood": "anxious",
+    "text": "They cantroll our entire canvasation.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Monstradamus",
+    "mood": "confused",
+    "text": "Are yew ploying the foul?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "confused",
+    "text": "No, I woodn't deram of it.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "IsoldA",
+    "mood": "calm",
+    "text": "Me kneether. It's the mooderattors.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "",
+    "mood": "angry",
+    "text": "Step mucking us, you ratten scam!",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Romeo-y-Cohiba",
+    "mood": "calm",
+    "text": "There's no point in getting upset, Romeo. It won't help matters.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "",
+    "mood": "curious",
+    "text": "Have they really stopped?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "Romeo-y-Cohiba",
+    "mood": "humorous",
+    "text": "Good for you, Romeo! They did what you told them to. Why not try telling our moderators to do something else?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "",
+    "mood": "irritated",
+    "text": "Stick your xxx up your xxx and give it a double right twist.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "",
+    "mood": "anxious",
+    "text": "They're following every word we write.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "",
+    "mood": "curious",
+    "text": "Maybe that's why Theseus isn't saying anything?",
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Theseus",
+      "mood": "curious"
+    }
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "Monstradamus",
+    "mood": "confused",
+    "text": "What Theseus?",
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Theseus",
+      "mood": "curious"
+    }
+  },
+  {
+    "character": "Nutscracker",
+    "to": [
+      "Organizm(-:",
+      "Monstradamus"
+    ],
+    "mood": "calm",
+    "text": "The one who killed the Minotaur, Organism. Or who has to kill him. What do you have in mind, Monstradamus?",
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Theseus",
+      "mood": "calm"
+    }
+  },
+  {
+    "character": "Monstradamus",
+    "to": "",
+    "mood": "contemplative",
+    "text": "Maybe he's already here, but he doesn't want the moderator to notice him. And I suspect the moderator's our bronze mushroom.",
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Theseus",
+      "mood": "curious"
+    }
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "Monstradamus",
+    "mood": "skeptical",
+    "text": "You talk about him as if you'd seen him with your own eyes. But we don't actually have any reason to believe he exists.",
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Theseus",
+      "mood": "skeptical"
+    }
+  },
+  {
+    "character": "Ariadne",
+    "to": "Romeo-y-Cohiba",
+    "mood": "curious",
+    "text": "Who do you mean? Theseus or Asterisk?",
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Theseus",
+      "mood": "curious"
+    }
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "Ariadne",
+    "mood": "skeptical",
+    "text": "Both.",
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Theseus",
+      "mood": "skeptical"
+    }
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Romeo-y-Cohiba",
+    "mood": "sarcastic",
+    "text": "And for exactly the same reason, Romeo, there's no reason to believe that you exist.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "Monstradamus",
+    "mood": "defensive",
+    "text": "That just about does it. Leave it out, will you?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Ariadne",
+    "to": "",
+    "mood": "curious",
+    "text": "Perhaps Theseus is one of us?",
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Theseus",
+      "mood": "curious"
+    }
+  },
+  {
+    "character": "Nutscracker",
+    "to": "",
+    "mood": "curious",
+    "text": "Perhaps the Minotaur is one of us.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "",
+    "mood": "humorous",
+    "text": "I bet a hundred xxx the Minotaur's Monstradamus.",
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Monstradamus",
+      "mood": "humorous"
+    }
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Organizm(-:",
+    "mood": "irritated",
+    "text": "Stop clowning about.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "Theseus",
+    "mood": "hopeful",
+    "text": "Theseus, answer us!",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Theseus",
+    "mood": "hopeful",
+    "text": "At least tell us if you're here or not! Theseus!",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "",
+    "mood": "curious",
+    "text": "By the way. If the moderators can fulfil our wishes, why don't we ask them to open the door?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Monstradamus",
+    "mood": "anxious",
+    "text": "But what's outside the door?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "",
+    "mood": "contemplative",
+    "text": "We can find out.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "Organizm(-:",
+    "mood": "anxious",
+    "text": "You be careful, or the door might really go ahead and open.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Ariadne",
+    "to": "Monstradamus",
+    "mood": "humorous",
+    "text": "I've composed a little poem. Dedicated to Monstradamus.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Ariadne",
+    "mood": "calm",
+    "text": "Let's hear it.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Ariadne",
+    "to": "Monstradamus",
+    "mood": "humorous",
+    "text": "The Minotaur lurks at the door,\nHis axe it gleams moon-bright.\n'Dear Watson this could not be more...'\nThen silence in the night.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Ariadne",
+    "mood": "resigned",
+    "text": "A bit on the dark side. But maybe I deserve it for being so suspicious.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "",
+    "mood": "hopeful",
+    "text": "An experiment. Doors, open!",
+    "event_type": "dialogue"
+  },
+  {
+    "event_type": "environment_change",
+    "payload": "ALL DOORS OPENED"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "",
+    "mood": "fearful",
+    "text": "Lord have mercy!",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "Organizm(-:",
+    "mood": "fearful",
+    "text": "I warned you!",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Ariadne",
+    "to": "",
+    "mood": "curious",
+    "text": "Did it happen in all the rooms?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Ariadne",
+    "mood": "calm",
+    "text": "It did in mine.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Monstradamus",
+    "mood": "confused",
+    "text": "Do you mean the music or the door?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Ariadne",
+    "to": "UGLI 666",
+    "mood": "calm",
+    "text": "The whole thing at once.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "",
+    "mood": "curious",
+    "text": "I've got sky outside. Grey. Looks a bit like a park. Everything seems quiet. I'm going out to explore.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "anxious",
+    "text": "Hey, Isolde, wait! It could be dangerous out there!",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "",
+    "mood": "anxious",
+    "text": "It's dark out there.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "anxious",
+    "text": "Isolde!",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "",
+    "mood": "curious",
+    "text": "Did everyone hear the trumpets?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Ariadne",
+    "to": "Nutscracker",
+    "mood": "curious",
+    "text": "Do you think they were trumpets?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "",
+    "mood": "calm",
+    "text": "Doors, close!",
+    "event_type": "dialogue"
+  },
+  {
+    "event_type": "environment_change",
+    "payload": "ALL DOORS CLOSED"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "",
+    "mood": "anxious",
+    "text": "xxx be praised.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Organizm(-:",
+    "mood": "anxious",
+    "text": "Organizm, don't go trying any more experiments like that.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "",
+    "mood": "anxious",
+    "text": "Now how's Isolde going to get back? Doors, open!",
+    "event_type": "dialogue"
+  },
+  {
+    "event_type": "environment_change",
+    "payload": "ALL DOORS OPENED"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "",
+    "mood": "humorous",
+    "text": "xxx, eh? Again!",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "",
+    "mood": "calm",
+    "text": "Let's just keep calm and get our bearings.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "",
+    "mood": "contemplative",
+    "text": "Okay, I think I've got it. When the door opens, a lever shaped like a leg with a hoof moves out and down.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "",
+    "mood": "fearful",
+    "text": "Lord save us and keep us!",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "",
+    "mood": "contemplative",
+    "text": "To make the door close, you push the lever. To make it open, you press on the axe in the middle. So everyone can open their own door when they want to.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "Nutscracker",
+    "mood": "excited",
+    "text": "It works.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "",
+    "mood": "curious",
+    "text": "What can you see outside the door?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Ariadne",
+    "to": "Monstradamus",
+    "mood": "calm",
+    "text": "There's another room outside mine.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "Monstradamus",
+    "mood": "anxious",
+    "text": "Semi-darkness. Benches, a lot of benches.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "",
+    "mood": "excited",
+    "text": "Fresh air at last.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Sartrik",
+    "to": "",
+    "mood": "excited",
+    "text": "Two fridges full of booze. Minotaur just a great guy after all!",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "",
+    "mood": "anxious",
+    "text": "Plywood walls painted to look like bricks. It all looks pretty naff.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "",
+    "mood": "curious",
+    "text": "I've got a load of electronic equipment.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "",
+    "mood": "humorous",
+    "text": "I'm hungry. Hey, you moderators, how's about a bit of nosh down here? Right... I think I've got it. You have to turn this thingy that way, and then that thingy this way... Now we're talking.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Organizm(-:",
+    "mood": "curious",
+    "text": "What?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "Organizm(-:",
+    "mood": "curious",
+    "text": "What was it you turned, tell us.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "",
+    "mood": "excited",
+    "text": "They sent down some pancakes with jam. Not bad for Ancient Greece. I feel like a nice quiet meal, so I'm taking a break now.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "Organizm(-:",
+    "mood": "hopeful",
+    "text": "Enjoy your meal. Just tell us what it was you turned.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "Romeo-y-Cohiba",
+    "mood": "dismissive",
+    "text": "When I'm feeding my tum, I go all deaf and dumb.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Ariadne",
+    "to": "Organizm(-:",
+    "mood": "hopeful",
+    "text": "Organism, you only need to type two words! Then you can go ahead and eat in peace.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "Organizm(-:",
+    "mood": "anxious",
+    "text": "Organism, we're all asking you.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "",
+    "mood": "dismissive",
+    "text": "I'm busy.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "UGLI 666",
+    "to": "",
+    "mood": "contemplative",
+    "text": "I never understood before why gluttony is a sin. Then a spiritual friend of mine explained. Gluttony is not so very terrible in itself. But it's a sign of a base soul. The same thing applies to debauchery. The soul doesn't become debased through committing these acts. A base soul manifests itself through them.",
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Organizm(-:",
+      "mood": "irritated"
+    }
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "UGLI 666",
+    "mood": "irritated",
+    "text": "No, you won't get under his skin that easily.",
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Organizm(-:",
+      "mood": "angry"
+    }
+  },
+  {
+    "character": "Monstradamus",
+    "to": "",
+    "mood": "hopeful",
+    "text": "Moderators! Give us all something to eat!",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Ariadne",
+    "to": "",
+    "mood": "anxious",
+    "text": "I heard some kind of noise. But where's the food?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Ariadne",
+    "mood": "calm",
+    "text": "There's a small flap to the right of the monitor. Just a rectangle in the wall. Lift the flap and you'll find a tray behind it.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Ariadne",
+    "to": "Monstradamus",
+    "mood": "excited",
+    "text": "I found it, thank you.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "",
+    "mood": "anxious",
+    "text": "But what are you supposed to turn? Organism said...",
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Organizm(-:",
+      "mood": "confused"
+    }
+  },
+  {
+    "character": "Ariadne",
+    "to": "Romeo-y-Cohiba",
+    "mood": "compassionate",
+    "text": "He was just joking, Romeo. Having a laugh at us.",
+    "event_type": "dialogue",
+    "third_person": {
+      "name": "Organizm(-:",
+      "mood": "dismissive"
+    }
+  },
+  {
+    "character": "Nutscracker",
+    "to": "",
+    "mood": "calm",
+    "text": "Let's all eat in peace. Bon appetit .",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "",
+    "mood": "curious",
+    "text": "I'm back. Who's there?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "anxious",
+    "text": "I am. Is everything all right?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "calm",
+    "text": "Yes.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "anxious",
+    "text": "I was worried.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "curious",
+    "text": "I was only gone for a moment. Where's everyone else?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "calm",
+    "text": "They're eating. There's just the two of us.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "curious",
+    "text": "What's outside your door?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "contemplative",
+    "text": "A labyrinth of neatly trimmed rough bushes higher than my head. And running between the bushes is a dirt pathway.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "calm",
+    "text": "And I've got the same kind of bushes along the sides of an alley.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "curious",
+    "text": "An alley?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "calm",
+    "text": "My door opens into a park. The alley starts right outside and along the sides there are bushes. With treetops showing above them in places.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "contemplative",
+    "text": "What I've got is more like a corridor between the bushes, I wouldn't call it an alley. And it starts winding straightaway, so I can't see anything but leaves. It's more like a narrow corridor than anything else, neatly sliced through the bushes by something like a combine harvester.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "curious",
+    "text": "What colour is the ground there?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "calm",
+    "text": "Beige.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "excited",
+    "text": "It's beige here too. We're near each other!",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "curious",
+    "text": "What else did you see?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "excited",
+    "text": "I didn't go very far. There are lots of alleys, and they keep branching and twisting and turning corners. I wasn't afraid in the least. Quite the opposite, what I saw gave me a really good feeling. The labyrinth might be complex, but it's impossible to get lost in.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "curious",
+    "text": "Why?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "calm",
+    "text": "Because there's a plan hanging at every place the path branches. And there's a little sign on the plan: 'You are here'.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "flirty",
+    "text": "That's handy all right. And wasn't there any little sign saying: 'The Minotaur is here'?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "calm",
+    "text": "No.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "flirty",
+    "text": "I was joking. Did you meet anyone?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "calm",
+    "text": "No. But several times I had the feeling there was someone just round the corner.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "curious",
+    "text": "And was there anything like what Ariadne was talking about?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "contemplative",
+    "text": "Yes, kind of. Only not exactly. Once I spotted some roofs above the bushes, but they were a long way off. And I saw fountains with different kinds of figures.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "curious",
+    "text": "Like the one Ariadne talked about?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "contemplative",
+    "text": "I don't know. I went through a few forks in the path and at every one there was a small... I don't know what to call it - an oasis, I suppose. Trees and a fountain with bronze figures of animals. First a hare and a tortoise. They were sitting facing each other, with their faces lifted up to the sky. Their mouths were open and there were long thin streams of water spurting out. To be quite honest, it looked a bit ridiculous, as though they were spitting at an invisible ceiling that was too high, so that everything just fell back down on their own heads. At another fork there was a fountain with a fox and a crow. The crow was high up in the tree, and so big it looked more like an eagle. There was a water pipe leading up to it, hidden among the leaves. The fox was squatting on his haunches gazing up at the crow as though it was trying to hit it with the stream of water spurting out of its throat, but it couldn't reach high enough. The crow had its wings pulled back and up and its beak was open, and there was another stream of water spurting out of that, as though the sight of the fox made it feel sick.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Sartrik",
+    "to": "IsoldA",
+    "mood": "down",
+    "text": "Now that's something I can understand.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Sartrik",
+    "mood": "irritated",
+    "text": "What do you understand?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "compassionate",
+    "text": "Take no notice. You're a wonderful storyteller, Isolde. It was like seeing it all with my own eyes.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "curious",
+    "text": "Yes, I forgot to say. The plan that was hanging everywhere looked more like an old engraving than something modern. Or like an enlarged photocopy of an engraving. And written on it in this strange oblique typeface was: plan du labirinthe de versailles . What could that mean? Is it from the word 'verse'? Because there are characters from fables in the fountains?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "hopeful",
+    "text": "A plan of the labyrinth at Versailles. That's a real piece of luck.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "confused",
+    "text": "Versailles? Then why is it written with a small letter?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": [
+      "IsoldA",
+      "Romeo-y-Cohiba"
+    ],
+    "mood": "contemplative",
+    "text": "I could suggest that's not really the strangest thing about our surroundings.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "Monstradamus",
+    "mood": "irritated",
+    "text": "Do you mind not butting into other people's private conversations?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Romeo-y-Cohiba",
+    "mood": "resigned",
+    "text": "Sorry, I didn't realise it was private.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "curious",
+    "text": "And where did you go, Romeo?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "resigned",
+    "text": "I haven't been outside yet.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "curious",
+    "text": "Why not?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "anxious",
+    "text": "I think it's some kind of trap.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "calm",
+    "text": "I think it's a trap, too. But we're already caught in it anyway. And the room you're sitting in is just as much a part of it as what's outside the door.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "hopeful",
+    "text": "That's true. I suppose I ought to go out and scout around. Maybe I could find the way to your fountains.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "curious",
+    "text": "Wait, Romeo. It's dark out there already. You can go tomorrow. Why don't you tell me what you look like instead? Are you like what Ariadne said?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "defensive",
+    "text": "I don't understand why everyone's decided I was the man she dreamed about. The only things we have in common are the tattoo and the moustache. We've already dealt with the tattoo. That just leaves the moustache. And that's like identifying a man by the colour of his tie.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "curious",
+    "text": "Are you really bald?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "defensive",
+    "text": "Not bald, my head's shaved. That's a big difference. People go bald because they have no choice, but they shave their heads out of self-respect. Even if it does look the same from a distance. And my mole is really small, you can hardly see it. And anyway, who doesn't have some kind of a mole on his face?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "flirty",
+    "text": "Are you handsome?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "flirty",
+    "text": "What does 'handsome' mean?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "flirty",
+    "text": "Well, it means a man is nice to look at.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "proud",
+    "text": "Nice for who? I got used to the way I look ages ago. And as far as anyone else is concerned, it depends on the circumstances. But one thing I can say for certain is you needn't be afraid of being with me.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "curious",
+    "text": "What do you mean? Do you mean I wouldn't be frightened of you? Or do you mean that with you I wouldn't have to be afraid of anything?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "IsoldA",
+    "mood": "sarcastic",
+    "text": "He's trying to say that if you're with him even he won't frighten you.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "irritated",
+    "text": "Just give people a chance to talk, will you?! Isolde, can I ask you something about yourself?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "flirty",
+    "text": "Such as?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "curious",
+    "text": "Such as... Do you like poetry?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "calm",
+    "text": "Sometimes.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "curious",
+    "text": "Who's your favourite poet?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "calm",
+    "text": "Caroline Kennedy.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "curious",
+    "text": "What has she written?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "calm",
+    "text": "'The Favourite Poems of Jacqueline Kennedy-Onassis.'",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "curious",
+    "text": "And what do you look like?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "flirty",
+    "text": "How would you like me to look?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "hopeful",
+    "text": "I'd like to know how you really look.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "calm",
+    "text": "Medium height. Dark hair. Green eyes. They say I'm beautiful.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "hopeful",
+    "text": "But can you describe yourself so I can imagine how you look?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "anxious",
+    "text": "I have been told... But I'm not sure it's worth mentioning.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "curious",
+    "text": "What have you been told?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "resigned",
+    "text": "I was compared once to a cover of 'The New Yorker' that had a drawing of Monica Lewinsky as the Mona Lisa. Only I look five times younger.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "confused",
+    "text": "You mean you look like Monica Lewinsky?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "calm",
+    "text": "No, not at all.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "curious",
+    "text": "Like the Mona Lisa then?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "embarrassed",
+    "text": "Not in the slightest. I suppose it sounds stupid.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "compassionate",
+    "text": "It sounds just fine. I just don't quite get it.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": [
+      "Romeo-y-Cohiba",
+      "IsoldA"
+    ],
+    "mood": "contemplative",
+    "text": "Allow me to explain. There was nothing mysterious about Monica Lewinsky, and nothing sexual about the Mona Lisa. But if we imagine the scintillating mystery of the Mona Lisa fused with the earthy sensuality of Monica Lewinsky, and then add the charm of early youth, we get Isolde. Get it now?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "Monstradamus",
+    "mood": "angry",
+    "text": "How many damn times do I have to tell you not to go butting into other people's conversations, Nebuchadnezzar?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Romeo-y-Cohiba",
+    "mood": "irritated",
+    "text": "I'm not Nebuchadnezzar.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "Monstradamus",
+    "mood": "irritated",
+    "text": "Don't butt in anyway. I thought you wanted to eat. So why don't you?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Romeo-y-Cohiba",
+    "mood": "calm",
+    "text": "I've already eaten.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "Monstradamus",
+    "mood": "irritated",
+    "text": "Then have something to drink.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "resigned",
+    "text": "Isolde, they won't give us any peace.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "calm",
+    "text": "It's late already. Let's go to bed.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": "IsoldA",
+    "mood": "hopeful",
+    "text": "OK. See you tomorrow, if it ever comes.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "IsoldA",
+    "to": "Romeo-y-Cohiba",
+    "mood": "flirty",
+    "text": "Let's hope it does. Ah yes, something else I forgot to tell you. I braid my hair at the back.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Ariadne",
+    "to": [
+      "Monstradamus",
+      "Nutscracker",
+      "Organizm(-:"
+    ],
+    "mood": "humorous",
+    "text": "I think they're in love.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Ariadne",
+    "mood": "humorous",
+    "text": "According to their names they have to be. Imagine being called Romeo. What else could you do?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Organizm(-:",
+    "to": "Romeo-y-Cohiba",
+    "mood": "humorous",
+    "text": "Take a pack of condoms and go looking for your Juliet.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "Romeo-y-Cohiba",
+    "mood": "humorous",
+    "text": "Or take a pump-action shotgun and go looking for your Shakespeare.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Romeo-y-Cohiba",
+    "to": [
+      "Organizm(-:",
+      "Nutscracker"
+    ],
+    "mood": "irritated",
+    "text": "Just leave it out, can't you?",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Nutscracker",
+    "to": "Romeo-y-Cohiba",
+    "mood": "sarcastic",
+    "text": "Romeo, are you still there? We thought you'd gone to bed.",
+    "event_type": "dialogue"
+  },
+  {
+    "character": "Monstradamus",
+    "to": "Ariadne",
+    "mood": "hopeful",
+    "text": "Ariadne! If you dream about that bronze mushroom again, try to find out what he's got on his mind.",
+    "event_type": "dialogue"
+  },
+  {
+    "event_type": "day_end"
+  }
+]

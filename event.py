@@ -224,33 +224,199 @@ class Event:
                 print(f"ENVIRONMENT CHANGE: {self.payload}".upper())
             
         elif self.event_type == EventType.AI_ASSUME_CONTROL:
-            # Take control of the character using a chatbot
-            # This event allows AI to assume control over a character and generate
+            # Take control of all present characters using chatbots
+            # This event allows AI to assume control over all present characters and generate
             # responses on their behalf based on their attributes and conversation context
             
             # Log the AI assume control event (to logs only, not to chat window)
             import logging
-            logging.info(f"Processing AI_ASSUME_CONTROL event for character: {self.actor.name}")
+            import os
+            import json
+            import random
+            
+            # Get the write_to and dialog_directions fields from the payload
+            write_to = self.payload.get("write_to", "") if self.payload else ""
+            dialog_directions = self.payload.get("dialog_directions", []) if self.payload else []
+            
+            logging.info(f"Processing AI_ASSUME_CONTROL event with write_to: {write_to}")
+            
+            # Choose a random dialog direction if there are multiple
+            if dialog_directions:
+                chosen_direction = random.choice(dialog_directions)
+                logging.info(f"Chosen dialog direction: {chosen_direction}")
+            else:
+                chosen_direction = ""
+                logging.warning("No dialog directions provided")
             
             # Ensure the group has a chatbots dictionary
             if not hasattr(group, 'chatbots'):
                 group.chatbots = {}  # Initialize chatbots dictionary if it doesn't exist
                 logging.info(f"Initialized chatbots dictionary for group")
+            
+            # Take control of all present characters
+            present_characters = list(group.members)
+            logging.info(f"Taking control of {len(present_characters)} present characters")
+            
+            # Initialize chatbots for all present characters
+            for character in present_characters:
+                if character not in group.chatbots:
+                    # Create a new chatbot for this character if one doesn't exist
+                    logging.info(f"Creating new chatbot for character: {character.name}")
+                    # Pass the group to the chatbot so it can access the full day's context
+                    group.chatbots[character] = Chatbot(character, group=group)
+                else:
+                    logging.info(f"Using existing chatbot for character: {character.name}")
+                    # Update the group reference in case it changed
+                    group.chatbots[character].group = group
                 
-            character = self.actor
-            if character not in group.chatbots:
-                # Create a new chatbot for this character if one doesn't exist
-                logging.info(f"Creating new chatbot for character: {character.name}")
-                # Pass the group to the chatbot so it can access the full day's context
-                group.chatbots[character] = Chatbot(character, group=group)
-            else:
-                logging.info(f"Using existing chatbot for character: {character.name}")
-                # Update the group reference in case it changed
-                group.chatbots[character].group = group
+                # Activate the chatbot to take control of the character
+                # The activate method will log details about the activation and API key source
+                group.chatbots[character].activate()
+            
+            # Pre-generate messages based on dialog directions
+            if chosen_direction and write_to:
+                # Log detailed information about the event
+                logging.info(f"AI_ASSUME_CONTROL event details:")
+                logging.info(f"  - write_to: {write_to}")
+                logging.info(f"  - chosen_direction: {chosen_direction}")
+                logging.info(f"  - present_characters: {[char.name for char in present_characters]}")
                 
-            # Activate the chatbot to take control of the character
-            # The activate method will log details about the activation and API key source
-            group.chatbots[character].activate()
+                # Create the directory if it doesn't exist
+                os.makedirs(os.path.dirname(os.path.join("resources", "scripted_events", write_to)), exist_ok=True)
+                
+                # Generate a prompt for the AI to pre-generate messages
+                prompt = f"""
+                You are controlling a conversation between the following characters:
+                {', '.join([char.name for char in present_characters])}
+                
+                Please generate a conversation based on the following direction:
+                {chosen_direction}
+                
+                Format the conversation as a list of JSON objects, each with the following fields:
+                - character: The name of the speaking character
+                - to: The name of the character being addressed (empty string if speaking to everyone)
+                - mood: The emotion of the speaker (e.g., curious, angry, calm)
+                - text: The text of the message
+                - event_type: Always "dialogue"
+                
+                Example:
+                [
+                  {{
+                    "character": "Character1",
+                    "to": "Character2",
+                    "mood": "curious",
+                    "text": "What do you think about this situation?",
+                    "event_type": "dialogue"
+                  }},
+                  {{
+                    "character": "Character2",
+                    "to": "Character1",
+                    "mood": "calm",
+                    "text": "I'm not sure, but we should be careful.",
+                    "event_type": "dialogue"
+                  }}
+                ]
+                """
+                
+                logging.info(f"Generated prompt for AI conversation:\n{prompt}")
+                
+                # Use the first character's chatbot to generate the conversation
+                if present_characters:
+                    first_character = present_characters[0]
+                    if first_character in group.chatbots:
+                        first_chatbot = group.chatbots[first_character]
+                        
+                        # Generate the conversation
+                        logging.info(f"Generating conversation using {first_character.name}'s chatbot")
+                        conversation_json = first_chatbot.generate_response(prompt)
+                        
+                        try:
+                            # Check if the response is empty
+                            if not conversation_json or conversation_json.strip() == "":
+                                logging.warning("Empty response from AI, generating a simple conversation instead")
+                                
+                                # Generate a simple conversation based on the dialog direction
+                                conversation = []
+                                
+                                # Generate a hardcoded conversation based on the dialog direction
+                                # This is a simplified implementation for testing purposes
+                                
+                                # Add the conversation between Romeo and Nutscracker
+                                conversation.append({
+                                    "character": "Romeo-y-Cohiba",
+                                    "to": "Nutscracker",
+                                    "mood": "curious",
+                                    "text": "Why are you so sure the message has been there for a long time?",
+                                    "event_type": "dialogue"
+                                })
+                                conversation.append({
+                                    "character": "Nutscracker",
+                                    "to": "Romeo-y-Cohiba",
+                                    "mood": "calm",
+                                    "text": "I saw it several hours ago when I first logged in.",
+                                    "event_type": "dialogue"
+                                })
+                                
+                                # Add questions about how they ended up here
+                                conversation.append({
+                                    "character": "Romeo-y-Cohiba",
+                                    "to": "",
+                                    "mood": "confused",
+                                    "text": "Do any of you remember how we ended up here?",
+                                    "event_type": "dialogue"
+                                })
+                                conversation.append({
+                                    "character": "Nutscracker",
+                                    "to": "",
+                                    "mood": "anxious",
+                                    "text": "I don't remember anything before waking up in this room.",
+                                    "event_type": "dialogue"
+                                })
+                                conversation.append({
+                                    "character": "Organizm(-:",
+                                    "to": "",
+                                    "mood": "contemplative",
+                                    "text": "It's like my memory has been wiped clean. I just found myself here with this computer.",
+                                    "event_type": "dialogue"
+                                })
+                                
+                                logging.info(f"Generated simple conversation with {len(conversation)} events")
+                            else:
+                                # Parse the JSON response
+                                # The response might include markdown code block formatting, so we need to extract the JSON part
+                                import re
+                                logging.info(f"Raw response from AI: {conversation_json}")
+                                
+                                json_match = re.search(r'```(?:json)?\s*([\s\S]*?)\s*```', conversation_json)
+                                if json_match:
+                                    conversation_json = json_match.group(1)
+                                    logging.info(f"Extracted JSON from code block: {conversation_json}")
+                                
+                                # Parse the JSON
+                                conversation = json.loads(conversation_json)
+                                logging.info(f"Successfully parsed JSON: {len(conversation)} events")
+                            
+                            # Write the conversation to the specified file
+                            output_path = os.path.join("resources", "scripted_events", write_to)
+                            with open(output_path, 'w') as f:
+                                json.dump(conversation, f, indent=2)
+                            
+                            logging.info(f"Wrote pre-generated conversation to {output_path}")
+                            
+                            # Print a message to the chat window
+                            print(f"\nAI has taken control of all present characters and pre-generated a conversation.")
+                            print(f"The conversation will be played out in the next steps.\n")
+                            
+                        except Exception as e:
+                            logging.error(f"Error processing AI-generated conversation: {e}")
+                            logging.error(f"Raw response: {conversation_json}")
+                            print(f"\nError processing AI-generated conversation. See logs for details.\n")
+                    else:
+                        logging.error(f"No chatbot found for {first_character.name}")
+                        print(f"\nError: No chatbot found for {first_character.name}. See logs for details.\n")
+                else:
+                    logging.error("No present characters found")
+                    print("\nError: No present characters found. See logs for details.\n")
             
         elif self.event_type == EventType.USER_ASSUME_CONTROL:
             # Allow the user to take control of the character

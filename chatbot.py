@@ -117,10 +117,18 @@ Keep responses concise and in-character.
             response = self.client.chat.completions.create(
                 model="o4-mini",
                 messages=messages,
-                max_tokens=150,
-                temperature=0.7,
+                max_completion_tokens=150,
             )
-            return response.choices[0].message.content.strip()
+            # Log the full response object
+            import logging
+            logging.info(f"Full response: {response}")
+            logging.info(f"Response choices: {response.choices}")
+            if response.choices and response.choices[0].message:
+                logging.info(f"Response message: {response.choices[0].message}")
+                return response.choices[0].message.content.strip()
+            else:
+                logging.error("No choices or message in response")
+                return "I'm not sure how to respond to that."
         except Exception as e:
             # Log the error to logs only, not to the chat window
             import logging

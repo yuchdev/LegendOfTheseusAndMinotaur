@@ -138,7 +138,7 @@ class GameGUI(QMainWindow):
             target_height = 296  # Default fallback height (300 - 4)
 
         # List all avatar files in the avatars directory
-        avatars_dir = "avatars"
+        avatars_dir = "resources/avatars"
         if os.path.exists(avatars_dir):
             for filename in os.listdir(avatars_dir):
                 if filename.endswith('.png'):
@@ -546,7 +546,7 @@ class GameGUI(QMainWindow):
 
         # Try each possible name
         for name in possible_names:
-            avatar_path = os.path.join("avatars", f"{name}.png")
+            avatar_path = os.path.join("resources/avatars", f"{name}.png")
             if os.path.exists(avatar_path):
                 return avatar_path
 

@@ -14,6 +14,7 @@ from constants import CHARACTERS, resolve_character
 from character import Character
 from group import Group
 from event import Event, EventType
+from chatbot import Chatbot
 
 
 class Game:
@@ -32,11 +33,13 @@ class Game:
 
         Creates a new game with an empty collection of characters and a new group.
         Initializes the characters with default attributes by calling initialize_characters().
+        Initializes chatbots for all characters by calling initialize_chatbots().
         """
         self.characters = {}  # name -> Character
         self.group = Group()
         self.events = []
         self.initialize_characters()
+        self.initialize_chatbots()
 
     def initialize_characters(self):
         """Initialize characters with default attributes.
@@ -221,6 +224,9 @@ class Game:
         for name in CHARACTERS:
             attrs = character_attributes.get(name, {})
             special_props = attrs.pop("special_properties", None)
+            # Remove notable_interactions as it's not a parameter for Character.__init__
+            if "notable_interactions" in attrs:
+                attrs.pop("notable_interactions")
             self.characters[name] = Character(name, **attrs, special_properties=special_props)
 
     def load_day(self, day_file):
@@ -309,12 +315,26 @@ class Game:
                 events.append(event)
             elif event_type_str == "ai_assume_control":
                 # Create an AI_ASSUME_CONTROL event
-                # This event allows AI to silently take control of a character
-                # When processed, it will create and activate a chatbot for the character
-                # The chatbot will generate responses based on the character's attributes and conversation context
+                # This event allows AI to silently take control of all present characters
+                # When processed, it will create and activate chatbots for all characters
+                # The chatbots will pre-generate messages based on dialog directions
+                # and write them to a temporary file
+                
+                # Get the write_to and dialog_directions fields
+                write_to = entry.get("write_to", "")
+                dialog_directions = entry.get("dialog_directions", [])
+                
+                # For AI_ASSUME_CONTROL, the character field is optional
+                # If provided, use it as the actor; otherwise, use None
+                actor = character if char_name else None
+                
                 event = Event(
                     event_type=EventType.AI_ASSUME_CONTROL,
-                    actor=character
+                    actor=actor,
+                    payload={
+                        "write_to": write_to,
+                        "dialog_directions": dialog_directions
+                    }
                 )
                 events.append(event)
             elif event_type_str == "user_assume_control":
@@ -368,6 +388,91 @@ class Game:
 
         return events
 
+    def load_character_interactions(self, character_name):
+        """Load past interactions for a specific character from the corresponding JSON file.
+        
+        Args:
+            character_name (str): The name of the character to load interactions for.
+            
+        Returns:
+            list: A list of past interactions for the character. Each interaction is a list of dialogue strings.
+                Returns an empty list if the file doesn't exist or can't be loaded.
+        """
+        import os
+        import logging
+        
+        # Resolve the character name to get the canonical name and alias
+        canonical_name, alias = resolve_character(character_name)
+        
+        # Use the alias if it exists, otherwise use the canonical name
+        file_name = alias if alias else canonical_name
+        
+        # Construct the path to the interactions file
+        interactions_file = os.path.join("resources", "interactions", f"{file_name}.json")
+        
+        try:
+            with open(interactions_file, 'r') as f:
+                interactions = json.load(f)
+                logging.info(f"Loaded {len(interactions)} past interactions for {character_name}")
+                return interactions
+        except FileNotFoundError:
+            logging.warning(f"No interactions file found for {character_name} at {interactions_file}")
+            return []
+        except json.JSONDecodeError:
+            logging.error(f"Error decoding JSON from {interactions_file}")
+            return []
+        except Exception as e:
+            logging.error(f"Error loading interactions for {character_name}: {e}")
+            return []
+    
+    def initialize_chatbots(self):
+        """Initialize chatbots for all characters.
+        
+        Creates Chatbot instances for all characters in the game, loading their past interactions
+        from JSON files. The chatbots are stored in the group's chatbots dictionary, keyed by
+        the character objects.
+        
+        This method ensures that all chatbots have access to the group, which allows them to
+        access the full day's conversation context.
+        """
+        import logging
+        
+        # Ensure the group has a chatbots dictionary
+        if not hasattr(self.group, 'chatbots'):
+            self.group.chatbots = {}
+            logging.info("Initialized chatbots dictionary for group")
+        
+        # Create chatbots for all characters
+        for name, character in self.characters.items():
+            # Load past interactions for this character
+            interactions = self.load_character_interactions(name)
+            
+            # Create a chatbot for this character
+            logging.info(f"Creating chatbot for character: {name}")
+            chatbot = Chatbot(character, group=self.group)
+            
+            # Add past interactions to the chatbot's history
+            for interaction in interactions:
+                for dialogue in interaction:
+                    # Parse the dialogue string to extract speaker and text
+                    # Format is "[Speaker] Text"
+                    if dialogue.startswith("[") and "]" in dialogue:
+                        speaker = dialogue[1:dialogue.index("]")]
+                        text = dialogue[dialogue.index("]")+1:].strip()
+                        
+                        # Add to chatbot's history
+                        chatbot.add_to_history({
+                            "type": "dialogue",
+                            "speaker": speaker,
+                            "text": text
+                        })
+            
+            # Store the chatbot in the group's chatbots dictionary
+            self.group.chatbots[character] = chatbot
+            
+            # Log the initialization
+            logging.info(f"Initialized chatbot for {name} with {len(interactions)} past interactions")
+    
     def run_day(self, day_file):
         """Run a day from a JSON file.
 
@@ -394,8 +499,10 @@ class Game:
             self.group.add(character)
             
         # Extract the day identifier from the file path
-        # Example: "play_chapters/day-01.json" -> "day-01"
+        # Example: "resources/scripted_events/day-01.json" -> "day-01"
         import os
+        import json
+        import logging
         day_id = os.path.basename(day_file).split('.')[0]
         
         # Set the current day in the group
@@ -406,9 +513,107 @@ class Game:
             f"Initial group state: {len(self.group.members)} members, mood: {self.group.get_dominant_mood().name}, tension: {self.group.get_tension_description()} ({self.group.tension:.4f})\n")
 
         # Process each event
-        for event in events:
+        i = 0
+        while i < len(events):
+            event = events[i]
             event.apply(self.group)
-
+            
+            # Check if this was an AI_ASSUME_CONTROL event
+            if event.event_type == EventType.AI_ASSUME_CONTROL and event.payload:
+                write_to = event.payload.get("write_to", "")
+                if write_to:
+                    # Check if the pre-generated file exists
+                    ai_generated_file = os.path.join("resources", "scripted_events", write_to)
+                    if os.path.exists(ai_generated_file):
+                        try:
+                            # Load the pre-generated events
+                            with open(ai_generated_file, 'r') as f:
+                                ai_generated_data = json.load(f)
+                            
+                            logging.info(f"Loaded {len(ai_generated_data)} pre-generated events from {ai_generated_file}")
+                            
+                            # Convert the pre-generated events to Event objects
+                            ai_generated_events = []
+                            for entry in ai_generated_data:
+                                event_type_str = entry.get("event_type", "dialogue")
+                                
+                                # For events that require a character
+                                char_name = entry.get("character")
+                                if not char_name:
+                                    logging.warning(f"Warning: Event {event_type_str} missing character field")
+                                    continue
+                                
+                                char_canonical, _ = resolve_character(char_name)
+                                if not char_canonical:
+                                    logging.warning(f"Warning: Unknown character {char_name}")
+                                    continue
+                                
+                                character = self.characters.get(char_canonical)
+                                if not character:
+                                    logging.warning(f"Warning: Character {char_canonical} not initialized")
+                                    continue
+                                
+                                if event_type_str == "dialogue" or not event_type_str:
+                                    # Get the target character(s) for dialogue
+                                    target = None
+                                    to_field = entry.get("to", "")
+                                    if to_field:
+                                        if isinstance(to_field, list):
+                                            target = []
+                                            for target_name in to_field:
+                                                target_canonical, _ = resolve_character(target_name)
+                                                if target_canonical and target_canonical in self.characters:
+                                                    target.append(self.characters[target_canonical])
+                                        else:
+                                            target_canonical, _ = resolve_character(to_field)
+                                            if target_canonical and target_canonical in self.characters:
+                                                target = self.characters[target_canonical]
+                                    
+                                    # Create a dialogue event
+                                    ai_event = Event(
+                                        event_type=EventType.DIALOGUE,
+                                        actor=character,
+                                        target=target,
+                                        payload={
+                                            "text": entry.get("text", ""),
+                                            "emotion": entry.get("mood", "neutral")
+                                        }
+                                    )
+                                    ai_generated_events.append(ai_event)
+                            
+                            # Process the pre-generated events
+                            for ai_event in ai_generated_events:
+                                ai_event.apply(self.group)
+                                
+                                # After each event, show group status periodically
+                                if random.random() < 0.05:  # 5% chance to show status
+                                    print(
+                                        f"\nGroup status: {len(self.group.members)} members, mood: {self.group.get_dominant_mood().name}, tension: {self.group.get_tension_description()} ({self.group.tension:.4f})")
+                                    
+                                    # Show some character relationships
+                                    if self.group.members:
+                                        char = random.choice(self.group.members)
+                                        print(f"{char.name}'s current emotion: {char.current_emotion.name}")
+                                        for other in self.group.members:
+                                            if char != other and other in self.group.emotions.get(char, {}):
+                                                print(f"  → Feels {self.group.emotions[char][other].name} towards {other.name}")
+                                    print()
+                            
+                            # Find the next event after AI_ASSUME_CONTROL
+                            # Skip all events until the next non-AI_ASSUME_CONTROL event
+                            i += 1
+                            while i < len(events) and events[i].event_type == EventType.AI_ASSUME_CONTROL:
+                                i += 1
+                            
+                            # Continue with the next event
+                            continue
+                            
+                        except Exception as e:
+                            logging.error(f"Error processing pre-generated events: {e}")
+                            # Continue with the next event in the original script
+                            i += 1
+                            continue
+            
             # After each event, show group status periodically
             if random.random() < 0.05:  # 5% chance to show status
                 print(
@@ -422,6 +627,9 @@ class Game:
                         if char != other and other in self.group.emotions.get(char, {}):
                             print(f"  → Feels {self.group.emotions[char][other].name} towards {other.name}")
                 print()
+            
+            # Move to the next event
+            i += 1
 
         print(f"\n=== Day Complete ===")
         print(
@@ -472,7 +680,7 @@ def run_days(game, day_numbers):
     for i, day_num in enumerate(day_numbers):
         # Convert day number to filename if it's not already a path
         if not day_num.endswith(".json"):
-            day_file = f"play_chapters/day-{day_num}.json"
+            day_file = f"resources/scripted_events/day-{day_num}.json"
         else:
             day_file = day_num
 

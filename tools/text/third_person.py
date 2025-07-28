@@ -23,7 +23,7 @@ def has_third_person_mention(text):
     return bool(PATTERN.search(text))
 
 def main():
-    for filepath in glob.glob('scripted_events/day-0*.json'):
+    for filepath in glob.glob('resources/scripted_events/day-0*.json'):
         day_match = re.search(r'day-(0\d+)\.json', filepath)
         if not day_match:
             continue

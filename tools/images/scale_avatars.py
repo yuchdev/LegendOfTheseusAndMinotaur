@@ -25,7 +25,7 @@ def scale_avatars(ratio):
     # Get the project root directory (parent of tools)
     project_root = os.path.dirname(script_dir)
     # Path to avatars directory
-    avatars_dir = os.path.join(project_root, 'avatars')
+    avatars_dir = os.path.join(project_root, 'resources', 'avatars')
     
     if not os.path.exists(avatars_dir):
         print(f"Error: Avatars directory not found at {avatars_dir}")

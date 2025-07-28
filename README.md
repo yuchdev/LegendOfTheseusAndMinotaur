@@ -101,7 +101,7 @@ For more details on the chatbot and user control functionality, see [CHATBOT.md]
 
 - **Content**:
   - `resources/scripted_events/`: JSON files containing day events
-  - `avatars/`: Character avatar images
+  - `resources/avatars/`: Character avatar images
   - `resources/`: UI resources (background images, stylesheets)
 
 - **Tools and Scripts**:
@@ -124,7 +124,7 @@ Create new JSON files in the `resources/scripted_events/` directory following th
 
 1. Add the character to the `CHARACTERS` constant in `constants.py`
 2. Add character attributes in the `initialize_characters` method in `game.py`
-3. Add an avatar image in the `avatars/` directory
+3. Add an avatar image in the `resources/avatars/` directory
 
 ## Credits
 
